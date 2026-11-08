@@ -1,3 +1,6 @@
+## V51.9.216 — "New Schools" on the Get-started page
+- **How do you want to use AI Guru?** now has a fourth choice, **🏫 New Schools**, which opens the school office sign-in (V51.9.215 added the same entry to the Portals menu; the V51.9.214 copy on GitHub did not have either).
+
 ## V51.9.215 — "New Schools" in the Portals menu
 - The **Portals** menu has a new entry, **New Schools**, which opens the office sign-in (the same page the Admin portal was). The page heading, the sign-in title and the portal sign-in link now say **New Schools** instead of "Admin".
 - The sign-in is still the office username and password (xxx / yyy on the demo until real ones are set, see V51.9.214).
