@@ -1,3 +1,7 @@
+## V51.9.215 — "New Schools" in the Portals menu
+- The **Portals** menu has a new entry, **New Schools**, which opens the office sign-in (the same page the Admin portal was). The page heading, the sign-in title and the portal sign-in link now say **New Schools** instead of "Admin".
+- The sign-in is still the office username and password (xxx / yyy on the demo until real ones are set, see V51.9.214).
+
 ## V51.9.214 — The demo admin sign-in (xxx / yyy) works on the Netlify demo
 - On a live site, **xxx / yyy now opens the Admin portal as long as no real admin sign-in is set** (no `ADMIN_USERNAME` + `ADMIN_PASSWORD`). Use it in the Admin portal or the School teacher sign-in box.
 - The moment `ADMIN_USERNAME` and `ADMIN_PASSWORD` are set on Netlify, xxx / yyy **stops working by itself**. `AI_GURU_NO_DEMO_ADMIN=1` switches it off even when nothing is set.

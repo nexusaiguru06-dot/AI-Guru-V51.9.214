@@ -33,6 +33,7 @@ export const NAV_ITEMS: Array<Item> = [
   { href: '/ai-guru/messages', label: '💬 Messages', match: '/ai-guru/messages', about: 'Talk to your teacher and the office' },
   { href: '/ai-guru/teacher', label: 'Teacher Portal', match: '/ai-guru/teacher', about: 'Classes, attendance, questions' },
   { href: '/ai-guru/school-teacher', label: 'School Teacher', match: '/ai-guru/school-teacher', about: 'Teachers of partner schools: materials, exams' },
+  { href: '/ai-guru/admin', label: 'New Schools', match: '/ai-guru/admin', about: 'Sign in to set up and manage your school' },
   { href: '/ai-guru/parent', label: 'Parent Portal', match: '/ai-guru/parent', about: 'Your child’s study progress' },
   { href: '/ai-guru/settings/gemini', label: 'Settings', match: '/ai-guru/settings', about: 'AI keys and teacher voices' },
 ];
@@ -40,7 +41,7 @@ export const NAV_ITEMS: Array<Item> = [
 const GROUPS: Array<{ id: string; label: string; items: string[] }> = [
   { id: 'learn', label: 'Learn', items: ['Classroom', 'Ask my paper', 'Quizzes & Exams', '3D Lab', 'Pictures'] },
   { id: 'create', label: 'Create', items: ['Reel Studio', 'Teachers Notes', '👥 Subscribers'] },
-  { id: 'me', label: 'Portals', items: ['Progress', 'Teacher Portal', 'School Teacher', 'Parent Portal', 'Settings'] },
+  { id: 'me', label: 'Portals', items: ['Progress', 'Teacher Portal', 'School Teacher', 'New Schools', 'Parent Portal', 'Settings'] },
 ];
 const byLabel = (l: string) => NAV_ITEMS.find((i) => i.label === l)!;
 const clean = (l: string) => l.replace(/^[^\p{L}\p{N}]+/u, '');

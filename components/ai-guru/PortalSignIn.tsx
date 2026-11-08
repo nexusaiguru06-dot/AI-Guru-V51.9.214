@@ -51,7 +51,7 @@ export function PortalSignIn() {
     } catch { setMsg('Could not reach the server.'); } finally { setBusy(false); }
   };
   if (admin) {
-    const links: Array<[string, string]> = [['Admin portal', '/ai-guru/admin'], ['📋 Students', '/ai-guru/admin/students'], ['📈 Activities', '/ai-guru/admin/activities'], ['💰 Fees', '/ai-guru/admin/fees'], ['🤝 Affiliate', '/ai-guru/admin/affiliate'], ['⏰ Fees due', '/ai-guru/admin/dues'], ['🏫 Schools', '/ai-guru/admin/schools'], ['⚙ Settings', '/ai-guru/admin/settings'], ['Student classroom', '/ai-guru/classroom'], ['Student portal (sign-in)', '/ai-guru/student'], ['Teacher portal', '/ai-guru/teacher'], ['Parent portal', '/ai-guru/parent']];
+    const links: Array<[string, string]> = [['New Schools', '/ai-guru/admin'], ['📋 Students', '/ai-guru/admin/students'], ['📈 Activities', '/ai-guru/admin/activities'], ['💰 Fees', '/ai-guru/admin/fees'], ['🤝 Affiliate', '/ai-guru/admin/affiliate'], ['⏰ Fees due', '/ai-guru/admin/dues'], ['🏫 Schools', '/ai-guru/admin/schools'], ['⚙ Settings', '/ai-guru/admin/settings'], ['Student classroom', '/ai-guru/classroom'], ['Student portal (sign-in)', '/ai-guru/student'], ['Teacher portal', '/ai-guru/teacher'], ['Parent portal', '/ai-guru/parent']];
     return (
       <div className="relative shrink-0">
         <button type="button" onClick={() => setOpen((v) => !v)} aria-expanded={open} className="rounded-lg border border-amber-300/40 bg-amber-400/10 px-3 py-2 text-xs font-bold text-amber-200 hover:bg-amber-400/20">Admin ▾</button>

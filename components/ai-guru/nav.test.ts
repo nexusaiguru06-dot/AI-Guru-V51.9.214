@@ -16,7 +16,7 @@ describe('V51.9.115 main menu', () => {
     expect(NAV_ITEMS.map((i) => i.label)).not.toContain('Subscription');
     expect(NAV_ITEMS.map((i) => i.label)).not.toContain('Profile');
     // V51.9.170: 15 tabs; Whiteboard Lab and Local TTS left the menu (Local TTS is reached from Settings)
-    expect(NAV_ITEMS).toHaveLength(15); // V51.9.211: Material Studio left the student menu (study materials come from the admin portal)
+    expect(NAV_ITEMS).toHaveLength(16); // V51.9.211: Material Studio left the student menu; V51.9.215: + New Schools (the office portal)
     expect(NAV_ITEMS.map((i) => i.label)).not.toContain('Whiteboard Lab');
     expect(NAV_ITEMS.map((i) => i.label)).not.toContain('Local TTS');
   });

@@ -27,7 +27,7 @@ const STATUS: Record<FeeStatus, string> = { paid: 'bg-emerald-400/15 text-emeral
 const today = () => new Date().toISOString().slice(0, 10);
 const blankStudent = (): Partial<Student> => ({ name: '', standard: '', school: '', admissionNo: '', guardianName: '', guardianPhone: '', address: emptyAddress() });
 
-/** Admin portal. Not linked from any menu; the sign-in box of any portal opens it for the admin's username and password. */
+/** Admin portal. In the Portals menu as “New Schools”; the sign-in box of any portal also opens it for the admin's username and password. */
 export default function AdminPage() {
   const [ready, setReady] = useState(false);
   const [tab, setTab] = useState<Tab>('overview');
@@ -71,7 +71,7 @@ export default function AdminPage() {
         <header className="mb-5 flex flex-wrap items-center gap-3">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src="/aiguru-logo.png" alt="" width={44} height={44} className="h-11 w-11 object-contain" />
-          <div><h1 className="text-2xl font-extrabold">Admin portal</h1><p className="text-sm text-slate-400">{school.name || 'Students, addresses and fees'}</p></div>
+          <div><h1 className="text-2xl font-extrabold">New Schools</h1><p className="text-sm text-slate-400">{school.name || 'Students, addresses and fees'}</p></div>
           <a href="/ai-guru/admin/lesson-plans" className={`${ghost} ml-auto`} data-admin-lesson-plans>🧠 Lesson plans</a>
           <a href="/ai-guru/admin/schools" className={ghost} data-admin-schools>🏫 Schools</a>
           <a href="/ai-guru/admin/settings" className={ghost} data-admin-settings>⚙ Settings</a>
@@ -410,8 +410,8 @@ function OfficeSignIn({ onDone }: { onDone: () => void }) {
   return (
     <main className="grid min-h-screen place-items-center bg-[#06101c] px-4 text-slate-100">
       <form onSubmit={go} className="w-full max-w-sm space-y-3 rounded-2xl border border-white/10 bg-white/[.04] p-6" data-office-signin>
-        <h1 className="text-xl font-extrabold">🏫 School office sign-in</h1>
-        <p className="text-xs text-slate-400">For the AI Guru office only. Students sign in on <a className="underline" href="/ai-guru/student">My account</a>; school teachers on <a className="underline" href="/ai-guru/school-teacher">their page</a>.</p>
+        <h1 className="text-xl font-extrabold">🏫 New Schools sign-in</h1>
+        <p className="text-xs text-slate-400">For the AI Guru office and new schools being set up. Students sign in on <a className="underline" href="/ai-guru/student">My account</a>; school teachers on <a className="underline" href="/ai-guru/school-teacher">their page</a>.</p>
         <label className="block text-xs font-bold text-slate-300">Office username<input value={u} onChange={(e) => setU(e.target.value)} autoComplete="username" autoCapitalize="none" className={field} /></label>
         <label className="block text-xs font-bold text-slate-300">Password<input type="password" value={p} onChange={(e) => setP(e.target.value)} autoComplete="current-password" className={field} /></label>
         {msg && <p role="alert" className="text-xs text-rose-300">{msg}</p>}
