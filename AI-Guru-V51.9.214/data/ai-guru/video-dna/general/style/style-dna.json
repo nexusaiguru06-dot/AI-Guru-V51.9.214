@@ -1,0 +1,910 @@
+{
+ "schemaVersion": 1,
+ "kind": "global-style-dna",
+ "corpus": {
+  "source": "3b1b/videos (Manim source, chunked in MathVizAI VectorStore)",
+  "videoScriptsAnalysed": 231,
+  "uniqueAfterDedupe": 228,
+  "portableWithoutCharacters": 183,
+  "excludedStubs": 106,
+  "method": "static analysis of Manim source (no rendering); counts are structural, not visual measurements"
+ },
+ "renderConfigObserved": {
+  "source": "custom_config.yml in 3b1b/videos",
+  "resolution": "3840x2160",
+  "fps": 30,
+  "background": "#000000",
+  "font": "CMU Serif",
+  "colorSaturation": 1.5,
+  "note": "Reference channel renders 4K/30fps on pure black with a serif (Computer Modern-like) text face."
+ },
+ "palette": {
+  "note": "Named colours as used in code, resolved to official hex. Manim CE and manimgl differ slightly for some names (e.g. YELLOW_C).",
+  "rows": [
+   {
+    "name": "YELLOW",
+    "videosUsing": 207,
+    "mentions": 3927,
+    "manimgl": null,
+    "manimCE": "#F7D96F"
+   },
+   {
+    "name": "WHITE",
+    "videosUsing": 200,
+    "mentions": 2447,
+    "manimgl": "#FFFFFF",
+    "manimCE": "#FFFFFF"
+   },
+   {
+    "name": "BLUE",
+    "videosUsing": 201,
+    "mentions": 2305,
+    "manimgl": null,
+    "manimCE": "#58C4DD"
+   },
+   {
+    "name": "RED",
+    "videosUsing": 194,
+    "mentions": 2249,
+    "manimgl": null,
+    "manimCE": "#FC6255"
+   },
+   {
+    "name": "GREEN",
+    "videosUsing": 141,
+    "mentions": 1391,
+    "manimgl": null,
+    "manimCE": "#83C167"
+   },
+   {
+    "name": "BLACK",
+    "videosUsing": 140,
+    "mentions": 1190,
+    "manimgl": "#000000",
+    "manimCE": "#000000"
+   },
+   {
+    "name": "TEAL",
+    "videosUsing": 69,
+    "mentions": 601,
+    "manimgl": null,
+    "manimCE": "#5CD0B3"
+   },
+   {
+    "name": "GREY_B",
+    "videosUsing": 72,
+    "mentions": 452,
+    "manimgl": "#BBBBBB",
+    "manimCE": "#BBBBBB"
+   },
+   {
+    "name": "PINK",
+    "videosUsing": 71,
+    "mentions": 450,
+    "manimgl": "#D147BD",
+    "manimCE": "#D147BD"
+   },
+   {
+    "name": "MAROON_B",
+    "videosUsing": 47,
+    "mentions": 301,
+    "manimgl": "#EC92AB",
+    "manimCE": "#EC92AB"
+   },
+   {
+    "name": "BLUE_E",
+    "videosUsing": 49,
+    "mentions": 180,
+    "manimgl": "#1C758A",
+    "manimCE": "#236B8E"
+   },
+   {
+    "name": "BLUE_D",
+    "videosUsing": 40,
+    "mentions": 168,
+    "manimgl": "#29ABCA",
+    "manimCE": "#29ABCA"
+   },
+   {
+    "name": "GREY",
+    "videosUsing": 35,
+    "mentions": 135,
+    "manimgl": null,
+    "manimCE": "#888888"
+   },
+   {
+    "name": "GREY_A",
+    "videosUsing": 23,
+    "mentions": 125,
+    "manimgl": "#DDDDDD",
+    "manimCE": "#DDDDDD"
+   },
+   {
+    "name": "GREY_D",
+    "videosUsing": 22,
+    "mentions": 64,
+    "manimgl": "#444444",
+    "manimCE": "#444444"
+   },
+   {
+    "name": "BLUE_B",
+    "videosUsing": 20,
+    "mentions": 62,
+    "manimgl": "#9CDCEB",
+    "manimCE": "#9CDCEB"
+   },
+   {
+    "name": "BLUE_C",
+    "videosUsing": 17,
+    "mentions": 62,
+    "manimgl": "#58C4DD",
+    "manimCE": "#58C4DD"
+   },
+   {
+    "name": "GREY_E",
+    "videosUsing": 19,
+    "mentions": 54,
+    "manimgl": "#222222",
+    "manimCE": "#222222"
+   },
+   {
+    "name": "GREY_BROWN",
+    "videosUsing": 13,
+    "mentions": 45,
+    "manimgl": "#736357",
+    "manimCE": "#736357"
+   },
+   {
+    "name": "RED_E",
+    "videosUsing": 11,
+    "mentions": 35,
+    "manimgl": "#CF5044",
+    "manimCE": "#CF5044"
+   },
+   {
+    "name": "GREEN_B",
+    "videosUsing": 6,
+    "mentions": 27,
+    "manimgl": "#A6CF8C",
+    "manimCE": "#A6CF8C"
+   },
+   {
+    "name": "RED_B",
+    "videosUsing": 4,
+    "mentions": 24,
+    "manimgl": "#FF8080",
+    "manimCE": "#FF8080"
+   },
+   {
+    "name": "MAROON_C",
+    "videosUsing": 2,
+    "mentions": 23,
+    "manimgl": "#C55F73",
+    "manimCE": "#C55F73"
+   },
+   {
+    "name": "GREY_C",
+    "videosUsing": 8,
+    "mentions": 22,
+    "manimgl": "#888888",
+    "manimCE": "#888888"
+   }
+  ],
+  "blackBackgroundShare": null
+ },
+ "timing": {
+  "medianRunTimeOfVideosSec": 2.0,
+  "p10p90RunTimeSec": [
+   1.5,
+   4.0
+  ],
+  "medianExplicitWaitSec": 1.0,
+  "medianLagRatio": 0.25,
+  "medianPlayCallsPerVideo": 102.0,
+  "medianBeatsPerScene": 3.0,
+  "note": "Only plays that pass run_time explicitly are counted; the library default is ~1s per animation."
+ },
+ "rateFunctions": [
+  [
+   "linear",
+   339
+  ],
+  [
+   "there_and_back",
+   316
+  ],
+  [
+   "squish_rate_func",
+   213
+  ],
+  [
+   "lambda",
+   136
+  ],
+  [
+   "wiggle",
+   109
+  ],
+  [
+   "there_and_back_with_pause",
+   62
+  ],
+  [
+   "bezier",
+   50
+  ],
+  [
+   "smooth",
+   46
+  ]
+ ],
+ "animationVerbs": [
+  {
+   "name": "FadeIn",
+   "videos": 218,
+   "uses": 6561,
+   "manimCE": "FadeIn"
+  },
+  {
+   "name": "FadeOut",
+   "videos": 215,
+   "uses": 5693,
+   "manimCE": "FadeOut"
+  },
+  {
+   "name": "Write",
+   "videos": 198,
+   "uses": 4994,
+   "manimCE": "Write"
+  },
+  {
+   "name": "ShowCreation",
+   "videos": 217,
+   "uses": 4158,
+   "manimCE": "Create"
+  },
+  {
+   "name": ".animate",
+   "videos": 80,
+   "uses": 3117,
+   "manimCE": "m.animate.method(...)"
+  },
+  {
+   "name": "LaggedStartMap",
+   "videos": 148,
+   "uses": 2142,
+   "manimCE": "LaggedStartMap"
+  },
+  {
+   "name": "Transform",
+   "videos": 131,
+   "uses": 1727,
+   "manimCE": "Transform"
+  },
+  {
+   "name": "ReplacementTransform",
+   "videos": 101,
+   "uses": 1245,
+   "manimCE": "ReplacementTransform"
+  },
+  {
+   "name": "TransformFromCopy",
+   "videos": 93,
+   "uses": 1231,
+   "manimCE": "TransformFromCopy"
+  },
+  {
+   "name": "MoveToTarget",
+   "videos": 126,
+   "uses": 1146,
+   "manimCE": "MoveToTarget (or m.animate)"
+  },
+  {
+   "name": "Blink",
+   "videos": 99,
+   "uses": 926,
+   "manimCE": null
+  },
+  {
+   "name": "LaggedStart",
+   "videos": 82,
+   "uses": 919,
+   "manimCE": "LaggedStart"
+  },
+  {
+   "name": "ApplyMethod",
+   "videos": 93,
+   "uses": 704,
+   "manimCE": "m.animate.method(...)"
+  },
+  {
+   "name": "GrowFromCenter",
+   "videos": 107,
+   "uses": 684,
+   "manimCE": "GrowFromCenter"
+  },
+  {
+   "name": "FadeTransform",
+   "videos": 48,
+   "uses": 483,
+   "manimCE": "FadeTransform"
+  },
+  {
+   "name": "GrowArrow",
+   "videos": 66,
+   "uses": 451,
+   "manimCE": "GrowArrow"
+  },
+  {
+   "name": "FadeInFromDown",
+   "videos": 46,
+   "uses": 418,
+   "manimCE": "FadeIn(m, shift=UP)"
+  },
+  {
+   "name": "Rotate",
+   "videos": 38,
+   "uses": 329,
+   "manimCE": "Rotate"
+  },
+  {
+   "name": "Restore",
+   "videos": 51,
+   "uses": 314,
+   "manimCE": "Restore"
+  },
+  {
+   "name": "VFadeIn",
+   "videos": 27,
+   "uses": 163,
+   "manimCE": "VFadeIn"
+  },
+  {
+   "name": "ShowIncreasingSubsets",
+   "videos": 19,
+   "uses": 146,
+   "manimCE": "ShowIncreasingSubsets"
+  },
+  {
+   "name": "UpdateFromAlphaFunc",
+   "videos": 27,
+   "uses": 126,
+   "manimCE": "UpdateFromAlphaFunc"
+  },
+  {
+   "name": "TransformMatchingTex",
+   "videos": 12,
+   "uses": 100,
+   "manimCE": "TransformMatchingTex"
+  },
+  {
+   "name": "FlashAround",
+   "videos": 14,
+   "uses": 91,
+   "manimCE": "FlashAround"
+  },
+  {
+   "name": "UpdateFromFunc",
+   "videos": 17,
+   "uses": 84,
+   "manimCE": "UpdateFromFunc"
+  },
+  {
+   "name": "DrawBorderThenFill",
+   "videos": 19,
+   "uses": 84,
+   "manimCE": "DrawBorderThenFill"
+  },
+  {
+   "name": "ShowCreationThenFadeAround",
+   "videos": 12,
+   "uses": 84,
+   "manimCE": "ShowPassingFlash / Circumscribe"
+  },
+  {
+   "name": "Indicate",
+   "videos": 11,
+   "uses": 78,
+   "manimCE": "Indicate"
+  },
+  {
+   "name": "TransformMatchingShapes",
+   "videos": 7,
+   "uses": 74,
+   "manimCE": "TransformMatchingShapes"
+  },
+  {
+   "name": "ChangeDecimalToValue",
+   "videos": 12,
+   "uses": 50,
+   "manimCE": "ChangeDecimalToValue"
+  },
+  {
+   "name": "ApplyFunction",
+   "videos": 18,
+   "uses": 42,
+   "manimCE": "ApplyFunction"
+  },
+  {
+   "name": "ShowCreationThenFadeOut",
+   "videos": 8,
+   "uses": 32,
+   "manimCE": "ShowPassingFlash"
+  },
+  {
+   "name": "Rotating",
+   "videos": 9,
+   "uses": 29,
+   "manimCE": "Rotating"
+  },
+  {
+   "name": "GrowFromPoint",
+   "videos": 8,
+   "uses": 29,
+   "manimCE": "GrowFromPoint"
+  },
+  {
+   "name": "FadeInFromPoint",
+   "videos": 7,
+   "uses": 25,
+   "manimCE": "FadeInFromPoint"
+  },
+  {
+   "name": "FocusOn",
+   "videos": 4,
+   "uses": 24,
+   "manimCE": "FocusOn"
+  },
+  {
+   "name": "FadeInFromLarge",
+   "videos": 5,
+   "uses": 24,
+   "manimCE": "FadeIn(m, scale=1.5)"
+  },
+  {
+   "name": "ApplyPointwiseFunction",
+   "videos": 10,
+   "uses": 21,
+   "manimCE": "ApplyPointwiseFunction"
+  },
+  {
+   "name": "CounterclockwiseTransform",
+   "videos": 5,
+   "uses": 17,
+   "manimCE": "CounterclockwiseTransform"
+  },
+  {
+   "name": "Flash",
+   "videos": 3,
+   "uses": 14,
+   "manimCE": "Flash"
+  }
+ ],
+ "mobjectVocabulary": [
+  {
+   "name": "VGroup",
+   "videos": 197,
+   "uses": 11991,
+   "manimCE": "VGroup"
+  },
+  {
+   "name": "OldTex",
+   "videos": 163,
+   "uses": 5401,
+   "manimCE": "MathTex"
+  },
+  {
+   "name": "OldTexText",
+   "videos": 160,
+   "uses": 4734,
+   "manimCE": "Tex"
+  },
+  {
+   "name": "Line",
+   "videos": 180,
+   "uses": 1943,
+   "manimCE": "Line"
+  },
+  {
+   "name": "Text",
+   "videos": 74,
+   "uses": 1922,
+   "manimCE": "Text"
+  },
+  {
+   "name": "Tex",
+   "videos": 72,
+   "uses": 1882,
+   "manimCE": "MathTex"
+  },
+  {
+   "name": "Arrow",
+   "videos": 168,
+   "uses": 1419,
+   "manimCE": "Arrow"
+  },
+  {
+   "name": "SurroundingRectangle",
+   "videos": 113,
+   "uses": 1368,
+   "manimCE": "SurroundingRectangle"
+  },
+  {
+   "name": "Brace",
+   "videos": 130,
+   "uses": 1001,
+   "manimCE": "Brace"
+  },
+  {
+   "name": "Group",
+   "videos": 72,
+   "uses": 720,
+   "manimCE": "Group"
+  },
+  {
+   "name": "Dot",
+   "videos": 93,
+   "uses": 650,
+   "manimCE": "Dot"
+  },
+  {
+   "name": "VMobject",
+   "videos": 45,
+   "uses": 647,
+   "manimCE": "VMobject"
+  },
+  {
+   "name": "Vector",
+   "videos": 102,
+   "uses": 641,
+   "manimCE": "Vector"
+  },
+  {
+   "name": "Integer",
+   "videos": 54,
+   "uses": 399,
+   "manimCE": "Integer"
+  },
+  {
+   "name": "ImageMobject",
+   "videos": 51,
+   "uses": 338,
+   "manimCE": "ImageMobject"
+  },
+  {
+   "name": "Randolph",
+   "videos": 81,
+   "uses": 323,
+   "manimCE": null
+  },
+  {
+   "name": "DecimalNumber",
+   "videos": 49,
+   "uses": 302,
+   "manimCE": "DecimalNumber"
+  },
+  {
+   "name": "ValueTracker",
+   "videos": 45,
+   "uses": 300,
+   "manimCE": "ValueTracker"
+  },
+  {
+   "name": "Rectangle",
+   "videos": 69,
+   "uses": 299,
+   "manimCE": "Rectangle"
+  },
+  {
+   "name": "Circle",
+   "videos": 61,
+   "uses": 291,
+   "manimCE": "Circle"
+  },
+  {
+   "name": "Matrix",
+   "videos": 21,
+   "uses": 286,
+   "manimCE": "Matrix"
+  },
+  {
+   "name": "TexText",
+   "videos": 41,
+   "uses": 272,
+   "manimCE": "Tex"
+  },
+  {
+   "name": "BackgroundRectangle",
+   "videos": 29,
+   "uses": 199,
+   "manimCE": "BackgroundRectangle"
+  },
+  {
+   "name": "Mobject",
+   "videos": 17,
+   "uses": 198,
+   "manimCE": "Mobject"
+  },
+  {
+   "name": "DashedLine",
+   "videos": 46,
+   "uses": 183,
+   "manimCE": "DashedLine"
+  },
+  {
+   "name": "Mortimer",
+   "videos": 43,
+   "uses": 161,
+   "manimCE": null
+  },
+  {
+   "name": "Arc",
+   "videos": 36,
+   "uses": 160,
+   "manimCE": "Arc"
+  },
+  {
+   "name": "VectorizedPoint",
+   "videos": 40,
+   "uses": 149,
+   "manimCE": "VectorizedPoint"
+  },
+  {
+   "name": "Axes",
+   "videos": 35,
+   "uses": 131,
+   "manimCE": "Axes"
+  },
+  {
+   "name": "SVGMobject",
+   "videos": 26,
+   "uses": 122,
+   "manimCE": "SVGMobject"
+  },
+  {
+   "name": "NumberPlane",
+   "videos": 24,
+   "uses": 91,
+   "manimCE": "NumberPlane"
+  },
+  {
+   "name": "Polygon",
+   "videos": 19,
+   "uses": 88,
+   "manimCE": "Polygon"
+  },
+  {
+   "name": "ComplexPlane",
+   "videos": 12,
+   "uses": 83,
+   "manimCE": "ComplexPlane"
+  },
+  {
+   "name": "Square",
+   "videos": 29,
+   "uses": 81,
+   "manimCE": "Square"
+  },
+  {
+   "name": "Point",
+   "videos": 16,
+   "uses": 76,
+   "manimCE": "Dot / ORIGIN-based"
+  },
+  {
+   "name": "Underline",
+   "videos": 15,
+   "uses": 74,
+   "manimCE": "Underline"
+  },
+  {
+   "name": "NumberLine",
+   "videos": 17,
+   "uses": 62,
+   "manimCE": "NumberLine"
+  },
+  {
+   "name": "Cross",
+   "videos": 20,
+   "uses": 56,
+   "manimCE": "Cross"
+  },
+  {
+   "name": "PiCreature",
+   "videos": 15,
+   "uses": 54,
+   "manimCE": null
+  },
+  {
+   "name": "IntegerMatrix",
+   "videos": 3,
+   "uses": 35,
+   "manimCE": "IntegerMatrix"
+  }
+ ],
+ "techniquePrevalence": {
+  "always_redraw": 0.25,
+  "background_grid": 0.417,
+  "camera_3d_orientation": 0.316,
+  "camera_frame_motion": 0.417,
+  "color_gradient": 0.504,
+  "fixed_in_frame": 0.193,
+  "interactive": 0.399,
+  "lagged_stagger": 0.724,
+  "latex_matrix": 0.202,
+  "path_arc": 0.754,
+  "pi_creature": 0.75,
+  "sound": 0.031,
+  "surface_3d": 0.259,
+  "transform_from_copy": 0.496,
+  "updaters": 0.535,
+  "value_tracker": 0.351,
+  "vectorized_shader": 0.013,
+  "zoomed_inset": 0.039
+ },
+ "cameraModeShare": {
+  "2d-static": 0.386,
+  "3d-orbit": 0.373,
+  "moving-camera": 0.25,
+  "graph-scene": 0.101,
+  "linear-transformation-scene": 0.075,
+  "zoomed-inset": 0.039
+ },
+ "meanBeatMixPortableVideos": {
+  "build": 0.463,
+  "transform": 0.236,
+  "emphasize": 0.038,
+  "move": 0.021,
+  "remove": 0.061,
+  "group": 0.04
+ },
+ "typographyFeaturePrevalence": {
+  "greek": 0.623,
+  "fraction": 0.509,
+  "cdots": 0.509,
+  "sqrt": 0.303,
+  "sum": 0.202,
+  "vector": 0.18,
+  "integral": 0.145,
+  "partial": 0.075,
+  "limit": 0.066
+ },
+ "universalMotifs": [
+  [
+   "build\u2192transform\u2192build",
+   1477
+  ],
+  [
+   "transform\u2192build\u2192transform",
+   1101
+  ],
+  [
+   "build\u2192remove\u2192build",
+   376
+  ],
+  [
+   "build\u2192emphasize\u2192build",
+   218
+  ],
+  [
+   "remove\u2192build\u2192transform",
+   135
+  ],
+  [
+   "transform\u2192build\u2192remove",
+   124
+  ],
+  [
+   "emphasize\u2192build\u2192emphasize",
+   123
+  ],
+  [
+   "build\u2192transform\u2192remove",
+   118
+  ],
+  [
+   "build\u2192group\u2192build",
+   109
+  ],
+  [
+   "remove\u2192build\u2192remove",
+   103
+  ],
+  [
+   "remove\u2192transform\u2192build",
+   74
+  ],
+  [
+   "group\u2192build\u2192transform",
+   48
+  ],
+  [
+   "build\u2192remove\u2192transform",
+   47
+  ],
+  [
+   "transform\u2192remove\u2192build",
+   45
+  ]
+ ],
+ "byEra": {
+  "legacy-2015-16": {
+   "videos": 39,
+   "medianRunTimeSec": 2.0,
+   "topAnimations": [
+    "ShowCreation",
+    "Transform",
+    "FadeIn",
+    "FadeOut",
+    "ApplyMethod",
+    "Write",
+    "GrowFromCenter",
+    "Blink"
+   ]
+  },
+  "manimgl-2017-19": {
+   "videos": 94,
+   "medianRunTimeSec": 2.0,
+   "topAnimations": [
+    "FadeOut",
+    "ShowCreation",
+    "FadeIn",
+    "Write",
+    "LaggedStartMap",
+    "ReplacementTransform",
+    "Transform",
+    "FadeInFromDown"
+   ]
+  },
+  "manimgl-2020-22": {
+   "videos": 33,
+   "medianRunTimeSec": 2.0,
+   "topAnimations": [
+    "FadeIn",
+    "FadeOut",
+    "Write",
+    "ShowCreation",
+    ".animate",
+    "LaggedStartMap",
+    "TransformFromCopy",
+    "MoveToTarget"
+   ]
+  },
+  "manimgl-2023-25": {
+   "videos": 60,
+   "medianRunTimeSec": 3.0,
+   "topAnimations": [
+    ".animate",
+    "FadeIn",
+    "FadeOut",
+    "Write",
+    "ShowCreation",
+    "TransformFromCopy",
+    "LaggedStartMap",
+    "LaggedStart"
+   ]
+  },
+  "misc": {
+   "videos": 2,
+   "medianRunTimeSec": 3.5,
+   "topAnimations": [
+    "Transform",
+    "FadeIn",
+    "ShowCreation",
+    "GrowFromCenter",
+    "Rotating",
+    "FadeOut",
+    "Write",
+    "LaggedStartMap"
+   ]
+  }
+ },
+ "houseRules": [
+  "Build before you explain: 46% of beats in portable videos are build/introduce beats on average; transforms are 24%.",
+  "Text is mostly typeset math: Tex/OldTex-family objects appear in 99% of videos.",
+  "Dynamic parameter objects (updaters / ValueTracker) appear in 54%+ of videos: live relationships are a signature technique.",
+  "3D scenes / camera-orientation calls appear in 37% of videos; moving-camera framing in 25%.",
+  "Most common animation verbs: FadeIn, FadeOut, Write, ShowCreation, .animate.",
+  "Black background, high-contrast strokes, generous empty space; clear the stage between ideas."
+ ]
+}

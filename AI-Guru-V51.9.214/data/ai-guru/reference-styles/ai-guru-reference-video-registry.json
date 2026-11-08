@@ -1,0 +1,1412 @@
+{
+  "schemaVersion": "2.0",
+  "library": "AI Guru Problem-Solving Reference Video Library",
+  "libraryStatus": "approved",
+  "commonTeachingStyleId": "visual-derivation-explanation-v1",
+  "selectionPolicy": {
+    "mode": "concept-matched-only",
+    "description": "A reference video may be selected only when the lesson has a meaningful concept/term match with the reference. Subject/domain and grade compatibility are supporting signals, not sufficient by themselves.",
+    "minimumConceptMatches": 1,
+    "minimumScore": 7,
+    "forbidden": "Do not select a reference merely because the subject, grade or domain matches."
+  },
+  "assetCount": 20,
+  "physicalVideoFileCount": 20,
+  "notes": [
+    "The physical reference-video library contains approved teaching-style references with concept metadata, teaching prompts and QA instructions.",
+    "The latest uploaded linear-equation reference replaces any earlier linear-equation referral asset. Only the latest uploaded file is packaged.",
+    "A separate Mathlet-derived visual-template registry is maintained alongside the physical video assets. These templates are not counted as physical videos.",
+    "V51.4: all 20 physical reference assets are isolated under problem-solving branches; normal classroom RAG never sends these videos to Gemini repeatedly.",
+    "V51.6: these 20 physical assets are reserved exclusively for Material Studio → Problems and Formulae. Classroom strategy selection excludes this registry."
+  ],
+  "assets": [
+    {
+      "id": "geometry-proof-construction",
+      "name": "Geometry Proof / Theorem Construction",
+      "file": "/reference-styles/problem-solving/geometry/geometry-proof-construction.mp4",
+      "originalFilename": "geometry-proof-construction.mp4",
+      "approved": true,
+      "doNotCopyContent": true,
+      "role": "style-reference",
+      "commonTeachingStyleId": "visual-derivation-explanation-v1",
+      "styleId": "geometry-proof-construction",
+      "qaProfileId": "geometry-proof-construction-v1",
+      "subject": "Geometry",
+      "domains": [
+        "geometry",
+        "coordinate_geometry",
+        "mensuration",
+        "3d_geometry"
+      ],
+      "suggestedGrades": "7-12",
+      "concepts": [
+        "geometric proof",
+        "triangle construction",
+        "angle relationships",
+        "auxiliary line",
+        "theorem reasoning",
+        "geometry to equation"
+      ],
+      "teachingMethods": [
+        "progressive construction",
+        "auxiliary-line construction",
+        "angle highlighting",
+        "theorem reasoning",
+        "diagram-to-equation"
+      ],
+      "selectionTerms": [
+        "geometry-proof-construction",
+        "triangle",
+        "angle",
+        "auxiliary line",
+        "theorem",
+        "proof",
+        "geometric proof"
+      ],
+      "teachingPrompt": "Use the approved reference only as a teaching-grammar reference. Generate original lesson-specific mathematics, narration, diagrams and visual actions; never copy exact equations, scenes, narration, branding or artwork. Build the figure progressively, preserve construction continuity, highlight theorem-critical relationships, connect observations to equations, and pause before the conclusion.",
+      "qaInstructions": [
+        "Given figure is visible before proof reasoning.",
+        "Auxiliary construction appears in a deliberate order and remains visible.",
+        "The highlighted relationship matches the stated theorem/proof step.",
+        "Any equation follows from the visible geometric relationship.",
+        "A deliberate pause occurs at the theorem-critical insight.",
+        "Voice cues align with construction and proof beats.",
+        "Final conclusion is consistent with the verified theorem."
+      ],
+      "assetType": "full_reference",
+      "durationSeconds": 140.017,
+      "width": 1920,
+      "height": 1080,
+      "fps": 60.0,
+      "videoCodec": "h264",
+      "format": "mp4",
+      "mimeType": "video/mp4",
+      "libraryRole": "problems-formulae",
+      "branch": "geometry"
+    },
+    {
+      "id": "calculus-slope-explorer-reference",
+      "name": "Calculus Slope Explorer",
+      "file": "/reference-styles/problem-solving/calculus/calculus-slope-explorer.webm",
+      "originalFilename": "calculus-slope-explorer.webm",
+      "approved": true,
+      "doNotCopyContent": true,
+      "role": "style-reference",
+      "commonTeachingStyleId": "visual-derivation-explanation-v1",
+      "styleId": "calculus-slope-explorer-reference",
+      "qaProfileId": "calculus-slope-explorer-v1",
+      "subject": "Calculus",
+      "domains": [
+        "calculus",
+        "functions",
+        "coordinate_geometry"
+      ],
+      "suggestedGrades": "10-12",
+      "concepts": [
+        "slope",
+        "secant slope",
+        "tangent slope",
+        "moving point",
+        "instantaneous slope",
+        "derivative intuition"
+      ],
+      "teachingMethods": [
+        "graph construction",
+        "point motion",
+        "secant-to-tangent",
+        "slope comparison",
+        "graph annotation"
+      ],
+      "selectionTerms": [
+        "slope",
+        "secant",
+        "tangent",
+        "moving point",
+        "instantaneous slope",
+        "derivative"
+      ],
+      "teachingPrompt": "Use the approved reference only as a teaching-grammar reference. Generate original lesson-specific mathematics, narration, diagrams and visual actions; never copy exact equations, scenes, narration, branding or artwork. Use a graph-first construction: draw the function, track a moving point, compare secant and tangent slopes, and connect the geometric slope insight to derivative intuition.",
+      "qaInstructions": [
+        "Function/axes are established before slope interpretation.",
+        "The moving point remains visually continuous.",
+        "Secant and tangent relationships are explicit.",
+        "Slope values or rise/run are tied to visible geometry when used.",
+        "A pause occurs at the tangent/instantaneous-slope insight.",
+        "Voice cues identify movement, secant/tangent and slope beats."
+      ],
+      "assetType": "full_reference",
+      "durationSeconds": 17.0,
+      "width": 2160,
+      "height": 3840,
+      "fps": 60.0,
+      "videoCodec": "vp9",
+      "format": "webm",
+      "mimeType": "video/webm",
+      "libraryRole": "problems-formulae",
+      "branch": "calculus"
+    },
+    {
+      "id": "calculus-riemann-sum-area-reference",
+      "name": "Calculus Riemann Sum / Area Under Curve",
+      "file": "/reference-styles/problem-solving/calculus/calculus-riemann-sum-area-reference.mp4",
+      "originalFilename": "calculus-riemann-sum-area-reference.mp4",
+      "approved": true,
+      "doNotCopyContent": true,
+      "role": "style-reference",
+      "commonTeachingStyleId": "visual-derivation-explanation-v1",
+      "styleId": "calculus-riemann-sum-area-reference",
+      "qaProfileId": "calculus-riemann-sum-v1",
+      "subject": "Calculus",
+      "domains": [
+        "calculus",
+        "functions"
+      ],
+      "suggestedGrades": "11-12",
+      "concepts": [
+        "Riemann sum",
+        "area under curve",
+        "partition",
+        "rectangle approximation",
+        "delta x",
+        "definite integral"
+      ],
+      "teachingMethods": [
+        "curve construction",
+        "partition refinement",
+        "rectangle accumulation",
+        "delta-x emphasis",
+        "sum-to-integral"
+      ],
+      "selectionTerms": [
+        "Riemann sum",
+        "area under curve",
+        "partition",
+        "rectangles",
+        "delta x",
+        "definite integral",
+        "integral"
+      ],
+      "teachingPrompt": "Use the approved reference only as a teaching-grammar reference. Generate original lesson-specific mathematics, narration, diagrams and visual actions; never copy exact equations, scenes, narration, branding or artwork. Progress from curve and interval to a few rectangles, finer partitions, accumulated area and the definite integral.",
+      "qaInstructions": [
+        "Curve and interval are established first.",
+        "Rectangles correspond to the chosen partition.",
+        "Increasing partition density is visually clear.",
+        "Delta x and representative heights are connected to rectangle area.",
+        "The sum precedes the integral insight.",
+        "A pause occurs at the partition-to-integral insight.",
+        "Final integral relationship is mathematically verified."
+      ],
+      "assetType": "full_reference",
+      "durationSeconds": 22.317,
+      "width": 1080,
+      "height": 1920,
+      "fps": 60.0,
+      "videoCodec": "h264",
+      "format": "mp4",
+      "mimeType": "video/mp4",
+      "libraryRole": "problems-formulae",
+      "branch": "calculus"
+    },
+    {
+      "id": "user-video-8-calculus-first-principles",
+      "name": "Calculus First Principles / Derivative",
+      "file": "/reference-styles/problem-solving/calculus/calculus-first-principles-reference.mp4",
+      "originalFilename": "calculus-first-principles-reference.mp4",
+      "approved": true,
+      "doNotCopyContent": true,
+      "role": "style-reference",
+      "commonTeachingStyleId": "visual-derivation-explanation-v1",
+      "styleId": "calculus-first-principles-reference",
+      "qaProfileId": "calculus-first-principles-v1",
+      "subject": "Calculus",
+      "domains": [
+        "calculus",
+        "functions",
+        "coordinate_geometry"
+      ],
+      "suggestedGrades": "11-12",
+      "concepts": [
+        "derivative from first principles",
+        "secant slope",
+        "tangent slope",
+        "limit definition",
+        "delta x",
+        "h"
+      ],
+      "teachingMethods": [
+        "two-point secant",
+        "point motion",
+        "secant-to-tangent",
+        "limit reasoning",
+        "symbolic derivation"
+      ],
+      "selectionTerms": [
+        "first principles",
+        "derivative from first principles",
+        "secant slope",
+        "tangent slope",
+        "limit definition",
+        "delta x",
+        "h",
+        "derivative"
+      ],
+      "teachingPrompt": "Use the approved reference only as a teaching-grammar reference. Generate original lesson-specific mathematics, narration, diagrams and visual actions; never copy exact equations, scenes, narration, branding or artwork. Begin with a function and two points, establish secant slope, move the second point toward the first, show the secant approaching a tangent, then connect the geometric limit to the derivative definition.",
+      "qaInstructions": [
+        "Function and both points appear before secant reasoning.",
+        "Delta x/h and delta y connect to the slope ratio.",
+        "Moving-point continuity is preserved.",
+        "Secant-to-tangent transition precedes derivative notation.",
+        "Pause at the limit/tangent insight.",
+        "Voice cues align with secant, tangent and derivative beats.",
+        "Final derivative is verified."
+      ],
+      "assetType": "full_reference",
+      "durationSeconds": 264.5,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30.0,
+      "videoCodec": "h264",
+      "format": "mp4",
+      "mimeType": "video/mp4",
+      "libraryRole": "problems-formulae",
+      "branch": "calculus"
+    },
+    {
+      "id": "user-video-9-slope-to-derivative",
+      "name": "Calculus Slope to Derivative",
+      "file": "/reference-styles/problem-solving/calculus/calculus-slope-to-derivative-reference.mp4",
+      "originalFilename": "calculus-slope-to-derivative-reference.mp4",
+      "approved": true,
+      "doNotCopyContent": true,
+      "role": "style-reference",
+      "commonTeachingStyleId": "visual-derivation-explanation-v1",
+      "styleId": "calculus-slope-to-derivative-reference",
+      "qaProfileId": "calculus-slope-to-derivative-v1",
+      "subject": "Calculus",
+      "domains": [
+        "calculus",
+        "functions",
+        "coordinate_geometry"
+      ],
+      "suggestedGrades": "10-12",
+      "concepts": [
+        "slope",
+        "rise over run",
+        "delta y over delta x",
+        "secant line",
+        "tangent line",
+        "derivative as instantaneous slope"
+      ],
+      "teachingMethods": [
+        "graph-first construction",
+        "rise/run triangle",
+        "point motion",
+        "secant-to-tangent",
+        "derivative connection"
+      ],
+      "selectionTerms": [
+        "slope",
+        "rise over run",
+        "delta y",
+        "delta x",
+        "secant line",
+        "tangent line",
+        "derivative"
+      ],
+      "teachingPrompt": "Use the approved reference only as a teaching-grammar reference. Generate original lesson-specific mathematics, narration, diagrams and visual actions; never copy exact equations, scenes, narration, branding or artwork. Draw axes and the function, introduce two points and rise/run, track the second point toward the target, transition the secant to a tangent, and connect tangent slope to derivative notation.",
+      "qaInstructions": [
+        "Axes and function precede slope reasoning.",
+        "Two points and rise/run are explicitly shown.",
+        "Delta y/delta x is tied to the visible secant triangle.",
+        "Point movement is continuous.",
+        "Tangent slope precedes compressed derivative notation.",
+        "Pause at the slope/derivative insight.",
+        "Derivative result is verified."
+      ],
+      "assetType": "full_reference",
+      "durationSeconds": 435.8,
+      "width": 1280,
+      "height": 720,
+      "fps": 30.0,
+      "videoCodec": "h264",
+      "format": "mp4",
+      "mimeType": "video/mp4",
+      "libraryRole": "problems-formulae",
+      "branch": "calculus"
+    },
+    {
+      "id": "user-video-10-quadratic-formula",
+      "name": "Quadratic Formula Derivation",
+      "file": "/reference-styles/problem-solving/algebra/quadratic-formula-derivation-reference.mp4",
+      "originalFilename": "quadratic-formula-derivation-reference.mp4",
+      "approved": true,
+      "doNotCopyContent": true,
+      "role": "style-reference",
+      "commonTeachingStyleId": "visual-derivation-explanation-v1",
+      "styleId": "quadratic-formula-derivation-reference",
+      "qaProfileId": "quadratic-formula-derivation-v1",
+      "subject": "Algebra",
+      "domains": [
+        "algebra",
+        "linear_equations",
+        "polynomials"
+      ],
+      "suggestedGrades": "9-12",
+      "concepts": [
+        "quadratic formula",
+        "coefficient roles",
+        "completing the square",
+        "plus or minus",
+        "discriminant",
+        "sign handling"
+      ],
+      "teachingMethods": [
+        "term-preserving transformation",
+        "completing square",
+        "square-root reasoning",
+        "symbol highlighting",
+        "worked-example verification"
+      ],
+      "selectionTerms": [
+        "quadratic formula",
+        "quadratic equation",
+        "completing the square",
+        "discriminant",
+        "a b c",
+        "plus or minus",
+        "sign handling"
+      ],
+      "teachingPrompt": "Use the approved reference only as a teaching-grammar reference. Generate original lesson-specific mathematics, narration, diagrams and visual actions; never copy exact equations, scenes, narration, branding or artwork. Preserve a, b, c and x identities through the derivation, show transformations explicitly, justify square-root and plus/minus structure, introduce the discriminant meaningfully, and finish with an independently verified example.",
+      "qaInstructions": [
+        "Standard quadratic form and coefficient roles are established first.",
+        "Coefficient identities remain stable through transformations.",
+        "Operations are shown rather than skipped.",
+        "Plus/minus and square-root structure are justified before reveal.",
+        "Discriminant is connected to b²−4ac when relevant.",
+        "Pause after major derivation beats.",
+        "Worked example is independently verified.",
+        "Sign-handling warning appears when applicable."
+      ],
+      "assetType": "full_reference",
+      "durationSeconds": 186.833,
+      "width": 1280,
+      "height": 720,
+      "fps": 30.0,
+      "videoCodec": "h264",
+      "format": "mp4",
+      "mimeType": "video/mp4",
+      "libraryRole": "problems-formulae",
+      "branch": "algebra"
+    },
+    {
+      "id": "trigonometry-unit-circle-reference",
+      "name": "Trigonometry Unit Circle / Identity Construction",
+      "file": "/reference-styles/problem-solving/trigonometry/trigonometry-unit-circle-reference.mp4",
+      "originalFilename": "trigonometry-unit-circle-reference.mp4",
+      "approved": true,
+      "doNotCopyContent": true,
+      "role": "style-reference",
+      "commonTeachingStyleId": "visual-derivation-explanation-v1",
+      "styleId": "trigonometry-unit-circle-reference",
+      "qaProfileId": "trigonometry-unit-circle-v1",
+      "subject": "Trigonometry",
+      "domains": [
+        "trigonometry",
+        "coordinate_geometry"
+      ],
+      "suggestedGrades": "9-12",
+      "concepts": [
+        "unit circle",
+        "angle",
+        "radian",
+        "sine",
+        "cosine",
+        "tangent",
+        "projection",
+        "trigonometric identities"
+      ],
+      "teachingMethods": [
+        "circle construction",
+        "angle/arc motion",
+        "projection lines",
+        "coordinate interpretation",
+        "identity derivation"
+      ],
+      "selectionTerms": [
+        "unit circle",
+        "angle",
+        "radian",
+        "sine",
+        "cosine",
+        "tangent",
+        "projection",
+        "trigonometric identity"
+      ],
+      "teachingPrompt": "Use the approved reference only as a teaching-grammar reference. Generate original lesson-specific mathematics, narration, diagrams and visual actions; never copy exact equations, scenes, narration, branding or artwork. Progressively construct the unit circle, radius and angle, animate the point/arc, construct projections, connect coordinates to sine/cosine/tangent, and reveal identities only after the geometric relationship is visible.",
+      "qaInstructions": [
+        "Circle, radius and angle are established before symbolic identity.",
+        "The moving point/arc remains continuous.",
+        "Projection geometry is visible.",
+        "Trig values are connected to coordinates or triangle geometry.",
+        "Identity notation follows the visual relationship.",
+        "Pause at the identity insight.",
+        "Voice cues align with geometry and identity beats."
+      ],
+      "assetType": "full_reference",
+      "durationSeconds": 50.633,
+      "width": 1920,
+      "height": 1020,
+      "fps": 30.0,
+      "videoCodec": "h264",
+      "format": "mp4",
+      "mimeType": "video/mp4",
+      "libraryRole": "problems-formulae",
+      "branch": "trigonometry"
+    },
+    {
+      "id": "geometry-area-derivation",
+      "name": "Geometry Area Derivation",
+      "file": "/reference-styles/problem-solving/geometry/geometry-area-derivation.webm",
+      "originalFilename": "geometry-area-derivation.webm",
+      "approved": true,
+      "doNotCopyContent": true,
+      "role": "style-reference",
+      "commonTeachingStyleId": "visual-derivation-explanation-v1",
+      "styleId": "geometry-area-derivation",
+      "qaProfileId": "geometry-area-derivation-v1",
+      "subject": "Geometry",
+      "domains": [
+        "geometry",
+        "mensuration",
+        "3d_geometry"
+      ],
+      "suggestedGrades": "6-10",
+      "concepts": [
+        "area derivation",
+        "shape decomposition",
+        "base",
+        "height",
+        "equivalent shapes",
+        "geometry to formula"
+      ],
+      "teachingMethods": [
+        "shape construction",
+        "decomposition",
+        "cut-and-move",
+        "dimension highlighting",
+        "formula derivation"
+      ],
+      "selectionTerms": [
+        "area",
+        "area derivation",
+        "shape decomposition",
+        "base",
+        "height",
+        "equivalent shapes",
+        "area formula"
+      ],
+      "teachingPrompt": "Use the approved reference only as a teaching-grammar reference. Generate original lesson-specific mathematics, narration, diagrams and visual actions; never copy exact equations, scenes, narration, branding or artwork. Build the target shape, preserve the figure, add key auxiliary lines, decompose or transform regions into known areas, identify base/height, derive equations, and reveal the formula after the visual reasoning.",
+      "qaInstructions": [
+        "Target shape is visible before formula reasoning.",
+        "Relevant dimensions are identified visually.",
+        "Decomposition/equivalence is shown.",
+        "Known-area relationships are explicit.",
+        "Equations follow the visible construction.",
+        "Formula is revealed after derivation.",
+        "Pause at decomposition/formula insight."
+      ],
+      "assetType": "full_reference",
+      "durationSeconds": 65.2,
+      "width": 3840,
+      "height": 2160,
+      "fps": 60.0,
+      "videoCodec": "vp9",
+      "format": "webm",
+      "mimeType": "video/webm",
+      "libraryRole": "problems-formulae",
+      "branch": "geometry"
+    },
+    {
+      "id": "area-formula-visual-derivation-reference",
+      "name": "Area Formula Visual Derivation",
+      "file": "/reference-styles/problem-solving/geometry/area-formula-visual-derivation-reference.mp4",
+      "originalFilename": "area-formula-visual-derivation-reference.mp4",
+      "approved": true,
+      "doNotCopyContent": true,
+      "role": "style-reference",
+      "commonTeachingStyleId": "visual-derivation-explanation-v1",
+      "styleId": "area-formula-visual-derivation-reference",
+      "qaProfileId": "geometry-area-derivation-v2",
+      "subject": "Geometry",
+      "domains": [
+        "geometry",
+        "mensuration"
+      ],
+      "suggestedGrades": "5-10",
+      "concepts": [
+        "area",
+        "unit squares",
+        "rectangle area",
+        "square area",
+        "triangle area",
+        "parallelogram area",
+        "rhombus area",
+        "trapezium area"
+      ],
+      "teachingMethods": [
+        "unit-square counting",
+        "dimension highlighting",
+        "decomposition",
+        "cut-and-move",
+        "duplication",
+        "formula derivation"
+      ],
+      "selectionTerms": [
+        "area",
+        "area formula",
+        "unit squares",
+        "rectangle area",
+        "square area",
+        "triangle area",
+        "parallelogram area",
+        "rhombus area",
+        "trapezium area"
+      ],
+      "teachingPrompt": "Use the approved reference only as a teaching-grammar reference. Generate original lesson-specific mathematics, narration, diagrams and visual actions; never copy exact equations, scenes, narration, branding or artwork. Use shape-specific visual derivation: establish the figure, identify dimensions, decompose or transform it into known-area pieces, derive the formula, and pause before the final formula.",
+      "qaInstructions": [
+        "Shape is introduced before formula.",
+        "Dimensions/base/height are visibly identified.",
+        "The visual relationship to known area is shown.",
+        "Formula is derived rather than presented first.",
+        "A deliberate pause occurs at the formula insight.",
+        "Voice cues align with the derivation beats.",
+        "Final formula is verified."
+      ],
+      "assetType": "full_reference",
+      "durationSeconds": 112.0,
+      "width": 720,
+      "height": 1280,
+      "fps": 30.0,
+      "videoCodec": "h264",
+      "format": "mp4",
+      "mimeType": "video/mp4",
+      "libraryRole": "problems-formulae",
+      "branch": "geometry"
+    },
+    {
+      "id": "reference-area-formula-intro",
+      "name": "Area Formula Reference — Intro",
+      "file": "/reference-styles/problem-solving/geometry/intro.mp4",
+      "originalFilename": "intro.mp4",
+      "approved": true,
+      "doNotCopyContent": true,
+      "role": "style-reference",
+      "commonTeachingStyleId": "visual-derivation-explanation-v1",
+      "styleId": "area-formula-visual-derivation-reference",
+      "qaProfileId": "geometry-area-derivation-v2",
+      "subject": "Geometry",
+      "domains": [
+        "geometry",
+        "mensuration"
+      ],
+      "suggestedGrades": "1-8",
+      "concepts": [
+        "area",
+        "unit square",
+        "area formulas"
+      ],
+      "teachingMethods": [
+        "progressive construction",
+        "unit-square intuition"
+      ],
+      "selectionTerms": [
+        "area formulas",
+        "area",
+        "unit square"
+      ],
+      "teachingPrompt": "Use the approved reference only as a teaching-grammar reference. Generate original lesson-specific mathematics, narration, diagrams and visual actions; never copy exact equations, scenes, narration, branding or artwork. Teach area formulas using the approved segment grammar: introduce area, unit squares.",
+      "qaInstructions": [
+        "The segment starts with the target visual concept before formula compression.",
+        "Dimensions/parts relevant to the shape are visibly identified.",
+        "The stated construction/decomposition is shown in order.",
+        "The formula follows the visual relationship rather than appearing first.",
+        "A deliberate pause occurs at the key insight.",
+        "Voice cues align with the visual beats.",
+        "The final relationship is mathematically verified."
+      ],
+      "assetType": "reference_segment",
+      "sourceStartMs": 0,
+      "sourceEndMs": 6000,
+      "durationSeconds": 6.033,
+      "width": 720,
+      "height": 1280,
+      "fps": 30.0,
+      "videoCodec": "h264",
+      "format": "mp4",
+      "mimeType": "video/mp4",
+      "parentReferenceId": "reference-area-formula-visual-derivation",
+      "shape": null,
+      "segmentId": "area-formula-intro",
+      "teachingBeats": [
+        {
+          "id": "introduce-area-formulas",
+          "label": "Introduce area formulas",
+          "startMs": 0,
+          "endMs": 6000
+        }
+      ],
+      "libraryRole": "problems-formulae",
+      "branch": "geometry"
+    },
+    {
+      "id": "reference-area-formula-rectangle",
+      "name": "Area Formula Reference — Rectangle",
+      "file": "/reference-styles/problem-solving/geometry/rectangle.mp4",
+      "originalFilename": "rectangle.mp4",
+      "approved": true,
+      "doNotCopyContent": true,
+      "role": "style-reference",
+      "commonTeachingStyleId": "visual-derivation-explanation-v1",
+      "styleId": "area-formula-visual-derivation-reference",
+      "qaProfileId": "geometry-area-derivation-v2",
+      "subject": "Geometry",
+      "domains": [
+        "geometry",
+        "mensuration"
+      ],
+      "suggestedGrades": "1-8",
+      "concepts": [
+        "rectangle",
+        "length",
+        "width",
+        "unit squares",
+        "rectangle area"
+      ],
+      "teachingMethods": [
+        "unit-square counting",
+        "dimension highlighting",
+        "formula derivation"
+      ],
+      "selectionTerms": [
+        "rectangle",
+        "length width",
+        "unit squares",
+        "rectangle area",
+        "length x width"
+      ],
+      "teachingPrompt": "Use the approved reference only as a teaching-grammar reference. Generate original lesson-specific mathematics, narration, diagrams and visual actions; never copy exact equations, scenes, narration, branding or artwork. Teach rectangle using the approved segment grammar: count unit squares, identify length and width, derive rectangle formula.",
+      "qaInstructions": [
+        "The segment starts with the target visual concept before formula compression.",
+        "Dimensions/parts relevant to the shape are visibly identified.",
+        "The stated construction/decomposition is shown in order.",
+        "The formula follows the visual relationship rather than appearing first.",
+        "A deliberate pause occurs at the key insight.",
+        "Voice cues align with the visual beats.",
+        "The final relationship is mathematically verified."
+      ],
+      "assetType": "reference_segment",
+      "sourceStartMs": 6000,
+      "sourceEndMs": 26000,
+      "durationSeconds": 20.033,
+      "width": 720,
+      "height": 1280,
+      "fps": 30.0,
+      "videoCodec": "h264",
+      "format": "mp4",
+      "mimeType": "video/mp4",
+      "parentReferenceId": "reference-area-formula-visual-derivation",
+      "shape": "rectangle",
+      "segmentId": "area-formula-rectangle",
+      "teachingBeats": [
+        {
+          "id": "count-unit-squares",
+          "label": "Count unit squares",
+          "startMs": 0,
+          "endMs": 9000
+        },
+        {
+          "id": "identify-dimensions",
+          "label": "Identify length and width",
+          "startMs": 9000,
+          "endMs": 15000
+        },
+        {
+          "id": "derive-rectangle-formula",
+          "label": "Derive rectangle formula",
+          "startMs": 15000,
+          "endMs": 20000
+        }
+      ],
+      "libraryRole": "problems-formulae",
+      "branch": "geometry"
+    },
+    {
+      "id": "reference-area-formula-square",
+      "name": "Area Formula Reference — Square",
+      "file": "/reference-styles/problem-solving/geometry/square.mp4",
+      "originalFilename": "square.mp4",
+      "approved": true,
+      "doNotCopyContent": true,
+      "role": "style-reference",
+      "commonTeachingStyleId": "visual-derivation-explanation-v1",
+      "styleId": "area-formula-visual-derivation-reference",
+      "qaProfileId": "geometry-area-derivation-v2",
+      "subject": "Geometry",
+      "domains": [
+        "geometry",
+        "mensuration"
+      ],
+      "suggestedGrades": "1-8",
+      "concepts": [
+        "square",
+        "equal sides",
+        "side squared",
+        "square area"
+      ],
+      "teachingMethods": [
+        "dimension substitution",
+        "formula derivation"
+      ],
+      "selectionTerms": [
+        "square",
+        "equal sides",
+        "side squared",
+        "square area"
+      ],
+      "teachingPrompt": "Use the approved reference only as a teaching-grammar reference. Generate original lesson-specific mathematics, narration, diagrams and visual actions; never copy exact equations, scenes, narration, branding or artwork. Teach square using the approved segment grammar: identify equal sides, derive square formula.",
+      "qaInstructions": [
+        "The segment starts with the target visual concept before formula compression.",
+        "Dimensions/parts relevant to the shape are visibly identified.",
+        "The stated construction/decomposition is shown in order.",
+        "The formula follows the visual relationship rather than appearing first.",
+        "A deliberate pause occurs at the key insight.",
+        "Voice cues align with the visual beats.",
+        "The final relationship is mathematically verified."
+      ],
+      "assetType": "reference_segment",
+      "sourceStartMs": 26000,
+      "sourceEndMs": 35000,
+      "durationSeconds": 9.067,
+      "width": 720,
+      "height": 1280,
+      "fps": 30.0,
+      "videoCodec": "h264",
+      "format": "mp4",
+      "mimeType": "video/mp4",
+      "parentReferenceId": "reference-area-formula-visual-derivation",
+      "shape": "square",
+      "segmentId": "area-formula-square",
+      "teachingBeats": [
+        {
+          "id": "identify-equal-sides",
+          "label": "Identify equal sides",
+          "startMs": 0,
+          "endMs": 5000
+        },
+        {
+          "id": "derive-square-formula",
+          "label": "Derive square formula",
+          "startMs": 5000,
+          "endMs": 9000
+        }
+      ],
+      "libraryRole": "problems-formulae",
+      "branch": "geometry"
+    },
+    {
+      "id": "reference-area-formula-triangle",
+      "name": "Area Formula Reference — Triangle",
+      "file": "/reference-styles/problem-solving/geometry/triangle.mp4",
+      "originalFilename": "triangle.mp4",
+      "approved": true,
+      "doNotCopyContent": true,
+      "role": "style-reference",
+      "commonTeachingStyleId": "visual-derivation-explanation-v1",
+      "styleId": "area-formula-visual-derivation-reference",
+      "qaProfileId": "geometry-area-derivation-v2",
+      "subject": "Geometry",
+      "domains": [
+        "geometry",
+        "mensuration"
+      ],
+      "suggestedGrades": "4-10",
+      "concepts": [
+        "triangle",
+        "base",
+        "height",
+        "half rectangle",
+        "triangle area"
+      ],
+      "teachingMethods": [
+        "decomposition",
+        "equivalence",
+        "height identification",
+        "formula derivation"
+      ],
+      "selectionTerms": [
+        "triangle",
+        "base height",
+        "half rectangle",
+        "triangle area",
+        "half base height"
+      ],
+      "teachingPrompt": "Use the approved reference only as a teaching-grammar reference. Generate original lesson-specific mathematics, narration, diagrams and visual actions; never copy exact equations, scenes, narration, branding or artwork. Teach triangle using the approved segment grammar: construct triangle in rectangle, identify base and height, derive half base times height.",
+      "qaInstructions": [
+        "The segment starts with the target visual concept before formula compression.",
+        "Dimensions/parts relevant to the shape are visibly identified.",
+        "The stated construction/decomposition is shown in order.",
+        "The formula follows the visual relationship rather than appearing first.",
+        "A deliberate pause occurs at the key insight.",
+        "Voice cues align with the visual beats.",
+        "The final relationship is mathematically verified."
+      ],
+      "assetType": "reference_segment",
+      "sourceStartMs": 35000,
+      "sourceEndMs": 56000,
+      "durationSeconds": 21.067,
+      "width": 720,
+      "height": 1280,
+      "fps": 30.0,
+      "videoCodec": "h264",
+      "format": "mp4",
+      "mimeType": "video/mp4",
+      "parentReferenceId": "reference-area-formula-visual-derivation",
+      "shape": "triangle",
+      "segmentId": "area-formula-triangle",
+      "teachingBeats": [
+        {
+          "id": "construct-triangle",
+          "label": "Construct triangle in rectangle",
+          "startMs": 0,
+          "endMs": 7000
+        },
+        {
+          "id": "identify-base-height",
+          "label": "Identify base and height",
+          "startMs": 7000,
+          "endMs": 14000
+        },
+        {
+          "id": "derive-triangle-formula",
+          "label": "Derive half base times height",
+          "startMs": 14000,
+          "endMs": 21000
+        }
+      ],
+      "libraryRole": "problems-formulae",
+      "branch": "geometry"
+    },
+    {
+      "id": "reference-area-formula-parallelogram",
+      "name": "Area Formula Reference — Parallelogram",
+      "file": "/reference-styles/problem-solving/geometry/parallelogram.mp4",
+      "originalFilename": "parallelogram.mp4",
+      "approved": true,
+      "doNotCopyContent": true,
+      "role": "style-reference",
+      "commonTeachingStyleId": "visual-derivation-explanation-v1",
+      "styleId": "area-formula-visual-derivation-reference",
+      "qaProfileId": "geometry-area-derivation-v2",
+      "subject": "Geometry",
+      "domains": [
+        "geometry",
+        "mensuration"
+      ],
+      "suggestedGrades": "4-10",
+      "concepts": [
+        "parallelogram",
+        "base",
+        "perpendicular height",
+        "rectangle equivalence",
+        "parallelogram area"
+      ],
+      "teachingMethods": [
+        "cut-and-move",
+        "equivalence",
+        "dimension highlighting",
+        "formula derivation"
+      ],
+      "selectionTerms": [
+        "parallelogram",
+        "base height",
+        "rectangle equivalence",
+        "parallelogram area",
+        "base x height"
+      ],
+      "teachingPrompt": "Use the approved reference only as a teaching-grammar reference. Generate original lesson-specific mathematics, narration, diagrams and visual actions; never copy exact equations, scenes, narration, branding or artwork. Teach parallelogram using the approved segment grammar: show parallelogram, cut and move side, derive base times height.",
+      "qaInstructions": [
+        "The segment starts with the target visual concept before formula compression.",
+        "Dimensions/parts relevant to the shape are visibly identified.",
+        "The stated construction/decomposition is shown in order.",
+        "The formula follows the visual relationship rather than appearing first.",
+        "A deliberate pause occurs at the key insight.",
+        "Voice cues align with the visual beats.",
+        "The final relationship is mathematically verified."
+      ],
+      "assetType": "reference_segment",
+      "sourceStartMs": 56000,
+      "sourceEndMs": 77000,
+      "durationSeconds": 21.067,
+      "width": 720,
+      "height": 1280,
+      "fps": 30.0,
+      "videoCodec": "h264",
+      "format": "mp4",
+      "mimeType": "video/mp4",
+      "parentReferenceId": "reference-area-formula-visual-derivation",
+      "shape": "parallelogram",
+      "segmentId": "area-formula-parallelogram",
+      "teachingBeats": [
+        {
+          "id": "show-parallelogram",
+          "label": "Show parallelogram",
+          "startMs": 0,
+          "endMs": 6000
+        },
+        {
+          "id": "cut-and-move",
+          "label": "Cut and move side",
+          "startMs": 6000,
+          "endMs": 14000
+        },
+        {
+          "id": "derive-parallelogram-formula",
+          "label": "Derive base times height",
+          "startMs": 14000,
+          "endMs": 21000
+        }
+      ],
+      "libraryRole": "problems-formulae",
+      "branch": "geometry"
+    },
+    {
+      "id": "reference-area-formula-rhombus",
+      "name": "Area Formula Reference — Rhombus",
+      "file": "/reference-styles/problem-solving/geometry/rhombus.mp4",
+      "originalFilename": "rhombus.mp4",
+      "approved": true,
+      "doNotCopyContent": true,
+      "role": "style-reference",
+      "commonTeachingStyleId": "visual-derivation-explanation-v1",
+      "styleId": "area-formula-visual-derivation-reference",
+      "qaProfileId": "geometry-area-derivation-v2",
+      "subject": "Geometry",
+      "domains": [
+        "geometry",
+        "mensuration"
+      ],
+      "suggestedGrades": "5-10",
+      "concepts": [
+        "rhombus",
+        "diagonals",
+        "triangles",
+        "half product",
+        "rhombus area"
+      ],
+      "teachingMethods": [
+        "diagonal construction",
+        "decomposition",
+        "triangle sum",
+        "formula derivation"
+      ],
+      "selectionTerms": [
+        "rhombus",
+        "diagonals",
+        "triangle",
+        "half product",
+        "rhombus area"
+      ],
+      "teachingPrompt": "Use the approved reference only as a teaching-grammar reference. Generate original lesson-specific mathematics, narration, diagrams and visual actions; never copy exact equations, scenes, narration, branding or artwork. Teach rhombus using the approved segment grammar: draw both diagonals, combine triangle areas, derive half product.",
+      "qaInstructions": [
+        "The segment starts with the target visual concept before formula compression.",
+        "Dimensions/parts relevant to the shape are visibly identified.",
+        "The stated construction/decomposition is shown in order.",
+        "The formula follows the visual relationship rather than appearing first.",
+        "A deliberate pause occurs at the key insight.",
+        "Voice cues align with the visual beats.",
+        "The final relationship is mathematically verified."
+      ],
+      "assetType": "reference_segment",
+      "sourceStartMs": 77000,
+      "sourceEndMs": 91000,
+      "durationSeconds": 14.034,
+      "width": 720,
+      "height": 1280,
+      "fps": 30.0,
+      "videoCodec": "h264",
+      "format": "mp4",
+      "mimeType": "video/mp4",
+      "parentReferenceId": "reference-area-formula-visual-derivation",
+      "shape": "rhombus",
+      "segmentId": "area-formula-rhombus",
+      "teachingBeats": [
+        {
+          "id": "draw-diagonals",
+          "label": "Draw both diagonals",
+          "startMs": 0,
+          "endMs": 7000
+        },
+        {
+          "id": "combine-triangle-areas",
+          "label": "Combine triangle areas",
+          "startMs": 7000,
+          "endMs": 12000
+        },
+        {
+          "id": "derive-rhombus-formula",
+          "label": "Derive half product",
+          "startMs": 12000,
+          "endMs": 14000
+        }
+      ],
+      "libraryRole": "problems-formulae",
+      "branch": "geometry"
+    },
+    {
+      "id": "reference-area-formula-trapezium",
+      "name": "Area Formula Reference — Trapezium",
+      "file": "/reference-styles/problem-solving/geometry/trapezium.mp4",
+      "originalFilename": "trapezium.mp4",
+      "approved": true,
+      "doNotCopyContent": true,
+      "role": "style-reference",
+      "commonTeachingStyleId": "visual-derivation-explanation-v1",
+      "styleId": "area-formula-visual-derivation-reference",
+      "qaProfileId": "geometry-area-derivation-v2",
+      "subject": "Geometry",
+      "domains": [
+        "geometry",
+        "mensuration"
+      ],
+      "suggestedGrades": "5-10",
+      "concepts": [
+        "trapezium",
+        "trapezoid",
+        "parallel sides",
+        "height",
+        "two trapezia",
+        "half sum",
+        "trapezium area"
+      ],
+      "teachingMethods": [
+        "duplication",
+        "rearrangement",
+        "parallel-side sum",
+        "formula derivation"
+      ],
+      "selectionTerms": [
+        "trapezium",
+        "trapezoid",
+        "parallel sides",
+        "height",
+        "half sum",
+        "trapezium area"
+      ],
+      "teachingPrompt": "Use the approved reference only as a teaching-grammar reference. Generate original lesson-specific mathematics, narration, diagrams and visual actions; never copy exact equations, scenes, narration, branding or artwork. Teach trapezium using the approved segment grammar: show trapezium and parallel sides, join identical trapezia, derive half sum times height.",
+      "qaInstructions": [
+        "The segment starts with the target visual concept before formula compression.",
+        "Dimensions/parts relevant to the shape are visibly identified.",
+        "The stated construction/decomposition is shown in order.",
+        "The formula follows the visual relationship rather than appearing first.",
+        "A deliberate pause occurs at the key insight.",
+        "Voice cues align with the visual beats.",
+        "The final relationship is mathematically verified."
+      ],
+      "assetType": "reference_segment",
+      "sourceStartMs": 91000,
+      "sourceEndMs": 112000,
+      "durationSeconds": 21.0,
+      "width": 720,
+      "height": 1280,
+      "fps": 30.0,
+      "videoCodec": "h264",
+      "format": "mp4",
+      "mimeType": "video/mp4",
+      "parentReferenceId": "reference-area-formula-visual-derivation",
+      "shape": "trapezium",
+      "segmentId": "area-formula-trapezium",
+      "teachingBeats": [
+        {
+          "id": "show-trapezium",
+          "label": "Show trapezium and parallel sides",
+          "startMs": 0,
+          "endMs": 6000
+        },
+        {
+          "id": "join-trapezia",
+          "label": "Join identical trapezia",
+          "startMs": 6000,
+          "endMs": 14000
+        },
+        {
+          "id": "derive-trapezium-formula",
+          "label": "Derive half sum times height",
+          "startMs": 14000,
+          "endMs": 21000
+        }
+      ],
+      "libraryRole": "problems-formulae",
+      "branch": "geometry"
+    },
+    {
+      "id": "japanese-multiplication-tricks-reference",
+      "name": "Japanese Multiplication Tricks — Visual Digit Grouping Reference",
+      "file": "/reference-styles/problem-solving/arithmetic-general/japanese-multiplication-tricks-reference.mp4",
+      "originalFilename": "Japanese multiplication tricks reference (uploaded video).mp4",
+      "approved": true,
+      "doNotCopyContent": true,
+      "role": "style-reference",
+      "commonTeachingStyleId": "visual-derivation-explanation-v1",
+      "styleId": "arithmetic-multiplication-visual-reference",
+      "qaProfileId": "arithmetic-multiplication-visual-v1",
+      "subject": "Mathematics",
+      "domains": [
+        "arithmetic"
+      ],
+      "suggestedGrades": "1-8",
+      "concepts": [
+        "multiplication",
+        "mental multiplication",
+        "digit grouping",
+        "place value",
+        "repeated addition",
+        "visual multiplication strategy"
+      ],
+      "teachingMethods": [
+        "digit grouping",
+        "place-value visualization",
+        "line counting",
+        "highlighting",
+        "progressive reveal"
+      ],
+      "selectionTerms": [
+        "multiplication",
+        "multiply",
+        "multiplication trick",
+        "mental multiplication",
+        "digit grouping",
+        "place value",
+        "211 x 3",
+        "211 times 3"
+      ],
+      "assetType": "full_reference",
+      "teachingPrompt": "Use this approved reference only as a visual grammar for simple multiplication and mental-math explanations: preserve individual digits, highlight the active digit/group, represent multiplication with clear visual grouping or counting, keep place-value roles visible, reveal intermediate quantities before the final product, and use concise annotations and deliberate pauses. Generate an original lesson-specific method and arithmetic; never copy the reference video’s exact example, narration, watermark/branding, scene or artwork.",
+      "qaInstructions": [
+        "The multiplication expression is visible before the visual method begins.",
+        "Individual digits and their place-value roles remain identifiable.",
+        "The visual grouping/counting corresponds to the stated multiplication operation.",
+        "Intermediate quantities are shown before the final product.",
+        "The final product is mathematically verified.",
+        "Highlights and annotations point to the active digit/group rather than unrelated content.",
+        "Voice cues align with the digit/group transitions and result reveal.",
+        "A brief pause occurs before the final result is revealed."
+      ],
+      "durationSeconds": 15.882,
+      "width": 720,
+      "height": 720,
+      "fps": 30.0,
+      "videoCodec": "h264",
+      "format": "mp4",
+      "mimeType": "video/mp4",
+      "libraryRole": "problems-formulae",
+      "branch": "arithmetic-general"
+    },
+    {
+      "id": "linear-equation-two-step-reference",
+      "name": "Linear Equation / Two-Step Equation — Reference",
+      "file": "/reference-styles/problem-solving/algebra/linear-equation-two-step-reference.mp4",
+      "originalFilename": "solve_2x_plus_5_equals_20-1.mp4",
+      "approved": true,
+      "doNotCopyContent": true,
+      "role": "style-reference",
+      "commonTeachingStyleId": "visual-derivation-explanation-v1",
+      "styleId": "linear-equation-two-step-reference",
+      "qaProfileId": "linear-equation-step-by-step-v1",
+      "subject": "Mathematics",
+      "domains": [
+        "algebra",
+        "linear_equations",
+        "equations"
+      ],
+      "suggestedGrades": "6-10",
+      "concepts": [
+        "linear equation",
+        "two-step equation",
+        "inverse operations",
+        "isolating the variable",
+        "equation transformation",
+        "solving for x"
+      ],
+      "teachingMethods": [
+        "symbol-by-symbol transformation",
+        "inverse-operation visualization",
+        "term movement",
+        "progressive reveal",
+        "verified worked example"
+      ],
+      "selectionTerms": [
+        "linear equation",
+        "linear equations",
+        "two-step equation",
+        "2x + 5 = 20",
+        "solve for x",
+        "isolate x",
+        "inverse operations",
+        "equation transformation"
+      ],
+      "teachingPrompt": "Use this approved reference only as teaching grammar for linear-equation lessons. Preserve the exact identity of mathematical terms, make each operation explicit on both sides, visually move or transform the active term, reveal intermediate equations in order, and pause before the verified final value. Generate original lesson-specific mathematics and narration; never copy the reference video’s exact example, wording, branding or artwork.",
+      "qaInstructions": [
+        "Original equation is visible before transformations begin.",
+        "Each operation is applied equivalently to both sides.",
+        "The active term or operation is clearly highlighted or moved.",
+        "Intermediate equation states appear in the correct order.",
+        "The variable is explicitly isolated before the final answer.",
+        "The final value is verified against the original equation.",
+        "Voice/caption cues align with each transformation and pause before the result."
+      ],
+      "assetType": "full_reference",
+      "durationSeconds": 29.566667,
+      "width": 1080,
+      "height": 1080,
+      "fps": 30.0,
+      "videoCodec": "h264",
+      "format": "mp4",
+      "mimeType": "video/mp4",
+      "libraryRole": "problems-formulae",
+      "branch": "algebra"
+    },
+    {
+      "id": "math-animations-text-latex-transformations-arrows",
+      "name": "Math Animations — Text & LaTeX Transformations, Arrows",
+      "file": "/reference-styles/problem-solving/arithmetic-general/math-animations-text-latex-transformations-arrows.mp4",
+      "originalFilename": "vidssave.com Math Animations Test #4_ Text & LaTeX Transformations, Arrows 720P.mp4",
+      "approved": true,
+      "doNotCopyContent": true,
+      "role": "style-reference",
+      "commonTeachingStyleId": "visual-derivation-explanation-v1",
+      "styleId": "equation-transformation",
+      "qaProfileId": "equation-transformation-v1",
+      "subject": "Mathematics",
+      "domains": [
+        "arithmetic",
+        "algebra",
+        "equations",
+        "mathematical_notation",
+        "general_math"
+      ],
+      "suggestedGrades": "6-12",
+      "concepts": [
+        "text transformation",
+        "LaTeX transformation",
+        "equation transformation",
+        "arrows",
+        "step-by-step algebra",
+        "mathematical notation",
+        "visual transformation"
+      ],
+      "teachingPrompt": "Use the reference only as visual grammar: explicit before/after states, arrows, token/term emphasis, write/erase/reveal and clear equation transformations. Never copy its content.",
+      "qaInstructions": [
+        "Show the original mathematical state before transformation.",
+        "Make the active operation visually explicit.",
+        "Use arrows or equivalent transition evidence between states.",
+        "Preserve mathematical equivalence and token identity.",
+        "Synchronize captions/voice with the transformation.",
+        "Pause before the verified result."
+      ],
+      "sha256": "1032123985a0fcadae142e0a3ea4001e5c4becadc3568a5b8c091b84509099b1",
+      "teachingMethods": [
+        "before/after equation states",
+        "LaTeX token transformation",
+        "arrow-guided transition",
+        "progressive reveal",
+        "write-erase-highlight"
+      ],
+      "selectionTerms": [
+        "math animation",
+        "latex transformation",
+        "text transformation",
+        "equation transformation",
+        "arrows",
+        "symbol movement",
+        "term movement",
+        "step by step algebra",
+        "mathematical notation"
+      ],
+      "durationSeconds": 42.0,
+      "width": 1280,
+      "height": 720,
+      "fps": 60.0,
+      "videoCodec": "h264",
+      "format": "mp4",
+      "mimeType": "video/mp4",
+      "libraryRole": "problems-formulae",
+      "branch": "arithmetic-general"
+    },
+    {
+      "id": "derivative-formulas-through-geometry",
+      "name": "Derivative Formulas Through Geometry — Chapter 3, Essence of Calculus",
+      "file": "/reference-styles/problem-solving/calculus/derivative-formulas-through-geometry.mp4",
+      "originalFilename": "vidssave.com Derivative formulas through geometry _ Chapter 3, Essence of calculus 144P.mp4",
+      "approved": true,
+      "doNotCopyContent": true,
+      "role": "style-reference",
+      "commonTeachingStyleId": "visual-derivation-explanation-v1",
+      "styleId": "calculus-slope-to-derivative",
+      "qaProfileId": "calculus-slope-to-derivative-v1",
+      "subject": "Calculus",
+      "domains": [
+        "calculus",
+        "derivatives",
+        "limits",
+        "coordinate_geometry"
+      ],
+      "suggestedGrades": "11-12",
+      "concepts": [
+        "derivative",
+        "derivative formulas",
+        "geometry",
+        "slope",
+        "tangent",
+        "rate of change",
+        "geometric interpretation of derivative"
+      ],
+      "teachingPrompt": "Use the reference as a conceptual geometry-to-derivative visual grammar. Keep exact formulas, transformations and verification under AI Guru's deterministic math pipeline.",
+      "qaInstructions": [
+        "Establish the geometric object or curve before formula reasoning.",
+        "Make slope/tangent relationships visually explicit.",
+        "Transition from geometric intuition to symbolic derivative form.",
+        "Verify every mathematical transformation.",
+        "Synchronize visual cues with English/Malayalam captions and audio.",
+        "Pause before the final verified formula."
+      ],
+      "sha256": "c502de61a44aca07a7c417cc0072452fd6c43b828dad0bb948e4cddd80b9aab6",
+      "teachingMethods": [
+        "geometry-first derivative intuition",
+        "slope and tangent visualization",
+        "progressive geometric construction",
+        "geometry-to-symbolic derivation",
+        "verified formula reveal"
+      ],
+      "selectionTerms": [
+        "derivative",
+        "derivative formula",
+        "derivative formulas",
+        "geometry derivative",
+        "slope",
+        "tangent",
+        "rate of change",
+        "geometric derivative",
+        "calculus derivative"
+      ],
+      "durationSeconds": 1053.419033,
+      "width": 256,
+      "height": 144,
+      "fps": 29.97003,
+      "videoCodec": "h264",
+      "format": "mp4",
+      "mimeType": "video/mp4",
+      "libraryRole": "problems-formulae",
+      "branch": "calculus"
+    }
+  ]
+}

@@ -1,0 +1,3038 @@
+{
+  "schemaVersion": "2.0",
+  "purpose": "K-12 general-classroom visual DNA. Distinct from the 20 physical problem-solving videos.",
+  "count": 69,
+  "countsByBranch": {
+    "algebra": 1,
+    "arithmetic": 13,
+    "calculus": 3,
+    "functions-graphs": 6,
+    "geometry": 14,
+    "linear-algebra-vectors": 15,
+    "number-theory": 10,
+    "probability-statistics": 1,
+    "trigonometry": 6
+  },
+  "runtimePolicy": {
+    "sendSourceVideoToGemini": false,
+    "usePhysicalVideo": false,
+    "useVisualDNA": true,
+    "maxRetrievedPatterns": 4
+  },
+  "entries": [
+    {
+      "id": "3b1b_videos:333",
+      "branch": "algebra",
+      "grades": "6-12",
+      "filePath": "_2016/eola/chapter6.py",
+      "source": "3b1b_videos",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "algebra",
+        "2016",
+        "eola",
+        "chapter6"
+      ],
+      "visualDNA": {
+        "objects": [
+          "VMobject",
+          "OldTex",
+          "Vector",
+          "Circle",
+          "Line"
+        ],
+        "animationGrammar": [
+          "Write",
+          "Transform",
+          "ApplyMethod",
+          "ShowCreation",
+          "FadeOut"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2015_generate_logo",
+      "branch": "arithmetic",
+      "grades": "1-7",
+      "filePath": "_2015_generate_logo.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "arithmetic",
+        "2015",
+        "generate",
+        "logo"
+      ],
+      "visualDNA": {
+        "objects": [
+          "Circle"
+        ],
+        "animationGrammar": [
+          "Transform"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2015_inventing_math_images",
+      "branch": "arithmetic",
+      "grades": "1-7",
+      "filePath": "_2015_inventing_math_images.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "arithmetic",
+        "2015",
+        "inventing",
+        "math",
+        "images"
+      ],
+      "visualDNA": {
+        "objects": [
+          "OldTex"
+        ],
+        "animationGrammar": [],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2015_inventing_math",
+      "branch": "arithmetic",
+      "grades": "1-7",
+      "filePath": "_2015_inventing_math.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "arithmetic",
+        "2015",
+        "inventing",
+        "math"
+      ],
+      "visualDNA": {
+        "objects": [
+          "OldTex",
+          "NumberLine",
+          "Arrow",
+          "Dot"
+        ],
+        "animationGrammar": [
+          "Transform",
+          "ShowCreation",
+          "FadeIn",
+          "ApplyMethod",
+          "FadeOut"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2015_ka_playgrounds_circuits",
+      "branch": "arithmetic",
+      "grades": "1-7",
+      "filePath": "_2015_ka_playgrounds_circuits.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "arithmetic",
+        "2015",
+        "playgrounds",
+        "circuits"
+      ],
+      "visualDNA": {
+        "objects": [
+          "Line",
+          "Circle",
+          "OldTex"
+        ],
+        "animationGrammar": [
+          "Transform"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2015_ka_playgrounds_transform_article",
+      "branch": "arithmetic",
+      "grades": "1-7",
+      "filePath": "_2015_ka_playgrounds_transform_article.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "arithmetic",
+        "2015",
+        "playgrounds",
+        "transform",
+        "article"
+      ],
+      "visualDNA": {
+        "objects": [
+          "NumberLine",
+          "Line",
+          "Dot",
+          "OldTex",
+          "Arrow"
+        ],
+        "animationGrammar": [
+          "Transform",
+          "ApplyMethod",
+          "ShowCreation"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2015_music_and_measure",
+      "branch": "arithmetic",
+      "grades": "1-7",
+      "filePath": "_2015_music_and_measure.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "arithmetic",
+        "2015",
+        "music",
+        "measure"
+      ],
+      "visualDNA": {
+        "objects": [
+          "OldTex",
+          "NumberLine",
+          "Line",
+          "Arrow"
+        ],
+        "animationGrammar": [
+          "ShowCreation",
+          "Transform"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "3b1b_videos:13",
+      "branch": "arithmetic",
+      "grades": "1-7",
+      "filePath": "_2015/counting_in_binary.py",
+      "source": "3b1b_videos",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "arithmetic",
+        "2015",
+        "counting",
+        "binary"
+      ],
+      "visualDNA": {
+        "objects": [
+          "OldTex"
+        ],
+        "animationGrammar": [
+          "Transform"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "3b1b_videos:104",
+      "branch": "arithmetic",
+      "grades": "1-7",
+      "filePath": "_2015/music_and_measure.py",
+      "source": "3b1b_videos",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "arithmetic",
+        "2015",
+        "music",
+        "measure"
+      ],
+      "visualDNA": {
+        "objects": [
+          "Line"
+        ],
+        "animationGrammar": [
+          "ShowCreation",
+          "Transform"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2016_brachistochrone_wordplay",
+      "branch": "arithmetic",
+      "grades": "1-7",
+      "filePath": "_2016_brachistochrone_wordplay.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "arithmetic",
+        "2016",
+        "brachistochrone",
+        "wordplay"
+      ],
+      "visualDNA": {
+        "objects": [
+          "Square",
+          "OldTex",
+          "Brace",
+          "Arrow"
+        ],
+        "animationGrammar": [
+          "Transform",
+          "FadeOut",
+          "FadeIn",
+          "ApplyMethod",
+          "ShowCreation"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2016_hanoi",
+      "branch": "arithmetic",
+      "grades": "1-7",
+      "filePath": "_2016_hanoi.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "arithmetic",
+        "2016",
+        "hanoi"
+      ],
+      "visualDNA": {
+        "objects": [
+          "VGroup",
+          "OldTex",
+          "Dot",
+          "Circle",
+          "Arrow",
+          "Rectangle"
+        ],
+        "animationGrammar": [
+          "MoveToTarget",
+          "FadeIn",
+          "ShowCreation",
+          "Transform"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "3b1b_videos:455",
+      "branch": "arithmetic",
+      "grades": "1-7",
+      "filePath": "_2016/hanoi.py",
+      "source": "3b1b_videos",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "arithmetic",
+        "2016",
+        "hanoi"
+      ],
+      "visualDNA": {
+        "objects": [],
+        "animationGrammar": [],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "3b1b_videos:3477",
+      "branch": "arithmetic",
+      "grades": "1-7",
+      "filePath": "_2020/covid.py",
+      "source": "3b1b_videos",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "arithmetic",
+        "2020",
+        "covid"
+      ],
+      "visualDNA": {
+        "objects": [
+          "VMobject",
+          "Line",
+          "VGroup",
+          "OldTex",
+          "Axes"
+        ],
+        "animationGrammar": [
+          "ShowCreation",
+          "FadeOut"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "3b1b_videos:5688",
+      "branch": "arithmetic",
+      "grades": "1-7",
+      "filePath": "once_useful_constructs/counting.py",
+      "source": "3b1b_videos",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "arithmetic",
+        "once",
+        "useful",
+        "constructs",
+        "counting"
+      ],
+      "visualDNA": {
+        "objects": [],
+        "animationGrammar": [],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2016_hilbert_fractal_porn",
+      "branch": "calculus",
+      "grades": "11-12",
+      "filePath": "_2016_hilbert_fractal_porn.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "calculus",
+        "2016",
+        "hilbert",
+        "fractal",
+        "porn"
+      ],
+      "visualDNA": {
+        "objects": [
+          "Arc",
+          "OldTex",
+          "Arrow"
+        ],
+        "animationGrammar": [
+          "Transform",
+          "ShowCreation",
+          "ApplyMethod"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2016_hilbert_section2",
+      "branch": "calculus",
+      "grades": "11-12",
+      "filePath": "_2016_hilbert_section2.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "calculus",
+        "2016",
+        "hilbert",
+        "section2"
+      ],
+      "visualDNA": {
+        "objects": [
+          "NumberLine",
+          "Line",
+          "Brace",
+          "Arrow",
+          "Square",
+          "OldTex",
+          "Dot"
+        ],
+        "animationGrammar": [
+          "ShowCreation",
+          "FadeOut",
+          "Transform",
+          "ApplyMethod",
+          "FadeIn"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2016_hilbert_section3",
+      "branch": "calculus",
+      "grades": "11-12",
+      "filePath": "_2016_hilbert_section3.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "calculus",
+        "2016",
+        "hilbert",
+        "section3"
+      ],
+      "visualDNA": {
+        "objects": [
+          "OldTex",
+          "Brace",
+          "Arrow",
+          "Polygon"
+        ],
+        "animationGrammar": [
+          "ShowCreation",
+          "ApplyMethod",
+          "Transform"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2015_complex_multiplication_article",
+      "branch": "functions-graphs",
+      "grades": "7-12",
+      "filePath": "_2015_complex_multiplication_article.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "functions-graphs",
+        "2015",
+        "complex",
+        "multiplication",
+        "article"
+      ],
+      "visualDNA": {
+        "objects": [
+          "Circle",
+          "Dot",
+          "Line",
+          "OldTex",
+          "Arc"
+        ],
+        "animationGrammar": [],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2015_eulers_characteristic_formula",
+      "branch": "functions-graphs",
+      "grades": "7-12",
+      "filePath": "_2015_eulers_characteristic_formula.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "functions-graphs",
+        "2015",
+        "eulers",
+        "characteristic",
+        "formula"
+      ],
+      "visualDNA": {
+        "objects": [
+          "OldTex",
+          "Dot",
+          "Line"
+        ],
+        "animationGrammar": [
+          "Transform",
+          "ShowCreation",
+          "FadeOut",
+          "ApplyMethod",
+          "FadeIn"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2015_ka_playgrounds_fluid_flow",
+      "branch": "functions-graphs",
+      "grades": "7-12",
+      "filePath": "_2015_ka_playgrounds_fluid_flow.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "functions-graphs",
+        "2015",
+        "playgrounds",
+        "fluid",
+        "flow"
+      ],
+      "visualDNA": {
+        "objects": [
+          "Axes",
+          "VMobject",
+          "Vector",
+          "Polygon",
+          "Circle"
+        ],
+        "animationGrammar": [
+          "ShowCreation"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2015_ka_playgrounds_parametric_curves",
+      "branch": "functions-graphs",
+      "grades": "7-12",
+      "filePath": "_2015_ka_playgrounds_parametric_curves.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "functions-graphs",
+        "2015",
+        "playgrounds",
+        "parametric",
+        "curves"
+      ],
+      "visualDNA": {
+        "objects": [
+          "Vector",
+          "VMobject",
+          "Axes"
+        ],
+        "animationGrammar": [
+          "ShowCreation"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2016_zeta",
+      "branch": "functions-graphs",
+      "grades": "7-12",
+      "filePath": "_2016_zeta.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "functions-graphs",
+        "2016",
+        "zeta"
+      ],
+      "visualDNA": {
+        "objects": [
+          "VGroup",
+          "Line",
+          "OldTex",
+          "Dot",
+          "Arrow"
+        ],
+        "animationGrammar": [
+          "ShowCreation",
+          "FadeIn",
+          "Write",
+          "Transform"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "3b1b_videos:5527",
+      "branch": "functions-graphs",
+      "grades": "7-12",
+      "filePath": "_2025/laplace/integration.py",
+      "source": "3b1b_videos",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "functions-graphs",
+        "2025",
+        "laplace",
+        "integration"
+      ],
+      "visualDNA": {
+        "objects": [
+          "Axes",
+          "Tex",
+          "Rectangle"
+        ],
+        "animationGrammar": [],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2015_pythagorean_proof",
+      "branch": "geometry",
+      "grades": "4-12",
+      "filePath": "_2015_pythagorean_proof.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "geometry",
+        "2015",
+        "pythagorean",
+        "proof"
+      ],
+      "visualDNA": {
+        "objects": [
+          "Triangle",
+          "OldTex",
+          "Polygon",
+          "Line",
+          "Circle",
+          "Arrow"
+        ],
+        "animationGrammar": [],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "3b1b_videos:77",
+      "branch": "geometry",
+      "grades": "4-12",
+      "filePath": "_2015/moser_intro.py",
+      "source": "3b1b_videos",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "geometry",
+        "2015",
+        "moser",
+        "intro"
+      ],
+      "visualDNA": {
+        "objects": [
+          "Circle",
+          "Dot",
+          "Line",
+          "OldTex"
+        ],
+        "animationGrammar": [
+          "Transform",
+          "ShowCreation",
+          "FadeIn"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "3b1b_videos:81",
+      "branch": "geometry",
+      "grades": "4-12",
+      "filePath": "_2015/moser_main.py",
+      "source": "3b1b_videos",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "geometry",
+        "2015",
+        "moser",
+        "main"
+      ],
+      "visualDNA": {
+        "objects": [
+          "Circle",
+          "Dot",
+          "Line",
+          "OldTex"
+        ],
+        "animationGrammar": [],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "3b1b_videos:127",
+      "branch": "geometry",
+      "grades": "4-12",
+      "filePath": "_2015/pythagorean_proof.py",
+      "source": "3b1b_videos",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "geometry",
+        "2015",
+        "pythagorean",
+        "proof"
+      ],
+      "visualDNA": {
+        "objects": [
+          "Circle",
+          "Arrow",
+          "Triangle",
+          "OldTex",
+          "Line"
+        ],
+        "animationGrammar": [],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2016_brachistochrone_curves",
+      "branch": "geometry",
+      "grades": "4-12",
+      "filePath": "_2016_brachistochrone_curves.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "geometry",
+        "2016",
+        "brachistochrone",
+        "curves"
+      ],
+      "visualDNA": {
+        "objects": [
+          "OldTex",
+          "Dot",
+          "Line",
+          "Arc",
+          "Arrow"
+        ],
+        "animationGrammar": [
+          "ShowCreation",
+          "FadeOut",
+          "ApplyMethod",
+          "Transform",
+          "FadeIn"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2016_brachistochrone_cycloid",
+      "branch": "geometry",
+      "grades": "4-12",
+      "filePath": "_2016_brachistochrone_cycloid.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "geometry",
+        "2016",
+        "brachistochrone",
+        "cycloid"
+      ],
+      "visualDNA": {
+        "objects": [
+          "Circle",
+          "Line",
+          "OldTex",
+          "Arrow",
+          "Dot",
+          "Arc",
+          "Brace",
+          "Polygon"
+        ],
+        "animationGrammar": [
+          "ShowCreation",
+          "ApplyMethod",
+          "Transform",
+          "FadeIn"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2016_brachistochrone_graveyard",
+      "branch": "geometry",
+      "grades": "4-12",
+      "filePath": "_2016_brachistochrone_graveyard.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "geometry",
+        "2016",
+        "brachistochrone",
+        "graveyard"
+      ],
+      "visualDNA": {
+        "objects": [
+          "OldTex",
+          "Line",
+          "Brace",
+          "Arc"
+        ],
+        "animationGrammar": [
+          "ShowCreation",
+          "Transform",
+          "ApplyMethod"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2016_brachistochrone_light",
+      "branch": "geometry",
+      "grades": "4-12",
+      "filePath": "_2016_brachistochrone_light.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "geometry",
+        "2016",
+        "brachistochrone",
+        "light"
+      ],
+      "visualDNA": {
+        "objects": [
+          "Line",
+          "Dot",
+          "OldTex"
+        ],
+        "animationGrammar": [
+          "ShowCreation",
+          "ApplyMethod",
+          "Transform"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2016_brachistochrone_multilayered",
+      "branch": "geometry",
+      "grades": "4-12",
+      "filePath": "_2016_brachistochrone_multilayered.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "geometry",
+        "2016",
+        "brachistochrone",
+        "multilayered"
+      ],
+      "visualDNA": {
+        "objects": [
+          "Line",
+          "Brace",
+          "OldTex",
+          "Square",
+          "Dot"
+        ],
+        "animationGrammar": [
+          "FadeIn",
+          "Transform",
+          "ShowCreation",
+          "ApplyMethod"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2016_eola_chapter8",
+      "branch": "geometry",
+      "grades": "4-12",
+      "filePath": "_2016_eola_chapter8.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "geometry",
+        "2016",
+        "eola",
+        "chapter8"
+      ],
+      "visualDNA": {
+        "objects": [
+          "Rectangle",
+          "Line",
+          "VGroup",
+          "OldTex",
+          "Arrow",
+          "Arc"
+        ],
+        "animationGrammar": [
+          "FadeIn",
+          "Write",
+          "ShowCreation",
+          "MoveToTarget",
+          "Transform",
+          "FadeOut",
+          "ApplyMethod"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2016_wcat",
+      "branch": "geometry",
+      "grades": "4-12",
+      "filePath": "_2016_wcat.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "geometry",
+        "2016",
+        "wcat"
+      ],
+      "visualDNA": {
+        "objects": [
+          "VGroup",
+          "VMobject",
+          "Polygon",
+          "Dot",
+          "Line"
+        ],
+        "animationGrammar": [
+          "MoveToTarget",
+          "Transform",
+          "FadeOut",
+          "Write"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "3b1b_videos:1633",
+      "branch": "geometry",
+      "grades": "4-12",
+      "filePath": "_2017/triples.py",
+      "source": "3b1b_videos",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "geometry",
+        "2017",
+        "triples"
+      ],
+      "visualDNA": {
+        "objects": [
+          "VGroup",
+          "Polygon",
+          "OldTex"
+        ],
+        "animationGrammar": [
+          "Write",
+          "MoveToTarget",
+          "Transform",
+          "FadeIn",
+          "FadeOut"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "3b1b_videos:2489",
+      "branch": "geometry",
+      "grades": "4-12",
+      "filePath": "_2018/sphere_area.py",
+      "source": "3b1b_videos",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "geometry",
+        "2018",
+        "sphere",
+        "area"
+      ],
+      "visualDNA": {
+        "objects": [
+          "VGroup",
+          "Polygon",
+          "Arc"
+        ],
+        "animationGrammar": [
+          "FadeIn",
+          "MoveToTarget"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "3b1b_videos:3765",
+      "branch": "geometry",
+      "grades": "4-12",
+      "filePath": "_2021/bertrands_paradox.py",
+      "source": "3b1b_videos",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "geometry",
+        "2021",
+        "bertrands",
+        "paradox"
+      ],
+      "visualDNA": {
+        "objects": [
+          "Polygon"
+        ],
+        "animationGrammar": [],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2016_eola_chapter0",
+      "branch": "linear-algebra-vectors",
+      "grades": "10-12",
+      "filePath": "_2016_eola_chapter0.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "linear-algebra-vectors",
+        "2016",
+        "eola",
+        "chapter0"
+      ],
+      "visualDNA": {
+        "objects": [
+          "OldTex",
+          "VMobject",
+          "Arrow",
+          "Line"
+        ],
+        "animationGrammar": [
+          "FadeIn",
+          "Write",
+          "ShowCreation",
+          "Transform",
+          "FadeOut",
+          "ApplyMethod"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2016_eola_chapter1",
+      "branch": "linear-algebra-vectors",
+      "grades": "10-12",
+      "filePath": "_2016_eola_chapter1.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "linear-algebra-vectors",
+        "2016",
+        "eola",
+        "chapter1"
+      ],
+      "visualDNA": {
+        "objects": [
+          "VMobject",
+          "Vector",
+          "OldTex",
+          "Brace",
+          "Circle"
+        ],
+        "animationGrammar": [
+          "FadeIn",
+          "Write",
+          "ShowCreation",
+          "FadeOut",
+          "ApplyMethod",
+          "Transform",
+          "Rotate"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2016_eola_chapter11",
+      "branch": "linear-algebra-vectors",
+      "grades": "10-12",
+      "filePath": "_2016_eola_chapter11.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "linear-algebra-vectors",
+        "2016",
+        "eola",
+        "chapter11"
+      ],
+      "visualDNA": {
+        "objects": [
+          "Vector",
+          "OldTex",
+          "VGroup",
+          "Brace",
+          "Line",
+          "Square"
+        ],
+        "animationGrammar": [
+          "Write",
+          "FadeIn",
+          "ApplyMethod",
+          "ShowCreation",
+          "Transform",
+          "MoveToTarget"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2016_eola_chapter2",
+      "branch": "linear-algebra-vectors",
+      "grades": "10-12",
+      "filePath": "_2016_eola_chapter2.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "linear-algebra-vectors",
+        "2016",
+        "eola",
+        "chapter2"
+      ],
+      "visualDNA": {
+        "objects": [
+          "Vector",
+          "VMobject",
+          "OldTex"
+        ],
+        "animationGrammar": [
+          "FadeIn",
+          "Write",
+          "Transform",
+          "FadeOut",
+          "ApplyMethod"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2016_eola_chapter3",
+      "branch": "linear-algebra-vectors",
+      "grades": "10-12",
+      "filePath": "_2016_eola_chapter3.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "linear-algebra-vectors",
+        "2016",
+        "eola",
+        "chapter3"
+      ],
+      "visualDNA": {
+        "objects": [
+          "VMobject",
+          "Brace",
+          "OldTex",
+          "Dot",
+          "Vector"
+        ],
+        "animationGrammar": [
+          "FadeIn",
+          "Write",
+          "ApplyMethod",
+          "Transform",
+          "FadeOut",
+          "ShowCreation"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2016_eola_chapter4",
+      "branch": "linear-algebra-vectors",
+      "grades": "10-12",
+      "filePath": "_2016_eola_chapter4.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "linear-algebra-vectors",
+        "2016",
+        "eola",
+        "chapter4"
+      ],
+      "visualDNA": {
+        "objects": [
+          "Arrow",
+          "VMobject",
+          "OldTex"
+        ],
+        "animationGrammar": [
+          "FadeIn",
+          "Write",
+          "ApplyMethod",
+          "ShowCreation",
+          "Transform"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2016_eola_chapter5",
+      "branch": "linear-algebra-vectors",
+      "grades": "10-12",
+      "filePath": "_2016_eola_chapter5.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "linear-algebra-vectors",
+        "2016",
+        "eola",
+        "chapter5"
+      ],
+      "visualDNA": {
+        "objects": [
+          "VMobject",
+          "OldTex",
+          "Arrow",
+          "Brace",
+          "Square"
+        ],
+        "animationGrammar": [
+          "FadeIn",
+          "Write",
+          "ShowCreation",
+          "Transform"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2016_eola_chapter6",
+      "branch": "linear-algebra-vectors",
+      "grades": "10-12",
+      "filePath": "_2016_eola_chapter6.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "linear-algebra-vectors",
+        "2016",
+        "eola",
+        "chapter6"
+      ],
+      "visualDNA": {
+        "objects": [
+          "VMobject",
+          "OldTex",
+          "Brace",
+          "Line",
+          "Circle",
+          "Vector"
+        ],
+        "animationGrammar": [
+          "FadeIn",
+          "Write",
+          "ApplyMethod",
+          "Transform",
+          "ShowCreation",
+          "FadeOut"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2016_eola_chapter7",
+      "branch": "linear-algebra-vectors",
+      "grades": "10-12",
+      "filePath": "_2016_eola_chapter7.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "linear-algebra-vectors",
+        "2016",
+        "eola",
+        "chapter7"
+      ],
+      "visualDNA": {
+        "objects": [
+          "Vector",
+          "VMobject",
+          "Line",
+          "OldTex",
+          "VGroup",
+          "Arrow",
+          "Brace"
+        ],
+        "animationGrammar": [
+          "FadeIn",
+          "Write",
+          "ShowCreation",
+          "Transform"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2016_eola_chapter8p2",
+      "branch": "linear-algebra-vectors",
+      "grades": "10-12",
+      "filePath": "_2016_eola_chapter8p2.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "linear-algebra-vectors",
+        "2016",
+        "eola",
+        "chapter8p2"
+      ],
+      "visualDNA": {
+        "objects": [
+          "OldTex",
+          "Brace",
+          "VGroup",
+          "Line",
+          "Rectangle",
+          "Vector"
+        ],
+        "animationGrammar": [
+          "FadeIn",
+          "Write",
+          "ShowCreation",
+          "Transform"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2016_eola_chapter9",
+      "branch": "linear-algebra-vectors",
+      "grades": "10-12",
+      "filePath": "_2016_eola_chapter9.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "linear-algebra-vectors",
+        "2016",
+        "eola",
+        "chapter9"
+      ],
+      "visualDNA": {
+        "objects": [
+          "VGroup",
+          "Vector",
+          "Line",
+          "OldTex"
+        ],
+        "animationGrammar": [
+          "FadeIn",
+          "Write",
+          "ApplyMethod",
+          "ShowCreation",
+          "FadeOut",
+          "Transform"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2016_eola_footnote",
+      "branch": "linear-algebra-vectors",
+      "grades": "10-12",
+      "filePath": "_2016_eola_footnote.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "linear-algebra-vectors",
+        "2016",
+        "eola",
+        "footnote"
+      ],
+      "visualDNA": {
+        "objects": [
+          "OldTex",
+          "VMobject",
+          "Brace"
+        ],
+        "animationGrammar": [
+          "FadeIn",
+          "Write",
+          "Transform",
+          "FadeOut"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2016_eola_footnote2",
+      "branch": "linear-algebra-vectors",
+      "grades": "10-12",
+      "filePath": "_2016_eola_footnote2.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "linear-algebra-vectors",
+        "2016",
+        "eola",
+        "footnote2"
+      ],
+      "visualDNA": {
+        "objects": [
+          "Arrow",
+          "VMobject",
+          "OldTex",
+          "Brace",
+          "Dot"
+        ],
+        "animationGrammar": [
+          "FadeIn",
+          "Write",
+          "FadeOut",
+          "ShowCreation",
+          "ApplyMethod",
+          "Transform"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2016_eola_thumbnails",
+      "branch": "linear-algebra-vectors",
+      "grades": "10-12",
+      "filePath": "_2016_eola_thumbnails.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "linear-algebra-vectors",
+        "2016",
+        "eola",
+        "thumbnails"
+      ],
+      "visualDNA": {
+        "objects": [
+          "Vector",
+          "VMobject",
+          "OldTex"
+        ],
+        "animationGrammar": [],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "3b1b_videos:354",
+      "branch": "linear-algebra-vectors",
+      "grades": "10-12",
+      "filePath": "_2016/eola/chapter7.py",
+      "source": "3b1b_videos",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "linear-algebra-vectors",
+        "2016",
+        "eola",
+        "chapter7"
+      ],
+      "visualDNA": {
+        "objects": [
+          "VMobject",
+          "Line"
+        ],
+        "animationGrammar": [
+          "Write",
+          "FadeIn",
+          "ShowCreation"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "3b1b_videos:20",
+      "branch": "number-theory",
+      "grades": "5-12",
+      "filePath": "_2015/eulers_characteristic_formula.py",
+      "source": "3b1b_videos",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "number-theory",
+        "2015",
+        "eulers",
+        "characteristic",
+        "formula"
+      ],
+      "visualDNA": {
+        "objects": [
+          "Line"
+        ],
+        "animationGrammar": [
+          "ShowCreation",
+          "Transform"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2016_fractal_charm",
+      "branch": "number-theory",
+      "grades": "5-12",
+      "filePath": "_2016_fractal_charm.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "number-theory",
+        "2016",
+        "fractal",
+        "charm"
+      ],
+      "visualDNA": {
+        "objects": [],
+        "animationGrammar": [
+          "FadeIn",
+          "Transform",
+          "MoveToTarget"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "3b1b_videos:1940",
+      "branch": "number-theory",
+      "grades": "5-12",
+      "filePath": "_2018/borsuk_addition.py",
+      "source": "3b1b_videos",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "number-theory",
+        "2018",
+        "borsuk",
+        "addition"
+      ],
+      "visualDNA": {
+        "objects": [
+          "VGroup",
+          "Arrow",
+          "VMobject"
+        ],
+        "animationGrammar": [
+          "ApplyMethod",
+          "Write"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "3b1b_videos:3200",
+      "branch": "number-theory",
+      "grades": "5-12",
+      "filePath": "_2019/spirals.py",
+      "source": "3b1b_videos",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "number-theory",
+        "2019",
+        "spirals"
+      ],
+      "visualDNA": {
+        "objects": [
+          "VGroup"
+        ],
+        "animationGrammar": [],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "3b1b_videos:3419",
+      "branch": "number-theory",
+      "grades": "5-12",
+      "filePath": "_2020/chess.py",
+      "source": "3b1b_videos",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "number-theory",
+        "2020",
+        "chess"
+      ],
+      "visualDNA": {
+        "objects": [
+          "VGroup"
+        ],
+        "animationGrammar": [
+          "FadeIn",
+          "FadeOut",
+          "MoveToTarget",
+          "Rotate"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "3b1b_videos:3506",
+      "branch": "number-theory",
+      "grades": "5-12",
+      "filePath": "_2020/hamming.py",
+      "source": "3b1b_videos",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "number-theory",
+        "2020",
+        "hamming"
+      ],
+      "visualDNA": {
+        "objects": [
+          "VGroup",
+          "Rectangle"
+        ],
+        "animationGrammar": [
+          "AnimationGroup",
+          "ApplyMethod",
+          "FadeOut",
+          "ShowCreation"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "3b1b_videos:4162",
+      "branch": "number-theory",
+      "grades": "5-12",
+      "filePath": "_2022/infinity/roar_to_picture.py",
+      "source": "3b1b_videos",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "number-theory",
+        "2022",
+        "infinity",
+        "roar",
+        "picture"
+      ],
+      "visualDNA": {
+        "objects": [
+          "Line",
+          "VGroup",
+          "Text"
+        ],
+        "animationGrammar": [
+          "FadeIn",
+          "LaggedStart",
+          "Write"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "3b1b_videos:4473",
+      "branch": "number-theory",
+      "grades": "5-12",
+      "filePath": "_2023/clt/wordy_scenes.py",
+      "source": "3b1b_videos",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "number-theory",
+        "2023",
+        "wordy",
+        "scenes"
+      ],
+      "visualDNA": {
+        "objects": [
+          "Line",
+          "VGroup",
+          "Tex",
+          "NumberLine",
+          "Rectangle",
+          "Arrow"
+        ],
+        "animationGrammar": [],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "3b1b_videos:4638",
+      "branch": "number-theory",
+      "grades": "5-12",
+      "filePath": "_2023/moser_reboot/main.py",
+      "source": "3b1b_videos",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "number-theory",
+        "2023",
+        "moser",
+        "reboot",
+        "main"
+      ],
+      "visualDNA": {
+        "objects": [
+          "Tex",
+          "Circle",
+          "VGroup",
+          "Dot",
+          "Line"
+        ],
+        "animationGrammar": [
+          "Write"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "3b1b_videos:5707",
+      "branch": "number-theory",
+      "grades": "5-12",
+      "filePath": "once_useful_constructs/homeless.py",
+      "source": "3b1b_videos",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "number-theory",
+        "once",
+        "useful",
+        "constructs",
+        "homeless"
+      ],
+      "visualDNA": {
+        "objects": [
+          "VGroup",
+          "Dot"
+        ],
+        "animationGrammar": [],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2016_brachistochrone_drawing_images",
+      "branch": "probability-statistics",
+      "grades": "6-12",
+      "filePath": "_2016_brachistochrone_drawing_images.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "probability-statistics",
+        "2016",
+        "brachistochrone",
+        "drawing",
+        "images"
+      ],
+      "visualDNA": {
+        "objects": [
+          "Square",
+          "OldTex",
+          "Arrow"
+        ],
+        "animationGrammar": [
+          "FadeIn",
+          "ShowCreation",
+          "Transform",
+          "FadeOut",
+          "ApplyMethod"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2015_ka_playgrounds_jacobian_animations",
+      "branch": "trigonometry",
+      "grades": "9-12",
+      "filePath": "_2015_ka_playgrounds_jacobian_animations.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "trigonometry",
+        "2015",
+        "playgrounds",
+        "jacobian",
+        "animations"
+      ],
+      "visualDNA": {
+        "objects": [
+          "VGroup",
+          "Line"
+        ],
+        "animationGrammar": [
+          "ShowCreation",
+          "ApplyMethod"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2015_matrix_as_transform_2d",
+      "branch": "trigonometry",
+      "grades": "9-12",
+      "filePath": "_2015_matrix_as_transform_2d.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "trigonometry",
+        "2015",
+        "matrix",
+        "transform"
+      ],
+      "visualDNA": {
+        "objects": [
+          "Arrow",
+          "Rectangle"
+        ],
+        "animationGrammar": [
+          "ApplyMethod",
+          "Transform"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2015_moser_main",
+      "branch": "trigonometry",
+      "grades": "9-12",
+      "filePath": "_2015_moser_main.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "trigonometry",
+        "2015",
+        "moser",
+        "main"
+      ],
+      "visualDNA": {
+        "objects": [
+          "Circle",
+          "Dot",
+          "Line",
+          "OldTex"
+        ],
+        "animationGrammar": [
+          "Transform",
+          "FadeIn",
+          "ShowCreation",
+          "FadeOut"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2015_tau_poem",
+      "branch": "trigonometry",
+      "grades": "9-12",
+      "filePath": "_2015_tau_poem.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "trigonometry",
+        "2015",
+        "poem"
+      ],
+      "visualDNA": {
+        "objects": [
+          "OldTex",
+          "Dot",
+          "Axes",
+          "Line",
+          "Circle"
+        ],
+        "animationGrammar": [
+          "ApplyMethod",
+          "Transform",
+          "ShowCreation",
+          "FadeIn"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2016_brachistochrone_misc",
+      "branch": "trigonometry",
+      "grades": "9-12",
+      "filePath": "_2016_brachistochrone_misc.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "trigonometry",
+        "2016",
+        "brachistochrone",
+        "misc"
+      ],
+      "visualDNA": {
+        "objects": [
+          "Arrow",
+          "OldTex",
+          "NumberLine",
+          "Line",
+          "Circle",
+          "Dot",
+          "Rectangle",
+          "Brace"
+        ],
+        "animationGrammar": [
+          "ShowCreation",
+          "Transform",
+          "ApplyMethod",
+          "FadeIn",
+          "FadeOut"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    },
+    {
+      "id": "golden:_2016_eola_chapter10",
+      "branch": "trigonometry",
+      "grades": "9-12",
+      "filePath": "_2016_eola_chapter10.py",
+      "source": "golden_set",
+      "sourceKind": "manim-code-pattern",
+      "topics": [
+        "trigonometry",
+        "2016",
+        "eola",
+        "chapter10"
+      ],
+      "visualDNA": {
+        "objects": [
+          "OldTex",
+          "Line",
+          "Rectangle",
+          "VGroup",
+          "Vector",
+          "Brace"
+        ],
+        "animationGrammar": [
+          "Write",
+          "FadeIn",
+          "ApplyMethod",
+          "MoveToTarget",
+          "ShowCreation",
+          "Transform"
+        ],
+        "teachingSequence": [
+          "introduce visual object",
+          "apply one visible transformation at a time",
+          "preserve spatial continuity",
+          "connect visual change to the current mathematical statement"
+        ],
+        "rules": [
+          "adapt the technique, never copy source narration",
+          "prefer diagrams/equations over prose",
+          "one conceptual change per beat",
+          "keep labels short"
+        ],
+        "videoRequired": false
+      },
+      "provenance": {
+        "repository": "3b1b/videos or curated golden-set source",
+        "licenseNote": "Retain source attribution/license metadata; AI-Guru runtime uses extracted pattern/DNA rather than redistributing a finished source video."
+      }
+    }
+  ]
+}

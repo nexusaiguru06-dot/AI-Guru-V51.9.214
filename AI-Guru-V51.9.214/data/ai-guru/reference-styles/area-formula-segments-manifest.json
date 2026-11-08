@@ -1,0 +1,76 @@
+{
+  "version": "1.0",
+  "sourceDurationMs": 112000,
+  "segments": [
+    {
+      "id": "area-formula-intro",
+      "asset": "/reference-styles/problem-solving/geometry/intro.mp4",
+      "sourceStartMs": 0,
+      "sourceEndMs": 6000,
+      "shape": null,
+      "styleId": "area-formula-visual-derivation-reference",
+      "qaProfileId": "geometry-area-derivation-v2",
+      "parentReferenceId": "area-formula-visual-derivation-reference"
+    },
+    {
+      "id": "area-formula-rectangle",
+      "asset": "/reference-styles/problem-solving/geometry/rectangle.mp4",
+      "sourceStartMs": 6000,
+      "sourceEndMs": 26000,
+      "shape": "rectangle",
+      "styleId": "area-formula-visual-derivation-reference",
+      "qaProfileId": "geometry-area-derivation-v2",
+      "parentReferenceId": "area-formula-visual-derivation-reference"
+    },
+    {
+      "id": "area-formula-square",
+      "asset": "/reference-styles/problem-solving/geometry/square.mp4",
+      "sourceStartMs": 26000,
+      "sourceEndMs": 35000,
+      "shape": "square",
+      "styleId": "area-formula-visual-derivation-reference",
+      "qaProfileId": "geometry-area-derivation-v2",
+      "parentReferenceId": "area-formula-visual-derivation-reference"
+    },
+    {
+      "id": "area-formula-triangle",
+      "asset": "/reference-styles/problem-solving/geometry/triangle.mp4",
+      "sourceStartMs": 35000,
+      "sourceEndMs": 56000,
+      "shape": "triangle",
+      "styleId": "area-formula-visual-derivation-reference",
+      "qaProfileId": "geometry-area-derivation-v2",
+      "parentReferenceId": "area-formula-visual-derivation-reference"
+    },
+    {
+      "id": "area-formula-parallelogram",
+      "asset": "/reference-styles/problem-solving/geometry/parallelogram.mp4",
+      "sourceStartMs": 56000,
+      "sourceEndMs": 77000,
+      "shape": "parallelogram",
+      "styleId": "area-formula-visual-derivation-reference",
+      "qaProfileId": "geometry-area-derivation-v2",
+      "parentReferenceId": "area-formula-visual-derivation-reference"
+    },
+    {
+      "id": "area-formula-rhombus",
+      "asset": "/reference-styles/problem-solving/geometry/rhombus.mp4",
+      "sourceStartMs": 77000,
+      "sourceEndMs": 91000,
+      "shape": "rhombus",
+      "styleId": "area-formula-visual-derivation-reference",
+      "qaProfileId": "geometry-area-derivation-v2",
+      "parentReferenceId": "area-formula-visual-derivation-reference"
+    },
+    {
+      "id": "area-formula-trapezium",
+      "asset": "/reference-styles/problem-solving/geometry/trapezium.mp4",
+      "sourceStartMs": 91000,
+      "sourceEndMs": 112000,
+      "shape": "trapezium",
+      "styleId": "area-formula-visual-derivation-reference",
+      "qaProfileId": "geometry-area-derivation-v2",
+      "parentReferenceId": "area-formula-visual-derivation-reference"
+    }
+  ]
+}

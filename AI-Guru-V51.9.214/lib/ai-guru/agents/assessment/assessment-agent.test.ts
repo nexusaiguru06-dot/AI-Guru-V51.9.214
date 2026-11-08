@@ -1,0 +1,6 @@
+import { describe, expect, it } from 'vitest';
+import { AssessmentAgent } from './assessment-agent';
+import { ids } from '../../contracts';
+import type { Lesson } from '../../contracts';
+const lesson: Lesson = { schemaVersion:'2.0', id:ids.lesson('s6-test'), courseId:ids.course('c'), bookId:ids.book('b'), chapterId:ids.chapter('ch'), title:'T', language:{source:'english',target:'malayalam'}, teachingMode:'two-pass', paragraphs:[{ id:ids.paragraph('s6-test',0), index:0, source:{bookId:ids.book('b'),chapterId:ids.chapter('ch'),pageNumber:1,pageImage:'p',text:'x'}, teachingIntent:'x', explanation:{english:'x',malayalam:'x'}, visualSteps:[], audioCues:[], checkpoints:[{id:'cp1',paragraphId:ids.paragraph('s6-test',0),prompt:'What is 2+2?',expected:'4'}], problems:[],state:'idle',qa:{content:'passed',lesson:'passed',visual:'passed',classroom:'passed'}}]};
+describe('AssessmentAgent',()=>{it('builds paragraph-scoped items and evaluates answers',async()=>{const a=new AssessmentAgent();const r=await a.execute({agent:'assessment',context:{runId:ids.agentRun('s6')},input:{lesson}});expect(r.output?.items).toHaveLength(1);const e=a.evaluate({agent:'assessment',context:{runId:ids.agentRun('s6e')},input:{lesson,response:{itemId:'cp1',answer:'4'}}});expect(e.output?.correct).toBe(true);});});

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=1920, height=1080"/>
+<link rel="stylesheet" href="common.css"/>
+<style>
+#root{background:#fbf7ea;background-image:repeating-linear-gradient(transparent 0,transparent 71px,#9ec5e8 72px)}
+#mg{position:absolute;left:210px;top:0;width:4px;height:1080px;background:#e57373}
+#hl{position:absolute;left:250px;height:150px;width:0;background:#fde047;opacity:.75;border-radius:8px;transform:skewX(-6deg)}
+#h{position:absolute;left:270px;top:380px;color:#1e293b}
+#s{position:absolute;right:130px;top:120px;width:480px;padding:34px 36px;background:#fef08a;color:#44403c;font-size:44px;font-weight:700;line-height:1.25;transform:rotate(4deg);box-shadow:8px 14px 30px rgba(0,0,0,.25);opacity:0;white-space:normal}
+#k{position:absolute;left:270px;top:300px;color:#e11d48;font-size:34px;letter-spacing:.25em;opacity:0}
+.st{position:absolute;color:#f59e0b;font-size:70px;opacity:0}
+.nosub #s{display:none}
+</style></head><body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="5" data-width="1920" data-height="1080">
+<div id="mg"></div><div id="hl"></div><div id="k" class="t"></div><div id="h" class="t"></div><div id="s"></div><div class="st" style="left:1500px;top:760px">★</div><div class="st" style="left:1640px;top:690px;font-size:46px">✦</div>
+</div>
+<script src="gsap.min.js"></script><script src="data.js"></script><script src="common.js"></script>
+<script>
+const tl = gsap.timeline({ paused: true });
+
+document.getElementById('k').textContent = D.kicker || ''; document.getElementById('s').textContent = D.sub || '';
+const h = document.getElementById('h'); const us = splitUnits(h, D.heading); const fs = fitText(h, 1500, 170);
+const hl = document.getElementById('hl'); hl.style.top = (380 + fs * .58) + 'px'; hl.style.height = (fs * .5) + 'px';
+tl.fromTo(us, { opacity: 0, y: -30 }, { opacity: 1, y: 0, duration: .25, stagger: ML ? .25 : .07 }, 0.4);
+tl.to(hl, { width: Math.min(h.scrollWidth + 40, 1560), duration: 1, ease: 'power2.out' }, 1.5);
+tl.to('#k', { opacity: 1, duration: .5 }, 0.2);
+tl.fromTo('#s', { opacity: 0, scale: .6, rotate: -8 }, { opacity: 1, scale: 1, rotate: 4, duration: .6, ease: 'back.out(1.8)' }, 2);
+tl.to('.st', { opacity: 1, rotate: 360, duration: .8, stagger: .2 }, 2.4);
+tl.to('#root', { opacity: 0, duration: 0.4 }, 4.6);
+window.__timelines['main'] = tl; tl.seek(0);
+</script></body></html>

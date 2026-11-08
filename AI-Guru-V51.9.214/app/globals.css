@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+:root {
+  color-scheme: dark;
+  background: #060B18;
+  color: #fff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #060B18;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(103, 232, 249, 0.25);
+}
+
+.ai-guru-malayalam,
+.ai-guru-malayalam * {
+  font-family: "Chilanka", "Noto Sans Malayalam", "Nirmala UI", sans-serif;
+}
+
+/* V51.9.59 — camera/mic doubt pane (from the RAG Classroom) */
+.hardware-dock-center { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%); }
+@media (min-width: 768px) { .hardware-dock-center { bottom: 24px; left: auto; right: 24px; transform: none; } }
+.custom-scrollbar::-webkit-scrollbar { width: 5px; }
+.custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+.custom-scrollbar::-webkit-scrollbar-thumb { background: #312e81; border-radius: 10px; }

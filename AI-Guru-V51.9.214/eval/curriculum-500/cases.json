@@ -1,0 +1,6865 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-09-13T00:00:00Z",
+  "target": 500,
+  "officialCount": 0,
+  "generatedCount": 500,
+  "cases": [
+    {
+      "id": "benchmark-0001",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "arithmetic",
+      "domain": "arithmetic",
+      "prompt": "Class 1: explain a representative arithmetic problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "line",
+        "shape"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0002",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "fractions",
+      "domain": "fractions",
+      "prompt": "Class 2: explain a representative fractions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0003",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "decimals_percentages",
+      "domain": "decimals_percentages",
+      "prompt": "Class 3: explain a representative decimals percentages problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "text",
+        "line"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0004",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "ratio_proportion",
+      "domain": "ratio_proportion",
+      "prompt": "Class 4: explain a representative ratio proportion problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0005",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "algebra",
+      "domain": "algebra",
+      "prompt": "Class 5: explain a representative algebra problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0006",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "linear_equations",
+      "domain": "linear_equations",
+      "prompt": "Class 6: explain a representative linear equations problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "arrow",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0007",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "polynomials",
+      "domain": "polynomials",
+      "prompt": "Class 7: explain a representative polynomials problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0008",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "sequences_series",
+      "domain": "sequences_series",
+      "prompt": "Class 8: explain a representative sequences series problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0009",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "coordinate_geometry",
+      "domain": "coordinate_geometry",
+      "prompt": "Class 9: explain a representative coordinate geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0010",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "functions",
+      "domain": "functions",
+      "prompt": "Class 10: explain a representative functions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0011",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "trigonometry",
+      "domain": "trigonometry",
+      "prompt": "Class 11: explain a representative trigonometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "graph"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0012",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "geometry",
+      "domain": "geometry",
+      "prompt": "Class 12: explain a representative geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0013",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "mensuration",
+      "domain": "mensuration",
+      "prompt": "Class 1: explain a representative mensuration problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0014",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "calculus",
+      "domain": "calculus",
+      "prompt": "Class 2: explain a representative calculus problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0015",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "statistics",
+      "domain": "statistics",
+      "prompt": "Class 3: explain a representative statistics problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0016",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "probability",
+      "domain": "probability",
+      "prompt": "Class 4: explain a representative probability problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0017",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "matrices",
+      "domain": "matrices",
+      "prompt": "Class 5: explain a representative matrices problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0018",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "vectors",
+      "domain": "vectors",
+      "prompt": "Class 6: explain a representative vectors problem and show each step visually.",
+      "expectedVisualKinds": [
+        "arrow",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0019",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "complex_numbers",
+      "domain": "complex_numbers",
+      "prompt": "Class 7: explain a representative complex numbers problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0020",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "financial_math",
+      "domain": "financial_math",
+      "prompt": "Class 8: explain a representative financial math problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0021",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "3d_geometry",
+      "domain": "3d_geometry",
+      "prompt": "Class 9: explain a representative 3d geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0022",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "arithmetic",
+      "domain": "arithmetic",
+      "prompt": "Class 10: explain a representative arithmetic problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "line",
+        "shape"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0023",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "fractions",
+      "domain": "fractions",
+      "prompt": "Class 11: explain a representative fractions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0024",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "decimals_percentages",
+      "domain": "decimals_percentages",
+      "prompt": "Class 12: explain a representative decimals percentages problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "text",
+        "line"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0025",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "ratio_proportion",
+      "domain": "ratio_proportion",
+      "prompt": "Class 1: explain a representative ratio proportion problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0026",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "algebra",
+      "domain": "algebra",
+      "prompt": "Class 2: explain a representative algebra problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0027",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "linear_equations",
+      "domain": "linear_equations",
+      "prompt": "Class 3: explain a representative linear equations problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "arrow",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0028",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "polynomials",
+      "domain": "polynomials",
+      "prompt": "Class 4: explain a representative polynomials problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0029",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "sequences_series",
+      "domain": "sequences_series",
+      "prompt": "Class 5: explain a representative sequences series problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0030",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "coordinate_geometry",
+      "domain": "coordinate_geometry",
+      "prompt": "Class 6: explain a representative coordinate geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0031",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "functions",
+      "domain": "functions",
+      "prompt": "Class 7: explain a representative functions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0032",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "trigonometry",
+      "domain": "trigonometry",
+      "prompt": "Class 8: explain a representative trigonometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "graph"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0033",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "geometry",
+      "domain": "geometry",
+      "prompt": "Class 9: explain a representative geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0034",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "mensuration",
+      "domain": "mensuration",
+      "prompt": "Class 10: explain a representative mensuration problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0035",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "calculus",
+      "domain": "calculus",
+      "prompt": "Class 11: explain a representative calculus problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0036",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "statistics",
+      "domain": "statistics",
+      "prompt": "Class 12: explain a representative statistics problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0037",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "probability",
+      "domain": "probability",
+      "prompt": "Class 1: explain a representative probability problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0038",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "matrices",
+      "domain": "matrices",
+      "prompt": "Class 2: explain a representative matrices problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0039",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "vectors",
+      "domain": "vectors",
+      "prompt": "Class 3: explain a representative vectors problem and show each step visually.",
+      "expectedVisualKinds": [
+        "arrow",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0040",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "complex_numbers",
+      "domain": "complex_numbers",
+      "prompt": "Class 4: explain a representative complex numbers problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0041",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "financial_math",
+      "domain": "financial_math",
+      "prompt": "Class 5: explain a representative financial math problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0042",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "3d_geometry",
+      "domain": "3d_geometry",
+      "prompt": "Class 6: explain a representative 3d geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0043",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "arithmetic",
+      "domain": "arithmetic",
+      "prompt": "Class 7: explain a representative arithmetic problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "line",
+        "shape"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0044",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "fractions",
+      "domain": "fractions",
+      "prompt": "Class 8: explain a representative fractions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0045",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "decimals_percentages",
+      "domain": "decimals_percentages",
+      "prompt": "Class 9: explain a representative decimals percentages problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "text",
+        "line"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0046",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "ratio_proportion",
+      "domain": "ratio_proportion",
+      "prompt": "Class 10: explain a representative ratio proportion problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0047",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "algebra",
+      "domain": "algebra",
+      "prompt": "Class 11: explain a representative algebra problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0048",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "linear_equations",
+      "domain": "linear_equations",
+      "prompt": "Class 12: explain a representative linear equations problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "arrow",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0049",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "polynomials",
+      "domain": "polynomials",
+      "prompt": "Class 1: explain a representative polynomials problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0050",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "sequences_series",
+      "domain": "sequences_series",
+      "prompt": "Class 2: explain a representative sequences series problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0051",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "coordinate_geometry",
+      "domain": "coordinate_geometry",
+      "prompt": "Class 3: explain a representative coordinate geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0052",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "functions",
+      "domain": "functions",
+      "prompt": "Class 4: explain a representative functions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0053",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "trigonometry",
+      "domain": "trigonometry",
+      "prompt": "Class 5: explain a representative trigonometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "graph"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0054",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "geometry",
+      "domain": "geometry",
+      "prompt": "Class 6: explain a representative geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0055",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "mensuration",
+      "domain": "mensuration",
+      "prompt": "Class 7: explain a representative mensuration problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0056",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "calculus",
+      "domain": "calculus",
+      "prompt": "Class 8: explain a representative calculus problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0057",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "statistics",
+      "domain": "statistics",
+      "prompt": "Class 9: explain a representative statistics problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0058",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "probability",
+      "domain": "probability",
+      "prompt": "Class 10: explain a representative probability problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0059",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "matrices",
+      "domain": "matrices",
+      "prompt": "Class 11: explain a representative matrices problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0060",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "vectors",
+      "domain": "vectors",
+      "prompt": "Class 12: explain a representative vectors problem and show each step visually.",
+      "expectedVisualKinds": [
+        "arrow",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0061",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "complex_numbers",
+      "domain": "complex_numbers",
+      "prompt": "Class 1: explain a representative complex numbers problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0062",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "financial_math",
+      "domain": "financial_math",
+      "prompt": "Class 2: explain a representative financial math problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0063",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "3d_geometry",
+      "domain": "3d_geometry",
+      "prompt": "Class 3: explain a representative 3d geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0064",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "arithmetic",
+      "domain": "arithmetic",
+      "prompt": "Class 4: explain a representative arithmetic problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "line",
+        "shape"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0065",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "fractions",
+      "domain": "fractions",
+      "prompt": "Class 5: explain a representative fractions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0066",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "decimals_percentages",
+      "domain": "decimals_percentages",
+      "prompt": "Class 6: explain a representative decimals percentages problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "text",
+        "line"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0067",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "ratio_proportion",
+      "domain": "ratio_proportion",
+      "prompt": "Class 7: explain a representative ratio proportion problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0068",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "algebra",
+      "domain": "algebra",
+      "prompt": "Class 8: explain a representative algebra problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0069",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "linear_equations",
+      "domain": "linear_equations",
+      "prompt": "Class 9: explain a representative linear equations problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "arrow",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0070",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "polynomials",
+      "domain": "polynomials",
+      "prompt": "Class 10: explain a representative polynomials problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0071",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "sequences_series",
+      "domain": "sequences_series",
+      "prompt": "Class 11: explain a representative sequences series problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0072",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "coordinate_geometry",
+      "domain": "coordinate_geometry",
+      "prompt": "Class 12: explain a representative coordinate geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0073",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "functions",
+      "domain": "functions",
+      "prompt": "Class 1: explain a representative functions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0074",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "trigonometry",
+      "domain": "trigonometry",
+      "prompt": "Class 2: explain a representative trigonometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "graph"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0075",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "geometry",
+      "domain": "geometry",
+      "prompt": "Class 3: explain a representative geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0076",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "mensuration",
+      "domain": "mensuration",
+      "prompt": "Class 4: explain a representative mensuration problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0077",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "calculus",
+      "domain": "calculus",
+      "prompt": "Class 5: explain a representative calculus problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0078",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "statistics",
+      "domain": "statistics",
+      "prompt": "Class 6: explain a representative statistics problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0079",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "probability",
+      "domain": "probability",
+      "prompt": "Class 7: explain a representative probability problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0080",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "matrices",
+      "domain": "matrices",
+      "prompt": "Class 8: explain a representative matrices problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0081",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "vectors",
+      "domain": "vectors",
+      "prompt": "Class 9: explain a representative vectors problem and show each step visually.",
+      "expectedVisualKinds": [
+        "arrow",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0082",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "complex_numbers",
+      "domain": "complex_numbers",
+      "prompt": "Class 10: explain a representative complex numbers problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0083",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "financial_math",
+      "domain": "financial_math",
+      "prompt": "Class 11: explain a representative financial math problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0084",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "3d_geometry",
+      "domain": "3d_geometry",
+      "prompt": "Class 12: explain a representative 3d geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0085",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "arithmetic",
+      "domain": "arithmetic",
+      "prompt": "Class 1: explain a representative arithmetic problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "line",
+        "shape"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0086",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "fractions",
+      "domain": "fractions",
+      "prompt": "Class 2: explain a representative fractions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0087",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "decimals_percentages",
+      "domain": "decimals_percentages",
+      "prompt": "Class 3: explain a representative decimals percentages problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "text",
+        "line"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0088",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "ratio_proportion",
+      "domain": "ratio_proportion",
+      "prompt": "Class 4: explain a representative ratio proportion problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0089",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "algebra",
+      "domain": "algebra",
+      "prompt": "Class 5: explain a representative algebra problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0090",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "linear_equations",
+      "domain": "linear_equations",
+      "prompt": "Class 6: explain a representative linear equations problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "arrow",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0091",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "polynomials",
+      "domain": "polynomials",
+      "prompt": "Class 7: explain a representative polynomials problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0092",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "sequences_series",
+      "domain": "sequences_series",
+      "prompt": "Class 8: explain a representative sequences series problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0093",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "coordinate_geometry",
+      "domain": "coordinate_geometry",
+      "prompt": "Class 9: explain a representative coordinate geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0094",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "functions",
+      "domain": "functions",
+      "prompt": "Class 10: explain a representative functions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0095",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "trigonometry",
+      "domain": "trigonometry",
+      "prompt": "Class 11: explain a representative trigonometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "graph"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0096",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "geometry",
+      "domain": "geometry",
+      "prompt": "Class 12: explain a representative geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0097",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "mensuration",
+      "domain": "mensuration",
+      "prompt": "Class 1: explain a representative mensuration problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0098",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "calculus",
+      "domain": "calculus",
+      "prompt": "Class 2: explain a representative calculus problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0099",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "statistics",
+      "domain": "statistics",
+      "prompt": "Class 3: explain a representative statistics problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0100",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "probability",
+      "domain": "probability",
+      "prompt": "Class 4: explain a representative probability problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0101",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "matrices",
+      "domain": "matrices",
+      "prompt": "Class 5: explain a representative matrices problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0102",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "vectors",
+      "domain": "vectors",
+      "prompt": "Class 6: explain a representative vectors problem and show each step visually.",
+      "expectedVisualKinds": [
+        "arrow",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0103",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "complex_numbers",
+      "domain": "complex_numbers",
+      "prompt": "Class 7: explain a representative complex numbers problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0104",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "financial_math",
+      "domain": "financial_math",
+      "prompt": "Class 8: explain a representative financial math problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0105",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "3d_geometry",
+      "domain": "3d_geometry",
+      "prompt": "Class 9: explain a representative 3d geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0106",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "arithmetic",
+      "domain": "arithmetic",
+      "prompt": "Class 10: explain a representative arithmetic problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "line",
+        "shape"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0107",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "fractions",
+      "domain": "fractions",
+      "prompt": "Class 11: explain a representative fractions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0108",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "decimals_percentages",
+      "domain": "decimals_percentages",
+      "prompt": "Class 12: explain a representative decimals percentages problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "text",
+        "line"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0109",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "ratio_proportion",
+      "domain": "ratio_proportion",
+      "prompt": "Class 1: explain a representative ratio proportion problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0110",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "algebra",
+      "domain": "algebra",
+      "prompt": "Class 2: explain a representative algebra problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0111",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "linear_equations",
+      "domain": "linear_equations",
+      "prompt": "Class 3: explain a representative linear equations problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "arrow",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0112",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "polynomials",
+      "domain": "polynomials",
+      "prompt": "Class 4: explain a representative polynomials problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0113",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "sequences_series",
+      "domain": "sequences_series",
+      "prompt": "Class 5: explain a representative sequences series problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0114",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "coordinate_geometry",
+      "domain": "coordinate_geometry",
+      "prompt": "Class 6: explain a representative coordinate geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0115",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "functions",
+      "domain": "functions",
+      "prompt": "Class 7: explain a representative functions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0116",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "trigonometry",
+      "domain": "trigonometry",
+      "prompt": "Class 8: explain a representative trigonometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "graph"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0117",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "geometry",
+      "domain": "geometry",
+      "prompt": "Class 9: explain a representative geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0118",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "mensuration",
+      "domain": "mensuration",
+      "prompt": "Class 10: explain a representative mensuration problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0119",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "calculus",
+      "domain": "calculus",
+      "prompt": "Class 11: explain a representative calculus problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0120",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "statistics",
+      "domain": "statistics",
+      "prompt": "Class 12: explain a representative statistics problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0121",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "probability",
+      "domain": "probability",
+      "prompt": "Class 1: explain a representative probability problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0122",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "matrices",
+      "domain": "matrices",
+      "prompt": "Class 2: explain a representative matrices problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0123",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "vectors",
+      "domain": "vectors",
+      "prompt": "Class 3: explain a representative vectors problem and show each step visually.",
+      "expectedVisualKinds": [
+        "arrow",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0124",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "complex_numbers",
+      "domain": "complex_numbers",
+      "prompt": "Class 4: explain a representative complex numbers problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0125",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "financial_math",
+      "domain": "financial_math",
+      "prompt": "Class 5: explain a representative financial math problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0126",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "3d_geometry",
+      "domain": "3d_geometry",
+      "prompt": "Class 6: explain a representative 3d geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0127",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "arithmetic",
+      "domain": "arithmetic",
+      "prompt": "Class 7: explain a representative arithmetic problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "line",
+        "shape"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0128",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "fractions",
+      "domain": "fractions",
+      "prompt": "Class 8: explain a representative fractions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0129",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "decimals_percentages",
+      "domain": "decimals_percentages",
+      "prompt": "Class 9: explain a representative decimals percentages problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "text",
+        "line"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0130",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "ratio_proportion",
+      "domain": "ratio_proportion",
+      "prompt": "Class 10: explain a representative ratio proportion problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0131",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "algebra",
+      "domain": "algebra",
+      "prompt": "Class 11: explain a representative algebra problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0132",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "linear_equations",
+      "domain": "linear_equations",
+      "prompt": "Class 12: explain a representative linear equations problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "arrow",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0133",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "polynomials",
+      "domain": "polynomials",
+      "prompt": "Class 1: explain a representative polynomials problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0134",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "sequences_series",
+      "domain": "sequences_series",
+      "prompt": "Class 2: explain a representative sequences series problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0135",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "coordinate_geometry",
+      "domain": "coordinate_geometry",
+      "prompt": "Class 3: explain a representative coordinate geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0136",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "functions",
+      "domain": "functions",
+      "prompt": "Class 4: explain a representative functions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0137",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "trigonometry",
+      "domain": "trigonometry",
+      "prompt": "Class 5: explain a representative trigonometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "graph"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0138",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "geometry",
+      "domain": "geometry",
+      "prompt": "Class 6: explain a representative geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0139",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "mensuration",
+      "domain": "mensuration",
+      "prompt": "Class 7: explain a representative mensuration problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0140",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "calculus",
+      "domain": "calculus",
+      "prompt": "Class 8: explain a representative calculus problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0141",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "statistics",
+      "domain": "statistics",
+      "prompt": "Class 9: explain a representative statistics problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0142",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "probability",
+      "domain": "probability",
+      "prompt": "Class 10: explain a representative probability problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0143",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "matrices",
+      "domain": "matrices",
+      "prompt": "Class 11: explain a representative matrices problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0144",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "vectors",
+      "domain": "vectors",
+      "prompt": "Class 12: explain a representative vectors problem and show each step visually.",
+      "expectedVisualKinds": [
+        "arrow",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0145",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "complex_numbers",
+      "domain": "complex_numbers",
+      "prompt": "Class 1: explain a representative complex numbers problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0146",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "financial_math",
+      "domain": "financial_math",
+      "prompt": "Class 2: explain a representative financial math problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0147",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "3d_geometry",
+      "domain": "3d_geometry",
+      "prompt": "Class 3: explain a representative 3d geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0148",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "arithmetic",
+      "domain": "arithmetic",
+      "prompt": "Class 4: explain a representative arithmetic problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "line",
+        "shape"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0149",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "fractions",
+      "domain": "fractions",
+      "prompt": "Class 5: explain a representative fractions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0150",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "decimals_percentages",
+      "domain": "decimals_percentages",
+      "prompt": "Class 6: explain a representative decimals percentages problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "text",
+        "line"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0151",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "ratio_proportion",
+      "domain": "ratio_proportion",
+      "prompt": "Class 7: explain a representative ratio proportion problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0152",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "algebra",
+      "domain": "algebra",
+      "prompt": "Class 8: explain a representative algebra problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0153",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "linear_equations",
+      "domain": "linear_equations",
+      "prompt": "Class 9: explain a representative linear equations problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "arrow",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0154",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "polynomials",
+      "domain": "polynomials",
+      "prompt": "Class 10: explain a representative polynomials problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0155",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "sequences_series",
+      "domain": "sequences_series",
+      "prompt": "Class 11: explain a representative sequences series problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0156",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "coordinate_geometry",
+      "domain": "coordinate_geometry",
+      "prompt": "Class 12: explain a representative coordinate geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0157",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "functions",
+      "domain": "functions",
+      "prompt": "Class 1: explain a representative functions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0158",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "trigonometry",
+      "domain": "trigonometry",
+      "prompt": "Class 2: explain a representative trigonometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "graph"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0159",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "geometry",
+      "domain": "geometry",
+      "prompt": "Class 3: explain a representative geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0160",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "mensuration",
+      "domain": "mensuration",
+      "prompt": "Class 4: explain a representative mensuration problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0161",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "calculus",
+      "domain": "calculus",
+      "prompt": "Class 5: explain a representative calculus problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0162",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "statistics",
+      "domain": "statistics",
+      "prompt": "Class 6: explain a representative statistics problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0163",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "probability",
+      "domain": "probability",
+      "prompt": "Class 7: explain a representative probability problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0164",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "matrices",
+      "domain": "matrices",
+      "prompt": "Class 8: explain a representative matrices problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0165",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "vectors",
+      "domain": "vectors",
+      "prompt": "Class 9: explain a representative vectors problem and show each step visually.",
+      "expectedVisualKinds": [
+        "arrow",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0166",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "complex_numbers",
+      "domain": "complex_numbers",
+      "prompt": "Class 10: explain a representative complex numbers problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0167",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "financial_math",
+      "domain": "financial_math",
+      "prompt": "Class 11: explain a representative financial math problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0168",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "3d_geometry",
+      "domain": "3d_geometry",
+      "prompt": "Class 12: explain a representative 3d geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0169",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "arithmetic",
+      "domain": "arithmetic",
+      "prompt": "Class 1: explain a representative arithmetic problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "line",
+        "shape"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0170",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "fractions",
+      "domain": "fractions",
+      "prompt": "Class 2: explain a representative fractions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0171",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "decimals_percentages",
+      "domain": "decimals_percentages",
+      "prompt": "Class 3: explain a representative decimals percentages problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "text",
+        "line"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0172",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "ratio_proportion",
+      "domain": "ratio_proportion",
+      "prompt": "Class 4: explain a representative ratio proportion problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0173",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "algebra",
+      "domain": "algebra",
+      "prompt": "Class 5: explain a representative algebra problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0174",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "linear_equations",
+      "domain": "linear_equations",
+      "prompt": "Class 6: explain a representative linear equations problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "arrow",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0175",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "polynomials",
+      "domain": "polynomials",
+      "prompt": "Class 7: explain a representative polynomials problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0176",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "sequences_series",
+      "domain": "sequences_series",
+      "prompt": "Class 8: explain a representative sequences series problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0177",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "coordinate_geometry",
+      "domain": "coordinate_geometry",
+      "prompt": "Class 9: explain a representative coordinate geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0178",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "functions",
+      "domain": "functions",
+      "prompt": "Class 10: explain a representative functions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0179",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "trigonometry",
+      "domain": "trigonometry",
+      "prompt": "Class 11: explain a representative trigonometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "graph"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0180",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "geometry",
+      "domain": "geometry",
+      "prompt": "Class 12: explain a representative geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0181",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "mensuration",
+      "domain": "mensuration",
+      "prompt": "Class 1: explain a representative mensuration problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0182",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "calculus",
+      "domain": "calculus",
+      "prompt": "Class 2: explain a representative calculus problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0183",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "statistics",
+      "domain": "statistics",
+      "prompt": "Class 3: explain a representative statistics problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0184",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "probability",
+      "domain": "probability",
+      "prompt": "Class 4: explain a representative probability problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0185",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "matrices",
+      "domain": "matrices",
+      "prompt": "Class 5: explain a representative matrices problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0186",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "vectors",
+      "domain": "vectors",
+      "prompt": "Class 6: explain a representative vectors problem and show each step visually.",
+      "expectedVisualKinds": [
+        "arrow",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0187",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "complex_numbers",
+      "domain": "complex_numbers",
+      "prompt": "Class 7: explain a representative complex numbers problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0188",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "financial_math",
+      "domain": "financial_math",
+      "prompt": "Class 8: explain a representative financial math problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0189",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "3d_geometry",
+      "domain": "3d_geometry",
+      "prompt": "Class 9: explain a representative 3d geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0190",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "arithmetic",
+      "domain": "arithmetic",
+      "prompt": "Class 10: explain a representative arithmetic problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "line",
+        "shape"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0191",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "fractions",
+      "domain": "fractions",
+      "prompt": "Class 11: explain a representative fractions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0192",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "decimals_percentages",
+      "domain": "decimals_percentages",
+      "prompt": "Class 12: explain a representative decimals percentages problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "text",
+        "line"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0193",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "ratio_proportion",
+      "domain": "ratio_proportion",
+      "prompt": "Class 1: explain a representative ratio proportion problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0194",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "algebra",
+      "domain": "algebra",
+      "prompt": "Class 2: explain a representative algebra problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0195",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "linear_equations",
+      "domain": "linear_equations",
+      "prompt": "Class 3: explain a representative linear equations problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "arrow",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0196",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "polynomials",
+      "domain": "polynomials",
+      "prompt": "Class 4: explain a representative polynomials problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0197",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "sequences_series",
+      "domain": "sequences_series",
+      "prompt": "Class 5: explain a representative sequences series problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0198",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "coordinate_geometry",
+      "domain": "coordinate_geometry",
+      "prompt": "Class 6: explain a representative coordinate geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0199",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "functions",
+      "domain": "functions",
+      "prompt": "Class 7: explain a representative functions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0200",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "trigonometry",
+      "domain": "trigonometry",
+      "prompt": "Class 8: explain a representative trigonometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "graph"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0201",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "geometry",
+      "domain": "geometry",
+      "prompt": "Class 9: explain a representative geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0202",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "mensuration",
+      "domain": "mensuration",
+      "prompt": "Class 10: explain a representative mensuration problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0203",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "calculus",
+      "domain": "calculus",
+      "prompt": "Class 11: explain a representative calculus problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0204",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "statistics",
+      "domain": "statistics",
+      "prompt": "Class 12: explain a representative statistics problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0205",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "probability",
+      "domain": "probability",
+      "prompt": "Class 1: explain a representative probability problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0206",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "matrices",
+      "domain": "matrices",
+      "prompt": "Class 2: explain a representative matrices problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0207",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "vectors",
+      "domain": "vectors",
+      "prompt": "Class 3: explain a representative vectors problem and show each step visually.",
+      "expectedVisualKinds": [
+        "arrow",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0208",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "complex_numbers",
+      "domain": "complex_numbers",
+      "prompt": "Class 4: explain a representative complex numbers problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0209",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "financial_math",
+      "domain": "financial_math",
+      "prompt": "Class 5: explain a representative financial math problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0210",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "3d_geometry",
+      "domain": "3d_geometry",
+      "prompt": "Class 6: explain a representative 3d geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0211",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "arithmetic",
+      "domain": "arithmetic",
+      "prompt": "Class 7: explain a representative arithmetic problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "line",
+        "shape"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0212",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "fractions",
+      "domain": "fractions",
+      "prompt": "Class 8: explain a representative fractions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0213",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "decimals_percentages",
+      "domain": "decimals_percentages",
+      "prompt": "Class 9: explain a representative decimals percentages problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "text",
+        "line"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0214",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "ratio_proportion",
+      "domain": "ratio_proportion",
+      "prompt": "Class 10: explain a representative ratio proportion problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0215",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "algebra",
+      "domain": "algebra",
+      "prompt": "Class 11: explain a representative algebra problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0216",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "linear_equations",
+      "domain": "linear_equations",
+      "prompt": "Class 12: explain a representative linear equations problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "arrow",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0217",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "polynomials",
+      "domain": "polynomials",
+      "prompt": "Class 1: explain a representative polynomials problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0218",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "sequences_series",
+      "domain": "sequences_series",
+      "prompt": "Class 2: explain a representative sequences series problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0219",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "coordinate_geometry",
+      "domain": "coordinate_geometry",
+      "prompt": "Class 3: explain a representative coordinate geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0220",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "functions",
+      "domain": "functions",
+      "prompt": "Class 4: explain a representative functions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0221",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "trigonometry",
+      "domain": "trigonometry",
+      "prompt": "Class 5: explain a representative trigonometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "graph"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0222",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "geometry",
+      "domain": "geometry",
+      "prompt": "Class 6: explain a representative geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0223",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "mensuration",
+      "domain": "mensuration",
+      "prompt": "Class 7: explain a representative mensuration problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0224",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "calculus",
+      "domain": "calculus",
+      "prompt": "Class 8: explain a representative calculus problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0225",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "statistics",
+      "domain": "statistics",
+      "prompt": "Class 9: explain a representative statistics problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0226",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "probability",
+      "domain": "probability",
+      "prompt": "Class 10: explain a representative probability problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0227",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "matrices",
+      "domain": "matrices",
+      "prompt": "Class 11: explain a representative matrices problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0228",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "vectors",
+      "domain": "vectors",
+      "prompt": "Class 12: explain a representative vectors problem and show each step visually.",
+      "expectedVisualKinds": [
+        "arrow",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0229",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "complex_numbers",
+      "domain": "complex_numbers",
+      "prompt": "Class 1: explain a representative complex numbers problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0230",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "financial_math",
+      "domain": "financial_math",
+      "prompt": "Class 2: explain a representative financial math problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0231",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "3d_geometry",
+      "domain": "3d_geometry",
+      "prompt": "Class 3: explain a representative 3d geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0232",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "arithmetic",
+      "domain": "arithmetic",
+      "prompt": "Class 4: explain a representative arithmetic problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "line",
+        "shape"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0233",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "fractions",
+      "domain": "fractions",
+      "prompt": "Class 5: explain a representative fractions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0234",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "decimals_percentages",
+      "domain": "decimals_percentages",
+      "prompt": "Class 6: explain a representative decimals percentages problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "text",
+        "line"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0235",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "ratio_proportion",
+      "domain": "ratio_proportion",
+      "prompt": "Class 7: explain a representative ratio proportion problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0236",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "algebra",
+      "domain": "algebra",
+      "prompt": "Class 8: explain a representative algebra problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0237",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "linear_equations",
+      "domain": "linear_equations",
+      "prompt": "Class 9: explain a representative linear equations problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "arrow",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0238",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "polynomials",
+      "domain": "polynomials",
+      "prompt": "Class 10: explain a representative polynomials problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0239",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "sequences_series",
+      "domain": "sequences_series",
+      "prompt": "Class 11: explain a representative sequences series problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0240",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "coordinate_geometry",
+      "domain": "coordinate_geometry",
+      "prompt": "Class 12: explain a representative coordinate geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0241",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "functions",
+      "domain": "functions",
+      "prompt": "Class 1: explain a representative functions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0242",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "trigonometry",
+      "domain": "trigonometry",
+      "prompt": "Class 2: explain a representative trigonometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "graph"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0243",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "geometry",
+      "domain": "geometry",
+      "prompt": "Class 3: explain a representative geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0244",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "mensuration",
+      "domain": "mensuration",
+      "prompt": "Class 4: explain a representative mensuration problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0245",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "calculus",
+      "domain": "calculus",
+      "prompt": "Class 5: explain a representative calculus problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0246",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "statistics",
+      "domain": "statistics",
+      "prompt": "Class 6: explain a representative statistics problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0247",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "probability",
+      "domain": "probability",
+      "prompt": "Class 7: explain a representative probability problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0248",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "matrices",
+      "domain": "matrices",
+      "prompt": "Class 8: explain a representative matrices problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0249",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "vectors",
+      "domain": "vectors",
+      "prompt": "Class 9: explain a representative vectors problem and show each step visually.",
+      "expectedVisualKinds": [
+        "arrow",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0250",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "complex_numbers",
+      "domain": "complex_numbers",
+      "prompt": "Class 10: explain a representative complex numbers problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0251",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "financial_math",
+      "domain": "financial_math",
+      "prompt": "Class 11: explain a representative financial math problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0252",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "3d_geometry",
+      "domain": "3d_geometry",
+      "prompt": "Class 12: explain a representative 3d geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0253",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "arithmetic",
+      "domain": "arithmetic",
+      "prompt": "Class 1: explain a representative arithmetic problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "line",
+        "shape"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0254",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "fractions",
+      "domain": "fractions",
+      "prompt": "Class 2: explain a representative fractions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0255",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "decimals_percentages",
+      "domain": "decimals_percentages",
+      "prompt": "Class 3: explain a representative decimals percentages problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "text",
+        "line"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0256",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "ratio_proportion",
+      "domain": "ratio_proportion",
+      "prompt": "Class 4: explain a representative ratio proportion problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0257",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "algebra",
+      "domain": "algebra",
+      "prompt": "Class 5: explain a representative algebra problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0258",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "linear_equations",
+      "domain": "linear_equations",
+      "prompt": "Class 6: explain a representative linear equations problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "arrow",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0259",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "polynomials",
+      "domain": "polynomials",
+      "prompt": "Class 7: explain a representative polynomials problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0260",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "sequences_series",
+      "domain": "sequences_series",
+      "prompt": "Class 8: explain a representative sequences series problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0261",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "coordinate_geometry",
+      "domain": "coordinate_geometry",
+      "prompt": "Class 9: explain a representative coordinate geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0262",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "functions",
+      "domain": "functions",
+      "prompt": "Class 10: explain a representative functions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0263",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "trigonometry",
+      "domain": "trigonometry",
+      "prompt": "Class 11: explain a representative trigonometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "graph"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0264",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "geometry",
+      "domain": "geometry",
+      "prompt": "Class 12: explain a representative geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0265",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "mensuration",
+      "domain": "mensuration",
+      "prompt": "Class 1: explain a representative mensuration problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0266",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "calculus",
+      "domain": "calculus",
+      "prompt": "Class 2: explain a representative calculus problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0267",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "statistics",
+      "domain": "statistics",
+      "prompt": "Class 3: explain a representative statistics problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0268",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "probability",
+      "domain": "probability",
+      "prompt": "Class 4: explain a representative probability problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0269",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "matrices",
+      "domain": "matrices",
+      "prompt": "Class 5: explain a representative matrices problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0270",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "vectors",
+      "domain": "vectors",
+      "prompt": "Class 6: explain a representative vectors problem and show each step visually.",
+      "expectedVisualKinds": [
+        "arrow",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0271",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "complex_numbers",
+      "domain": "complex_numbers",
+      "prompt": "Class 7: explain a representative complex numbers problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0272",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "financial_math",
+      "domain": "financial_math",
+      "prompt": "Class 8: explain a representative financial math problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0273",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "3d_geometry",
+      "domain": "3d_geometry",
+      "prompt": "Class 9: explain a representative 3d geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0274",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "arithmetic",
+      "domain": "arithmetic",
+      "prompt": "Class 10: explain a representative arithmetic problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "line",
+        "shape"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0275",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "fractions",
+      "domain": "fractions",
+      "prompt": "Class 11: explain a representative fractions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0276",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "decimals_percentages",
+      "domain": "decimals_percentages",
+      "prompt": "Class 12: explain a representative decimals percentages problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "text",
+        "line"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0277",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "ratio_proportion",
+      "domain": "ratio_proportion",
+      "prompt": "Class 1: explain a representative ratio proportion problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0278",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "algebra",
+      "domain": "algebra",
+      "prompt": "Class 2: explain a representative algebra problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0279",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "linear_equations",
+      "domain": "linear_equations",
+      "prompt": "Class 3: explain a representative linear equations problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "arrow",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0280",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "polynomials",
+      "domain": "polynomials",
+      "prompt": "Class 4: explain a representative polynomials problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0281",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "sequences_series",
+      "domain": "sequences_series",
+      "prompt": "Class 5: explain a representative sequences series problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0282",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "coordinate_geometry",
+      "domain": "coordinate_geometry",
+      "prompt": "Class 6: explain a representative coordinate geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0283",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "functions",
+      "domain": "functions",
+      "prompt": "Class 7: explain a representative functions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0284",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "trigonometry",
+      "domain": "trigonometry",
+      "prompt": "Class 8: explain a representative trigonometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "graph"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0285",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "geometry",
+      "domain": "geometry",
+      "prompt": "Class 9: explain a representative geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0286",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "mensuration",
+      "domain": "mensuration",
+      "prompt": "Class 10: explain a representative mensuration problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0287",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "calculus",
+      "domain": "calculus",
+      "prompt": "Class 11: explain a representative calculus problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0288",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "statistics",
+      "domain": "statistics",
+      "prompt": "Class 12: explain a representative statistics problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0289",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "probability",
+      "domain": "probability",
+      "prompt": "Class 1: explain a representative probability problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0290",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "matrices",
+      "domain": "matrices",
+      "prompt": "Class 2: explain a representative matrices problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0291",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "vectors",
+      "domain": "vectors",
+      "prompt": "Class 3: explain a representative vectors problem and show each step visually.",
+      "expectedVisualKinds": [
+        "arrow",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0292",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "complex_numbers",
+      "domain": "complex_numbers",
+      "prompt": "Class 4: explain a representative complex numbers problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0293",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "financial_math",
+      "domain": "financial_math",
+      "prompt": "Class 5: explain a representative financial math problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0294",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "3d_geometry",
+      "domain": "3d_geometry",
+      "prompt": "Class 6: explain a representative 3d geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0295",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "arithmetic",
+      "domain": "arithmetic",
+      "prompt": "Class 7: explain a representative arithmetic problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "line",
+        "shape"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0296",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "fractions",
+      "domain": "fractions",
+      "prompt": "Class 8: explain a representative fractions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0297",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "decimals_percentages",
+      "domain": "decimals_percentages",
+      "prompt": "Class 9: explain a representative decimals percentages problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "text",
+        "line"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0298",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "ratio_proportion",
+      "domain": "ratio_proportion",
+      "prompt": "Class 10: explain a representative ratio proportion problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0299",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "algebra",
+      "domain": "algebra",
+      "prompt": "Class 11: explain a representative algebra problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0300",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "linear_equations",
+      "domain": "linear_equations",
+      "prompt": "Class 12: explain a representative linear equations problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "arrow",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0301",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "polynomials",
+      "domain": "polynomials",
+      "prompt": "Class 1: explain a representative polynomials problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0302",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "sequences_series",
+      "domain": "sequences_series",
+      "prompt": "Class 2: explain a representative sequences series problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0303",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "coordinate_geometry",
+      "domain": "coordinate_geometry",
+      "prompt": "Class 3: explain a representative coordinate geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0304",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "functions",
+      "domain": "functions",
+      "prompt": "Class 4: explain a representative functions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0305",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "trigonometry",
+      "domain": "trigonometry",
+      "prompt": "Class 5: explain a representative trigonometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "graph"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0306",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "geometry",
+      "domain": "geometry",
+      "prompt": "Class 6: explain a representative geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0307",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "mensuration",
+      "domain": "mensuration",
+      "prompt": "Class 7: explain a representative mensuration problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0308",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "calculus",
+      "domain": "calculus",
+      "prompt": "Class 8: explain a representative calculus problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0309",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "statistics",
+      "domain": "statistics",
+      "prompt": "Class 9: explain a representative statistics problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0310",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "probability",
+      "domain": "probability",
+      "prompt": "Class 10: explain a representative probability problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0311",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "matrices",
+      "domain": "matrices",
+      "prompt": "Class 11: explain a representative matrices problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0312",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "vectors",
+      "domain": "vectors",
+      "prompt": "Class 12: explain a representative vectors problem and show each step visually.",
+      "expectedVisualKinds": [
+        "arrow",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0313",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "complex_numbers",
+      "domain": "complex_numbers",
+      "prompt": "Class 1: explain a representative complex numbers problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0314",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "financial_math",
+      "domain": "financial_math",
+      "prompt": "Class 2: explain a representative financial math problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0315",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "3d_geometry",
+      "domain": "3d_geometry",
+      "prompt": "Class 3: explain a representative 3d geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0316",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "arithmetic",
+      "domain": "arithmetic",
+      "prompt": "Class 4: explain a representative arithmetic problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "line",
+        "shape"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0317",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "fractions",
+      "domain": "fractions",
+      "prompt": "Class 5: explain a representative fractions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0318",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "decimals_percentages",
+      "domain": "decimals_percentages",
+      "prompt": "Class 6: explain a representative decimals percentages problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "text",
+        "line"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0319",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "ratio_proportion",
+      "domain": "ratio_proportion",
+      "prompt": "Class 7: explain a representative ratio proportion problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0320",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "algebra",
+      "domain": "algebra",
+      "prompt": "Class 8: explain a representative algebra problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0321",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "linear_equations",
+      "domain": "linear_equations",
+      "prompt": "Class 9: explain a representative linear equations problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "arrow",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0322",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "polynomials",
+      "domain": "polynomials",
+      "prompt": "Class 10: explain a representative polynomials problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0323",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "sequences_series",
+      "domain": "sequences_series",
+      "prompt": "Class 11: explain a representative sequences series problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0324",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "coordinate_geometry",
+      "domain": "coordinate_geometry",
+      "prompt": "Class 12: explain a representative coordinate geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0325",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "functions",
+      "domain": "functions",
+      "prompt": "Class 1: explain a representative functions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0326",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "trigonometry",
+      "domain": "trigonometry",
+      "prompt": "Class 2: explain a representative trigonometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "graph"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0327",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "geometry",
+      "domain": "geometry",
+      "prompt": "Class 3: explain a representative geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0328",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "mensuration",
+      "domain": "mensuration",
+      "prompt": "Class 4: explain a representative mensuration problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0329",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "calculus",
+      "domain": "calculus",
+      "prompt": "Class 5: explain a representative calculus problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0330",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "statistics",
+      "domain": "statistics",
+      "prompt": "Class 6: explain a representative statistics problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0331",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "probability",
+      "domain": "probability",
+      "prompt": "Class 7: explain a representative probability problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0332",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "matrices",
+      "domain": "matrices",
+      "prompt": "Class 8: explain a representative matrices problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0333",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "vectors",
+      "domain": "vectors",
+      "prompt": "Class 9: explain a representative vectors problem and show each step visually.",
+      "expectedVisualKinds": [
+        "arrow",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0334",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "complex_numbers",
+      "domain": "complex_numbers",
+      "prompt": "Class 10: explain a representative complex numbers problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0335",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "financial_math",
+      "domain": "financial_math",
+      "prompt": "Class 11: explain a representative financial math problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0336",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "3d_geometry",
+      "domain": "3d_geometry",
+      "prompt": "Class 12: explain a representative 3d geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0337",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "arithmetic",
+      "domain": "arithmetic",
+      "prompt": "Class 1: explain a representative arithmetic problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "line",
+        "shape"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0338",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "fractions",
+      "domain": "fractions",
+      "prompt": "Class 2: explain a representative fractions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0339",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "decimals_percentages",
+      "domain": "decimals_percentages",
+      "prompt": "Class 3: explain a representative decimals percentages problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "text",
+        "line"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0340",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "ratio_proportion",
+      "domain": "ratio_proportion",
+      "prompt": "Class 4: explain a representative ratio proportion problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0341",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "algebra",
+      "domain": "algebra",
+      "prompt": "Class 5: explain a representative algebra problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0342",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "linear_equations",
+      "domain": "linear_equations",
+      "prompt": "Class 6: explain a representative linear equations problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "arrow",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0343",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "polynomials",
+      "domain": "polynomials",
+      "prompt": "Class 7: explain a representative polynomials problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0344",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "sequences_series",
+      "domain": "sequences_series",
+      "prompt": "Class 8: explain a representative sequences series problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0345",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "coordinate_geometry",
+      "domain": "coordinate_geometry",
+      "prompt": "Class 9: explain a representative coordinate geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0346",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "functions",
+      "domain": "functions",
+      "prompt": "Class 10: explain a representative functions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0347",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "trigonometry",
+      "domain": "trigonometry",
+      "prompt": "Class 11: explain a representative trigonometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "graph"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0348",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "geometry",
+      "domain": "geometry",
+      "prompt": "Class 12: explain a representative geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0349",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "mensuration",
+      "domain": "mensuration",
+      "prompt": "Class 1: explain a representative mensuration problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0350",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "calculus",
+      "domain": "calculus",
+      "prompt": "Class 2: explain a representative calculus problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0351",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "statistics",
+      "domain": "statistics",
+      "prompt": "Class 3: explain a representative statistics problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0352",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "probability",
+      "domain": "probability",
+      "prompt": "Class 4: explain a representative probability problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0353",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "matrices",
+      "domain": "matrices",
+      "prompt": "Class 5: explain a representative matrices problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0354",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "vectors",
+      "domain": "vectors",
+      "prompt": "Class 6: explain a representative vectors problem and show each step visually.",
+      "expectedVisualKinds": [
+        "arrow",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0355",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "complex_numbers",
+      "domain": "complex_numbers",
+      "prompt": "Class 7: explain a representative complex numbers problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0356",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "financial_math",
+      "domain": "financial_math",
+      "prompt": "Class 8: explain a representative financial math problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0357",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "3d_geometry",
+      "domain": "3d_geometry",
+      "prompt": "Class 9: explain a representative 3d geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0358",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "arithmetic",
+      "domain": "arithmetic",
+      "prompt": "Class 10: explain a representative arithmetic problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "line",
+        "shape"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0359",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "fractions",
+      "domain": "fractions",
+      "prompt": "Class 11: explain a representative fractions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0360",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "decimals_percentages",
+      "domain": "decimals_percentages",
+      "prompt": "Class 12: explain a representative decimals percentages problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "text",
+        "line"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0361",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "ratio_proportion",
+      "domain": "ratio_proportion",
+      "prompt": "Class 1: explain a representative ratio proportion problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0362",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "algebra",
+      "domain": "algebra",
+      "prompt": "Class 2: explain a representative algebra problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0363",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "linear_equations",
+      "domain": "linear_equations",
+      "prompt": "Class 3: explain a representative linear equations problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "arrow",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0364",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "polynomials",
+      "domain": "polynomials",
+      "prompt": "Class 4: explain a representative polynomials problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0365",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "sequences_series",
+      "domain": "sequences_series",
+      "prompt": "Class 5: explain a representative sequences series problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0366",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "coordinate_geometry",
+      "domain": "coordinate_geometry",
+      "prompt": "Class 6: explain a representative coordinate geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0367",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "functions",
+      "domain": "functions",
+      "prompt": "Class 7: explain a representative functions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0368",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "trigonometry",
+      "domain": "trigonometry",
+      "prompt": "Class 8: explain a representative trigonometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "graph"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0369",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "geometry",
+      "domain": "geometry",
+      "prompt": "Class 9: explain a representative geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0370",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "mensuration",
+      "domain": "mensuration",
+      "prompt": "Class 10: explain a representative mensuration problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0371",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "calculus",
+      "domain": "calculus",
+      "prompt": "Class 11: explain a representative calculus problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0372",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "statistics",
+      "domain": "statistics",
+      "prompt": "Class 12: explain a representative statistics problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0373",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "probability",
+      "domain": "probability",
+      "prompt": "Class 1: explain a representative probability problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0374",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "matrices",
+      "domain": "matrices",
+      "prompt": "Class 2: explain a representative matrices problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0375",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "vectors",
+      "domain": "vectors",
+      "prompt": "Class 3: explain a representative vectors problem and show each step visually.",
+      "expectedVisualKinds": [
+        "arrow",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0376",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "complex_numbers",
+      "domain": "complex_numbers",
+      "prompt": "Class 4: explain a representative complex numbers problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0377",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "financial_math",
+      "domain": "financial_math",
+      "prompt": "Class 5: explain a representative financial math problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0378",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "3d_geometry",
+      "domain": "3d_geometry",
+      "prompt": "Class 6: explain a representative 3d geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0379",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "arithmetic",
+      "domain": "arithmetic",
+      "prompt": "Class 7: explain a representative arithmetic problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "line",
+        "shape"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0380",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "fractions",
+      "domain": "fractions",
+      "prompt": "Class 8: explain a representative fractions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0381",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "decimals_percentages",
+      "domain": "decimals_percentages",
+      "prompt": "Class 9: explain a representative decimals percentages problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "text",
+        "line"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0382",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "ratio_proportion",
+      "domain": "ratio_proportion",
+      "prompt": "Class 10: explain a representative ratio proportion problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0383",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "algebra",
+      "domain": "algebra",
+      "prompt": "Class 11: explain a representative algebra problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0384",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "linear_equations",
+      "domain": "linear_equations",
+      "prompt": "Class 12: explain a representative linear equations problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "arrow",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0385",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "polynomials",
+      "domain": "polynomials",
+      "prompt": "Class 1: explain a representative polynomials problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0386",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "sequences_series",
+      "domain": "sequences_series",
+      "prompt": "Class 2: explain a representative sequences series problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0387",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "coordinate_geometry",
+      "domain": "coordinate_geometry",
+      "prompt": "Class 3: explain a representative coordinate geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0388",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "functions",
+      "domain": "functions",
+      "prompt": "Class 4: explain a representative functions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0389",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "trigonometry",
+      "domain": "trigonometry",
+      "prompt": "Class 5: explain a representative trigonometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "graph"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0390",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "geometry",
+      "domain": "geometry",
+      "prompt": "Class 6: explain a representative geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0391",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "mensuration",
+      "domain": "mensuration",
+      "prompt": "Class 7: explain a representative mensuration problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0392",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "calculus",
+      "domain": "calculus",
+      "prompt": "Class 8: explain a representative calculus problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0393",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "statistics",
+      "domain": "statistics",
+      "prompt": "Class 9: explain a representative statistics problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0394",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "probability",
+      "domain": "probability",
+      "prompt": "Class 10: explain a representative probability problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0395",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "matrices",
+      "domain": "matrices",
+      "prompt": "Class 11: explain a representative matrices problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0396",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "vectors",
+      "domain": "vectors",
+      "prompt": "Class 12: explain a representative vectors problem and show each step visually.",
+      "expectedVisualKinds": [
+        "arrow",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0397",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "complex_numbers",
+      "domain": "complex_numbers",
+      "prompt": "Class 1: explain a representative complex numbers problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0398",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "financial_math",
+      "domain": "financial_math",
+      "prompt": "Class 2: explain a representative financial math problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0399",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "3d_geometry",
+      "domain": "3d_geometry",
+      "prompt": "Class 3: explain a representative 3d geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0400",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "arithmetic",
+      "domain": "arithmetic",
+      "prompt": "Class 4: explain a representative arithmetic problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "line",
+        "shape"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0401",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "fractions",
+      "domain": "fractions",
+      "prompt": "Class 5: explain a representative fractions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0402",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "decimals_percentages",
+      "domain": "decimals_percentages",
+      "prompt": "Class 6: explain a representative decimals percentages problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "text",
+        "line"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0403",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "ratio_proportion",
+      "domain": "ratio_proportion",
+      "prompt": "Class 7: explain a representative ratio proportion problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0404",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "algebra",
+      "domain": "algebra",
+      "prompt": "Class 8: explain a representative algebra problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0405",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "linear_equations",
+      "domain": "linear_equations",
+      "prompt": "Class 9: explain a representative linear equations problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "arrow",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0406",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "polynomials",
+      "domain": "polynomials",
+      "prompt": "Class 10: explain a representative polynomials problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0407",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "sequences_series",
+      "domain": "sequences_series",
+      "prompt": "Class 11: explain a representative sequences series problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0408",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "coordinate_geometry",
+      "domain": "coordinate_geometry",
+      "prompt": "Class 12: explain a representative coordinate geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0409",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "functions",
+      "domain": "functions",
+      "prompt": "Class 1: explain a representative functions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0410",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "trigonometry",
+      "domain": "trigonometry",
+      "prompt": "Class 2: explain a representative trigonometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "graph"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0411",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "geometry",
+      "domain": "geometry",
+      "prompt": "Class 3: explain a representative geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0412",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "mensuration",
+      "domain": "mensuration",
+      "prompt": "Class 4: explain a representative mensuration problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0413",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "calculus",
+      "domain": "calculus",
+      "prompt": "Class 5: explain a representative calculus problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0414",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "statistics",
+      "domain": "statistics",
+      "prompt": "Class 6: explain a representative statistics problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0415",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "probability",
+      "domain": "probability",
+      "prompt": "Class 7: explain a representative probability problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0416",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "matrices",
+      "domain": "matrices",
+      "prompt": "Class 8: explain a representative matrices problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0417",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "vectors",
+      "domain": "vectors",
+      "prompt": "Class 9: explain a representative vectors problem and show each step visually.",
+      "expectedVisualKinds": [
+        "arrow",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0418",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "complex_numbers",
+      "domain": "complex_numbers",
+      "prompt": "Class 10: explain a representative complex numbers problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0419",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "financial_math",
+      "domain": "financial_math",
+      "prompt": "Class 11: explain a representative financial math problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0420",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "3d_geometry",
+      "domain": "3d_geometry",
+      "prompt": "Class 12: explain a representative 3d geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0421",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "arithmetic",
+      "domain": "arithmetic",
+      "prompt": "Class 1: explain a representative arithmetic problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "line",
+        "shape"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0422",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "fractions",
+      "domain": "fractions",
+      "prompt": "Class 2: explain a representative fractions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0423",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "decimals_percentages",
+      "domain": "decimals_percentages",
+      "prompt": "Class 3: explain a representative decimals percentages problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "text",
+        "line"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0424",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "ratio_proportion",
+      "domain": "ratio_proportion",
+      "prompt": "Class 4: explain a representative ratio proportion problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0425",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "algebra",
+      "domain": "algebra",
+      "prompt": "Class 5: explain a representative algebra problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0426",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "linear_equations",
+      "domain": "linear_equations",
+      "prompt": "Class 6: explain a representative linear equations problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "arrow",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0427",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "polynomials",
+      "domain": "polynomials",
+      "prompt": "Class 7: explain a representative polynomials problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0428",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "sequences_series",
+      "domain": "sequences_series",
+      "prompt": "Class 8: explain a representative sequences series problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0429",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "coordinate_geometry",
+      "domain": "coordinate_geometry",
+      "prompt": "Class 9: explain a representative coordinate geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0430",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "functions",
+      "domain": "functions",
+      "prompt": "Class 10: explain a representative functions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0431",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "trigonometry",
+      "domain": "trigonometry",
+      "prompt": "Class 11: explain a representative trigonometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "graph"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0432",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "geometry",
+      "domain": "geometry",
+      "prompt": "Class 12: explain a representative geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0433",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "mensuration",
+      "domain": "mensuration",
+      "prompt": "Class 1: explain a representative mensuration problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0434",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "calculus",
+      "domain": "calculus",
+      "prompt": "Class 2: explain a representative calculus problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0435",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "statistics",
+      "domain": "statistics",
+      "prompt": "Class 3: explain a representative statistics problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0436",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "probability",
+      "domain": "probability",
+      "prompt": "Class 4: explain a representative probability problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0437",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "matrices",
+      "domain": "matrices",
+      "prompt": "Class 5: explain a representative matrices problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0438",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "vectors",
+      "domain": "vectors",
+      "prompt": "Class 6: explain a representative vectors problem and show each step visually.",
+      "expectedVisualKinds": [
+        "arrow",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0439",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "complex_numbers",
+      "domain": "complex_numbers",
+      "prompt": "Class 7: explain a representative complex numbers problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0440",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "financial_math",
+      "domain": "financial_math",
+      "prompt": "Class 8: explain a representative financial math problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0441",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "3d_geometry",
+      "domain": "3d_geometry",
+      "prompt": "Class 9: explain a representative 3d geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0442",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "arithmetic",
+      "domain": "arithmetic",
+      "prompt": "Class 10: explain a representative arithmetic problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "line",
+        "shape"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0443",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "fractions",
+      "domain": "fractions",
+      "prompt": "Class 11: explain a representative fractions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0444",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "decimals_percentages",
+      "domain": "decimals_percentages",
+      "prompt": "Class 12: explain a representative decimals percentages problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "text",
+        "line"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0445",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "ratio_proportion",
+      "domain": "ratio_proportion",
+      "prompt": "Class 1: explain a representative ratio proportion problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0446",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "algebra",
+      "domain": "algebra",
+      "prompt": "Class 2: explain a representative algebra problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0447",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "linear_equations",
+      "domain": "linear_equations",
+      "prompt": "Class 3: explain a representative linear equations problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "arrow",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0448",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "polynomials",
+      "domain": "polynomials",
+      "prompt": "Class 4: explain a representative polynomials problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0449",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "sequences_series",
+      "domain": "sequences_series",
+      "prompt": "Class 5: explain a representative sequences series problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0450",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "coordinate_geometry",
+      "domain": "coordinate_geometry",
+      "prompt": "Class 6: explain a representative coordinate geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0451",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "functions",
+      "domain": "functions",
+      "prompt": "Class 7: explain a representative functions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0452",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "trigonometry",
+      "domain": "trigonometry",
+      "prompt": "Class 8: explain a representative trigonometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "graph"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0453",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "geometry",
+      "domain": "geometry",
+      "prompt": "Class 9: explain a representative geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0454",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "mensuration",
+      "domain": "mensuration",
+      "prompt": "Class 10: explain a representative mensuration problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0455",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "calculus",
+      "domain": "calculus",
+      "prompt": "Class 11: explain a representative calculus problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0456",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "statistics",
+      "domain": "statistics",
+      "prompt": "Class 12: explain a representative statistics problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0457",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "probability",
+      "domain": "probability",
+      "prompt": "Class 1: explain a representative probability problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0458",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "matrices",
+      "domain": "matrices",
+      "prompt": "Class 2: explain a representative matrices problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0459",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "vectors",
+      "domain": "vectors",
+      "prompt": "Class 3: explain a representative vectors problem and show each step visually.",
+      "expectedVisualKinds": [
+        "arrow",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0460",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "complex_numbers",
+      "domain": "complex_numbers",
+      "prompt": "Class 4: explain a representative complex numbers problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0461",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "financial_math",
+      "domain": "financial_math",
+      "prompt": "Class 5: explain a representative financial math problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0462",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "3d_geometry",
+      "domain": "3d_geometry",
+      "prompt": "Class 6: explain a representative 3d geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0463",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "arithmetic",
+      "domain": "arithmetic",
+      "prompt": "Class 7: explain a representative arithmetic problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "line",
+        "shape"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0464",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "fractions",
+      "domain": "fractions",
+      "prompt": "Class 8: explain a representative fractions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0465",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "decimals_percentages",
+      "domain": "decimals_percentages",
+      "prompt": "Class 9: explain a representative decimals percentages problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "text",
+        "line"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0466",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "ratio_proportion",
+      "domain": "ratio_proportion",
+      "prompt": "Class 10: explain a representative ratio proportion problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0467",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "algebra",
+      "domain": "algebra",
+      "prompt": "Class 11: explain a representative algebra problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0468",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "linear_equations",
+      "domain": "linear_equations",
+      "prompt": "Class 12: explain a representative linear equations problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "arrow",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0469",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "polynomials",
+      "domain": "polynomials",
+      "prompt": "Class 1: explain a representative polynomials problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0470",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "sequences_series",
+      "domain": "sequences_series",
+      "prompt": "Class 2: explain a representative sequences series problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0471",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "coordinate_geometry",
+      "domain": "coordinate_geometry",
+      "prompt": "Class 3: explain a representative coordinate geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0472",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "functions",
+      "domain": "functions",
+      "prompt": "Class 4: explain a representative functions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0473",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "trigonometry",
+      "domain": "trigonometry",
+      "prompt": "Class 5: explain a representative trigonometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "graph"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0474",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "geometry",
+      "domain": "geometry",
+      "prompt": "Class 6: explain a representative geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0475",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "mensuration",
+      "domain": "mensuration",
+      "prompt": "Class 7: explain a representative mensuration problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0476",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "calculus",
+      "domain": "calculus",
+      "prompt": "Class 8: explain a representative calculus problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0477",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "statistics",
+      "domain": "statistics",
+      "prompt": "Class 9: explain a representative statistics problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0478",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "probability",
+      "domain": "probability",
+      "prompt": "Class 10: explain a representative probability problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0479",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "matrices",
+      "domain": "matrices",
+      "prompt": "Class 11: explain a representative matrices problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0480",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "vectors",
+      "domain": "vectors",
+      "prompt": "Class 12: explain a representative vectors problem and show each step visually.",
+      "expectedVisualKinds": [
+        "arrow",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0481",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "complex_numbers",
+      "domain": "complex_numbers",
+      "prompt": "Class 1: explain a representative complex numbers problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0482",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "financial_math",
+      "domain": "financial_math",
+      "prompt": "Class 2: explain a representative financial math problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0483",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "3d_geometry",
+      "domain": "3d_geometry",
+      "prompt": "Class 3: explain a representative 3d geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0484",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "arithmetic",
+      "domain": "arithmetic",
+      "prompt": "Class 4: explain a representative arithmetic problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "line",
+        "shape"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0485",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "fractions",
+      "domain": "fractions",
+      "prompt": "Class 5: explain a representative fractions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0486",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "decimals_percentages",
+      "domain": "decimals_percentages",
+      "prompt": "Class 6: explain a representative decimals percentages problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "text",
+        "line"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0487",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "ratio_proportion",
+      "domain": "ratio_proportion",
+      "prompt": "Class 7: explain a representative ratio proportion problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0488",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "algebra",
+      "domain": "algebra",
+      "prompt": "Class 8: explain a representative algebra problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0489",
+      "board": "Benchmark",
+      "grade": 9,
+      "topic": "linear_equations",
+      "domain": "linear_equations",
+      "prompt": "Class 9: explain a representative linear equations problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "arrow",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0490",
+      "board": "Benchmark",
+      "grade": 10,
+      "topic": "polynomials",
+      "domain": "polynomials",
+      "prompt": "Class 10: explain a representative polynomials problem and show each step visually.",
+      "expectedVisualKinds": [
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0491",
+      "board": "Benchmark",
+      "grade": 11,
+      "topic": "sequences_series",
+      "domain": "sequences_series",
+      "prompt": "Class 11: explain a representative sequences series problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "arrow",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0492",
+      "board": "Benchmark",
+      "grade": 12,
+      "topic": "coordinate_geometry",
+      "domain": "coordinate_geometry",
+      "prompt": "Class 12: explain a representative coordinate geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "line",
+        "point",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0493",
+      "board": "Benchmark",
+      "grade": 1,
+      "topic": "functions",
+      "domain": "functions",
+      "prompt": "Class 1: explain a representative functions problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0494",
+      "board": "Benchmark",
+      "grade": 2,
+      "topic": "trigonometry",
+      "domain": "trigonometry",
+      "prompt": "Class 2: explain a representative trigonometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "graph"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0495",
+      "board": "Benchmark",
+      "grade": 3,
+      "topic": "geometry",
+      "domain": "geometry",
+      "prompt": "Class 3: explain a representative geometry problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "line",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0496",
+      "board": "Benchmark",
+      "grade": 4,
+      "topic": "mensuration",
+      "domain": "mensuration",
+      "prompt": "Class 4: explain a representative mensuration problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0497",
+      "board": "Benchmark",
+      "grade": 5,
+      "topic": "calculus",
+      "domain": "calculus",
+      "prompt": "Class 5: explain a representative calculus problem and show each step visually.",
+      "expectedVisualKinds": [
+        "graph",
+        "latex",
+        "transform"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0498",
+      "board": "Benchmark",
+      "grade": 6,
+      "topic": "statistics",
+      "domain": "statistics",
+      "prompt": "Class 6: explain a representative statistics problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0499",
+      "board": "Benchmark",
+      "grade": 7,
+      "topic": "probability",
+      "domain": "probability",
+      "prompt": "Class 7: explain a representative probability problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "text",
+        "latex"
+      ],
+      "origin": "generated-benchmark"
+    },
+    {
+      "id": "benchmark-0500",
+      "board": "Benchmark",
+      "grade": 8,
+      "topic": "matrices",
+      "domain": "matrices",
+      "prompt": "Class 8: explain a representative matrices problem and show each step visually.",
+      "expectedVisualKinds": [
+        "shape",
+        "latex",
+        "text"
+      ],
+      "origin": "generated-benchmark"
+    }
+  ]
+}

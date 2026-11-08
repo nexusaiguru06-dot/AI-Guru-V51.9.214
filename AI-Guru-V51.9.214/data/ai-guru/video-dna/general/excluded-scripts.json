@@ -1,0 +1,536 @@
+{
+"note": "Scripts with scenes but too few animation beats (<12 play calls) to carry a reusable pattern: thumbnails, helpers, stubs.",
+"count": 106,
+"items": [
+{
+"path": "_2015/complex_multiplication_article.py",
+"playCalls": 0,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2015/counting_in_binary.py",
+"playCalls": 11,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2015/generate_logo.py",
+"playCalls": 1,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2015/inventing_math_images.py",
+"playCalls": 0,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2015/ka_playgrounds/fluid_flow.py",
+"playCalls": 8,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2015/ka_playgrounds/jacobian_animations.py",
+"playCalls": 2,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2015/ka_playgrounds/parametric_curves.py",
+"playCalls": 3,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2015/playground_counting_in_binary.py",
+"playCalls": 0,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2015/pythagorean_proof.py",
+"playCalls": 0,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2016/brachistochrone/graveyard.py",
+"playCalls": 11,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2016/eola/thumbnails.py",
+"playCalls": 0,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2016/fractal_charm.py",
+"playCalls": 3,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2017/cba.py",
+"playCalls": 3,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2017/nn/playground.py",
+"playCalls": 1,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2018/eop/birthday.py",
+"playCalls": 0,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2018/eop/chapter0.py",
+"playCalls": 3,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2018/eop/chapter0/intro.py",
+"playCalls": 3,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2018/eop/chapter1/all_sequences.py",
+"playCalls": 0,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2018/eop/chapter1/area_model_erf.py",
+"playCalls": 8,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2018/eop/chapter1/area_model_expectation.py",
+"playCalls": 7,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2018/eop/chapter1/entire_brick_wall.py",
+"playCalls": 11,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2018/eop/chapter1/intro.py",
+"playCalls": 1,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2018/eop/chapter1/just_randy_flipping_coin.py",
+"playCalls": 3,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2018/eop/chapter1/million_flips.py",
+"playCalls": 2,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2018/eop/chapter1/show_proportion.py",
+"playCalls": 3,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2018/eop/chapter1/show_uncertainty_darts.py",
+"playCalls": 1,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2018/eop/chapter1/show_uncertainty_dice.py",
+"playCalls": 3,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2018/eop/chapter1/stacking_coins.py",
+"playCalls": 2,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2018/eop/chapter1/think_about_coin.py",
+"playCalls": 3,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2018/eop/chapter1/various_intro_visuals.py",
+"playCalls": 6,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2018/eop/chapter1/what_does_probability_mean.py",
+"playCalls": 4,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2018/eop/chapter2/permutation_grid.py",
+"playCalls": 0,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2018/eop/pascal.py",
+"playCalls": 2,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2018/eop/reusables/coin_flipping_pi_creature.py",
+"playCalls": 1,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2018/eop/what_does_probability_mean.py",
+"playCalls": 1,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2018/holomorphic.py",
+"playCalls": 10,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2019/QA_2to21.py",
+"playCalls": 7,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2019/aliquot.py",
+"playCalls": 0,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2019/clacks/solution2/block_collision_scenes.py",
+"playCalls": 2,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2019/clacks/solution2/pi_creature_scenes.py",
+"playCalls": 6,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2019/diffyq/part2/pi_scenes.py",
+"playCalls": 11,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2019/diffyq/part3/discrete_case.py",
+"playCalls": 9,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2019/diffyq/part3/pi_creature_scenes.py",
+"playCalls": 5,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2019/diffyq/part4/long_fourier_scenes.py",
+"playCalls": 1,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2019/diffyq/part4/pi_creature_scenes.py",
+"playCalls": 10,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2019/minute_physics_gr_equations.py",
+"playCalls": 10,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2019/valentines.py",
+"playCalls": 7,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2020/18S191/convolutions.py",
+"playCalls": 9,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2020/18S191/diffusion.py",
+"playCalls": 0,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2020/18S191/dynamic_prog.py",
+"playCalls": 6,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2020/18S191/seam_carving.py",
+"playCalls": 0,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2020/antipode.py",
+"playCalls": 0,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2020/patreon_tier_images.py",
+"playCalls": 0,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2020/surface_play.py",
+"playCalls": 6,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2021/siggraph.py",
+"playCalls": 7,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2022/galois/art_supplements.py",
+"playCalls": 9,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2022/galois/groups.py",
+"playCalls": 2,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2022/infinity/roar_to_picture.py",
+"playCalls": 6,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2022/piano/midi_animations.py",
+"playCalls": 0,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2022/quintic/cubic.py",
+"playCalls": 0,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2022/quintic/roots_and_coefs.py",
+"playCalls": 0,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2022/zeta/part1.py",
+"playCalls": 1,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2023/clt/dice_sims.py",
+"playCalls": 7,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2023/numberphile/prime_race.py",
+"playCalls": 8,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2023/optics_puzzles/wave_machine.py",
+"playCalls": 8,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2024/holograms/model.py",
+"playCalls": 1,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2024/linalg/eigenlecture.py",
+"playCalls": 5,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2024/manim_demo/lorenz.py",
+"playCalls": 2,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2025/colliding_blocks_v2/grover.py",
+"playCalls": 4,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2025/guest_videos/euclid.py",
+"playCalls": 9,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2025/guest_videos/misc_animations.py",
+"playCalls": 10,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2025/hairy_ball.py/topology.py",
+"playCalls": 2,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "_2025/zeta/play.py",
+"playCalls": 7,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "custom/backdrops.py",
+"playCalls": 1,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "custom/banner.py",
+"playCalls": 0,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "custom/end_screen.py",
+"playCalls": 1,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "custom/filler.py",
+"playCalls": 0,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "custom/logo.py",
+"playCalls": 4,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "custom/opening_quote.py",
+"playCalls": 2,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "once_useful_constructs/arithmetic.py",
+"playCalls": 1,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "once_useful_constructs/butterfly_curve.py",
+"playCalls": 1,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "once_useful_constructs/counting.py",
+"playCalls": 0,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "once_useful_constructs/graph_theory.py",
+"playCalls": 7,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "once_useful_constructs/matrix_multiplication.py",
+"playCalls": 5,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "once_useful_constructs/sed.py",
+"playCalls": 9,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "outside_videos/aeoud.py",
+"playCalls": 2,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "outside_videos/analysis.py",
+"playCalls": 9,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "outside_videos/for_site.py",
+"playCalls": 0,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "outside_videos/geometry.py",
+"playCalls": 9,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "outside_videos/gifs.py",
+"playCalls": 2,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "outside_videos/grover.py",
+"playCalls": 6,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "outside_videos/merch_designs.py",
+"playCalls": 0,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "outside_videos/misc_thumbnails.py",
+"playCalls": 0,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "outside_videos/mug_to_torus.py",
+"playCalls": 2,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "outside_videos/patterns.py",
+"playCalls": 3,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "outside_videos/podcast.py",
+"playCalls": 2,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "outside_videos/probability.py",
+"playCalls": 3,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "outside_videos/qa_examples.py",
+"playCalls": 3,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "outside_videos/short_links.py",
+"playCalls": 5,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "outside_videos/talk_scenes.py",
+"playCalls": 1,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "outside_videos/tweets/addition_anagram.py",
+"playCalls": 1,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "outside_videos/tweets/door_puzzle.py",
+"playCalls": 2,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "outside_videos/tweets/image_manipulation.py",
+"playCalls": 0,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "outside_videos/tweets/powers_of_two.py",
+"playCalls": 1,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "outside_videos/tweets/starry_night.py",
+"playCalls": 7,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+},
+{
+"path": "outside_videos/tweets/sudanese_band.py",
+"playCalls": 8,
+"reason": "too few animation beats to carry a reusable pattern (thumbnail/helper/stub)"
+}
+]
+}

@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0",
+  "id": "grade12-quadratic-demo",
+  "title": "Sample lesson — Quadratic equations (try a class)",
+  "language": {
+    "source": "english",
+    "target": "malayalam"
+  },
+  "paragraphs": [
+    {
+      "id": "p1",
+      "source": {
+        "bookId": "demo",
+        "chapterIndex": 1,
+        "paragraphIndex": 1,
+        "pageNumber": 27,
+        "text": "Consider the quadratic equation x² + 4x + 4 = 0.",
+        "pageImage": "",
+        "boundingBox": {
+          "x": 90,
+          "y": 180,
+          "width": 720,
+          "height": 90
+        },
+        "formulas": [
+          "x^2+4x+4=0"
+        ]
+      },
+      "english": {
+        "text": "This is a perfect-square quadratic. We can write it as (x + 2)² = 0, so x = -2.",
+        "visuals": [
+          {
+            "type": "latex",
+            "id": "eq1",
+            "latex": "x^2+4x+4=0",
+            "x": 60,
+            "y": 50,
+            "width": 600
+          },
+          {
+            "type": "latex",
+            "id": "eq2",
+            "latex": "(x+2)^2=0",
+            "x": 60,
+            "y": 170,
+            "width": 600
+          },
+          {
+            "type": "latex",
+            "id": "eq3",
+            "latex": "x=-2",
+            "x": 60,
+            "y": 290,
+            "width": 400
+          }
+        ]
+      },
+      "malayalam": {
+        "text": "ഇത് ഒരു പൂർണ്ണവർഗ്ഗ ദ്വിഘാത സമവാക്യമാണ്. അതിനാൽ (x + 2)² = 0, അതിൽ നിന്ന് x = -2.",
+        "visuals": [
+          {
+            "type": "latex",
+            "id": "mleq1",
+            "latex": "(x+2)^2=0",
+            "x": 60,
+            "y": 410,
+            "width": 600
+          },
+          {
+            "type": "write",
+            "id": "ml1",
+            "content": "x = -2",
+            "x": 60,
+            "y": 510,
+            "width": 400,
+            "fontSize": 28
+          }
+        ]
+      },
+      "cues": [],
+      "verified": true
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "source": "NCERT Class 10 Mathematics, Chapter 4: Quadratic Equations",
+  "grade": 10,
+  "chapter": "Quadratic Equations",
+  "page": 84,
+  "paragraph": "Solve x² + 4x − 5 = 0 by completing the square.",
+  "method": "completing-the-square",
+  "steps": [
+    "x² + 4x − 5 = 0",
+    "x² + 4x + 4 − 9 = 0",
+    "(x + 2)² = 9",
+    "x + 2 = ±3",
+    "x = 1 or x = −5"
+  ],
+  "malayalam_steps": [
+    "ആദ്യം മധ്യപദമായ 4x-ൽ ശ്രദ്ധ കേന്ദ്രീകരിക്കാം.",
+    "പൂർണ്ണവർഗ്ഗം ആക്കാൻ 4 ചേർത്ത് 4 കുറയ്ക്കാം.",
+    "ഇപ്പോൾ പൂർണ്ണവർഗ്ഗം കൂട്ടിച്ചേർത്ത് ലളിതമാക്കാം.",
+    "രണ്ടു വശങ്ങളുടെയും വർഗമൂലം എടുക്കാം.",
+    "അതിനാൽ രണ്ട് പരിഹാരങ്ങൾ 1 ഉം −5 ഉം ആണ്."
+  ]
+}

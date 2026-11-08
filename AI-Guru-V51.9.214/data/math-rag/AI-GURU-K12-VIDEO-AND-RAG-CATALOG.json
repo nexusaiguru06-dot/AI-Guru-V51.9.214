@@ -1,0 +1,1131 @@
+{
+  "schemaVersion": "1.0",
+  "problemSolvingReferenceVideos": {
+    "geometry": [
+      {
+        "id": "geometry-proof-construction",
+        "name": "Geometry Proof / Theorem Construction",
+        "file": "/reference-styles/problem-solving/geometry/geometry-proof-construction.mp4",
+        "grades": "7-12",
+        "concepts": [
+          "geometric proof",
+          "triangle construction",
+          "angle relationships",
+          "auxiliary line",
+          "theorem reasoning",
+          "geometry to equation"
+        ]
+      },
+      {
+        "id": "geometry-area-derivation",
+        "name": "Geometry Area Derivation",
+        "file": "/reference-styles/problem-solving/geometry/geometry-area-derivation.webm",
+        "grades": "6-10",
+        "concepts": [
+          "area derivation",
+          "shape decomposition",
+          "base",
+          "height",
+          "equivalent shapes",
+          "geometry to formula"
+        ]
+      },
+      {
+        "id": "area-formula-visual-derivation-reference",
+        "name": "Area Formula Visual Derivation",
+        "file": "/reference-styles/problem-solving/geometry/area-formula-visual-derivation-reference.mp4",
+        "grades": "5-10",
+        "concepts": [
+          "area",
+          "unit squares",
+          "rectangle area",
+          "square area",
+          "triangle area",
+          "parallelogram area",
+          "rhombus area",
+          "trapezium area"
+        ]
+      },
+      {
+        "id": "reference-area-formula-intro",
+        "name": "Area Formula Reference \u2014 Intro",
+        "file": "/reference-styles/problem-solving/geometry/intro.mp4",
+        "grades": "1-8",
+        "concepts": [
+          "area",
+          "unit square",
+          "area formulas"
+        ]
+      },
+      {
+        "id": "reference-area-formula-rectangle",
+        "name": "Area Formula Reference \u2014 Rectangle",
+        "file": "/reference-styles/problem-solving/geometry/rectangle.mp4",
+        "grades": "1-8",
+        "concepts": [
+          "rectangle",
+          "length",
+          "width",
+          "unit squares",
+          "rectangle area"
+        ]
+      },
+      {
+        "id": "reference-area-formula-square",
+        "name": "Area Formula Reference \u2014 Square",
+        "file": "/reference-styles/problem-solving/geometry/square.mp4",
+        "grades": "1-8",
+        "concepts": [
+          "square",
+          "equal sides",
+          "side squared",
+          "square area"
+        ]
+      },
+      {
+        "id": "reference-area-formula-triangle",
+        "name": "Area Formula Reference \u2014 Triangle",
+        "file": "/reference-styles/problem-solving/geometry/triangle.mp4",
+        "grades": "4-10",
+        "concepts": [
+          "triangle",
+          "base",
+          "height",
+          "half rectangle",
+          "triangle area"
+        ]
+      },
+      {
+        "id": "reference-area-formula-parallelogram",
+        "name": "Area Formula Reference \u2014 Parallelogram",
+        "file": "/reference-styles/problem-solving/geometry/parallelogram.mp4",
+        "grades": "4-10",
+        "concepts": [
+          "parallelogram",
+          "base",
+          "perpendicular height",
+          "rectangle equivalence",
+          "parallelogram area"
+        ]
+      },
+      {
+        "id": "reference-area-formula-rhombus",
+        "name": "Area Formula Reference \u2014 Rhombus",
+        "file": "/reference-styles/problem-solving/geometry/rhombus.mp4",
+        "grades": "5-10",
+        "concepts": [
+          "rhombus",
+          "diagonals",
+          "triangles",
+          "half product",
+          "rhombus area"
+        ]
+      },
+      {
+        "id": "reference-area-formula-trapezium",
+        "name": "Area Formula Reference \u2014 Trapezium",
+        "file": "/reference-styles/problem-solving/geometry/trapezium.mp4",
+        "grades": "5-10",
+        "concepts": [
+          "trapezium",
+          "trapezoid",
+          "parallel sides",
+          "height",
+          "two trapezia",
+          "half sum",
+          "trapezium area"
+        ]
+      }
+    ],
+    "calculus": [
+      {
+        "id": "calculus-slope-explorer-reference",
+        "name": "Calculus Slope Explorer",
+        "file": "/reference-styles/problem-solving/calculus/calculus-slope-explorer.webm",
+        "grades": "10-12",
+        "concepts": [
+          "slope",
+          "secant slope",
+          "tangent slope",
+          "moving point",
+          "instantaneous slope",
+          "derivative intuition"
+        ]
+      },
+      {
+        "id": "calculus-riemann-sum-area-reference",
+        "name": "Calculus Riemann Sum / Area Under Curve",
+        "file": "/reference-styles/problem-solving/calculus/calculus-riemann-sum-area-reference.mp4",
+        "grades": "11-12",
+        "concepts": [
+          "Riemann sum",
+          "area under curve",
+          "partition",
+          "rectangle approximation",
+          "delta x",
+          "definite integral"
+        ]
+      },
+      {
+        "id": "user-video-8-calculus-first-principles",
+        "name": "Calculus First Principles / Derivative",
+        "file": "/reference-styles/problem-solving/calculus/calculus-first-principles-reference.mp4",
+        "grades": "11-12",
+        "concepts": [
+          "derivative from first principles",
+          "secant slope",
+          "tangent slope",
+          "limit definition",
+          "delta x",
+          "h"
+        ]
+      },
+      {
+        "id": "user-video-9-slope-to-derivative",
+        "name": "Calculus Slope to Derivative",
+        "file": "/reference-styles/problem-solving/calculus/calculus-slope-to-derivative-reference.mp4",
+        "grades": "10-12",
+        "concepts": [
+          "slope",
+          "rise over run",
+          "delta y over delta x",
+          "secant line",
+          "tangent line",
+          "derivative as instantaneous slope"
+        ]
+      },
+      {
+        "id": "derivative-formulas-through-geometry",
+        "name": "Derivative Formulas Through Geometry \u2014 Chapter 3, Essence of Calculus",
+        "file": "/reference-styles/problem-solving/calculus/derivative-formulas-through-geometry.mp4",
+        "grades": "11-12",
+        "concepts": [
+          "derivative",
+          "derivative formulas",
+          "geometry",
+          "slope",
+          "tangent",
+          "rate of change",
+          "geometric interpretation of derivative"
+        ]
+      }
+    ],
+    "algebra": [
+      {
+        "id": "user-video-10-quadratic-formula",
+        "name": "Quadratic Formula Derivation",
+        "file": "/reference-styles/problem-solving/algebra/quadratic-formula-derivation-reference.mp4",
+        "grades": "9-12",
+        "concepts": [
+          "quadratic formula",
+          "coefficient roles",
+          "completing the square",
+          "plus or minus",
+          "discriminant",
+          "sign handling"
+        ]
+      },
+      {
+        "id": "linear-equation-two-step-reference",
+        "name": "Linear Equation / Two-Step Equation \u2014 Reference",
+        "file": "/reference-styles/problem-solving/algebra/linear-equation-two-step-reference.mp4",
+        "grades": "6-10",
+        "concepts": [
+          "linear equation",
+          "two-step equation",
+          "inverse operations",
+          "isolating the variable",
+          "equation transformation",
+          "solving for x"
+        ]
+      }
+    ],
+    "trigonometry": [
+      {
+        "id": "trigonometry-unit-circle-reference",
+        "name": "Trigonometry Unit Circle / Identity Construction",
+        "file": "/reference-styles/problem-solving/trigonometry/trigonometry-unit-circle-reference.mp4",
+        "grades": "9-12",
+        "concepts": [
+          "unit circle",
+          "angle",
+          "radian",
+          "sine",
+          "cosine",
+          "tangent",
+          "projection",
+          "trigonometric identities"
+        ]
+      }
+    ],
+    "arithmetic-general": [
+      {
+        "id": "japanese-multiplication-tricks-reference",
+        "name": "Japanese Multiplication Tricks \u2014 Visual Digit Grouping Reference",
+        "file": "/reference-styles/problem-solving/arithmetic-general/japanese-multiplication-tricks-reference.mp4",
+        "grades": "1-8",
+        "concepts": [
+          "multiplication",
+          "mental multiplication",
+          "digit grouping",
+          "place value",
+          "repeated addition",
+          "visual multiplication strategy"
+        ]
+      },
+      {
+        "id": "math-animations-text-latex-transformations-arrows",
+        "name": "Math Animations \u2014 Text & LaTeX Transformations, Arrows",
+        "file": "/reference-styles/problem-solving/arithmetic-general/math-animations-text-latex-transformations-arrows.mp4",
+        "grades": "6-12",
+        "concepts": [
+          "text transformation",
+          "LaTeX transformation",
+          "equation transformation",
+          "arrows",
+          "step-by-step algebra",
+          "mathematical notation",
+          "visual transformation"
+        ]
+      }
+    ]
+  },
+  "generalClassroomRag": {
+    "note": "Curated code/visual patterns, not MP4 videos.",
+    "branches": {
+      "arithmetic": [
+        {
+          "id": "golden:_2015_music_and_measure",
+          "file_path": "_2015_music_and_measure.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_hanoi",
+          "file_path": "_2016_hanoi.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2015_inventing_math",
+          "file_path": "_2015_inventing_math.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2015_inventing_math_images",
+          "file_path": "_2015_inventing_math_images.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter0",
+          "file_path": "_2016_eola_chapter0.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter5",
+          "file_path": "_2016_eola_chapter5.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "3b1b_videos:3477",
+          "file_path": "_2020/covid.py",
+          "source": "3b1b_videos"
+        },
+        {
+          "id": "3b1b_videos:5688",
+          "file_path": "once_useful_constructs/counting.py",
+          "source": "3b1b_videos"
+        },
+        {
+          "id": "3b1b_videos:13",
+          "file_path": "_2015/counting_in_binary.py",
+          "source": "3b1b_videos"
+        },
+        {
+          "id": "3b1b_videos:104",
+          "file_path": "_2015/music_and_measure.py",
+          "source": "3b1b_videos"
+        },
+        {
+          "id": "golden:_2015_generate_logo",
+          "file_path": "_2015_generate_logo.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2015_ka_playgrounds_circuits",
+          "file_path": "_2015_ka_playgrounds_circuits.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2015_ka_playgrounds_transform_article",
+          "file_path": "_2015_ka_playgrounds_transform_article.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "3b1b_videos:455",
+          "file_path": "_2016/hanoi.py",
+          "source": "3b1b_videos"
+        },
+        {
+          "id": "golden:_2016_brachistochrone_wordplay",
+          "file_path": "_2016_brachistochrone_wordplay.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter1",
+          "file_path": "_2016_eola_chapter1.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter3",
+          "file_path": "_2016_eola_chapter3.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter4",
+          "file_path": "_2016_eola_chapter4.py",
+          "source": "golden_set"
+        }
+      ],
+      "algebra": [
+        {
+          "id": "golden:_2016_brachistochrone_curves",
+          "file_path": "_2016_brachistochrone_curves.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_brachistochrone_light",
+          "file_path": "_2016_brachistochrone_light.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter7",
+          "file_path": "_2016_eola_chapter7.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter8p2",
+          "file_path": "_2016_eola_chapter8p2.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter9",
+          "file_path": "_2016_eola_chapter9.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2015_ka_playgrounds_fluid_flow",
+          "file_path": "_2015_ka_playgrounds_fluid_flow.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2015_ka_playgrounds_parametric_curves",
+          "file_path": "_2015_ka_playgrounds_parametric_curves.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "3b1b_videos:333",
+          "file_path": "_2016/eola/chapter6.py",
+          "source": "3b1b_videos"
+        },
+        {
+          "id": "golden:_2016_brachistochrone_cycloid",
+          "file_path": "_2016_brachistochrone_cycloid.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_brachistochrone_graveyard",
+          "file_path": "_2016_brachistochrone_graveyard.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter0",
+          "file_path": "_2016_eola_chapter0.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter1",
+          "file_path": "_2016_eola_chapter1.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter11",
+          "file_path": "_2016_eola_chapter11.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter2",
+          "file_path": "_2016_eola_chapter2.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter3",
+          "file_path": "_2016_eola_chapter3.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter4",
+          "file_path": "_2016_eola_chapter4.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter5",
+          "file_path": "_2016_eola_chapter5.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter6",
+          "file_path": "_2016_eola_chapter6.py",
+          "source": "golden_set"
+        }
+      ],
+      "geometry": [
+        {
+          "id": "golden:_2015_pythagorean_proof",
+          "file_path": "_2015_pythagorean_proof.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "3b1b_videos:127",
+          "file_path": "_2015/pythagorean_proof.py",
+          "source": "3b1b_videos"
+        },
+        {
+          "id": "3b1b_videos:2489",
+          "file_path": "_2018/sphere_area.py",
+          "source": "3b1b_videos"
+        },
+        {
+          "id": "golden:_2015_generate_logo",
+          "file_path": "_2015_generate_logo.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2015_ka_playgrounds_circuits",
+          "file_path": "_2015_ka_playgrounds_circuits.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_brachistochrone_curves",
+          "file_path": "_2016_brachistochrone_curves.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_brachistochrone_cycloid",
+          "file_path": "_2016_brachistochrone_cycloid.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_brachistochrone_graveyard",
+          "file_path": "_2016_brachistochrone_graveyard.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_brachistochrone_light",
+          "file_path": "_2016_brachistochrone_light.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_brachistochrone_multilayered",
+          "file_path": "_2016_brachistochrone_multilayered.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter11",
+          "file_path": "_2016_eola_chapter11.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter5",
+          "file_path": "_2016_eola_chapter5.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter8",
+          "file_path": "_2016_eola_chapter8.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_wcat",
+          "file_path": "_2016_wcat.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "3b1b_videos:1633",
+          "file_path": "_2017/triples.py",
+          "source": "3b1b_videos"
+        },
+        {
+          "id": "3b1b_videos:3765",
+          "file_path": "_2021/bertrands_paradox.py",
+          "source": "3b1b_videos"
+        },
+        {
+          "id": "3b1b_videos:77",
+          "file_path": "_2015/moser_intro.py",
+          "source": "3b1b_videos"
+        },
+        {
+          "id": "3b1b_videos:81",
+          "file_path": "_2015/moser_main.py",
+          "source": "3b1b_videos"
+        }
+      ],
+      "trigonometry": [
+        {
+          "id": "golden:_2015_tau_poem",
+          "file_path": "_2015_tau_poem.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_brachistochrone_light",
+          "file_path": "_2016_brachistochrone_light.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2015_ka_playgrounds_fluid_flow",
+          "file_path": "_2015_ka_playgrounds_fluid_flow.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2015_ka_playgrounds_jacobian_animations",
+          "file_path": "_2015_ka_playgrounds_jacobian_animations.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2015_ka_playgrounds_parametric_curves",
+          "file_path": "_2015_ka_playgrounds_parametric_curves.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2015_ka_playgrounds_transform_article",
+          "file_path": "_2015_ka_playgrounds_transform_article.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2015_matrix_as_transform_2d",
+          "file_path": "_2015_matrix_as_transform_2d.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2015_moser_main",
+          "file_path": "_2015_moser_main.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2015_music_and_measure",
+          "file_path": "_2015_music_and_measure.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_brachistochrone_curves",
+          "file_path": "_2016_brachistochrone_curves.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_brachistochrone_cycloid",
+          "file_path": "_2016_brachistochrone_cycloid.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_brachistochrone_graveyard",
+          "file_path": "_2016_brachistochrone_graveyard.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_brachistochrone_misc",
+          "file_path": "_2016_brachistochrone_misc.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_brachistochrone_multilayered",
+          "file_path": "_2016_brachistochrone_multilayered.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_brachistochrone_wordplay",
+          "file_path": "_2016_brachistochrone_wordplay.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter0",
+          "file_path": "_2016_eola_chapter0.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter1",
+          "file_path": "_2016_eola_chapter1.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter10",
+          "file_path": "_2016_eola_chapter10.py",
+          "source": "golden_set"
+        }
+      ],
+      "functions-graphs": [
+        {
+          "id": "golden:_2015_ka_playgrounds_jacobian_animations",
+          "file_path": "_2015_ka_playgrounds_jacobian_animations.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2015_ka_playgrounds_parametric_curves",
+          "file_path": "_2015_ka_playgrounds_parametric_curves.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2015_ka_playgrounds_transform_article",
+          "file_path": "_2015_ka_playgrounds_transform_article.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_brachistochrone_curves",
+          "file_path": "_2016_brachistochrone_curves.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_brachistochrone_misc",
+          "file_path": "_2016_brachistochrone_misc.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter1",
+          "file_path": "_2016_eola_chapter1.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter2",
+          "file_path": "_2016_eola_chapter2.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_zeta",
+          "file_path": "_2016_zeta.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "3b1b_videos:5527",
+          "file_path": "_2025/laplace/integration.py",
+          "source": "3b1b_videos"
+        },
+        {
+          "id": "golden:_2015_complex_multiplication_article",
+          "file_path": "_2015_complex_multiplication_article.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2015_eulers_characteristic_formula",
+          "file_path": "_2015_eulers_characteristic_formula.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2015_inventing_math_images",
+          "file_path": "_2015_inventing_math_images.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2015_ka_playgrounds_fluid_flow",
+          "file_path": "_2015_ka_playgrounds_fluid_flow.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2015_moser_main",
+          "file_path": "_2015_moser_main.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2015_tau_poem",
+          "file_path": "_2015_tau_poem.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_brachistochrone_cycloid",
+          "file_path": "_2016_brachistochrone_cycloid.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_brachistochrone_graveyard",
+          "file_path": "_2016_brachistochrone_graveyard.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_brachistochrone_light",
+          "file_path": "_2016_brachistochrone_light.py",
+          "source": "golden_set"
+        }
+      ],
+      "calculus": [
+        {
+          "id": "golden:_2016_eola_chapter0",
+          "file_path": "_2016_eola_chapter0.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter11",
+          "file_path": "_2016_eola_chapter11.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter3",
+          "file_path": "_2016_eola_chapter3.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_hilbert_fractal_porn",
+          "file_path": "_2016_hilbert_fractal_porn.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_hilbert_section2",
+          "file_path": "_2016_hilbert_section2.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_hilbert_section3",
+          "file_path": "_2016_hilbert_section3.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_brachistochrone_light",
+          "file_path": "_2016_brachistochrone_light.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter1",
+          "file_path": "_2016_eola_chapter1.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter2",
+          "file_path": "_2016_eola_chapter2.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter4",
+          "file_path": "_2016_eola_chapter4.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter5",
+          "file_path": "_2016_eola_chapter5.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter6",
+          "file_path": "_2016_eola_chapter6.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter7",
+          "file_path": "_2016_eola_chapter7.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter8",
+          "file_path": "_2016_eola_chapter8.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter8p2",
+          "file_path": "_2016_eola_chapter8p2.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter9",
+          "file_path": "_2016_eola_chapter9.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_footnote",
+          "file_path": "_2016_eola_footnote.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_footnote2",
+          "file_path": "_2016_eola_footnote2.py",
+          "source": "golden_set"
+        }
+      ],
+      "probability-statistics": [
+        {
+          "id": "golden:_2015_inventing_math",
+          "file_path": "_2015_inventing_math.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2015_inventing_math_images",
+          "file_path": "_2015_inventing_math_images.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2015_music_and_measure",
+          "file_path": "_2015_music_and_measure.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_brachistochrone_drawing_images",
+          "file_path": "_2016_brachistochrone_drawing_images.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter1",
+          "file_path": "_2016_eola_chapter1.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter4",
+          "file_path": "_2016_eola_chapter4.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter5",
+          "file_path": "_2016_eola_chapter5.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter6",
+          "file_path": "_2016_eola_chapter6.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter8",
+          "file_path": "_2016_eola_chapter8.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_footnote",
+          "file_path": "_2016_eola_footnote.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_hanoi",
+          "file_path": "_2016_hanoi.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter11",
+          "file_path": "_2016_eola_chapter11.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter7",
+          "file_path": "_2016_eola_chapter7.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_wcat",
+          "file_path": "_2016_wcat.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter2",
+          "file_path": "_2016_eola_chapter2.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter3",
+          "file_path": "_2016_eola_chapter3.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter9",
+          "file_path": "_2016_eola_chapter9.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_footnote2",
+          "file_path": "_2016_eola_footnote2.py",
+          "source": "golden_set"
+        }
+      ],
+      "number-theory": [
+        {
+          "id": "golden:_2015_generate_logo",
+          "file_path": "_2015_generate_logo.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2015_inventing_math_images",
+          "file_path": "_2015_inventing_math_images.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2015_music_and_measure",
+          "file_path": "_2015_music_and_measure.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2015_pythagorean_proof",
+          "file_path": "_2015_pythagorean_proof.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_brachistochrone_curves",
+          "file_path": "_2016_brachistochrone_curves.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_brachistochrone_light",
+          "file_path": "_2016_brachistochrone_light.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter9",
+          "file_path": "_2016_eola_chapter9.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_fractal_charm",
+          "file_path": "_2016_fractal_charm.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_hanoi",
+          "file_path": "_2016_hanoi.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "3b1b_videos:3200",
+          "file_path": "_2019/spirals.py",
+          "source": "3b1b_videos"
+        },
+        {
+          "id": "3b1b_videos:5707",
+          "file_path": "once_useful_constructs/homeless.py",
+          "source": "3b1b_videos"
+        },
+        {
+          "id": "3b1b_videos:20",
+          "file_path": "_2015/eulers_characteristic_formula.py",
+          "source": "3b1b_videos"
+        },
+        {
+          "id": "3b1b_videos:1940",
+          "file_path": "_2018/borsuk_addition.py",
+          "source": "3b1b_videos"
+        },
+        {
+          "id": "3b1b_videos:3419",
+          "file_path": "_2020/chess.py",
+          "source": "3b1b_videos"
+        },
+        {
+          "id": "3b1b_videos:3506",
+          "file_path": "_2020/hamming.py",
+          "source": "3b1b_videos"
+        },
+        {
+          "id": "3b1b_videos:4162",
+          "file_path": "_2022/infinity/roar_to_picture.py",
+          "source": "3b1b_videos"
+        },
+        {
+          "id": "3b1b_videos:4473",
+          "file_path": "_2023/clt/wordy_scenes.py",
+          "source": "3b1b_videos"
+        },
+        {
+          "id": "3b1b_videos:4638",
+          "file_path": "_2023/moser_reboot/main.py",
+          "source": "3b1b_videos"
+        }
+      ],
+      "linear-algebra-vectors": [
+        {
+          "id": "golden:_2016_eola_chapter0",
+          "file_path": "_2016_eola_chapter0.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter4",
+          "file_path": "_2016_eola_chapter4.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_thumbnails",
+          "file_path": "_2016_eola_thumbnails.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2015_ka_playgrounds_jacobian_animations",
+          "file_path": "_2015_ka_playgrounds_jacobian_animations.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter2",
+          "file_path": "_2016_eola_chapter2.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter3",
+          "file_path": "_2016_eola_chapter3.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter5",
+          "file_path": "_2016_eola_chapter5.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter7",
+          "file_path": "_2016_eola_chapter7.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter8p2",
+          "file_path": "_2016_eola_chapter8p2.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_footnote",
+          "file_path": "_2016_eola_footnote.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_footnote2",
+          "file_path": "_2016_eola_footnote2.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "3b1b_videos:354",
+          "file_path": "_2016/eola/chapter7.py",
+          "source": "3b1b_videos"
+        },
+        {
+          "id": "golden:_2016_brachistochrone_light",
+          "file_path": "_2016_brachistochrone_light.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter1",
+          "file_path": "_2016_eola_chapter1.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter11",
+          "file_path": "_2016_eola_chapter11.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter6",
+          "file_path": "_2016_eola_chapter6.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_eola_chapter9",
+          "file_path": "_2016_eola_chapter9.py",
+          "source": "golden_set"
+        },
+        {
+          "id": "golden:_2016_hilbert_section2",
+          "file_path": "_2016_hilbert_section2.py",
+          "source": "golden_set"
+        }
+      ]
+    }
+  },
+  "policy": {
+    "problemSolving": "Use the 20 physical reference assets only for problem-solving visual grammar. Do not watch repeatedly during class.",
+    "generalClassroom": "Use curated MathVizAI/3b1b code/animation patterns for ordinary classroom teaching.",
+    "geminiVideoPolicy": "Physical reference videos are opt-in for one-time Visual DNA learning only; normal lessons use local DNA."
+  }
+}

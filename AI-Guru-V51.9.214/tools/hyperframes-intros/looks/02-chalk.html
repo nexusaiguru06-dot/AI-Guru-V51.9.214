@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=1920, height=1080"/>
+<link rel="stylesheet" href="common.css"/>
+<style>
+#root{background:radial-gradient(1400px 800px at 50% 40%,#2f5b4b 0%,#17302a 75%)}
+#frame{position:absolute;inset:36px;border:22px solid #8b5a2b;border-radius:10px;box-shadow:inset 0 0 120px rgba(0,0,0,.55)}
+#h{position:absolute;left:0;width:1920px;text-align:center;top:380px;color:#f4f1e6;text-shadow:0 0 6px rgba(255,255,255,.35),3px 3px 0 rgba(0,0,0,.25);letter-spacing:.02em}
+#s{position:absolute;left:0;width:1920px;text-align:center;color:#ffe08a;font-size:50px;font-weight:700;opacity:0;text-shadow:0 0 6px rgba(255,224,138,.4)}
+.d{position:absolute;color:#e9e4d3;font-size:70px;opacity:0;font-weight:700}
+.nosub #s{display:none}
+</style></head><body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="5" data-width="1920" data-height="1080">
+<div id="frame"></div><svg width="1920" height="1080" style="position:absolute;left:0;top:0"><path id="ul" fill="none" stroke="#ffe08a" stroke-width="9" stroke-linecap="round"/></svg>
+<div id="h" class="t"></div><div id="s" class="t"></div><div id="ds"></div>
+</div>
+<script src="gsap.min.js"></script><script src="data.js"></script><script src="common.js"></script>
+<script>
+const tl = gsap.timeline({ paused: true });
+
+const h = document.getElementById('h'); h.textContent = D.heading; const fs = fitText(h, 1560, 190);
+document.getElementById('s').textContent = D.sub || '';
+const yTop = 380 + (fs - 190) * -0.2; h.style.top = (380 + (190 - fs) * 0.3) + 'px';
+const yb = 380 + fs * 1.2; const ul = document.getElementById('ul');
+const w = Math.min(h.scrollWidth, 1560), x0 = 960 - w / 2;
+ul.setAttribute('d', 'M' + x0 + ' ' + yb + ' Q ' + (x0 + w * .25) + ' ' + (yb - 14) + ' ' + (x0 + w * .5) + ' ' + (yb + 4) + ' T ' + (x0 + w) + ' ' + (yb - 6));
+document.getElementById('s').style.top = (yb + 40) + 'px';
+const L = ul.getTotalLength(); gsap.set(ul, { strokeDasharray: L, strokeDashoffset: L });
+const ds = document.getElementById('ds'); const spots = [[170,160],[1560,150],[220,820],[1560,800],[860,110],[140,860],[1640,260]];
+spots.forEach(([x, y], i) => { const e = document.createElement('div'); e.className = 'd'; e.textContent = SYMS[i % SYMS.length]; e.style.left = x + 'px'; e.style.top = y + 'px'; e.style.transform = 'rotate(' + Math.round((R() - .5) * 30) + 'deg)'; ds.appendChild(e); });
+gsap.set(h, { clipPath: 'inset(0 100% 0 0)' });
+tl.to(h, { clipPath: 'inset(0 0% 0 0)', duration: 1.5, ease: 'power1.inOut' }, 0.4);
+tl.to(ul, { strokeDashoffset: 0, duration: .9, ease: 'power2.out' }, 1.8);
+tl.to('#s', { opacity: 1, duration: .6 }, 2.3);
+tl.to('.d', { opacity: .55, scale: 1, duration: .5, stagger: .18 }, 1.2);
+tl.to('#root', { opacity: 0, duration: 0.4 }, 4.6);
+window.__timelines['main'] = tl; tl.seek(0);
+</script></body></html>

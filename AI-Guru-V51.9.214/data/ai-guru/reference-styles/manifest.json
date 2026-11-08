@@ -1,0 +1,91 @@
+{
+  "version": "1.3",
+  "styles": [
+    {
+      "id": "geometry-proof-construction",
+      "name": "Geometry Proof / Theorem Construction — Reference",
+      "asset": "/reference-styles/problem-solving/geometry/geometry-proof-construction.mp4",
+      "mimeType": "video/mp4",
+      "role": "style-reference",
+      "caption": "bilingual",
+      "approved": true,
+      "doNotCopyContent": true,
+      "teachingGrammar": "visual-derivation-explanation-v1",
+      "qaProfileId": "geometry-proof-construction-v1"
+    },
+    {
+      "id": "geometry-area-derivation",
+      "name": "Geometry Area Derivation — Reference",
+      "asset": "/reference-styles/problem-solving/geometry/geometry-area-derivation.webm",
+      "mimeType": "video/webm",
+      "role": "style-reference",
+      "caption": "bilingual",
+      "approved": true,
+      "doNotCopyContent": true,
+      "teachingGrammar": "visual-derivation-explanation-v1",
+      "qaProfileId": "geometry-area-derivation-v1"
+    },
+    {
+      "id": "calculus-slope-explorer-reference",
+      "name": "Calculus Slope Explorer — Reference",
+      "asset": "/reference-styles/problem-solving/calculus/calculus-slope-explorer.webm",
+      "mimeType": "video/webm",
+      "role": "style-reference",
+      "caption": "bilingual",
+      "approved": true,
+      "doNotCopyContent": true,
+      "teachingGrammar": "visual-derivation-explanation-v1",
+      "qaProfileId": "calculus-slope-explorer-v1"
+    },
+    {
+      "id": "trigonometry-unit-circle-reference",
+      "name": "Trigonometry Unit Circle / Identity Construction — Reference",
+      "asset": "/reference-styles/problem-solving/trigonometry/trigonometry-unit-circle-reference.mp4",
+      "mimeType": "video/mp4",
+      "role": "style-reference",
+      "caption": "bilingual",
+      "approved": true,
+      "doNotCopyContent": true,
+      "teachingGrammar": "visual-derivation-explanation-v1",
+      "qaProfileId": "trigonometry-unit-circle-v1"
+    },
+    {
+      "id": "calculus-riemann-sum-area-reference",
+      "name": "Calculus Riemann Sum / Area Under Curve — Reference",
+      "asset": "/reference-styles/problem-solving/calculus/calculus-riemann-sum-area-reference.mp4",
+      "mimeType": "video/mp4",
+      "role": "style-reference",
+      "caption": "bilingual",
+      "approved": true,
+      "doNotCopyContent": true,
+      "teachingGrammar": "visual-derivation-explanation-v1",
+      "qaProfileId": "calculus-riemann-sum-v1"
+    },
+    {
+      "id": "area-formula-visual-derivation-reference",
+      "name": "Area Formula Visual Derivation — Reference",
+      "asset": "/reference-styles/problem-solving/geometry/area-formula-visual-derivation-reference.mp4",
+      "mimeType": "video/mp4",
+      "role": "style-reference",
+      "caption": "bilingual",
+      "approved": true,
+      "doNotCopyContent": true,
+      "teachingGrammar": "visual-derivation-explanation-v1",
+      "qaProfileId": "geometry-area-derivation-v2",
+      "segmentCollectionId": "area-formula-visual-derivation-reference",
+      "segmentManifest": "/reference-styles/area-formula/segments/manifest.json"
+    },
+    {
+      "id": "linear-equation-two-step-reference",
+      "name": "Linear Equation / Two-Step Equation — Reference",
+      "asset": "/reference-styles/problem-solving/algebra/linear-equation-two-step-reference.mp4",
+      "mimeType": "video/mp4",
+      "role": "style-reference",
+      "caption": "bilingual",
+      "approved": true,
+      "doNotCopyContent": true,
+      "teachingGrammar": "visual-derivation-explanation-v1",
+      "qaProfileId": "linear-equation-step-by-step-v1"
+    }
+  ]
+}

@@ -1,0 +1,1008 @@
+{
+  "schemaVersion": "1.0",
+  "library": "AI Guru Visual Template Referral Library",
+  "sourcePackage": {
+    "name": "Mathlet",
+    "repository": "https://github.com/htpu/mathlet",
+    "site": "https://math.htpu.net",
+    "note": "Mathlet advertises 200 interactive math formula visualizations; its current repository also contains a reusable template renderer layer. AI Guru registers selected formula visualizations as visual teaching templates, not as copied video assets."
+  },
+  "selectionPolicy": {
+    "mode": "concept-matched-only",
+    "description": "A Mathlet template may be selected only when its concept or visual grammar materially matches the lesson. Subject, grade, or domain alone is insufficient.",
+    "minimumConceptMatches": 1,
+    "minimumScore": 7,
+    "forbidden": "Do not select a template merely because it is mathematics or the same grade."
+  },
+  "assets": [
+    {
+      "id": "mathlet-fundamental-algebra",
+      "name": "Mathlet — Fundamental Algebra / Symbolic Transformation",
+      "file": "https://math.htpu.net/f/fundamental-algebra.html",
+      "originalFilename": "fundamental-algebra.html",
+      "approved": true,
+      "doNotCopyContent": true,
+      "role": "style-reference",
+      "commonTeachingStyleId": "visual-derivation-explanation-v1",
+      "styleId": "mathlet-template",
+      "qaProfileId": "mathlet-template-v1",
+      "subject": "Mathematics",
+      "domains": [
+        "algebra",
+        "linear_equations",
+        "polynomials"
+      ],
+      "suggestedGrades": "6-12",
+      "concepts": [
+        "algebraic equivalence",
+        "symbolic manipulation",
+        "term transformation",
+        "expression simplification"
+      ],
+      "teachingMethods": [
+        "token-preserving transformation",
+        "highlight active terms",
+        "progressive simplification"
+      ],
+      "selectionTerms": [
+        "simplify expression",
+        "equivalent expression",
+        "collect like terms",
+        "factor",
+        "expand"
+      ],
+      "teachingPrompt": "Use this Mathlet visual as a teaching-grammar template, not as a video to copy or replay. Recreate the useful visual relationship with AI Guru's own verified graphics and lesson-specific mathematics. Never copy the reference example, exact values, wording, branding or artwork. Emphasize identity-preserving symbolic transformation: highlight the active terms, apply one operation at a time, and reveal the simplified form only after the reasoning.",
+      "qaInstructions": [
+        "Original expression is visible before manipulation.",
+        "Only the justified terms change at each step.",
+        "Like terms/factors remain identifiable.",
+        "The final expression matches the verified result.",
+        "Every mathematical claim and final result must pass AI Guru mathematical verification.",
+        "Every visual step must have valid visual IDs and pass Visual Steps QA.",
+        "Voice/caption cues must align with the visual teaching beat."
+      ],
+      "assetType": "interactive_template",
+      "mediaKind": "interactive_visual_template",
+      "templateSource": "htpu/mathlet",
+      "templatePath": "src/formulas/algebra/fundamental-algebra.ts",
+      "templateUrl": "https://math.htpu.net/f/fundamental-algebra.html"
+    },
+    {
+      "id": "mathlet-function-lab",
+      "name": "Mathlet — Function Mapping / Graph Construction",
+      "file": "https://math.htpu.net/f/function-lab.html",
+      "originalFilename": "function-lab.html",
+      "approved": true,
+      "doNotCopyContent": true,
+      "role": "style-reference",
+      "commonTeachingStyleId": "visual-derivation-explanation-v1",
+      "styleId": "mathlet-template",
+      "qaProfileId": "mathlet-template-v1",
+      "subject": "Mathematics",
+      "domains": [
+        "functions",
+        "coordinate_geometry",
+        "algebra"
+      ],
+      "suggestedGrades": "7-12",
+      "concepts": [
+        "function",
+        "input-output mapping",
+        "domain",
+        "range",
+        "function graph"
+      ],
+      "teachingMethods": [
+        "input-to-output mapping",
+        "table-to-graph",
+        "moving point",
+        "graph annotation"
+      ],
+      "selectionTerms": [
+        "function",
+        "f(x)",
+        "domain",
+        "range",
+        "input output",
+        "function graph",
+        "mapping"
+      ],
+      "teachingPrompt": "Use this Mathlet visual as a teaching-grammar template, not as a video to copy or replay. Recreate the useful visual relationship with AI Guru's own verified graphics and lesson-specific mathematics. Never copy the reference example, exact values, wording, branding or artwork. Prefer a function-first visual grammar: show input, mapping, output, then connect the same relationship to a graph and moving point.",
+      "qaInstructions": [
+        "Inputs and outputs are distinct.",
+        "The graph corresponds to the stated function.",
+        "A moving point remains on the correct curve.",
+        "Domain/range claims are visually grounded.",
+        "Every mathematical claim and final result must pass AI Guru mathematical verification.",
+        "Every visual step must have valid visual IDs and pass Visual Steps QA.",
+        "Voice/caption cues must align with the visual teaching beat."
+      ],
+      "assetType": "interactive_template",
+      "mediaKind": "interactive_visual_template",
+      "templateSource": "htpu/mathlet",
+      "templatePath": "src/formulas/graph/function-lab.ts",
+      "templateUrl": "https://math.htpu.net/f/function-lab.html"
+    },
+    {
+      "id": "mathlet-conic-sections",
+      "name": "Mathlet — Conic Sections / Geometry-to-Graph",
+      "file": "https://math.htpu.net/f/conic-sections.html",
+      "originalFilename": "conic-sections.html",
+      "approved": true,
+      "doNotCopyContent": true,
+      "role": "style-reference",
+      "commonTeachingStyleId": "visual-derivation-explanation-v1",
+      "styleId": "mathlet-template",
+      "qaProfileId": "mathlet-template-v1",
+      "subject": "Mathematics",
+      "domains": [
+        "coordinate_geometry",
+        "geometry",
+        "algebra"
+      ],
+      "suggestedGrades": "9-12",
+      "concepts": [
+        "circle",
+        "parabola",
+        "ellipse",
+        "hyperbola",
+        "focus",
+        "directrix",
+        "eccentricity"
+      ],
+      "teachingMethods": [
+        "shape construction",
+        "parameter variation",
+        "focus/directrix highlighting",
+        "equation-to-graph"
+      ],
+      "selectionTerms": [
+        "conic",
+        "circle",
+        "parabola",
+        "ellipse",
+        "hyperbola",
+        "focus",
+        "directrix",
+        "eccentricity"
+      ],
+      "teachingPrompt": "Use this Mathlet visual as a teaching-grammar template, not as a video to copy or replay. Recreate the useful visual relationship with AI Guru's own verified graphics and lesson-specific mathematics. Never copy the reference example, exact values, wording, branding or artwork. Use shape construction and parameter changes to connect conic geometry to its equation; keep foci, axes and directrices visually anchored when relevant.",
+      "qaInstructions": [
+        "The conic is constructed before symbolic compression.",
+        "Foci/axes/directrix are positioned correctly when used.",
+        "Parameter changes preserve the intended conic family.",
+        "The displayed equation matches the constructed geometry.",
+        "Every mathematical claim and final result must pass AI Guru mathematical verification.",
+        "Every visual step must have valid visual IDs and pass Visual Steps QA.",
+        "Voice/caption cues must align with the visual teaching beat."
+      ],
+      "assetType": "interactive_template",
+      "mediaKind": "interactive_visual_template",
+      "templateSource": "htpu/mathlet",
+      "templatePath": "src/formulas/algebra/conic-sections.ts",
+      "templateUrl": "https://math.htpu.net/f/conic-sections.html"
+    },
+    {
+      "id": "mathlet-limit-epsilon-delta",
+      "name": "Mathlet — Limit / Epsilon-Delta Intuition",
+      "file": "https://math.htpu.net/f/limit-epsilon-delta.html",
+      "originalFilename": "limit-epsilon-delta.html",
+      "approved": true,
+      "doNotCopyContent": true,
+      "role": "style-reference",
+      "commonTeachingStyleId": "visual-derivation-explanation-v1",
+      "styleId": "mathlet-template",
+      "qaProfileId": "mathlet-template-v1",
+      "subject": "Mathematics",
+      "domains": [
+        "calculus",
+        "functions",
+        "coordinate_geometry"
+      ],
+      "suggestedGrades": "11-12",
+      "concepts": [
+        "limit",
+        "epsilon-delta",
+        "approach",
+        "continuity",
+        "neighborhood"
+      ],
+      "teachingMethods": [
+        "moving-point approach",
+        "epsilon band",
+        "delta interval",
+        "graph annotation"
+      ],
+      "selectionTerms": [
+        "limit",
+        "epsilon",
+        "delta",
+        "approaches",
+        "continuity",
+        "epsilon delta"
+      ],
+      "teachingPrompt": "Use this Mathlet visual as a teaching-grammar template, not as a video to copy or replay. Recreate the useful visual relationship with AI Guru's own verified graphics and lesson-specific mathematics. Never copy the reference example, exact values, wording, branding or artwork. Use a graph-first approach: establish the target point/value, show the epsilon band, then the corresponding delta neighborhood and the point approaching the target.",
+      "qaInstructions": [
+        "Target point and limit value are explicit.",
+        "Epsilon and delta regions are visually distinguished.",
+        "The approach process is continuous and mathematically consistent.",
+        "The conclusion follows from the displayed neighborhood reasoning.",
+        "Every mathematical claim and final result must pass AI Guru mathematical verification.",
+        "Every visual step must have valid visual IDs and pass Visual Steps QA.",
+        "Voice/caption cues must align with the visual teaching beat."
+      ],
+      "assetType": "interactive_template",
+      "mediaKind": "interactive_visual_template",
+      "templateSource": "htpu/mathlet",
+      "templatePath": "src/formulas/calculus/limit-epsilon-delta.ts",
+      "templateUrl": "https://math.htpu.net/f/limit-epsilon-delta.html"
+    },
+    {
+      "id": "mathlet-chain-rule",
+      "name": "Mathlet — Chain Rule / Nested Change",
+      "file": "https://math.htpu.net/f/chain-rule.html",
+      "originalFilename": "chain-rule.html",
+      "approved": true,
+      "doNotCopyContent": true,
+      "role": "style-reference",
+      "commonTeachingStyleId": "visual-derivation-explanation-v1",
+      "styleId": "mathlet-template",
+      "qaProfileId": "mathlet-template-v1",
+      "subject": "Mathematics",
+      "domains": [
+        "calculus",
+        "functions"
+      ],
+      "suggestedGrades": "11-12",
+      "concepts": [
+        "chain rule",
+        "composite function",
+        "inner function",
+        "outer function",
+        "derivative composition"
+      ],
+      "teachingMethods": [
+        "nested-function reveal",
+        "dependency arrows",
+        "symbolic differentiation",
+        "stepwise substitution"
+      ],
+      "selectionTerms": [
+        "chain rule",
+        "composite function",
+        "inner function",
+        "outer function",
+        "differentiate composite"
+      ],
+      "teachingPrompt": "Use this Mathlet visual as a teaching-grammar template, not as a video to copy or replay. Recreate the useful visual relationship with AI Guru's own verified graphics and lesson-specific mathematics. Never copy the reference example, exact values, wording, branding or artwork. Show the nested dependency first, then expose the inner derivative and outer derivative and connect them by a visible multiplication/composition step.",
+      "qaInstructions": [
+        "Inner and outer functions are identified before differentiation.",
+        "Dependency order is preserved.",
+        "Derivative factors correspond to the correct inner/outer functions.",
+        "The final derivative is verified.",
+        "Every mathematical claim and final result must pass AI Guru mathematical verification.",
+        "Every visual step must have valid visual IDs and pass Visual Steps QA.",
+        "Voice/caption cues must align with the visual teaching beat."
+      ],
+      "assetType": "interactive_template",
+      "mediaKind": "interactive_visual_template",
+      "templateSource": "htpu/mathlet",
+      "templatePath": "src/formulas/calculus/chain-rule.ts",
+      "templateUrl": "https://math.htpu.net/f/chain-rule.html"
+    },
+    {
+      "id": "mathlet-taylor",
+      "name": "Mathlet — Taylor Series / Progressive Approximation",
+      "file": "https://math.htpu.net/f/taylor.html",
+      "originalFilename": "taylor.html",
+      "approved": true,
+      "doNotCopyContent": true,
+      "role": "style-reference",
+      "commonTeachingStyleId": "visual-derivation-explanation-v1",
+      "styleId": "mathlet-template",
+      "qaProfileId": "mathlet-template-v1",
+      "subject": "Mathematics",
+      "domains": [
+        "calculus",
+        "sequences_series",
+        "functions"
+      ],
+      "suggestedGrades": "11-12",
+      "concepts": [
+        "Taylor series",
+        "Maclaurin series",
+        "polynomial approximation",
+        "convergence",
+        "series terms"
+      ],
+      "teachingMethods": [
+        "term-by-term reveal",
+        "curve approximation",
+        "error/convergence visualization",
+        "coefficient emphasis"
+      ],
+      "selectionTerms": [
+        "Taylor series",
+        "Maclaurin",
+        "series expansion",
+        "polynomial approximation",
+        "convergence"
+      ],
+      "teachingPrompt": "Use this Mathlet visual as a teaching-grammar template, not as a video to copy or replay. Recreate the useful visual relationship with AI Guru's own verified graphics and lesson-specific mathematics. Never copy the reference example, exact values, wording, branding or artwork. Reveal approximation terms one at a time and show how the polynomial approaches the target function; make convergence visually meaningful rather than decorative.",
+      "qaInstructions": [
+        "Target function is visible before approximation.",
+        "Each added term has a mathematically correct coefficient/order.",
+        "The approximation curve corresponds to the shown polynomial.",
+        "Convergence/error statements are consistent with the displayed behavior.",
+        "Every mathematical claim and final result must pass AI Guru mathematical verification.",
+        "Every visual step must have valid visual IDs and pass Visual Steps QA.",
+        "Voice/caption cues must align with the visual teaching beat."
+      ],
+      "assetType": "interactive_template",
+      "mediaKind": "interactive_visual_template",
+      "templateSource": "htpu/mathlet",
+      "templatePath": "src/formulas/calculus/taylor.ts",
+      "templateUrl": "https://math.htpu.net/f/taylor.html"
+    },
+    {
+      "id": "mathlet-binomial-expansion",
+      "name": "Mathlet — Binomial Expansion / Coefficient Structure",
+      "file": "https://math.htpu.net/f/binomial-expansion.html",
+      "originalFilename": "binomial-expansion.html",
+      "approved": true,
+      "doNotCopyContent": true,
+      "role": "style-reference",
+      "commonTeachingStyleId": "visual-derivation-explanation-v1",
+      "styleId": "mathlet-template",
+      "qaProfileId": "mathlet-template-v1",
+      "subject": "Mathematics",
+      "domains": [
+        "algebra",
+        "polynomials",
+        "sequences_series"
+      ],
+      "suggestedGrades": "8-12",
+      "concepts": [
+        "binomial theorem",
+        "expansion",
+        "coefficients",
+        "Pascal triangle",
+        "powers"
+      ],
+      "teachingMethods": [
+        "token expansion",
+        "coefficient highlighting",
+        "Pascal-triangle linkage",
+        "term-by-term reveal"
+      ],
+      "selectionTerms": [
+        "binomial theorem",
+        "expand",
+        "(a+b)^n",
+        "coefficients",
+        "Pascal triangle"
+      ],
+      "teachingPrompt": "Use this Mathlet visual as a teaching-grammar template, not as a video to copy or replay. Recreate the useful visual relationship with AI Guru's own verified graphics and lesson-specific mathematics. Never copy the reference example, exact values, wording, branding or artwork. Preserve each factor and exponent while expanding; connect coefficient emergence to combinatorial structure where appropriate.",
+      "qaInstructions": [
+        "Original binomial is visible.",
+        "Every generated term has correct exponent pattern.",
+        "Coefficients are correct and ordered.",
+        "Final expansion passes symbolic verification.",
+        "Every mathematical claim and final result must pass AI Guru mathematical verification.",
+        "Every visual step must have valid visual IDs and pass Visual Steps QA.",
+        "Voice/caption cues must align with the visual teaching beat."
+      ],
+      "assetType": "interactive_template",
+      "mediaKind": "interactive_visual_template",
+      "templateSource": "htpu/mathlet",
+      "templatePath": "src/formulas/algebra/binomial-expansion.ts",
+      "templateUrl": "https://math.htpu.net/f/binomial-expansion.html"
+    },
+    {
+      "id": "mathlet-normal-pdf",
+      "name": "Mathlet — Normal Distribution / Bell Curve",
+      "file": "https://math.htpu.net/f/normal-pdf.html",
+      "originalFilename": "normal-pdf.html",
+      "approved": true,
+      "doNotCopyContent": true,
+      "role": "style-reference",
+      "commonTeachingStyleId": "visual-derivation-explanation-v1",
+      "styleId": "mathlet-template",
+      "qaProfileId": "mathlet-template-v1",
+      "subject": "Mathematics",
+      "domains": [
+        "statistics",
+        "probability"
+      ],
+      "suggestedGrades": "10-12",
+      "concepts": [
+        "normal distribution",
+        "mean",
+        "standard deviation",
+        "z-score",
+        "probability density"
+      ],
+      "teachingMethods": [
+        "curve construction",
+        "mean marker",
+        "standard-deviation bands",
+        "area highlighting"
+      ],
+      "selectionTerms": [
+        "normal distribution",
+        "bell curve",
+        "mean",
+        "standard deviation",
+        "z score",
+        "normal pdf"
+      ],
+      "teachingPrompt": "Use this Mathlet visual as a teaching-grammar template, not as a video to copy or replay. Recreate the useful visual relationship with AI Guru's own verified graphics and lesson-specific mathematics. Never copy the reference example, exact values, wording, branding or artwork. Build the distribution curve, mark the mean and standard-deviation positions, and shade probability regions only after the geometry is established.",
+      "qaInstructions": [
+        "Axes and distribution parameters are clear.",
+        "Mean and spread are correctly placed.",
+        "Shaded probability area matches the stated interval.",
+        "Any z-score mapping is consistent with the displayed parameters.",
+        "Every mathematical claim and final result must pass AI Guru mathematical verification.",
+        "Every visual step must have valid visual IDs and pass Visual Steps QA.",
+        "Voice/caption cues must align with the visual teaching beat."
+      ],
+      "assetType": "interactive_template",
+      "mediaKind": "interactive_visual_template",
+      "templateSource": "htpu/mathlet",
+      "templatePath": "src/formulas/probability/normal-pdf.ts",
+      "templateUrl": "https://math.htpu.net/f/normal-pdf.html"
+    },
+    {
+      "id": "mathlet-binomial-dist",
+      "name": "Mathlet — Binomial Distribution / Repeated Trials",
+      "file": "https://math.htpu.net/f/binomial-dist.html",
+      "originalFilename": "binomial-dist.html",
+      "approved": true,
+      "doNotCopyContent": true,
+      "role": "style-reference",
+      "commonTeachingStyleId": "visual-derivation-explanation-v1",
+      "styleId": "mathlet-template",
+      "qaProfileId": "mathlet-template-v1",
+      "subject": "Mathematics",
+      "domains": [
+        "probability",
+        "statistics"
+      ],
+      "suggestedGrades": "10-12",
+      "concepts": [
+        "binomial distribution",
+        "Bernoulli trials",
+        "n trials",
+        "success probability",
+        "expected value"
+      ],
+      "teachingMethods": [
+        "trial construction",
+        "probability tree/sequence",
+        "PMF bars",
+        "parameter changes"
+      ],
+      "selectionTerms": [
+        "binomial distribution",
+        "Bernoulli",
+        "n trials",
+        "success probability",
+        "binomial probability"
+      ],
+      "teachingPrompt": "Use this Mathlet visual as a teaching-grammar template, not as a video to copy or replay. Recreate the useful visual relationship with AI Guru's own verified graphics and lesson-specific mathematics. Never copy the reference example, exact values, wording, branding or artwork. Use repeated-trial visuals and then build the PMF so students can see how n and p change the distribution.",
+      "qaInstructions": [
+        "Trials and success probability are explicit.",
+        "PMF values are nonnegative and sum consistently.",
+        "Changing n or p changes the distribution correctly.",
+        "Highlighted probability corresponds to the selected outcome.",
+        "Every mathematical claim and final result must pass AI Guru mathematical verification.",
+        "Every visual step must have valid visual IDs and pass Visual Steps QA.",
+        "Voice/caption cues must align with the visual teaching beat."
+      ],
+      "assetType": "interactive_template",
+      "mediaKind": "interactive_visual_template",
+      "templateSource": "htpu/mathlet",
+      "templatePath": "src/formulas/probability/binomial-dist.ts",
+      "templateUrl": "https://math.htpu.net/f/binomial-dist.html"
+    },
+    {
+      "id": "mathlet-bayes",
+      "name": "Mathlet — Bayes Theorem / Probability Updating",
+      "file": "https://math.htpu.net/f/bayes.html",
+      "originalFilename": "bayes.html",
+      "approved": true,
+      "doNotCopyContent": true,
+      "role": "style-reference",
+      "commonTeachingStyleId": "visual-derivation-explanation-v1",
+      "styleId": "mathlet-template",
+      "qaProfileId": "mathlet-template-v1",
+      "subject": "Mathematics",
+      "domains": [
+        "probability",
+        "statistics"
+      ],
+      "suggestedGrades": "10-12",
+      "concepts": [
+        "Bayes theorem",
+        "conditional probability",
+        "prior",
+        "likelihood",
+        "posterior",
+        "probability tree"
+      ],
+      "teachingMethods": [
+        "population grid",
+        "branching tree",
+        "favourable subset",
+        "prior-to-posterior transformation"
+      ],
+      "selectionTerms": [
+        "Bayes theorem",
+        "conditional probability",
+        "prior",
+        "posterior",
+        "likelihood",
+        "probability tree"
+      ],
+      "teachingPrompt": "Use this Mathlet visual as a teaching-grammar template, not as a video to copy or replay. Recreate the useful visual relationship with AI Guru's own verified graphics and lesson-specific mathematics. Never copy the reference example, exact values, wording, branding or artwork. Use a population/branching visual: start with the full sample space, partition by evidence, then show how the posterior is obtained from the relevant conditional probabilities.",
+      "qaInstructions": [
+        "Sample space is defined before conditional branches.",
+        "Branch probabilities are consistent.",
+        "Favourable/evidence subset is visually identified.",
+        "Posterior calculation matches the verified Bayes expression.",
+        "Every mathematical claim and final result must pass AI Guru mathematical verification.",
+        "Every visual step must have valid visual IDs and pass Visual Steps QA.",
+        "Voice/caption cues must align with the visual teaching beat."
+      ],
+      "assetType": "interactive_template",
+      "mediaKind": "interactive_visual_template",
+      "templateSource": "htpu/mathlet",
+      "templatePath": "src/formulas/probability/bayes.ts",
+      "templateUrl": "https://math.htpu.net/f/bayes.html"
+    },
+    {
+      "id": "mathlet-matrix-2d",
+      "name": "Mathlet — 2D Matrix Transformation",
+      "file": "https://math.htpu.net/f/matrix-2d.html",
+      "originalFilename": "matrix-2d.html",
+      "approved": true,
+      "doNotCopyContent": true,
+      "role": "style-reference",
+      "commonTeachingStyleId": "visual-derivation-explanation-v1",
+      "styleId": "mathlet-template",
+      "qaProfileId": "mathlet-template-v1",
+      "subject": "Mathematics",
+      "domains": [
+        "matrices",
+        "coordinate_geometry",
+        "vectors"
+      ],
+      "suggestedGrades": "9-12",
+      "concepts": [
+        "matrix transformation",
+        "rotation",
+        "scaling",
+        "shear",
+        "reflection",
+        "basis vectors"
+      ],
+      "teachingMethods": [
+        "grid transformation",
+        "basis-vector motion",
+        "before/after shape comparison",
+        "cell/coordinate mapping"
+      ],
+      "selectionTerms": [
+        "matrix",
+        "matrix transformation",
+        "rotation",
+        "scaling",
+        "shear",
+        "reflection",
+        "basis vectors"
+      ],
+      "teachingPrompt": "Use this Mathlet visual as a teaching-grammar template, not as a video to copy or replay. Recreate the useful visual relationship with AI Guru's own verified graphics and lesson-specific mathematics. Never copy the reference example, exact values, wording, branding or artwork. Use a coordinate grid and transform a simple shape/basis vectors so the matrix entries have visible geometric meaning.",
+      "qaInstructions": [
+        "Original basis vectors/shape are visible.",
+        "The transformed coordinates match the matrix operation.",
+        "Grid geometry remains coherent.",
+        "The resulting matrix/coordinates are verified.",
+        "Every mathematical claim and final result must pass AI Guru mathematical verification.",
+        "Every visual step must have valid visual IDs and pass Visual Steps QA.",
+        "Voice/caption cues must align with the visual teaching beat."
+      ],
+      "assetType": "interactive_template",
+      "mediaKind": "interactive_visual_template",
+      "templateSource": "htpu/mathlet",
+      "templatePath": "src/formulas/linalg/matrix-2d.ts",
+      "templateUrl": "https://math.htpu.net/f/matrix-2d.html"
+    },
+    {
+      "id": "mathlet-dot-cross-product",
+      "name": "Mathlet — Dot and Cross Product / Vector Geometry",
+      "file": "https://math.htpu.net/f/dot-cross-product.html",
+      "originalFilename": "dot-cross-product.html",
+      "approved": true,
+      "doNotCopyContent": true,
+      "role": "style-reference",
+      "commonTeachingStyleId": "visual-derivation-explanation-v1",
+      "styleId": "mathlet-template",
+      "qaProfileId": "mathlet-template-v1",
+      "subject": "Mathematics",
+      "domains": [
+        "vectors",
+        "coordinate_geometry",
+        "geometry"
+      ],
+      "suggestedGrades": "9-12",
+      "concepts": [
+        "dot product",
+        "cross product",
+        "magnitude",
+        "angle",
+        "orthogonality",
+        "area"
+      ],
+      "teachingMethods": [
+        "vector construction",
+        "projection",
+        "angle emphasis",
+        "parallelogram area",
+        "3D direction"
+      ],
+      "selectionTerms": [
+        "dot product",
+        "cross product",
+        "vectors",
+        "projection",
+        "angle between vectors",
+        "orthogonal",
+        "area"
+      ],
+      "teachingPrompt": "Use this Mathlet visual as a teaching-grammar template, not as a video to copy or replay. Recreate the useful visual relationship with AI Guru's own verified graphics and lesson-specific mathematics. Never copy the reference example, exact values, wording, branding or artwork. Build vectors from a common origin and use projections/angles for dot product or parallelogram/normal direction for cross product.",
+      "qaInstructions": [
+        "Vectors have consistent origins and directions.",
+        "Projection/angle geometry matches the algebra.",
+        "Cross-product direction follows the right-hand orientation when applicable.",
+        "Magnitude/angle/area results are verified.",
+        "Every mathematical claim and final result must pass AI Guru mathematical verification.",
+        "Every visual step must have valid visual IDs and pass Visual Steps QA.",
+        "Voice/caption cues must align with the visual teaching beat."
+      ],
+      "assetType": "interactive_template",
+      "mediaKind": "interactive_visual_template",
+      "templateSource": "htpu/mathlet",
+      "templatePath": "src/formulas/linalg/dot-cross-product.ts",
+      "templateUrl": "https://math.htpu.net/f/dot-cross-product.html"
+    },
+    {
+      "id": "mathlet-complex-add",
+      "name": "Mathlet — Complex Numbers on the Argand Plane",
+      "file": "https://math.htpu.net/f/complex-add.html",
+      "originalFilename": "complex-add.html",
+      "approved": true,
+      "doNotCopyContent": true,
+      "role": "style-reference",
+      "commonTeachingStyleId": "visual-derivation-explanation-v1",
+      "styleId": "mathlet-template",
+      "qaProfileId": "mathlet-template-v1",
+      "subject": "Mathematics",
+      "domains": [
+        "complex_numbers",
+        "coordinate_geometry",
+        "algebra"
+      ],
+      "suggestedGrades": "10-12",
+      "concepts": [
+        "complex number",
+        "Argand plane",
+        "real part",
+        "imaginary part",
+        "vector addition",
+        "modulus"
+      ],
+      "teachingMethods": [
+        "Argand-plane plotting",
+        "component decomposition",
+        "vector addition",
+        "modulus/argument annotation"
+      ],
+      "selectionTerms": [
+        "complex number",
+        "Argand plane",
+        "real part",
+        "imaginary part",
+        "i",
+        "modulus",
+        "argument"
+      ],
+      "teachingPrompt": "Use this Mathlet visual as a teaching-grammar template, not as a video to copy or replay. Recreate the useful visual relationship with AI Guru's own verified graphics and lesson-specific mathematics. Never copy the reference example, exact values, wording, branding or artwork. Treat complex numbers as points/vectors on the Argand plane; separate real and imaginary components before combining or transforming them.",
+      "qaInstructions": [
+        "Real and imaginary axes are labelled.",
+        "Complex points match the stated coordinates.",
+        "Vector/component addition is geometrically consistent.",
+        "Modulus/argument values match the displayed point when used.",
+        "Every mathematical claim and final result must pass AI Guru mathematical verification.",
+        "Every visual step must have valid visual IDs and pass Visual Steps QA.",
+        "Voice/caption cues must align with the visual teaching beat."
+      ],
+      "assetType": "interactive_template",
+      "mediaKind": "interactive_visual_template",
+      "templateSource": "htpu/mathlet",
+      "templatePath": "src/formulas/algebra/complex-add.ts",
+      "templateUrl": "https://math.htpu.net/f/complex-add.html"
+    },
+    {
+      "id": "mathlet-sphere-volume",
+      "name": "Mathlet — Sphere Volume / 3D Measure",
+      "file": "https://math.htpu.net/f/sphere-volume.html",
+      "originalFilename": "sphere-volume.html",
+      "approved": true,
+      "doNotCopyContent": true,
+      "role": "style-reference",
+      "commonTeachingStyleId": "visual-derivation-explanation-v1",
+      "styleId": "mathlet-template",
+      "qaProfileId": "mathlet-template-v1",
+      "subject": "Mathematics",
+      "domains": [
+        "3d_geometry",
+        "mensuration",
+        "geometry"
+      ],
+      "suggestedGrades": "8-12",
+      "concepts": [
+        "sphere",
+        "radius",
+        "surface area",
+        "volume",
+        "3D geometry"
+      ],
+      "teachingMethods": [
+        "3D construction",
+        "radius highlight",
+        "cross-section intuition",
+        "volume formula reveal"
+      ],
+      "selectionTerms": [
+        "sphere",
+        "radius",
+        "surface area",
+        "volume of sphere",
+        "4/3 pi r cubed"
+      ],
+      "teachingPrompt": "Use this Mathlet visual as a teaching-grammar template, not as a video to copy or replay. Recreate the useful visual relationship with AI Guru's own verified graphics and lesson-specific mathematics. Never copy the reference example, exact values, wording, branding or artwork. Use a rotatable/section-style 3D visual: establish radius and cross-section intuition before revealing the volume relationship.",
+      "qaInstructions": [
+        "Sphere and radius are explicit.",
+        "3D perspective does not obscure the measured quantities.",
+        "Cross-section/volume reasoning is mathematically sound.",
+        "Final volume formula is verified.",
+        "Every mathematical claim and final result must pass AI Guru mathematical verification.",
+        "Every visual step must have valid visual IDs and pass Visual Steps QA.",
+        "Voice/caption cues must align with the visual teaching beat."
+      ],
+      "assetType": "interactive_template",
+      "mediaKind": "interactive_visual_template",
+      "templateSource": "htpu/mathlet",
+      "templatePath": "src/formulas/geometry/sphere-volume.ts",
+      "templateUrl": "https://math.htpu.net/f/sphere-volume.html"
+    },
+    {
+      "id": "mathlet-euclid-algorithm",
+      "name": "Mathlet — Euclidean Algorithm / GCD Steps",
+      "file": "https://math.htpu.net/f/euclid-algorithm.html",
+      "originalFilename": "euclid-algorithm.html",
+      "approved": true,
+      "doNotCopyContent": true,
+      "role": "style-reference",
+      "commonTeachingStyleId": "visual-derivation-explanation-v1",
+      "styleId": "mathlet-template",
+      "qaProfileId": "mathlet-template-v1",
+      "subject": "Mathematics",
+      "domains": [
+        "arithmetic",
+        "number_theory",
+        "algebra"
+      ],
+      "suggestedGrades": "5-10",
+      "concepts": [
+        "GCD",
+        "Euclidean algorithm",
+        "division algorithm",
+        "remainders",
+        "factors"
+      ],
+      "teachingMethods": [
+        "remainder chain",
+        "stepwise division",
+        "factor relationship",
+        "termination highlight"
+      ],
+      "selectionTerms": [
+        "gcd",
+        "greatest common divisor",
+        "Euclidean algorithm",
+        "remainders",
+        "division algorithm"
+      ],
+      "teachingPrompt": "Use this Mathlet visual as a teaching-grammar template, not as a video to copy or replay. Recreate the useful visual relationship with AI Guru's own verified graphics and lesson-specific mathematics. Never copy the reference example, exact values, wording, branding or artwork. Show the Euclidean remainder chain one division at a time and visually preserve the divisor/remainder relationship.",
+      "qaInstructions": [
+        "Each division is valid.",
+        "Remainders decrease appropriately.",
+        "The final nonzero remainder is identified as the GCD.",
+        "The GCD result is verified independently.",
+        "Every mathematical claim and final result must pass AI Guru mathematical verification.",
+        "Every visual step must have valid visual IDs and pass Visual Steps QA.",
+        "Voice/caption cues must align with the visual teaching beat."
+      ],
+      "assetType": "interactive_template",
+      "mediaKind": "interactive_visual_template",
+      "templateSource": "htpu/mathlet",
+      "templatePath": "src/formulas/numbertheory/euclid-algorithm.ts",
+      "templateUrl": "https://math.htpu.net/f/euclid-algorithm.html"
+    },
+    {
+      "id": "mathlet-compound-interest",
+      "name": "Mathlet — Compound Interest / Exponential Growth",
+      "file": "https://math.htpu.net/f/compound-interest.html",
+      "originalFilename": "compound-interest.html",
+      "approved": true,
+      "doNotCopyContent": true,
+      "role": "style-reference",
+      "commonTeachingStyleId": "visual-derivation-explanation-v1",
+      "styleId": "mathlet-template",
+      "qaProfileId": "mathlet-template-v1",
+      "subject": "Mathematics",
+      "domains": [
+        "financial_math",
+        "sequences_series",
+        "functions"
+      ],
+      "suggestedGrades": "8-12",
+      "concepts": [
+        "compound interest",
+        "principal",
+        "rate",
+        "time",
+        "growth factor",
+        "exponential growth"
+      ],
+      "teachingMethods": [
+        "period-by-period growth",
+        "growth factor highlight",
+        "table-to-curve",
+        "parameter comparison"
+      ],
+      "selectionTerms": [
+        "compound interest",
+        "principal",
+        "rate",
+        "growth factor",
+        "amount",
+        "exponential growth"
+      ],
+      "teachingPrompt": "Use this Mathlet visual as a teaching-grammar template, not as a video to copy or replay. Recreate the useful visual relationship with AI Guru's own verified graphics and lesson-specific mathematics. Never copy the reference example, exact values, wording, branding or artwork. Show repeated growth period by period, connect the repeated factor to the exponent, then transition from table to exponential curve.",
+      "qaInstructions": [
+        "Principal/rate/period are explicit.",
+        "Each period applies the correct growth factor.",
+        "The exponent matches the number of compounding periods.",
+        "Final amount is verified.",
+        "Every mathematical claim and final result must pass AI Guru mathematical verification.",
+        "Every visual step must have valid visual IDs and pass Visual Steps QA.",
+        "Voice/caption cues must align with the visual teaching beat."
+      ],
+      "assetType": "interactive_template",
+      "mediaKind": "interactive_visual_template",
+      "templateSource": "htpu/mathlet",
+      "templatePath": "src/formulas/algebra/compound-interest.ts",
+      "templateUrl": "https://math.htpu.net/f/compound-interest.html"
+    },
+    {
+      "id": "mathlet-poisson-pmf",
+      "name": "Mathlet — Poisson Distribution / Event Counts",
+      "file": "https://math.htpu.net/f/poisson-pmf.html",
+      "originalFilename": "poisson-pmf.html",
+      "approved": true,
+      "doNotCopyContent": true,
+      "role": "style-reference",
+      "commonTeachingStyleId": "visual-derivation-explanation-v1",
+      "styleId": "mathlet-template",
+      "qaProfileId": "mathlet-template-v1",
+      "subject": "Mathematics",
+      "domains": [
+        "probability",
+        "statistics"
+      ],
+      "suggestedGrades": "11-12",
+      "concepts": [
+        "Poisson distribution",
+        "event rate",
+        "PMF",
+        "expected count",
+        "rare events"
+      ],
+      "teachingMethods": [
+        "PMF bar construction",
+        "rate parameter",
+        "probability highlighting",
+        "distribution shift"
+      ],
+      "selectionTerms": [
+        "Poisson distribution",
+        "Poisson PMF",
+        "event rate",
+        "lambda",
+        "count probability"
+      ],
+      "teachingPrompt": "Use this Mathlet visual as a teaching-grammar template, not as a video to copy or replay. Recreate the useful visual relationship with AI Guru's own verified graphics and lesson-specific mathematics. Never copy the reference example, exact values, wording, branding or artwork. Build the discrete count distribution as bars and show how the rate parameter shifts the mass.",
+      "qaInstructions": [
+        "Count variable and rate parameter are explicit.",
+        "PMF bars are nonnegative.",
+        "Highlighted probability corresponds to the selected count.",
+        "Expected count/rate relationship is correct.",
+        "Every mathematical claim and final result must pass AI Guru mathematical verification.",
+        "Every visual step must have valid visual IDs and pass Visual Steps QA.",
+        "Voice/caption cues must align with the visual teaching beat."
+      ],
+      "assetType": "interactive_template",
+      "mediaKind": "interactive_visual_template",
+      "templateSource": "htpu/mathlet",
+      "templatePath": "src/formulas/probability/poisson-pmf.ts",
+      "templateUrl": "https://math.htpu.net/f/poisson-pmf.html"
+    },
+    {
+      "id": "mathlet-polynomial-roots",
+      "name": "Mathlet — Polynomial Roots / Graph-to-Zero",
+      "file": "https://math.htpu.net/f/polynomial-roots.html",
+      "originalFilename": "polynomial-roots.html",
+      "approved": true,
+      "doNotCopyContent": true,
+      "role": "style-reference",
+      "commonTeachingStyleId": "visual-derivation-explanation-v1",
+      "styleId": "mathlet-template",
+      "qaProfileId": "mathlet-template-v1",
+      "subject": "Mathematics",
+      "domains": [
+        "polynomials",
+        "algebra",
+        "functions",
+        "coordinate_geometry"
+      ],
+      "suggestedGrades": "9-12",
+      "concepts": [
+        "polynomial roots",
+        "zeros",
+        "x-intercepts",
+        "factor theorem",
+        "graph roots"
+      ],
+      "teachingMethods": [
+        "curve construction",
+        "root highlighting",
+        "factor/zero correspondence",
+        "parameter changes"
+      ],
+      "selectionTerms": [
+        "polynomial roots",
+        "zeros",
+        "x intercepts",
+        "factor theorem",
+        "roots of polynomial"
+      ],
+      "teachingPrompt": "Use this Mathlet visual as a teaching-grammar template, not as a video to copy or replay. Recreate the useful visual relationship with AI Guru's own verified graphics and lesson-specific mathematics. Never copy the reference example, exact values, wording, branding or artwork. Connect graph intercepts to algebraic zeros and factor structure; highlight each root only after the curve and polynomial are established.",
+      "qaInstructions": [
+        "Polynomial degree/terms are correct.",
+        "Graph intercepts correspond to verified roots.",
+        "Factor/root correspondence is accurate.",
+        "Multiplicity claims are supported when used.",
+        "Every mathematical claim and final result must pass AI Guru mathematical verification.",
+        "Every visual step must have valid visual IDs and pass Visual Steps QA.",
+        "Voice/caption cues must align with the visual teaching beat."
+      ],
+      "assetType": "interactive_template",
+      "mediaKind": "interactive_visual_template",
+      "templateSource": "htpu/mathlet",
+      "templatePath": "src/formulas/algebra/polynomial-roots.ts",
+      "templateUrl": "https://math.htpu.net/f/polynomial-roots.html"
+    }
+  ]
+}

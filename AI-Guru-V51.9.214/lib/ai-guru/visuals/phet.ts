@@ -1,0 +1,61 @@
+/**
+ * V51.9.96: PhET Interactive Simulations (University of Colorado Boulder), HTML5 versions, CC BY 4.0 — free for commercial
+ * use with attribution; the PhET name and logo are not ours to use for marketing. They load in the student's browser from
+ * phet.colorado.edu (nothing is copied into the app). Only long-standing HTML5 simulations are listed.
+ */
+export const PHET_CREDIT = 'PhET Interactive Simulations, University of Colorado Boulder, https://phet.colorado.edu';
+export interface PhetSim { slug: string; title: string; ml?: string; subject: 'physics' | 'chemistry' | 'biology' | 'geography'; keywords: string[] }
+export const phetUrl = (slug: string, locale = 'en') => `https://phet.colorado.edu/sims/html/${slug}/latest/${slug}_all.html?locale=${encodeURIComponent(locale)}`;
+
+export const PHET: PhetSim[] = [
+  { slug: 'circuit-construction-kit-dc', title: 'Circuit Construction Kit: DC', ml: 'വൈദ്യുത സർക്യൂട്ട്', subject: 'physics', keywords: ['circuit', 'series circuit', 'parallel circuit', 'bulb', 'battery', 'electric cell', 'dry cell', 'switch', 'ammeter', 'voltmeter', 'current', 'സർക്യൂട്ട്', 'വൈദ്യുതി'] },
+  { slug: 'ohms-law', title: "Ohm's Law", ml: 'ഓം നിയമം', subject: 'physics', keywords: ["ohm's law", 'ohms law', 'resistance', 'voltage', 'potential difference', 'ഓം', 'പ്രതിരോധം'] },
+  { slug: 'resistance-in-a-wire', title: 'Resistance in a Wire', subject: 'physics', keywords: ['resistivity', 'resistance', 'length of wire', 'area of cross section'] },
+  { slug: 'faradays-law', title: "Faraday's Law", ml: 'വൈദ്യുതകാന്തിക പ്രേരണം', subject: 'physics', keywords: ['electromagnetic induction', 'faraday', 'induced current', 'magnet', 'coil', 'galvanometer', 'വൈദ്യുതകാന്തിക'] },
+  { slug: 'coulombs-law', title: "Coulomb's Law", subject: 'physics', keywords: ['coulomb', 'electric force', 'charge'] },
+  { slug: 'charges-and-fields', title: 'Charges and Fields', subject: 'physics', keywords: ['electric field', 'field lines', 'charge', 'equipotential'] },
+  { slug: 'balloons-and-static-electricity', title: 'Balloons and Static Electricity', ml: 'സ്ഥിതവൈദ്യുതി', subject: 'physics', keywords: ['static electricity', 'charging by rubbing', 'friction charge', 'balloon', 'സ്ഥിതവൈദ്യുതി'] },
+  { slug: 'john-travoltage', title: 'John Travoltage', subject: 'physics', keywords: ['static charge', 'spark', 'discharge', 'earthing'] },
+  { slug: 'capacitor-lab-basics', title: 'Capacitor Lab: Basics', subject: 'physics', keywords: ['capacitor', 'capacitance'] },
+  { slug: 'forces-and-motion-basics', title: 'Forces and Motion: Basics', ml: 'ബലവും ചലനവും', subject: 'physics', keywords: ['force', 'net force', 'balanced force', 'unbalanced force', 'motion', 'push', 'pull', 'ബലം', 'ചലനം'] },
+  { slug: 'friction', title: 'Friction', ml: 'ഘർഷണം', subject: 'physics', keywords: ['friction', 'ഘർഷണം', 'heat by rubbing'] },
+  { slug: 'energy-skate-park-basics', title: 'Energy Skate Park: Basics', ml: 'ഊർജ സംരക്ഷണം', subject: 'physics', keywords: ['kinetic energy', 'potential energy', 'conservation of energy', 'mechanical energy', 'ഗതികോർജം', 'സ്ഥിതികോർജം', 'ഊർജം'] },
+  { slug: 'energy-forms-and-changes', title: 'Energy Forms and Changes', subject: 'physics', keywords: ['energy transformation', 'forms of energy', 'heat', 'thermal energy', 'solar energy'] },
+  { slug: 'pendulum-lab', title: 'Pendulum Lab', ml: 'ദോലകം', subject: 'physics', keywords: ['pendulum', 'oscillation', 'time period', 'ദോലകം', 'ആന്ദോളനം'] },
+  { slug: 'masses-and-springs', title: 'Masses and Springs', subject: 'physics', keywords: ['spring', 'oscillation', 'elastic', 'mass'] },
+  { slug: 'hookes-law', title: "Hooke's Law", subject: 'physics', keywords: ["hooke's law", 'spring constant', 'elasticity', 'stretch'] },
+  { slug: 'balancing-act', title: 'Balancing Act', ml: 'ഉത്തോലകം', subject: 'physics', keywords: ['lever', 'torque', 'moment', 'see-saw', 'fulcrum', 'balance', 'ഉത്തോലകം'] },
+  { slug: 'projectile-motion', title: 'Projectile Motion', subject: 'physics', keywords: ['projectile', 'trajectory', 'range', 'launch angle'] },
+  { slug: 'gravity-and-orbits', title: 'Gravity and Orbits', ml: 'ഗുരുത്വാകർഷണം', subject: 'physics', keywords: ['gravity', 'orbit', 'satellite', 'moon', 'planet', 'gravitation', 'ഗുരുത്വാകർഷണം'] },
+  { slug: 'gravity-force-lab', title: 'Gravity Force Lab', subject: 'physics', keywords: ['universal law of gravitation', 'newton gravitation', 'gravitational force'] },
+  { slug: 'keplers-laws', title: "Kepler's Laws", subject: 'physics', keywords: ["kepler's laws", 'ellipse orbit', 'orbital period'] },
+  { slug: 'my-solar-system', title: 'My Solar System', ml: 'സൗരയൂഥം', subject: 'physics', keywords: ['solar system', 'planets', 'orbit', 'സൗരയൂഥം'] },
+  { slug: 'collision-lab', title: 'Collision Lab', subject: 'physics', keywords: ['collision', 'momentum', 'elastic collision', 'conservation of momentum'] },
+  { slug: 'density', title: 'Density', ml: 'സാന്ദ്രത', subject: 'physics', keywords: ['density', 'mass and volume', 'float', 'sink', 'സാന്ദ്രത'] },
+  { slug: 'under-pressure', title: 'Under Pressure', ml: 'മർദം', subject: 'physics', keywords: ['pressure', 'liquid pressure', 'atmospheric pressure', 'മർദം'] },
+  { slug: 'gas-properties', title: 'Gas Properties', subject: 'physics', keywords: ['gas laws', 'boyle', 'charles', 'pressure volume temperature', 'kinetic theory'] },
+  { slug: 'states-of-matter-basics', title: 'States of Matter: Basics', ml: 'ദ്രവ്യത്തിന്റെ അവസ്ഥകൾ', subject: 'chemistry', keywords: ['states of matter', 'solid', 'liquid', 'gas', 'melting', 'boiling', 'ദ്രവ്യം', 'ഖരം', 'ദ്രാവകം', 'വാതകം'] },
+  { slug: 'wave-on-a-string', title: 'Wave on a String', ml: 'തരംഗം', subject: 'physics', keywords: ['wave', 'amplitude', 'frequency', 'wavelength', 'transverse wave', 'തരംഗം'] },
+  { slug: 'waves-intro', title: 'Waves Intro', subject: 'physics', keywords: ['sound wave', 'water wave', 'light wave', 'wave'] },
+  { slug: 'wave-interference', title: 'Wave Interference', subject: 'physics', keywords: ['interference', 'diffraction', 'double slit', 'ripple tank'] },
+  { slug: 'bending-light', title: 'Bending Light', ml: 'പ്രകാശത്തിന്റെ അപവർത്തനം', subject: 'physics', keywords: ['refraction', 'snell', 'refractive index', 'total internal reflection', 'prism', 'dispersion', 'അപവർത്തനം', 'പ്രിസം'] },
+  { slug: 'geometric-optics', title: 'Geometric Optics', ml: 'ലെൻസ്', subject: 'physics', keywords: ['lens', 'convex lens', 'concave lens', 'mirror', 'image formation', 'focal length', 'ray diagram', 'ലെൻസ്', 'ദർപ്പണം'] },
+  { slug: 'color-vision', title: 'Color Vision', subject: 'physics', keywords: ['colour', 'color', 'primary colours', 'rgb', 'vision'] },
+  { slug: 'blackbody-spectrum', title: 'Blackbody Spectrum', subject: 'physics', keywords: ['blackbody', 'spectrum', 'temperature colour'] },
+  { slug: 'greenhouse-effect', title: 'The Greenhouse Effect', ml: 'ഹരിതഗൃഹ പ്രഭാവം', subject: 'geography', keywords: ['greenhouse effect', 'global warming', 'climate change', 'ഹരിതഗൃഹ', 'ആഗോളതാപനം'] },
+  { slug: 'build-an-atom', title: 'Build an Atom', ml: 'ആറ്റം', subject: 'chemistry', keywords: ['atom', 'proton', 'neutron', 'electron', 'atomic number', 'mass number', 'ആറ്റം', 'ഇലക്ട്രോൺ'] },
+  { slug: 'isotopes-and-atomic-mass', title: 'Isotopes and Atomic Mass', subject: 'chemistry', keywords: ['isotope', 'atomic mass', 'isotopes'] },
+  { slug: 'molecule-shapes', title: 'Molecule Shapes', subject: 'chemistry', keywords: ['vsepr', 'molecular shape', 'bond angle', 'lone pair'] },
+  { slug: 'molecule-polarity', title: 'Molecule Polarity', subject: 'chemistry', keywords: ['polarity', 'electronegativity', 'dipole'] },
+  { slug: 'build-a-molecule', title: 'Build a Molecule', subject: 'chemistry', keywords: ['molecule', 'covalent bond', 'chemical formula'] },
+  { slug: 'balancing-chemical-equations', title: 'Balancing Chemical Equations', ml: 'രാസസമവാക്യം', subject: 'chemistry', keywords: ['balancing equations', 'chemical equation', 'reactants', 'products', 'രാസസമവാക്യം'] },
+  { slug: 'reactants-products-and-leftovers', title: 'Reactants, Products and Leftovers', subject: 'chemistry', keywords: ['limiting reagent', 'reactants', 'products'] },
+  { slug: 'ph-scale-basics', title: 'pH Scale: Basics', ml: 'pH സ്കെയിൽ', subject: 'chemistry', keywords: ['ph', 'acid', 'base', 'neutral', 'indicator', 'ആസിഡ്', 'ബേസ്'] },
+  { slug: 'acid-base-solutions', title: 'Acid-Base Solutions', subject: 'chemistry', keywords: ['strong acid', 'weak acid', 'ionisation', 'conductivity'] },
+  { slug: 'concentration', title: 'Concentration', subject: 'chemistry', keywords: ['concentration', 'solution', 'solute', 'solvent', 'saturated', 'ലായനി'] },
+  { slug: 'molarity', title: 'Molarity', subject: 'chemistry', keywords: ['molarity', 'mole', 'concentration'] },
+  { slug: 'beers-law-lab', title: "Beer's Law Lab", subject: 'chemistry', keywords: ['absorbance', 'colour of solution'] },
+  { slug: 'natural-selection', title: 'Natural Selection', ml: 'പ്രകൃതിനിർധാരണം', subject: 'biology', keywords: ['natural selection', 'evolution', 'mutation', 'adaptation', 'darwin', 'പരിണാമം', 'പ്രകൃതിനിർധാരണം'] },
+  { slug: 'gene-expression-essentials', title: 'Gene Expression Essentials', subject: 'biology', keywords: ['gene expression', 'transcription', 'translation', 'protein synthesis', 'dna', 'rna'] },
+  { slug: 'neuron', title: 'Neuron', ml: 'നാഡീകോശം', subject: 'biology', keywords: ['neuron', 'nerve impulse', 'action potential', 'നാഡീകോശം', 'നാഡി'] },
+];

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=1920, height=1080"/>
+<link rel="stylesheet" href="common.css"/>
+<style>
+#root{background:radial-gradient(1000px 700px at 50% 50%,#10224a 0%,#040814 80%)}
+#rain{position:absolute;inset:0}
+.col{position:absolute;top:-1200px;color:#38bdf8;font-size:44px;line-height:70px;text-align:center;width:80px}
+#h{position:absolute;left:0;width:1920px;text-align:center;top:410px;color:#fff;text-shadow:0 0 40px rgba(56,189,248,.9),0 0 8px rgba(255,255,255,.7)}
+#s{position:absolute;left:0;width:1920px;text-align:center;color:#fde68a;font-size:50px;font-weight:700;opacity:0}
+#veil{position:absolute;inset:0;background:radial-gradient(700px 300px at 50% 50%,rgba(4,8,20,.92),rgba(4,8,20,0))}
+.nosub #s{display:none}
+</style></head><body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="5" data-width="1920" data-height="1080">
+<div id="rain"></div><div id="veil"></div><div id="h" class="t"></div><div id="s" class="t"></div>
+</div>
+<script src="gsap.min.js"></script><script src="data.js"></script><script src="common.js"></script>
+<script>
+const tl = gsap.timeline({ paused: true });
+
+const rain = document.getElementById('rain'); const cols = [];
+for (let i = 0; i < 24; i++) { const c = document.createElement('div'); c.className = 'col'; c.style.left = (i * 80) + 'px'; c.style.opacity = .25 + R() * .45; let s = ''; for (let j = 0; j < 22; j++) s += SYMS[Math.floor(R() * SYMS.length)] + '<br>'; c.innerHTML = s; rain.appendChild(c); cols.push(c); }
+const h = document.getElementById('h'); h.textContent = D.heading; const fs = fitText(h, 1640, 190);
+h.style.top = (440 - fs * .55) + 'px'; document.getElementById('s').style.top = (440 + fs * .6) + 'px'; document.getElementById('s').textContent = D.sub || '';
+cols.forEach((c, i) => tl.fromTo(c, { y: 0 }, { y: 1500 + R() * 400, duration: 5, ease: 'none' }, 0));
+tl.fromTo(h, { opacity: 0, scale: 1.4, filter: 'blur(18px)' }, { opacity: 1, scale: 1, filter: 'blur(0px)', duration: .9, ease: 'power3.out' }, 0.8);
+tl.to('#s', { opacity: 1, duration: .6 }, 1.9);
+tl.to('#root', { opacity: 0, duration: 0.4 }, 4.6);
+window.__timelines['main'] = tl; tl.seek(0);
+</script></body></html>

@@ -1,0 +1,11 @@
+# V51.9.175 — AI Guru on Netlify (free plan) with a Neon PostgreSQL database and Netlify Blobs for files.
+# Set the environment variables in Netlify → Site configuration → Environment variables (docs/DEPLOY-NETLIFY.md).
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "22"
+  NEXT_TELEMETRY_DISABLED = "1"
+  # skip onnxruntime's extra GPU download (a dev tool's dependency, not used by the app)
+  ONNXRUNTIME_NODE_INSTALL = "skip"

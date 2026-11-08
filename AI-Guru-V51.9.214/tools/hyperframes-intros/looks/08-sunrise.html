@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=1920, height=1080"/>
+<link rel="stylesheet" href="common.css"/>
+<style>
+#root{background:linear-gradient(180deg,#0f1b4d 0%,#5b3a8a 45%,#f08a5d 78%,#ffd27a 100%)}
+#sun{position:absolute;left:810px;top:560px;width:300px;height:300px;border-radius:50%;background:radial-gradient(circle,#fff7c2,#ffd166 60%,#ff9f45)}
+#rays{position:absolute;left:660px;top:410px;width:600px;height:600px;opacity:0}
+#h{position:absolute;left:0;width:1920px;text-align:center;top:230px;color:#fff;text-shadow:0 6px 30px rgba(0,0,0,.45)}
+#s{position:absolute;left:0;width:1920px;text-align:center;top:0;color:#fff7c2;font-size:50px;font-weight:700;opacity:0;text-shadow:0 3px 14px rgba(0,0,0,.4)}
+#hills{position:absolute;left:0;bottom:0}
+.bd{position:absolute;color:#1e1b4b;font-size:60px;opacity:0}
+.nosub #s{display:none}
+</style></head><body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="5" data-width="1920" data-height="1080">
+<svg id="rays" viewBox="-300 -300 600 600"></svg><div id="sun"></div>
+<svg id="hills" width="1920" height="420" viewBox="0 0 1920 420"><path d="M0 220 Q300 80 620 200 T1280 170 T1920 210 V420 H0Z" fill="#3b2a6b"/><path d="M0 300 Q400 190 800 290 T1600 270 T1920 300 V420 H0Z" fill="#1e1b4b"/></svg>
+<div class="bd" style="left:300px;top:420px">⌃⌃</div><div class="bd" style="left:1500px;top:380px">⌃⌃⌃</div>
+<div id="h" class="t"></div><div id="s" class="t"></div>
+</div>
+<script src="gsap.min.js"></script><script src="data.js"></script><script src="common.js"></script>
+<script>
+const tl = gsap.timeline({ paused: true });
+
+const h = document.getElementById('h'); h.textContent = D.heading; const fs = fitText(h, 1640, 180);
+document.getElementById('s').style.top = (230 + fs * 1.2) + 'px'; document.getElementById('s').textContent = D.sub || '';
+const rays = document.getElementById('rays'); let rs = ''; for (let i = 0; i < 16; i++) { const a = i * Math.PI / 8; rs += '<path d="M0 0 L' + (300 * Math.cos(a - .06)) + ' ' + (300 * Math.sin(a - .06)) + ' L' + (300 * Math.cos(a + .06)) + ' ' + (300 * Math.sin(a + .06)) + 'Z" fill="#fff3b0" opacity=".5"/>'; } rays.innerHTML = rs;
+tl.fromTo('#sun', { y: 340 }, { y: 0, duration: 2.2, ease: 'power2.out' }, 0);
+tl.to('#rays', { opacity: 1, duration: 1, rotation: 40, ease: 'none' }, 0.8);
+tl.to('#rays', { rotation: 70, duration: 3.5, ease: 'none' }, 1.8);
+tl.fromTo(h, { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: .9, ease: 'power3.out' }, 0.9);
+tl.to('#s', { opacity: 1, duration: .6 }, 1.9); tl.to('.bd', { opacity: .8, x: 120, duration: 3, stagger: .4, ease: 'none' }, 1.2);
+tl.to('#root', { opacity: 0, duration: 0.4 }, 4.6);
+window.__timelines['main'] = tl; tl.seek(0);
+</script></body></html>

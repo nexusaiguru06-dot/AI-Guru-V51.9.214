@@ -1,0 +1,2 @@
+import { NextResponse } from 'next/server'; import { alignCuesToWords, buildWordCues } from '@/lib/ai-guru/cues/engine';
+export async function POST(request:Request){try{const b=await request.json() as any; const words=buildWordCues(String(b.text||''),b.boundaries||[]); return NextResponse.json({ok:true,words,cues:alignCuesToWords(b.cues||[],words)});}catch(e){return NextResponse.json({ok:false,error:e instanceof Error?e.message:String(e)},{status:400});}}

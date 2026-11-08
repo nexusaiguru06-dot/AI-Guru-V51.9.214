@@ -1,0 +1,2057 @@
+{
+ "schemaVersion": 1,
+ "kind": "archetypes",
+ "note": "Rule-based archetypes over structural features; each video gets exactly one primary archetype.",
+ "archetypes": {
+  "plane-and-matrix-transformation": {
+   "id": "plane-and-matrix-transformation",
+   "description": "A coordinate plane or grid is established, then vectors/matrices act on it so the viewer literally watches the transformation.",
+   "videos": 25,
+   "portable": true,
+   "medianPlayCalls": 155,
+   "commonArc": [
+    "build",
+    "emphasize",
+    "transform"
+   ],
+   "recipe": [
+    "Introduce objects progressively (draw / write / fade in) \u2013 never pop in fully formed",
+    "Morph one representation into the next (Transform / ReplacementTransform / .animate) instead of swapping",
+    "Clear or fade out finished elements before the next idea",
+    "Flag the critical element with a short highlight (Indicate / Flash / Circumscribe)",
+    "Pair every diagram change with its matching equation / label",
+    "Establish the coordinate frame (axes / plane / number line) before any content",
+    "Stagger reveals across groups (LaggedStart) so the eye reads in order",
+    "Drive a parameter with a ValueTracker so dependent objects update live"
+   ],
+   "topMotifs": [
+    [
+     "build\u2192transform\u2192build",
+     288
+    ],
+    [
+     "transform\u2192build\u2192transform",
+     220
+    ],
+    [
+     "build\u2192emphasize\u2192build",
+     41
+    ],
+    [
+     "build\u2192remove\u2192build",
+     36
+    ],
+    [
+     "emphasize\u2192build\u2192emphasize",
+     24
+    ]
+   ],
+   "toolkit": {
+    "animations": [
+     {
+      "legacy": "Write",
+      "manimCE": "Write"
+     },
+     {
+      "legacy": "FadeIn",
+      "manimCE": "FadeIn"
+     },
+     {
+      "legacy": "FadeOut",
+      "manimCE": "FadeOut"
+     },
+     {
+      "legacy": "ShowCreation",
+      "manimCE": "Create"
+     },
+     {
+      "legacy": "GrowFromCenter",
+      "manimCE": "GrowFromCenter"
+     },
+     {
+      "legacy": "Transform",
+      "manimCE": "Transform"
+     },
+     {
+      "legacy": "MoveToTarget",
+      "manimCE": "MoveToTarget (or m.animate)"
+     },
+     {
+      "legacy": "LaggedStartMap",
+      "manimCE": "LaggedStartMap"
+     }
+    ],
+    "mobjects": [
+     {
+      "legacy": "Vector",
+      "manimCE": "Vector"
+     },
+     {
+      "legacy": "Brace",
+      "manimCE": "Brace"
+     },
+     {
+      "legacy": "Arrow",
+      "manimCE": "Arrow"
+     },
+     {
+      "legacy": "OldTexText",
+      "manimCE": "Tex"
+     },
+     {
+      "legacy": "OldTex",
+      "manimCE": "MathTex"
+     },
+     {
+      "legacy": "Line",
+      "manimCE": "Line"
+     },
+     {
+      "legacy": "VGroup",
+      "manimCE": "VGroup"
+     },
+     {
+      "legacy": "Matrix",
+      "manimCE": "Matrix"
+     }
+    ]
+   },
+   "techniquesInMoreThanThirdOfVideos": [
+    "path_arc",
+    "latex_matrix",
+    "pi_creature",
+    "color_gradient",
+    "background_grid",
+    "lagged_stagger",
+    "updaters",
+    "camera_frame_motion",
+    "camera_3d_orientation",
+    "surface_3d",
+    "transform_from_copy",
+    "interactive",
+    "value_tracker"
+   ],
+   "cameraModes": {
+    "linear-transformation-scene": 13,
+    "3d-orbit": 12,
+    "moving-camera": 7,
+    "graph-scene": 1,
+    "2d-static": 1
+   },
+   "palette": [
+    {
+     "name": "YELLOW",
+     "hex": "#FFFF00",
+     "hexCE": "#F7D96F",
+     "videosUsing": 25
+    },
+    {
+     "name": "BLUE",
+     "hex": "#58C4DD",
+     "hexCE": "#58C4DD",
+     "videosUsing": 22
+    },
+    {
+     "name": "WHITE",
+     "hex": "#FFFFFF",
+     "hexCE": "#FFFFFF",
+     "videosUsing": 14
+    },
+    {
+     "name": "RED",
+     "hex": "#FC6255",
+     "hexCE": "#FC6255",
+     "videosUsing": 12
+    },
+    {
+     "name": "BLACK",
+     "hex": "#000000",
+     "hexCE": "#000000",
+     "videosUsing": 11
+    },
+    {
+     "name": "TEAL",
+     "hex": "#5CD0B3",
+     "hexCE": "#5CD0B3",
+     "videosUsing": 10
+    }
+   ],
+   "domains": {
+    "linear-algebra": 14,
+    "computer-science-ml": 6,
+    "differential-equations": 1,
+    "complex-analysis": 1
+   },
+   "eras": {
+    "legacy-2015-16": 11,
+    "manimgl-2023-25": 6,
+    "manimgl-2017-19": 4,
+    "manimgl-2020-22": 4
+   },
+   "exemplarIds": [
+    "2024-transformers-embedding",
+    "2025-grover-state-vectors",
+    "2018-div-curl",
+    "2021-matrix-exp",
+    "2021-quick-eigen"
+   ]
+  },
+  "solid-and-surface-3d-orbit": {
+   "id": "solid-and-surface-3d-orbit",
+   "description": "3D axes/surfaces/solids with a camera orbit or reorientation to reveal structure from several angles.",
+   "videos": 18,
+   "portable": true,
+   "medianPlayCalls": 156.0,
+   "commonArc": [
+    "build",
+    "transform",
+    "remove"
+   ],
+   "recipe": [
+    "Morph one representation into the next (Transform / ReplacementTransform / .animate) instead of swapping",
+    "Introduce objects progressively (draw / write / fade in) \u2013 never pop in fully formed",
+    "Reorient the 3D camera slowly to reveal structure",
+    "Clear or fade out finished elements before the next idea",
+    "Drive a parameter with a ValueTracker so dependent objects update live",
+    "Pan / zoom the camera frame to shift attention instead of cutting",
+    "Establish the coordinate frame (axes / plane / number line) before any content",
+    "Stagger reveals across groups (LaggedStart) so the eye reads in order"
+   ],
+   "topMotifs": [
+    [
+     "build\u2192transform\u2192build",
+     212
+    ],
+    [
+     "transform\u2192build\u2192transform",
+     197
+    ],
+    [
+     "build\u2192remove\u2192build",
+     30
+    ],
+    [
+     "remove\u2192transform\u2192build",
+     28
+    ],
+    [
+     "transform\u2192build\u2192remove",
+     20
+    ]
+   ],
+   "toolkit": {
+    "animations": [
+     {
+      "legacy": "Write",
+      "manimCE": "Write"
+     },
+     {
+      "legacy": "FadeOut",
+      "manimCE": "FadeOut"
+     },
+     {
+      "legacy": "FadeIn",
+      "manimCE": "FadeIn"
+     },
+     {
+      "legacy": "ShowCreation",
+      "manimCE": "Create"
+     },
+     {
+      "legacy": "LaggedStartMap",
+      "manimCE": "LaggedStartMap"
+     },
+     {
+      "legacy": "TransformFromCopy",
+      "manimCE": "TransformFromCopy"
+     },
+     {
+      "legacy": ".animate",
+      "manimCE": "m.animate.method(...)"
+     },
+     {
+      "legacy": "MoveToTarget",
+      "manimCE": "MoveToTarget (or m.animate)"
+     }
+    ],
+    "mobjects": [
+     {
+      "legacy": "VGroup",
+      "manimCE": "VGroup"
+     },
+     {
+      "legacy": "Line",
+      "manimCE": "Line"
+     },
+     {
+      "legacy": "Group",
+      "manimCE": "Group"
+     },
+     {
+      "legacy": "Arrow",
+      "manimCE": "Arrow"
+     },
+     {
+      "legacy": "Text",
+      "manimCE": "Text"
+     },
+     {
+      "legacy": "ValueTracker",
+      "manimCE": "ValueTracker"
+     },
+     {
+      "legacy": "Tex",
+      "manimCE": "MathTex"
+     },
+     {
+      "legacy": "OldTex",
+      "manimCE": "MathTex"
+     }
+    ]
+   },
+   "techniquesInMoreThanThirdOfVideos": [
+    "surface_3d",
+    "lagged_stagger",
+    "path_arc",
+    "updaters",
+    "transform_from_copy",
+    "camera_frame_motion",
+    "camera_3d_orientation",
+    "fixed_in_frame",
+    "interactive",
+    "background_grid",
+    "always_redraw",
+    "value_tracker",
+    "pi_creature",
+    "color_gradient"
+   ],
+   "cameraModes": {
+    "3d-orbit": 18,
+    "moving-camera": 13,
+    "graph-scene": 1
+   },
+   "palette": [
+    {
+     "name": "WHITE",
+     "hex": "#FFFFFF",
+     "hexCE": "#FFFFFF",
+     "videosUsing": 18
+    },
+    {
+     "name": "YELLOW",
+     "hex": "#FFFF00",
+     "hexCE": "#F7D96F",
+     "videosUsing": 17
+    },
+    {
+     "name": "RED",
+     "hex": "#FC6255",
+     "hexCE": "#FC6255",
+     "videosUsing": 13
+    },
+    {
+     "name": "BLUE",
+     "hex": "#58C4DD",
+     "hexCE": "#58C4DD",
+     "videosUsing": 12
+    },
+    {
+     "name": "BLACK",
+     "hex": "#000000",
+     "hexCE": "#000000",
+     "videosUsing": 8
+    },
+    {
+     "name": "TEAL",
+     "hex": "#5CD0B3",
+     "hexCE": "#5CD0B3",
+     "videosUsing": 7
+    }
+   ],
+   "domains": {
+    "geometry": 5,
+    "topology-fractals": 3,
+    "probability-statistics": 2,
+    "computer-science-ml": 2
+   },
+   "eras": {
+    "manimgl-2023-25": 10,
+    "manimgl-2017-19": 4,
+    "manimgl-2020-22": 4
+   },
+   "exemplarIds": [
+    "2021-newton-fractal",
+    "2024-holograms-diffraction",
+    "2024-puzzles-added-dimension",
+    "2023-optics-puzzles-e-field",
+    "2024-inscribed-rect-loops"
+   ]
+  },
+  "live-parameter-exploration": {
+   "id": "live-parameter-exploration",
+   "description": "A ValueTracker (or updater) drives a parameter while dependent graphs/labels redraw live so the viewer feels the relationship.",
+   "videos": 15,
+   "portable": true,
+   "medianPlayCalls": 94,
+   "commonArc": [
+    "build",
+    "transform",
+    "remove"
+   ],
+   "recipe": [
+    "Establish the coordinate frame (axes / plane / number line) before any content",
+    "Introduce objects progressively (draw / write / fade in) \u2013 never pop in fully formed",
+    "Drive a parameter with a ValueTracker so dependent objects update live",
+    "Morph one representation into the next (Transform / ReplacementTransform / .animate) instead of swapping",
+    "Pair every diagram change with its matching equation / label",
+    "Clear or fade out finished elements before the next idea",
+    "Pan / zoom the camera frame to shift attention instead of cutting",
+    "Flag the critical element with a short highlight (Indicate / Flash / Circumscribe)"
+   ],
+   "topMotifs": [
+    [
+     "build\u2192transform\u2192build",
+     70
+    ],
+    [
+     "transform\u2192build\u2192transform",
+     58
+    ],
+    [
+     "build\u2192remove\u2192build",
+     26
+    ],
+    [
+     "build\u2192transform\u2192remove",
+     17
+    ],
+    [
+     "remove\u2192build\u2192transform",
+     16
+    ]
+   ],
+   "toolkit": {
+    "animations": [
+     {
+      "legacy": "FadeOut",
+      "manimCE": "FadeOut"
+     },
+     {
+      "legacy": "ShowCreation",
+      "manimCE": "Create"
+     },
+     {
+      "legacy": "FadeIn",
+      "manimCE": "FadeIn"
+     },
+     {
+      "legacy": "Write",
+      "manimCE": "Write"
+     },
+     {
+      "legacy": "TransformFromCopy",
+      "manimCE": "TransformFromCopy"
+     },
+     {
+      "legacy": "LaggedStartMap",
+      "manimCE": "LaggedStartMap"
+     },
+     {
+      "legacy": ".animate",
+      "manimCE": "m.animate.method(...)"
+     },
+     {
+      "legacy": "MoveToTarget",
+      "manimCE": "MoveToTarget (or m.animate)"
+     }
+    ],
+    "mobjects": [
+     {
+      "legacy": "VGroup",
+      "manimCE": "VGroup"
+     },
+     {
+      "legacy": "Line",
+      "manimCE": "Line"
+     },
+     {
+      "legacy": "Arrow",
+      "manimCE": "Arrow"
+     },
+     {
+      "legacy": "Axes",
+      "manimCE": "Axes"
+     },
+     {
+      "legacy": "Text",
+      "manimCE": "Text"
+     },
+     {
+      "legacy": "SurroundingRectangle",
+      "manimCE": "SurroundingRectangle"
+     },
+     {
+      "legacy": "ValueTracker",
+      "manimCE": "ValueTracker"
+     },
+     {
+      "legacy": "OldTex",
+      "manimCE": "MathTex"
+     }
+    ]
+   },
+   "techniquesInMoreThanThirdOfVideos": [
+    "updaters",
+    "lagged_stagger",
+    "path_arc",
+    "camera_frame_motion",
+    "value_tracker",
+    "transform_from_copy",
+    "interactive",
+    "pi_creature",
+    "color_gradient",
+    "always_redraw",
+    "background_grid",
+    "camera_3d_orientation",
+    "surface_3d",
+    "fixed_in_frame"
+   ],
+   "cameraModes": {
+    "moving-camera": 9,
+    "3d-orbit": 7,
+    "2d-static": 3
+   },
+   "palette": [
+    {
+     "name": "YELLOW",
+     "hex": "#FFFF00",
+     "hexCE": "#F7D96F",
+     "videosUsing": 15
+    },
+    {
+     "name": "BLUE",
+     "hex": "#58C4DD",
+     "hexCE": "#58C4DD",
+     "videosUsing": 13
+    },
+    {
+     "name": "WHITE",
+     "hex": "#FFFFFF",
+     "hexCE": "#FFFFFF",
+     "videosUsing": 12
+    },
+    {
+     "name": "RED",
+     "hex": "#FC6255",
+     "hexCE": "#FC6255",
+     "videosUsing": 10
+    },
+    {
+     "name": "BLACK",
+     "hex": "#000000",
+     "hexCE": "#000000",
+     "videosUsing": 6
+    },
+    {
+     "name": "TEAL",
+     "hex": "#5CD0B3",
+     "hexCE": "#5CD0B3",
+     "videosUsing": 4
+    }
+   ],
+   "domains": {
+    "differential-equations": 4,
+    "fourier-signals": 3,
+    "physics": 3,
+    "complex-analysis": 1
+   },
+   "eras": {
+    "manimgl-2023-25": 7,
+    "manimgl-2017-19": 4,
+    "manimgl-2020-22": 4
+   },
+   "exemplarIds": [
+    "2021-holomorphic-dynamics",
+    "2022-borwein-main",
+    "2023-convolutions2-continuous",
+    "2025-laplace-exponentials",
+    "2018-fourier"
+   ]
+  },
+  "function-graph-build-up": {
+   "id": "function-graph-build-up",
+   "description": "Axes appear first, then curves, areas or rectangles are built up step by step on them (calculus / approximation style).",
+   "videos": 14,
+   "portable": true,
+   "medianPlayCalls": 182.5,
+   "commonArc": [
+    "build",
+    "transform"
+   ],
+   "recipe": [
+    "Establish the coordinate frame (axes / plane / number line) before any content",
+    "Introduce objects progressively (draw / write / fade in) \u2013 never pop in fully formed",
+    "Morph one representation into the next (Transform / ReplacementTransform / .animate) instead of swapping",
+    "Clear or fade out finished elements before the next idea",
+    "Pair every diagram change with its matching equation / label",
+    "Flag the critical element with a short highlight (Indicate / Flash / Circumscribe)",
+    "Stagger reveals across groups (LaggedStart) so the eye reads in order",
+    "Move or rotate objects along a path to show the process"
+   ],
+   "topMotifs": [
+    [
+     "build\u2192transform\u2192build",
+     107
+    ],
+    [
+     "transform\u2192build\u2192transform",
+     64
+    ],
+    [
+     "build\u2192remove\u2192build",
+     38
+    ],
+    [
+     "remove\u2192build\u2192transform",
+     26
+    ],
+    [
+     "build\u2192emphasize\u2192build",
+     18
+    ]
+   ],
+   "toolkit": {
+    "animations": [
+     {
+      "legacy": "FadeIn",
+      "manimCE": "FadeIn"
+     },
+     {
+      "legacy": "FadeOut",
+      "manimCE": "FadeOut"
+     },
+     {
+      "legacy": "ShowCreation",
+      "manimCE": "Create"
+     },
+     {
+      "legacy": "Write",
+      "manimCE": "Write"
+     },
+     {
+      "legacy": "Transform",
+      "manimCE": "Transform"
+     },
+     {
+      "legacy": "ApplyMethod",
+      "manimCE": "m.animate.method(...)"
+     },
+     {
+      "legacy": "ReplacementTransform",
+      "manimCE": "ReplacementTransform"
+     },
+     {
+      "legacy": "GrowFromCenter",
+      "manimCE": "GrowFromCenter"
+     }
+    ],
+    "mobjects": [
+     {
+      "legacy": "OldTexText",
+      "manimCE": "Tex"
+     },
+     {
+      "legacy": "OldTex",
+      "manimCE": "MathTex"
+     },
+     {
+      "legacy": "Line",
+      "manimCE": "Line"
+     },
+     {
+      "legacy": "Arrow",
+      "manimCE": "Arrow"
+     },
+     {
+      "legacy": "VGroup",
+      "manimCE": "VGroup"
+     },
+     {
+      "legacy": "Brace",
+      "manimCE": "Brace"
+     },
+     {
+      "legacy": "Dot",
+      "manimCE": "Dot"
+     },
+     {
+      "legacy": "Rectangle",
+      "manimCE": "Rectangle"
+     }
+    ]
+   },
+   "techniquesInMoreThanThirdOfVideos": [
+    "background_grid",
+    "pi_creature",
+    "path_arc",
+    "lagged_stagger",
+    "color_gradient"
+   ],
+   "cameraModes": {
+    "graph-scene": 12,
+    "2d-static": 2,
+    "zoomed-inset": 2,
+    "moving-camera": 1
+   },
+   "palette": [
+    {
+     "name": "WHITE",
+     "hex": "#FFFFFF",
+     "hexCE": "#FFFFFF",
+     "videosUsing": 13
+    },
+    {
+     "name": "YELLOW",
+     "hex": "#FFFF00",
+     "hexCE": "#F7D96F",
+     "videosUsing": 13
+    },
+    {
+     "name": "RED",
+     "hex": "#FC6255",
+     "hexCE": "#FC6255",
+     "videosUsing": 11
+    },
+    {
+     "name": "BLUE",
+     "hex": "#58C4DD",
+     "hexCE": "#58C4DD",
+     "videosUsing": 10
+    },
+    {
+     "name": "GREEN",
+     "hex": "#83C167",
+     "hexCE": "#83C167",
+     "videosUsing": 9
+    },
+    {
+     "name": "BLACK",
+     "hex": "#000000",
+     "hexCE": "#000000",
+     "videosUsing": 6
+    }
+   ],
+   "domains": {
+    "calculus": 7,
+    "computer-science-ml": 2,
+    "combinatorics-puzzles": 1,
+    "complex-analysis": 1
+   },
+   "eras": {
+    "manimgl-2017-19": 12,
+    "legacy-2015-16": 1,
+    "manimgl-2020-22": 1
+   },
+   "exemplarIds": [
+    "2019-clacks-solution1",
+    "2019-bayes-part1",
+    "2017-nn-part1",
+    "2017-nn-part2",
+    "2017-eoc-chapter10"
+   ]
+  },
+  "equation-morphing": {
+   "id": "equation-morphing",
+   "description": "Typography-led: an expression is written, transformed term by term, highlighted, and cleaned up (algebraic derivations).",
+   "videos": 14,
+   "portable": true,
+   "medianPlayCalls": 85.0,
+   "commonArc": [
+    "build",
+    "transform"
+   ],
+   "recipe": [
+    "Introduce objects progressively (draw / write / fade in) \u2013 never pop in fully formed",
+    "Morph one representation into the next (Transform / ReplacementTransform / .animate) instead of swapping",
+    "Pair every diagram change with its matching equation / label",
+    "Clear or fade out finished elements before the next idea",
+    "Drive a parameter with a ValueTracker so dependent objects update live",
+    "Flag the critical element with a short highlight (Indicate / Flash / Circumscribe)",
+    "Stagger reveals across groups (LaggedStart) so the eye reads in order",
+    "Reorient the 3D camera slowly to reveal structure"
+   ],
+   "topMotifs": [
+    [
+     "build\u2192transform\u2192build",
+     58
+    ],
+    [
+     "transform\u2192build\u2192transform",
+     50
+    ],
+    [
+     "build\u2192transform\u2192remove",
+     12
+    ],
+    [
+     "build\u2192remove\u2192build",
+     6
+    ],
+    [
+     "emphasize\u2192transform\u2192emphasize",
+     6
+    ]
+   ],
+   "toolkit": {
+    "animations": [
+     {
+      "legacy": "ShowCreation",
+      "manimCE": "Create"
+     },
+     {
+      "legacy": "FadeIn",
+      "manimCE": "FadeIn"
+     },
+     {
+      "legacy": "FadeOut",
+      "manimCE": "FadeOut"
+     },
+     {
+      "legacy": "Transform",
+      "manimCE": "Transform"
+     },
+     {
+      "legacy": "Write",
+      "manimCE": "Write"
+     },
+     {
+      "legacy": "LaggedStartMap",
+      "manimCE": "LaggedStartMap"
+     },
+     {
+      "legacy": "ApplyMethod",
+      "manimCE": "m.animate.method(...)"
+     },
+     {
+      "legacy": "ReplacementTransform",
+      "manimCE": "ReplacementTransform"
+     }
+    ],
+    "mobjects": [
+     {
+      "legacy": "Arrow",
+      "manimCE": "Arrow"
+     },
+     {
+      "legacy": "OldTex",
+      "manimCE": "MathTex"
+     },
+     {
+      "legacy": "Line",
+      "manimCE": "Line"
+     },
+     {
+      "legacy": "VGroup",
+      "manimCE": "VGroup"
+     },
+     {
+      "legacy": "OldTexText",
+      "manimCE": "Tex"
+     },
+     {
+      "legacy": "Tex",
+      "manimCE": "MathTex"
+     },
+     {
+      "legacy": "SurroundingRectangle",
+      "manimCE": "SurroundingRectangle"
+     },
+     {
+      "legacy": "Group",
+      "manimCE": "Group"
+     }
+    ]
+   },
+   "techniquesInMoreThanThirdOfVideos": [
+    "pi_creature",
+    "path_arc",
+    "transform_from_copy",
+    "lagged_stagger",
+    "interactive",
+    "value_tracker",
+    "updaters"
+   ],
+   "cameraModes": {
+    "2d-static": 10,
+    "3d-orbit": 3,
+    "moving-camera": 1
+   },
+   "palette": [
+    {
+     "name": "YELLOW",
+     "hex": "#FFFF00",
+     "hexCE": "#F7D96F",
+     "videosUsing": 10
+    },
+    {
+     "name": "BLUE",
+     "hex": "#58C4DD",
+     "hexCE": "#58C4DD",
+     "videosUsing": 9
+    },
+    {
+     "name": "WHITE",
+     "hex": "#FFFFFF",
+     "hexCE": "#FFFFFF",
+     "videosUsing": 7
+    },
+    {
+     "name": "RED",
+     "hex": "#FC6255",
+     "hexCE": "#FC6255",
+     "videosUsing": 7
+    },
+    {
+     "name": "GREEN",
+     "hex": "#83C167",
+     "hexCE": "#83C167",
+     "videosUsing": 5
+    },
+    {
+     "name": "BLACK",
+     "hex": "#000000",
+     "hexCE": "#000000",
+     "videosUsing": 5
+    }
+   ],
+   "domains": {
+    "probability-statistics": 3,
+    "topology-fractals": 2,
+    "differential-equations": 2,
+    "sequences-series": 1
+   },
+   "eras": {
+    "legacy-2015-16": 6,
+    "manimgl-2023-25": 6,
+    "manimgl-2017-19": 2
+   },
+   "exemplarIds": [
+    "2023-gauss-int-herschel",
+    "2025-colliding-blocks-v2-supplements",
+    "2025-laplace-prequel-equations",
+    "2023-optics-puzzles-ior-annotations",
+    "2023-clt-proof-main"
+   ]
+  },
+  "numeric-array-visualisation": {
+   "id": "numeric-array-visualisation",
+   "description": "Numbers, matrices or value grids are shown, updated and highlighted (bits, weights, tables).",
+   "videos": 10,
+   "portable": true,
+   "medianPlayCalls": 27.5,
+   "commonArc": [
+    "build"
+   ],
+   "recipe": [
+    "Introduce objects progressively (draw / write / fade in) \u2013 never pop in fully formed",
+    "Morph one representation into the next (Transform / ReplacementTransform / .animate) instead of swapping",
+    "Pair every diagram change with its matching equation / label",
+    "Clear or fade out finished elements before the next idea",
+    "Drive a parameter with a ValueTracker so dependent objects update live",
+    "Flag the critical element with a short highlight (Indicate / Flash / Circumscribe)",
+    "Stagger reveals across groups (LaggedStart) so the eye reads in order",
+    "Pan / zoom the camera frame to shift attention instead of cutting"
+   ],
+   "topMotifs": [
+    [
+     "build\u2192transform\u2192build",
+     36
+    ],
+    [
+     "transform\u2192build\u2192transform",
+     30
+    ],
+    [
+     "build\u2192remove\u2192build",
+     7
+    ],
+    [
+     "remove\u2192build\u2192transform",
+     3
+    ],
+    [
+     "build\u2192group\u2192build",
+     3
+    ]
+   ],
+   "toolkit": {
+    "animations": [
+     {
+      "legacy": "FadeIn",
+      "manimCE": "FadeIn"
+     },
+     {
+      "legacy": "FadeOut",
+      "manimCE": "FadeOut"
+     },
+     {
+      "legacy": "ShowCreation",
+      "manimCE": "Create"
+     },
+     {
+      "legacy": "Write",
+      "manimCE": "Write"
+     },
+     {
+      "legacy": "LaggedStartMap",
+      "manimCE": "LaggedStartMap"
+     },
+     {
+      "legacy": "MoveToTarget",
+      "manimCE": "MoveToTarget (or m.animate)"
+     },
+     {
+      "legacy": "ReplacementTransform",
+      "manimCE": "ReplacementTransform"
+     },
+     {
+      "legacy": "TransformFromCopy",
+      "manimCE": "TransformFromCopy"
+     }
+    ],
+    "mobjects": [
+     {
+      "legacy": "VGroup",
+      "manimCE": "VGroup"
+     },
+     {
+      "legacy": "OldTexText",
+      "manimCE": "Tex"
+     },
+     {
+      "legacy": "OldTex",
+      "manimCE": "MathTex"
+     },
+     {
+      "legacy": "Vector",
+      "manimCE": "Vector"
+     },
+     {
+      "legacy": "SurroundingRectangle",
+      "manimCE": "SurroundingRectangle"
+     },
+     {
+      "legacy": "ValueTracker",
+      "manimCE": "ValueTracker"
+     },
+     {
+      "legacy": "VMobject",
+      "manimCE": "VMobject"
+     },
+     {
+      "legacy": "Brace",
+      "manimCE": "Brace"
+     }
+    ]
+   },
+   "techniquesInMoreThanThirdOfVideos": [
+    "lagged_stagger",
+    "path_arc",
+    "value_tracker",
+    "updaters",
+    "pi_creature",
+    "transform_from_copy",
+    "color_gradient",
+    "camera_frame_motion"
+   ],
+   "cameraModes": {
+    "2d-static": 6,
+    "moving-camera": 3,
+    "3d-orbit": 2
+   },
+   "palette": [
+    {
+     "name": "YELLOW",
+     "hex": "#FFFF00",
+     "hexCE": "#F7D96F",
+     "videosUsing": 8
+    },
+    {
+     "name": "BLUE",
+     "hex": "#58C4DD",
+     "hexCE": "#58C4DD",
+     "videosUsing": 8
+    },
+    {
+     "name": "RED",
+     "hex": "#FC6255",
+     "hexCE": "#FC6255",
+     "videosUsing": 7
+    },
+    {
+     "name": "BLACK",
+     "hex": "#000000",
+     "hexCE": "#000000",
+     "videosUsing": 6
+    },
+    {
+     "name": "WHITE",
+     "hex": "#FFFFFF",
+     "hexCE": "#FFFFFF",
+     "videosUsing": 6
+    },
+    {
+     "name": "GREEN",
+     "hex": "#83C167",
+     "hexCE": "#83C167",
+     "videosUsing": 5
+    }
+   ],
+   "domains": {
+    "computer-science-ml": 3,
+    "differential-equations": 3,
+    "linear-algebra": 1,
+    "general": 1
+   },
+   "eras": {
+    "manimgl-2017-19": 5,
+    "manimgl-2023-25": 2,
+    "legacy-2015-16": 1,
+    "manimgl-2020-22": 1,
+    "misc": 1
+   },
+   "exemplarIds": [
+    "2022-wordle-scenes",
+    "2019-diffyq-part1-phase-space",
+    "2023-optics-puzzles-cylinder",
+    "2025-grover-runtime",
+    "outside-videos-name-animation"
+   ]
+  },
+  "geometric-construction-proof": {
+   "id": "geometric-construction-proof",
+   "description": "A figure is constructed progressively with shapes and annotations (braces, rectangles, labels) supporting a proof or area argument.",
+   "videos": 8,
+   "portable": true,
+   "medianPlayCalls": 39.0,
+   "commonArc": [
+    "build",
+    "transform"
+   ],
+   "recipe": [
+    "Place the base figure first; add annotations only after it is readable",
+    "Introduce objects progressively (draw / write / fade in) \u2013 never pop in fully formed",
+    "Morph one representation into the next (Transform / ReplacementTransform / .animate) instead of swapping",
+    "Pair every diagram change with its matching equation / label",
+    "Clear or fade out finished elements before the next idea",
+    "Drive a parameter with a ValueTracker so dependent objects update live",
+    "Stagger reveals across groups (LaggedStart) so the eye reads in order",
+    "Move or rotate objects along a path to show the process"
+   ],
+   "topMotifs": [
+    [
+     "build\u2192transform\u2192build",
+     26
+    ],
+    [
+     "transform\u2192build\u2192transform",
+     22
+    ],
+    [
+     "build\u2192remove\u2192build",
+     10
+    ],
+    [
+     "remove\u2192build\u2192remove",
+     8
+    ],
+    [
+     "build\u2192transform\u2192remove",
+     7
+    ]
+   ],
+   "toolkit": {
+    "animations": [
+     {
+      "legacy": "ShowCreation",
+      "manimCE": "Create"
+     },
+     {
+      "legacy": "Transform",
+      "manimCE": "Transform"
+     },
+     {
+      "legacy": "FadeIn",
+      "manimCE": "FadeIn"
+     },
+     {
+      "legacy": "FadeOut",
+      "manimCE": "FadeOut"
+     },
+     {
+      "legacy": "ApplyMethod",
+      "manimCE": "m.animate.method(...)"
+     },
+     {
+      "legacy": "GrowFromCenter",
+      "manimCE": "GrowFromCenter"
+     },
+     {
+      "legacy": "Write",
+      "manimCE": "Write"
+     },
+     {
+      "legacy": "LaggedStartMap",
+      "manimCE": "LaggedStartMap"
+     }
+    ],
+    "mobjects": [
+     {
+      "legacy": "Line",
+      "manimCE": "Line"
+     },
+     {
+      "legacy": "OldTex",
+      "manimCE": "MathTex"
+     },
+     {
+      "legacy": "OldTexText",
+      "manimCE": "Tex"
+     },
+     {
+      "legacy": "Brace",
+      "manimCE": "Brace"
+     },
+     {
+      "legacy": "Arc",
+      "manimCE": "Arc"
+     },
+     {
+      "legacy": "Dot",
+      "manimCE": "Dot"
+     },
+     {
+      "legacy": "VGroup",
+      "manimCE": "VGroup"
+     },
+     {
+      "legacy": "Mobject",
+      "manimCE": "Mobject"
+     }
+    ]
+   },
+   "techniquesInMoreThanThirdOfVideos": [
+    "pi_creature",
+    "lagged_stagger",
+    "updaters"
+   ],
+   "cameraModes": {
+    "2d-static": 5,
+    "zoomed-inset": 2,
+    "3d-orbit": 2,
+    "moving-camera": 1
+   },
+   "palette": [
+    {
+     "name": "WHITE",
+     "hex": "#FFFFFF",
+     "hexCE": "#FFFFFF",
+     "videosUsing": 7
+    },
+    {
+     "name": "YELLOW",
+     "hex": "#FFFF00",
+     "hexCE": "#F7D96F",
+     "videosUsing": 6
+    },
+    {
+     "name": "RED",
+     "hex": "#FC6255",
+     "hexCE": "#FC6255",
+     "videosUsing": 5
+    },
+    {
+     "name": "BLUE",
+     "hex": "#58C4DD",
+     "hexCE": "#58C4DD",
+     "videosUsing": 4
+    },
+    {
+     "name": "GREEN",
+     "hex": "#83C167",
+     "hexCE": "#83C167",
+     "videosUsing": 3
+    },
+    {
+     "name": "BLUE_E",
+     "hex": "#1C758A",
+     "hexCE": "#236B8E",
+     "videosUsing": 3
+    }
+   ],
+   "domains": {
+    "physics": 3,
+    "geometry": 3,
+    "calculus": 1,
+    "sequences-series": 1
+   },
+   "eras": {
+    "legacy-2015-16": 3,
+    "manimgl-2017-19": 3,
+    "manimgl-2023-25": 1,
+    "misc": 1
+   },
+   "exemplarIds": [
+    "2018-basel-basel2",
+    "2023-optics-puzzles-bending-waves",
+    "2019-clacks-solution2-mirror-scenes",
+    "2016-brachistochrone-light",
+    "2016-brachistochrone-cycloid"
+   ]
+  },
+  "staggered-reveal-explainer": {
+   "id": "staggered-reveal-explainer",
+   "description": "Groups of text/objects revealed with lag so the eye reads them in order (lists, comparisons, recaps).",
+   "videos": 36,
+   "portable": true,
+   "medianPlayCalls": 126.5,
+   "commonArc": [
+    "build",
+    "remove",
+    "transform"
+   ],
+   "recipe": [
+    "Introduce objects progressively (draw / write / fade in) \u2013 never pop in fully formed",
+    "Morph one representation into the next (Transform / ReplacementTransform / .animate) instead of swapping",
+    "Clear or fade out finished elements before the next idea",
+    "Flag the critical element with a short highlight (Indicate / Flash / Circumscribe)",
+    "Drive a parameter with a ValueTracker so dependent objects update live",
+    "Pair every diagram change with its matching equation / label",
+    "Stagger reveals across groups (LaggedStart) so the eye reads in order",
+    "Reorient the 3D camera slowly to reveal structure"
+   ],
+   "topMotifs": [
+    [
+     "build\u2192transform\u2192build",
+     291
+    ],
+    [
+     "transform\u2192build\u2192transform",
+     192
+    ],
+    [
+     "build\u2192remove\u2192build",
+     101
+    ],
+    [
+     "build\u2192emphasize\u2192build",
+     50
+    ],
+    [
+     "build\u2192group\u2192build",
+     34
+    ]
+   ],
+   "toolkit": {
+    "animations": [
+     {
+      "legacy": "Write",
+      "manimCE": "Write"
+     },
+     {
+      "legacy": "FadeOut",
+      "manimCE": "FadeOut"
+     },
+     {
+      "legacy": "FadeIn",
+      "manimCE": "FadeIn"
+     },
+     {
+      "legacy": "ShowCreation",
+      "manimCE": "Create"
+     },
+     {
+      "legacy": "LaggedStartMap",
+      "manimCE": "LaggedStartMap"
+     },
+     {
+      "legacy": "MoveToTarget",
+      "manimCE": "MoveToTarget (or m.animate)"
+     },
+     {
+      "legacy": "TransformFromCopy",
+      "manimCE": "TransformFromCopy"
+     },
+     {
+      "legacy": "ReplacementTransform",
+      "manimCE": "ReplacementTransform"
+     }
+    ],
+    "mobjects": [
+     {
+      "legacy": "VGroup",
+      "manimCE": "VGroup"
+     },
+     {
+      "legacy": "Line",
+      "manimCE": "Line"
+     },
+     {
+      "legacy": "Arrow",
+      "manimCE": "Arrow"
+     },
+     {
+      "legacy": "OldTex",
+      "manimCE": "MathTex"
+     },
+     {
+      "legacy": "SurroundingRectangle",
+      "manimCE": "SurroundingRectangle"
+     },
+     {
+      "legacy": "OldTexText",
+      "manimCE": "Tex"
+     },
+     {
+      "legacy": "Brace",
+      "manimCE": "Brace"
+     },
+     {
+      "legacy": "Vector",
+      "manimCE": "Vector"
+     }
+    ]
+   },
+   "techniquesInMoreThanThirdOfVideos": [
+    "lagged_stagger",
+    "path_arc",
+    "pi_creature",
+    "updaters",
+    "transform_from_copy",
+    "color_gradient",
+    "interactive",
+    "value_tracker",
+    "background_grid",
+    "camera_frame_motion",
+    "camera_3d_orientation",
+    "always_redraw"
+   ],
+   "cameraModes": {
+    "3d-orbit": 17,
+    "2d-static": 16,
+    "moving-camera": 9
+   },
+   "palette": [
+    {
+     "name": "YELLOW",
+     "hex": "#FFFF00",
+     "hexCE": "#F7D96F",
+     "videosUsing": 36
+    },
+    {
+     "name": "RED",
+     "hex": "#FC6255",
+     "hexCE": "#FC6255",
+     "videosUsing": 30
+    },
+    {
+     "name": "BLUE",
+     "hex": "#58C4DD",
+     "hexCE": "#58C4DD",
+     "videosUsing": 27
+    },
+    {
+     "name": "WHITE",
+     "hex": "#FFFFFF",
+     "hexCE": "#FFFFFF",
+     "videosUsing": 27
+    },
+    {
+     "name": "GREEN",
+     "hex": "#83C167",
+     "hexCE": "#83C167",
+     "videosUsing": 16
+    },
+    {
+     "name": "BLACK",
+     "hex": "#000000",
+     "hexCE": "#000000",
+     "videosUsing": 13
+    }
+   ],
+   "domains": {
+    "probability-statistics": 10,
+    "differential-equations": 7,
+    "algebra-basics": 4,
+    "computer-science-ml": 2
+   },
+   "eras": {
+    "manimgl-2017-19": 17,
+    "manimgl-2020-22": 10,
+    "manimgl-2023-25": 9
+   },
+   "exemplarIds": [
+    "2022-puzzles-subsets",
+    "2025-laplace-main-equations",
+    "2018-windingnumber-g",
+    "2023-clt-main",
+    "2019-diffyq-part1-staging"
+   ]
+  },
+  "camera-pan-zoom-storytelling": {
+   "id": "camera-pan-zoom-storytelling",
+   "description": "One large canvas; the camera frame pans and zooms to move attention between regions instead of cutting.",
+   "videos": 8,
+   "portable": true,
+   "medianPlayCalls": 121.0,
+   "commonArc": [
+    "move",
+    "group",
+    "build",
+    "emphasize",
+    "transform",
+    "remove"
+   ],
+   "recipe": [
+    "Introduce objects progressively (draw / write / fade in) \u2013 never pop in fully formed",
+    "Morph one representation into the next (Transform / ReplacementTransform / .animate) instead of swapping",
+    "Pan / zoom the camera frame to shift attention instead of cutting",
+    "Clear or fade out finished elements before the next idea",
+    "Drive a parameter with a ValueTracker so dependent objects update live",
+    "Stagger reveals across groups (LaggedStart) so the eye reads in order",
+    "Flag the critical element with a short highlight (Indicate / Flash / Circumscribe)",
+    "Pair every diagram change with its matching equation / label"
+   ],
+   "topMotifs": [
+    [
+     "build\u2192transform\u2192build",
+     53
+    ],
+    [
+     "transform\u2192build\u2192transform",
+     38
+    ],
+    [
+     "build\u2192remove\u2192build",
+     31
+    ],
+    [
+     "build\u2192emphasize\u2192build",
+     26
+    ],
+    [
+     "build\u2192group\u2192build",
+     20
+    ]
+   ],
+   "toolkit": {
+    "animations": [
+     {
+      "legacy": "ShowCreation",
+      "manimCE": "Create"
+     },
+     {
+      "legacy": "Write",
+      "manimCE": "Write"
+     },
+     {
+      "legacy": "FadeOut",
+      "manimCE": "FadeOut"
+     },
+     {
+      "legacy": "FadeIn",
+      "manimCE": "FadeIn"
+     },
+     {
+      "legacy": "LaggedStartMap",
+      "manimCE": "LaggedStartMap"
+     },
+     {
+      "legacy": "MoveToTarget",
+      "manimCE": "MoveToTarget (or m.animate)"
+     },
+     {
+      "legacy": "TransformFromCopy",
+      "manimCE": "TransformFromCopy"
+     },
+     {
+      "legacy": "FadeInFromDown",
+      "manimCE": "FadeIn(m, shift=UP)"
+     }
+    ],
+    "mobjects": [
+     {
+      "legacy": "VGroup",
+      "manimCE": "VGroup"
+     },
+     {
+      "legacy": "Line",
+      "manimCE": "Line"
+     },
+     {
+      "legacy": "Arrow",
+      "manimCE": "Arrow"
+     },
+     {
+      "legacy": "SurroundingRectangle",
+      "manimCE": "SurroundingRectangle"
+     },
+     {
+      "legacy": "OldTexText",
+      "manimCE": "Tex"
+     },
+     {
+      "legacy": "OldTex",
+      "manimCE": "MathTex"
+     },
+     {
+      "legacy": "Vector",
+      "manimCE": "Vector"
+     },
+     {
+      "legacy": "Randolph",
+      "manimCE": null
+     }
+    ]
+   },
+   "techniquesInMoreThanThirdOfVideos": [
+    "camera_frame_motion",
+    "lagged_stagger",
+    "path_arc",
+    "updaters",
+    "pi_creature",
+    "transform_from_copy",
+    "latex_matrix",
+    "color_gradient",
+    "fixed_in_frame",
+    "interactive",
+    "value_tracker",
+    "camera_3d_orientation"
+   ],
+   "cameraModes": {
+    "moving-camera": 8,
+    "3d-orbit": 3
+   },
+   "palette": [
+    {
+     "name": "YELLOW",
+     "hex": "#FFFF00",
+     "hexCE": "#F7D96F",
+     "videosUsing": 7
+    },
+    {
+     "name": "BLUE",
+     "hex": "#58C4DD",
+     "hexCE": "#58C4DD",
+     "videosUsing": 7
+    },
+    {
+     "name": "RED",
+     "hex": "#FC6255",
+     "hexCE": "#FC6255",
+     "videosUsing": 7
+    },
+    {
+     "name": "WHITE",
+     "hex": "#FFFFFF",
+     "hexCE": "#FFFFFF",
+     "videosUsing": 6
+    },
+    {
+     "name": "BLACK",
+     "hex": "#000000",
+     "hexCE": "#000000",
+     "videosUsing": 6
+    },
+    {
+     "name": "GREEN",
+     "hex": "#83C167",
+     "hexCE": "#83C167",
+     "videosUsing": 3
+    }
+   ],
+   "domains": {
+    "physics": 2,
+    "computer-science-ml": 2,
+    "geometry": 1,
+    "number-theory": 1
+   },
+   "eras": {
+    "manimgl-2017-19": 4,
+    "manimgl-2023-25": 3,
+    "manimgl-2020-22": 1
+   },
+   "exemplarIds": [
+    "2018-lost-lecture",
+    "2019-spirals",
+    "2020-hamming",
+    "2019-diffyq-part1-pendulum",
+    "2019-clacks-solution2-position-phase-space"
+   ]
+  },
+  "general-2d-explainer": {
+   "id": "general-2d-explainer",
+   "description": "Mixed 2D scene: draw, transform, highlight, clear; no single dominant technique.",
+   "videos": 35,
+   "portable": true,
+   "medianPlayCalls": 45,
+   "commonArc": [
+    "build",
+    "transform"
+   ],
+   "recipe": [
+    "Introduce objects progressively (draw / write / fade in) \u2013 never pop in fully formed",
+    "Morph one representation into the next (Transform / ReplacementTransform / .animate) instead of swapping",
+    "Pair every diagram change with its matching equation / label",
+    "Clear or fade out finished elements before the next idea",
+    "Flag the critical element with a short highlight (Indicate / Flash / Circumscribe)",
+    "Drive a parameter with a ValueTracker so dependent objects update live",
+    "Reorient the 3D camera slowly to reveal structure",
+    "Stagger reveals across groups (LaggedStart) so the eye reads in order"
+   ],
+   "topMotifs": [
+    [
+     "build\u2192transform\u2192build",
+     149
+    ],
+    [
+     "transform\u2192build\u2192transform",
+     125
+    ],
+    [
+     "build\u2192remove\u2192build",
+     44
+    ],
+    [
+     "build\u2192emphasize\u2192build",
+     28
+    ],
+    [
+     "transform\u2192build\u2192remove",
+     16
+    ]
+   ],
+   "toolkit": {
+    "animations": [
+     {
+      "legacy": "ShowCreation",
+      "manimCE": "Create"
+     },
+     {
+      "legacy": "FadeIn",
+      "manimCE": "FadeIn"
+     },
+     {
+      "legacy": "FadeOut",
+      "manimCE": "FadeOut"
+     },
+     {
+      "legacy": "Write",
+      "manimCE": "Write"
+     },
+     {
+      "legacy": "Transform",
+      "manimCE": "Transform"
+     },
+     {
+      "legacy": "LaggedStartMap",
+      "manimCE": "LaggedStartMap"
+     },
+     {
+      "legacy": "ReplacementTransform",
+      "manimCE": "ReplacementTransform"
+     },
+     {
+      "legacy": "ApplyMethod",
+      "manimCE": "m.animate.method(...)"
+     }
+    ],
+    "mobjects": [
+     {
+      "legacy": "Line",
+      "manimCE": "Line"
+     },
+     {
+      "legacy": "VGroup",
+      "manimCE": "VGroup"
+     },
+     {
+      "legacy": "OldTex",
+      "manimCE": "MathTex"
+     },
+     {
+      "legacy": "OldTexText",
+      "manimCE": "Tex"
+     },
+     {
+      "legacy": "Arrow",
+      "manimCE": "Arrow"
+     },
+     {
+      "legacy": "Brace",
+      "manimCE": "Brace"
+     },
+     {
+      "legacy": "Dot",
+      "manimCE": "Dot"
+     },
+     {
+      "legacy": "SurroundingRectangle",
+      "manimCE": "SurroundingRectangle"
+     }
+    ]
+   },
+   "techniquesInMoreThanThirdOfVideos": [
+    "lagged_stagger",
+    "path_arc",
+    "pi_creature",
+    "transform_from_copy",
+    "color_gradient",
+    "updaters"
+   ],
+   "cameraModes": {
+    "2d-static": 23,
+    "3d-orbit": 12,
+    "zoomed-inset": 1,
+    "moving-camera": 1
+   },
+   "palette": [
+    {
+     "name": "WHITE",
+     "hex": "#FFFFFF",
+     "hexCE": "#FFFFFF",
+     "videosUsing": 26
+    },
+    {
+     "name": "YELLOW",
+     "hex": "#FFFF00",
+     "hexCE": "#F7D96F",
+     "videosUsing": 26
+    },
+    {
+     "name": "RED",
+     "hex": "#FC6255",
+     "hexCE": "#FC6255",
+     "videosUsing": 23
+    },
+    {
+     "name": "BLUE",
+     "hex": "#58C4DD",
+     "hexCE": "#58C4DD",
+     "videosUsing": 21
+    },
+    {
+     "name": "GREEN",
+     "hex": "#83C167",
+     "hexCE": "#83C167",
+     "videosUsing": 13
+    },
+    {
+     "name": "BLACK",
+     "hex": "#000000",
+     "hexCE": "#000000",
+     "videosUsing": 10
+    }
+   ],
+   "domains": {
+    "geometry": 6,
+    "calculus": 5,
+    "probability-statistics": 5,
+    "general": 4
+   },
+   "eras": {
+    "manimgl-2017-19": 15,
+    "manimgl-2023-25": 9,
+    "legacy-2015-16": 8,
+    "manimgl-2020-22": 3
+   },
+   "exemplarIds": [
+    "2022-convolutions-discrete",
+    "2025-colliding-blocks-v2-blocks",
+    "2023-optics-puzzles-driven-harmonic-oscillator",
+    "2017-bell",
+    "2024-puzzles-max-rand"
+   ]
+  },
+  "narrated-dialogue-scene": {
+   "id": "narrated-dialogue-scene",
+   "description": "Character-driven (pi-creature) commentary. Style reference only; not portable to a character-free pipeline.",
+   "videos": 45,
+   "portable": false,
+   "medianPlayCalls": 96,
+   "commonArc": [
+    "build",
+    "transform",
+    "emphasize"
+   ],
+   "recipe": [
+    "Introduce objects progressively (draw / write / fade in) \u2013 never pop in fully formed",
+    "Morph one representation into the next (Transform / ReplacementTransform / .animate) instead of swapping",
+    "Flag the critical element with a short highlight (Indicate / Flash / Circumscribe)",
+    "Pair every diagram change with its matching equation / label",
+    "Clear or fade out finished elements before the next idea",
+    "Stagger reveals across groups (LaggedStart) so the eye reads in order",
+    "Establish the coordinate frame (axes / plane / number line) before any content",
+    "Drive a parameter with a ValueTracker so dependent objects update live"
+   ],
+   "topMotifs": [
+    [
+     "build\u2192transform\u2192build",
+     187
+    ],
+    [
+     "transform\u2192build\u2192transform",
+     105
+    ],
+    [
+     "build\u2192remove\u2192build",
+     47
+    ],
+    [
+     "emphasize\u2192build\u2192emphasize",
+     45
+    ],
+    [
+     "build\u2192emphasize\u2192build",
+     42
+    ]
+   ],
+   "toolkit": {
+    "animations": [
+     {
+      "legacy": "ShowCreation",
+      "manimCE": "Create"
+     },
+     {
+      "legacy": "FadeOut",
+      "manimCE": "FadeOut"
+     },
+     {
+      "legacy": "Write",
+      "manimCE": "Write"
+     },
+     {
+      "legacy": "FadeIn",
+      "manimCE": "FadeIn"
+     },
+     {
+      "legacy": "Blink",
+      "manimCE": null
+     },
+     {
+      "legacy": "Transform",
+      "manimCE": "Transform"
+     },
+     {
+      "legacy": "MoveToTarget",
+      "manimCE": "MoveToTarget (or m.animate)"
+     },
+     {
+      "legacy": "LaggedStartMap",
+      "manimCE": "LaggedStartMap"
+     }
+    ],
+    "mobjects": [
+     {
+      "legacy": "VGroup",
+      "manimCE": "VGroup"
+     },
+     {
+      "legacy": "OldTexText",
+      "manimCE": "Tex"
+     },
+     {
+      "legacy": "OldTex",
+      "manimCE": "MathTex"
+     },
+     {
+      "legacy": "Arrow",
+      "manimCE": "Arrow"
+     },
+     {
+      "legacy": "Line",
+      "manimCE": "Line"
+     },
+     {
+      "legacy": "Randolph",
+      "manimCE": null
+     },
+     {
+      "legacy": "Mortimer",
+      "manimCE": null
+     },
+     {
+      "legacy": "Brace",
+      "manimCE": "Brace"
+     }
+    ]
+   },
+   "techniquesInMoreThanThirdOfVideos": [
+    "pi_creature",
+    "path_arc",
+    "lagged_stagger",
+    "color_gradient",
+    "background_grid"
+   ],
+   "cameraModes": {
+    "2d-static": 22,
+    "graph-scene": 9,
+    "3d-orbit": 9,
+    "linear-transformation-scene": 4,
+    "zoomed-inset": 4,
+    "moving-camera": 4
+   },
+   "palette": [
+    {
+     "name": "YELLOW",
+     "hex": "#FFFF00",
+     "hexCE": "#F7D96F",
+     "videosUsing": 36
+    },
+    {
+     "name": "BLUE",
+     "hex": "#58C4DD",
+     "hexCE": "#58C4DD",
+     "videosUsing": 36
+    },
+    {
+     "name": "RED",
+     "hex": "#FC6255",
+     "hexCE": "#FC6255",
+     "videosUsing": 33
+    },
+    {
+     "name": "WHITE",
+     "hex": "#FFFFFF",
+     "hexCE": "#FFFFFF",
+     "videosUsing": 30
+    },
+    {
+     "name": "GREEN",
+     "hex": "#83C167",
+     "hexCE": "#83C167",
+     "videosUsing": 22
+    },
+    {
+     "name": "BLACK",
+     "hex": "#000000",
+     "hexCE": "#000000",
+     "videosUsing": 14
+    }
+   ],
+   "domains": {
+    "calculus": 8,
+    "combinatorics-puzzles": 5,
+    "computer-science-ml": 5,
+    "probability-statistics": 5
+   },
+   "eras": {
+    "manimgl-2017-19": 24,
+    "legacy-2015-16": 9,
+    "manimgl-2023-25": 7,
+    "manimgl-2020-22": 5
+   },
+   "exemplarIds": []
+  }
+ }
+}

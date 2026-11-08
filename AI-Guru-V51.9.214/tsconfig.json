@@ -1,0 +1,59 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "app/page.tsx",
+    "app/ai-guru/**/*.ts",
+    "app/ai-guru/**/*.tsx",
+    "app/api/ai-guru/**/*.ts",
+    "components/ai-guru/**/*.ts",
+    "components/ai-guru/**/*.tsx",
+    "types/ai-guru-optional-modules.d.ts",
+    "types/mathlikeanim-rs.d.ts",
+    ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts",
+    "lib/ai-guru/**/*.ts",
+    "lib/ai-guru/**/*.tsx",
+    "app/api/ai-guru/math-rag/**/*.ts"
+  ],
+  "exclude": [
+    "**/*.test.ts",
+    "**/*.test.tsx",
+    "**/__tests__/**",
+    "node_modules",
+    "dist",
+    "legacy-app",
+    "packages",
+    "openclaw",
+    "e2e",
+    "render-service"
+  ]
+}

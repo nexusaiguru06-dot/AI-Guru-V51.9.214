@@ -1,0 +1,886 @@
+{
+  "schemaVersion": "1.0",
+  "description": "Local Visual DNA cache for the 20 Problems and Formulae practice references. V51.6 reserves this library for Material Studio exercises/revision; normal classroom teaching never selects it.",
+  "entries": {
+    "geometry-proof-construction": {
+      "id": "geometry-proof-construction",
+      "branch": "geometry",
+      "sourceVideo": "/reference-styles/problem-solving/geometry/geometry-proof-construction.mp4",
+      "status": "local-seed-v1",
+      "watchPolicy": "Do not resend during normal lessons. Optional one-time Gemini enrichment may replace this seed.",
+      "constructionOrder": [
+        "progressive construction",
+        "auxiliary-line construction",
+        "angle highlighting",
+        "theorem reasoning",
+        "diagram-to-equation"
+      ],
+      "concepts": [
+        "geometric proof",
+        "triangle construction",
+        "angle relationships",
+        "auxiliary line",
+        "theorem reasoning",
+        "geometry to equation"
+      ],
+      "selectionTerms": [
+        "geometry-proof-construction",
+        "triangle",
+        "angle",
+        "auxiliary line",
+        "theorem",
+        "proof",
+        "geometric proof"
+      ],
+      "visualGrammar": "Use the approved reference only as a teaching-grammar reference. Generate original lesson-specific mathematics, narration, diagrams and visual actions; never copy exact equations, scenes, narration, branding or artwork. Build the figure progressively, preserve construction continuity, highlight theorem-critical relationships, connect observations to equations, and pause before the conclusion.",
+      "qa": [
+        "Given figure is visible before proof reasoning.",
+        "Auxiliary construction appears in a deliberate order and remains visible.",
+        "The highlighted relationship matches the stated theorem/proof step.",
+        "Any equation follows from the visible geometric relationship.",
+        "A deliberate pause occurs at the theorem-critical insight.",
+        "Voice cues align with construction and proof beats.",
+        "Final conclusion is consistent with the verified theorem."
+      ],
+      "pacing": {
+        "durationSeconds": 140.017,
+        "fps": 60.0
+      }
+    },
+    "calculus-slope-explorer-reference": {
+      "id": "calculus-slope-explorer-reference",
+      "branch": "calculus",
+      "sourceVideo": "/reference-styles/problem-solving/calculus/calculus-slope-explorer.webm",
+      "status": "local-seed-v1",
+      "watchPolicy": "Do not resend during normal lessons. Optional one-time Gemini enrichment may replace this seed.",
+      "constructionOrder": [
+        "graph construction",
+        "point motion",
+        "secant-to-tangent",
+        "slope comparison",
+        "graph annotation"
+      ],
+      "concepts": [
+        "slope",
+        "secant slope",
+        "tangent slope",
+        "moving point",
+        "instantaneous slope",
+        "derivative intuition"
+      ],
+      "selectionTerms": [
+        "slope",
+        "secant",
+        "tangent",
+        "moving point",
+        "instantaneous slope",
+        "derivative"
+      ],
+      "visualGrammar": "Use the approved reference only as a teaching-grammar reference. Generate original lesson-specific mathematics, narration, diagrams and visual actions; never copy exact equations, scenes, narration, branding or artwork. Use a graph-first construction: draw the function, track a moving point, compare secant and tangent slopes, and connect the geometric slope insight to derivative intuition.",
+      "qa": [
+        "Function/axes are established before slope interpretation.",
+        "The moving point remains visually continuous.",
+        "Secant and tangent relationships are explicit.",
+        "Slope values or rise/run are tied to visible geometry when used.",
+        "A pause occurs at the tangent/instantaneous-slope insight.",
+        "Voice cues identify movement, secant/tangent and slope beats."
+      ],
+      "pacing": {
+        "durationSeconds": 17.0,
+        "fps": 60.0
+      }
+    },
+    "calculus-riemann-sum-area-reference": {
+      "id": "calculus-riemann-sum-area-reference",
+      "branch": "calculus",
+      "sourceVideo": "/reference-styles/problem-solving/calculus/calculus-riemann-sum-area-reference.mp4",
+      "status": "local-seed-v1",
+      "watchPolicy": "Do not resend during normal lessons. Optional one-time Gemini enrichment may replace this seed.",
+      "constructionOrder": [
+        "curve construction",
+        "partition refinement",
+        "rectangle accumulation",
+        "delta-x emphasis",
+        "sum-to-integral"
+      ],
+      "concepts": [
+        "Riemann sum",
+        "area under curve",
+        "partition",
+        "rectangle approximation",
+        "delta x",
+        "definite integral"
+      ],
+      "selectionTerms": [
+        "Riemann sum",
+        "area under curve",
+        "partition",
+        "rectangles",
+        "delta x",
+        "definite integral",
+        "integral"
+      ],
+      "visualGrammar": "Use the approved reference only as a teaching-grammar reference. Generate original lesson-specific mathematics, narration, diagrams and visual actions; never copy exact equations, scenes, narration, branding or artwork. Progress from curve and interval to a few rectangles, finer partitions, accumulated area and the definite integral.",
+      "qa": [
+        "Curve and interval are established first.",
+        "Rectangles correspond to the chosen partition.",
+        "Increasing partition density is visually clear.",
+        "Delta x and representative heights are connected to rectangle area.",
+        "The sum precedes the integral insight.",
+        "A pause occurs at the partition-to-integral insight.",
+        "Final integral relationship is mathematically verified."
+      ],
+      "pacing": {
+        "durationSeconds": 22.317,
+        "fps": 60.0
+      }
+    },
+    "user-video-8-calculus-first-principles": {
+      "id": "user-video-8-calculus-first-principles",
+      "branch": "calculus",
+      "sourceVideo": "/reference-styles/problem-solving/calculus/calculus-first-principles-reference.mp4",
+      "status": "local-seed-v1",
+      "watchPolicy": "Do not resend during normal lessons. Optional one-time Gemini enrichment may replace this seed.",
+      "constructionOrder": [
+        "two-point secant",
+        "point motion",
+        "secant-to-tangent",
+        "limit reasoning",
+        "symbolic derivation"
+      ],
+      "concepts": [
+        "derivative from first principles",
+        "secant slope",
+        "tangent slope",
+        "limit definition",
+        "delta x",
+        "h"
+      ],
+      "selectionTerms": [
+        "first principles",
+        "derivative from first principles",
+        "secant slope",
+        "tangent slope",
+        "limit definition",
+        "delta x",
+        "h",
+        "derivative"
+      ],
+      "visualGrammar": "Use the approved reference only as a teaching-grammar reference. Generate original lesson-specific mathematics, narration, diagrams and visual actions; never copy exact equations, scenes, narration, branding or artwork. Begin with a function and two points, establish secant slope, move the second point toward the first, show the secant approaching a tangent, then connect the geometric limit to the derivative definition.",
+      "qa": [
+        "Function and both points appear before secant reasoning.",
+        "Delta x/h and delta y connect to the slope ratio.",
+        "Moving-point continuity is preserved.",
+        "Secant-to-tangent transition precedes derivative notation.",
+        "Pause at the limit/tangent insight.",
+        "Voice cues align with secant, tangent and derivative beats.",
+        "Final derivative is verified."
+      ],
+      "pacing": {
+        "durationSeconds": 264.5,
+        "fps": 30.0
+      }
+    },
+    "user-video-9-slope-to-derivative": {
+      "id": "user-video-9-slope-to-derivative",
+      "branch": "calculus",
+      "sourceVideo": "/reference-styles/problem-solving/calculus/calculus-slope-to-derivative-reference.mp4",
+      "status": "local-seed-v1",
+      "watchPolicy": "Do not resend during normal lessons. Optional one-time Gemini enrichment may replace this seed.",
+      "constructionOrder": [
+        "graph-first construction",
+        "rise/run triangle",
+        "point motion",
+        "secant-to-tangent",
+        "derivative connection"
+      ],
+      "concepts": [
+        "slope",
+        "rise over run",
+        "delta y over delta x",
+        "secant line",
+        "tangent line",
+        "derivative as instantaneous slope"
+      ],
+      "selectionTerms": [
+        "slope",
+        "rise over run",
+        "delta y",
+        "delta x",
+        "secant line",
+        "tangent line",
+        "derivative"
+      ],
+      "visualGrammar": "Use the approved reference only as a teaching-grammar reference. Generate original lesson-specific mathematics, narration, diagrams and visual actions; never copy exact equations, scenes, narration, branding or artwork. Draw axes and the function, introduce two points and rise/run, track the second point toward the target, transition the secant to a tangent, and connect tangent slope to derivative notation.",
+      "qa": [
+        "Axes and function precede slope reasoning.",
+        "Two points and rise/run are explicitly shown.",
+        "Delta y/delta x is tied to the visible secant triangle.",
+        "Point movement is continuous.",
+        "Tangent slope precedes compressed derivative notation.",
+        "Pause at the slope/derivative insight.",
+        "Derivative result is verified."
+      ],
+      "pacing": {
+        "durationSeconds": 435.8,
+        "fps": 30.0
+      }
+    },
+    "user-video-10-quadratic-formula": {
+      "id": "user-video-10-quadratic-formula",
+      "branch": "algebra",
+      "sourceVideo": "/reference-styles/problem-solving/algebra/quadratic-formula-derivation-reference.mp4",
+      "status": "local-seed-v1",
+      "watchPolicy": "Do not resend during normal lessons. Optional one-time Gemini enrichment may replace this seed.",
+      "constructionOrder": [
+        "term-preserving transformation",
+        "completing square",
+        "square-root reasoning",
+        "symbol highlighting",
+        "worked-example verification"
+      ],
+      "concepts": [
+        "quadratic formula",
+        "coefficient roles",
+        "completing the square",
+        "plus or minus",
+        "discriminant",
+        "sign handling"
+      ],
+      "selectionTerms": [
+        "quadratic formula",
+        "quadratic equation",
+        "completing the square",
+        "discriminant",
+        "a b c",
+        "plus or minus",
+        "sign handling"
+      ],
+      "visualGrammar": "Use the approved reference only as a teaching-grammar reference. Generate original lesson-specific mathematics, narration, diagrams and visual actions; never copy exact equations, scenes, narration, branding or artwork. Preserve a, b, c and x identities through the derivation, show transformations explicitly, justify square-root and plus/minus structure, introduce the discriminant meaningfully, and finish with an independently verified example.",
+      "qa": [
+        "Standard quadratic form and coefficient roles are established first.",
+        "Coefficient identities remain stable through transformations.",
+        "Operations are shown rather than skipped.",
+        "Plus/minus and square-root structure are justified before reveal.",
+        "Discriminant is connected to b²−4ac when relevant.",
+        "Pause after major derivation beats.",
+        "Worked example is independently verified.",
+        "Sign-handling warning appears when applicable."
+      ],
+      "pacing": {
+        "durationSeconds": 186.833,
+        "fps": 30.0
+      }
+    },
+    "trigonometry-unit-circle-reference": {
+      "id": "trigonometry-unit-circle-reference",
+      "branch": "trigonometry",
+      "sourceVideo": "/reference-styles/problem-solving/trigonometry/trigonometry-unit-circle-reference.mp4",
+      "status": "local-seed-v1",
+      "watchPolicy": "Do not resend during normal lessons. Optional one-time Gemini enrichment may replace this seed.",
+      "constructionOrder": [
+        "circle construction",
+        "angle/arc motion",
+        "projection lines",
+        "coordinate interpretation",
+        "identity derivation"
+      ],
+      "concepts": [
+        "unit circle",
+        "angle",
+        "radian",
+        "sine",
+        "cosine",
+        "tangent",
+        "projection",
+        "trigonometric identities"
+      ],
+      "selectionTerms": [
+        "unit circle",
+        "angle",
+        "radian",
+        "sine",
+        "cosine",
+        "tangent",
+        "projection",
+        "trigonometric identity"
+      ],
+      "visualGrammar": "Use the approved reference only as a teaching-grammar reference. Generate original lesson-specific mathematics, narration, diagrams and visual actions; never copy exact equations, scenes, narration, branding or artwork. Progressively construct the unit circle, radius and angle, animate the point/arc, construct projections, connect coordinates to sine/cosine/tangent, and reveal identities only after the geometric relationship is visible.",
+      "qa": [
+        "Circle, radius and angle are established before symbolic identity.",
+        "The moving point/arc remains continuous.",
+        "Projection geometry is visible.",
+        "Trig values are connected to coordinates or triangle geometry.",
+        "Identity notation follows the visual relationship.",
+        "Pause at the identity insight.",
+        "Voice cues align with geometry and identity beats."
+      ],
+      "pacing": {
+        "durationSeconds": 50.633,
+        "fps": 30.0
+      }
+    },
+    "geometry-area-derivation": {
+      "id": "geometry-area-derivation",
+      "branch": "geometry",
+      "sourceVideo": "/reference-styles/problem-solving/geometry/geometry-area-derivation.webm",
+      "status": "local-seed-v1",
+      "watchPolicy": "Do not resend during normal lessons. Optional one-time Gemini enrichment may replace this seed.",
+      "constructionOrder": [
+        "shape construction",
+        "decomposition",
+        "cut-and-move",
+        "dimension highlighting",
+        "formula derivation"
+      ],
+      "concepts": [
+        "area derivation",
+        "shape decomposition",
+        "base",
+        "height",
+        "equivalent shapes",
+        "geometry to formula"
+      ],
+      "selectionTerms": [
+        "area",
+        "area derivation",
+        "shape decomposition",
+        "base",
+        "height",
+        "equivalent shapes",
+        "area formula"
+      ],
+      "visualGrammar": "Use the approved reference only as a teaching-grammar reference. Generate original lesson-specific mathematics, narration, diagrams and visual actions; never copy exact equations, scenes, narration, branding or artwork. Build the target shape, preserve the figure, add key auxiliary lines, decompose or transform regions into known areas, identify base/height, derive equations, and reveal the formula after the visual reasoning.",
+      "qa": [
+        "Target shape is visible before formula reasoning.",
+        "Relevant dimensions are identified visually.",
+        "Decomposition/equivalence is shown.",
+        "Known-area relationships are explicit.",
+        "Equations follow the visible construction.",
+        "Formula is revealed after derivation.",
+        "Pause at decomposition/formula insight."
+      ],
+      "pacing": {
+        "durationSeconds": 65.2,
+        "fps": 60.0
+      }
+    },
+    "area-formula-visual-derivation-reference": {
+      "id": "area-formula-visual-derivation-reference",
+      "branch": "geometry",
+      "sourceVideo": "/reference-styles/problem-solving/geometry/area-formula-visual-derivation-reference.mp4",
+      "status": "local-seed-v1",
+      "watchPolicy": "Do not resend during normal lessons. Optional one-time Gemini enrichment may replace this seed.",
+      "constructionOrder": [
+        "unit-square counting",
+        "dimension highlighting",
+        "decomposition",
+        "cut-and-move",
+        "duplication",
+        "formula derivation"
+      ],
+      "concepts": [
+        "area",
+        "unit squares",
+        "rectangle area",
+        "square area",
+        "triangle area",
+        "parallelogram area",
+        "rhombus area",
+        "trapezium area"
+      ],
+      "selectionTerms": [
+        "area",
+        "area formula",
+        "unit squares",
+        "rectangle area",
+        "square area",
+        "triangle area",
+        "parallelogram area",
+        "rhombus area",
+        "trapezium area"
+      ],
+      "visualGrammar": "Use the approved reference only as a teaching-grammar reference. Generate original lesson-specific mathematics, narration, diagrams and visual actions; never copy exact equations, scenes, narration, branding or artwork. Use shape-specific visual derivation: establish the figure, identify dimensions, decompose or transform it into known-area pieces, derive the formula, and pause before the final formula.",
+      "qa": [
+        "Shape is introduced before formula.",
+        "Dimensions/base/height are visibly identified.",
+        "The visual relationship to known area is shown.",
+        "Formula is derived rather than presented first.",
+        "A deliberate pause occurs at the formula insight.",
+        "Voice cues align with the derivation beats.",
+        "Final formula is verified."
+      ],
+      "pacing": {
+        "durationSeconds": 112.0,
+        "fps": 30.0
+      }
+    },
+    "reference-area-formula-intro": {
+      "id": "reference-area-formula-intro",
+      "branch": "geometry",
+      "sourceVideo": "/reference-styles/problem-solving/geometry/intro.mp4",
+      "status": "local-seed-v1",
+      "watchPolicy": "Do not resend during normal lessons. Optional one-time Gemini enrichment may replace this seed.",
+      "constructionOrder": [
+        "progressive construction",
+        "unit-square intuition"
+      ],
+      "concepts": [
+        "area",
+        "unit square",
+        "area formulas"
+      ],
+      "selectionTerms": [
+        "area formulas",
+        "area",
+        "unit square"
+      ],
+      "visualGrammar": "Use the approved reference only as a teaching-grammar reference. Generate original lesson-specific mathematics, narration, diagrams and visual actions; never copy exact equations, scenes, narration, branding or artwork. Teach area formulas using the approved segment grammar: introduce area, unit squares.",
+      "qa": [
+        "The segment starts with the target visual concept before formula compression.",
+        "Dimensions/parts relevant to the shape are visibly identified.",
+        "The stated construction/decomposition is shown in order.",
+        "The formula follows the visual relationship rather than appearing first.",
+        "A deliberate pause occurs at the key insight.",
+        "Voice cues align with the visual beats.",
+        "The final relationship is mathematically verified."
+      ],
+      "pacing": {
+        "durationSeconds": 6.033,
+        "fps": 30.0
+      }
+    },
+    "reference-area-formula-rectangle": {
+      "id": "reference-area-formula-rectangle",
+      "branch": "geometry",
+      "sourceVideo": "/reference-styles/problem-solving/geometry/rectangle.mp4",
+      "status": "local-seed-v1",
+      "watchPolicy": "Do not resend during normal lessons. Optional one-time Gemini enrichment may replace this seed.",
+      "constructionOrder": [
+        "unit-square counting",
+        "dimension highlighting",
+        "formula derivation"
+      ],
+      "concepts": [
+        "rectangle",
+        "length",
+        "width",
+        "unit squares",
+        "rectangle area"
+      ],
+      "selectionTerms": [
+        "rectangle",
+        "length width",
+        "unit squares",
+        "rectangle area",
+        "length x width"
+      ],
+      "visualGrammar": "Use the approved reference only as a teaching-grammar reference. Generate original lesson-specific mathematics, narration, diagrams and visual actions; never copy exact equations, scenes, narration, branding or artwork. Teach rectangle using the approved segment grammar: count unit squares, identify length and width, derive rectangle formula.",
+      "qa": [
+        "The segment starts with the target visual concept before formula compression.",
+        "Dimensions/parts relevant to the shape are visibly identified.",
+        "The stated construction/decomposition is shown in order.",
+        "The formula follows the visual relationship rather than appearing first.",
+        "A deliberate pause occurs at the key insight.",
+        "Voice cues align with the visual beats.",
+        "The final relationship is mathematically verified."
+      ],
+      "pacing": {
+        "durationSeconds": 20.033,
+        "fps": 30.0
+      }
+    },
+    "reference-area-formula-square": {
+      "id": "reference-area-formula-square",
+      "branch": "geometry",
+      "sourceVideo": "/reference-styles/problem-solving/geometry/square.mp4",
+      "status": "local-seed-v1",
+      "watchPolicy": "Do not resend during normal lessons. Optional one-time Gemini enrichment may replace this seed.",
+      "constructionOrder": [
+        "dimension substitution",
+        "formula derivation"
+      ],
+      "concepts": [
+        "square",
+        "equal sides",
+        "side squared",
+        "square area"
+      ],
+      "selectionTerms": [
+        "square",
+        "equal sides",
+        "side squared",
+        "square area"
+      ],
+      "visualGrammar": "Use the approved reference only as a teaching-grammar reference. Generate original lesson-specific mathematics, narration, diagrams and visual actions; never copy exact equations, scenes, narration, branding or artwork. Teach square using the approved segment grammar: identify equal sides, derive square formula.",
+      "qa": [
+        "The segment starts with the target visual concept before formula compression.",
+        "Dimensions/parts relevant to the shape are visibly identified.",
+        "The stated construction/decomposition is shown in order.",
+        "The formula follows the visual relationship rather than appearing first.",
+        "A deliberate pause occurs at the key insight.",
+        "Voice cues align with the visual beats.",
+        "The final relationship is mathematically verified."
+      ],
+      "pacing": {
+        "durationSeconds": 9.067,
+        "fps": 30.0
+      }
+    },
+    "reference-area-formula-triangle": {
+      "id": "reference-area-formula-triangle",
+      "branch": "geometry",
+      "sourceVideo": "/reference-styles/problem-solving/geometry/triangle.mp4",
+      "status": "local-seed-v1",
+      "watchPolicy": "Do not resend during normal lessons. Optional one-time Gemini enrichment may replace this seed.",
+      "constructionOrder": [
+        "decomposition",
+        "equivalence",
+        "height identification",
+        "formula derivation"
+      ],
+      "concepts": [
+        "triangle",
+        "base",
+        "height",
+        "half rectangle",
+        "triangle area"
+      ],
+      "selectionTerms": [
+        "triangle",
+        "base height",
+        "half rectangle",
+        "triangle area",
+        "half base height"
+      ],
+      "visualGrammar": "Use the approved reference only as a teaching-grammar reference. Generate original lesson-specific mathematics, narration, diagrams and visual actions; never copy exact equations, scenes, narration, branding or artwork. Teach triangle using the approved segment grammar: construct triangle in rectangle, identify base and height, derive half base times height.",
+      "qa": [
+        "The segment starts with the target visual concept before formula compression.",
+        "Dimensions/parts relevant to the shape are visibly identified.",
+        "The stated construction/decomposition is shown in order.",
+        "The formula follows the visual relationship rather than appearing first.",
+        "A deliberate pause occurs at the key insight.",
+        "Voice cues align with the visual beats.",
+        "The final relationship is mathematically verified."
+      ],
+      "pacing": {
+        "durationSeconds": 21.067,
+        "fps": 30.0
+      }
+    },
+    "reference-area-formula-parallelogram": {
+      "id": "reference-area-formula-parallelogram",
+      "branch": "geometry",
+      "sourceVideo": "/reference-styles/problem-solving/geometry/parallelogram.mp4",
+      "status": "local-seed-v1",
+      "watchPolicy": "Do not resend during normal lessons. Optional one-time Gemini enrichment may replace this seed.",
+      "constructionOrder": [
+        "cut-and-move",
+        "equivalence",
+        "dimension highlighting",
+        "formula derivation"
+      ],
+      "concepts": [
+        "parallelogram",
+        "base",
+        "perpendicular height",
+        "rectangle equivalence",
+        "parallelogram area"
+      ],
+      "selectionTerms": [
+        "parallelogram",
+        "base height",
+        "rectangle equivalence",
+        "parallelogram area",
+        "base x height"
+      ],
+      "visualGrammar": "Use the approved reference only as a teaching-grammar reference. Generate original lesson-specific mathematics, narration, diagrams and visual actions; never copy exact equations, scenes, narration, branding or artwork. Teach parallelogram using the approved segment grammar: show parallelogram, cut and move side, derive base times height.",
+      "qa": [
+        "The segment starts with the target visual concept before formula compression.",
+        "Dimensions/parts relevant to the shape are visibly identified.",
+        "The stated construction/decomposition is shown in order.",
+        "The formula follows the visual relationship rather than appearing first.",
+        "A deliberate pause occurs at the key insight.",
+        "Voice cues align with the visual beats.",
+        "The final relationship is mathematically verified."
+      ],
+      "pacing": {
+        "durationSeconds": 21.067,
+        "fps": 30.0
+      }
+    },
+    "reference-area-formula-rhombus": {
+      "id": "reference-area-formula-rhombus",
+      "branch": "geometry",
+      "sourceVideo": "/reference-styles/problem-solving/geometry/rhombus.mp4",
+      "status": "local-seed-v1",
+      "watchPolicy": "Do not resend during normal lessons. Optional one-time Gemini enrichment may replace this seed.",
+      "constructionOrder": [
+        "diagonal construction",
+        "decomposition",
+        "triangle sum",
+        "formula derivation"
+      ],
+      "concepts": [
+        "rhombus",
+        "diagonals",
+        "triangles",
+        "half product",
+        "rhombus area"
+      ],
+      "selectionTerms": [
+        "rhombus",
+        "diagonals",
+        "triangle",
+        "half product",
+        "rhombus area"
+      ],
+      "visualGrammar": "Use the approved reference only as a teaching-grammar reference. Generate original lesson-specific mathematics, narration, diagrams and visual actions; never copy exact equations, scenes, narration, branding or artwork. Teach rhombus using the approved segment grammar: draw both diagonals, combine triangle areas, derive half product.",
+      "qa": [
+        "The segment starts with the target visual concept before formula compression.",
+        "Dimensions/parts relevant to the shape are visibly identified.",
+        "The stated construction/decomposition is shown in order.",
+        "The formula follows the visual relationship rather than appearing first.",
+        "A deliberate pause occurs at the key insight.",
+        "Voice cues align with the visual beats.",
+        "The final relationship is mathematically verified."
+      ],
+      "pacing": {
+        "durationSeconds": 14.034,
+        "fps": 30.0
+      }
+    },
+    "reference-area-formula-trapezium": {
+      "id": "reference-area-formula-trapezium",
+      "branch": "geometry",
+      "sourceVideo": "/reference-styles/problem-solving/geometry/trapezium.mp4",
+      "status": "local-seed-v1",
+      "watchPolicy": "Do not resend during normal lessons. Optional one-time Gemini enrichment may replace this seed.",
+      "constructionOrder": [
+        "duplication",
+        "rearrangement",
+        "parallel-side sum",
+        "formula derivation"
+      ],
+      "concepts": [
+        "trapezium",
+        "trapezoid",
+        "parallel sides",
+        "height",
+        "two trapezia",
+        "half sum",
+        "trapezium area"
+      ],
+      "selectionTerms": [
+        "trapezium",
+        "trapezoid",
+        "parallel sides",
+        "height",
+        "half sum",
+        "trapezium area"
+      ],
+      "visualGrammar": "Use the approved reference only as a teaching-grammar reference. Generate original lesson-specific mathematics, narration, diagrams and visual actions; never copy exact equations, scenes, narration, branding or artwork. Teach trapezium using the approved segment grammar: show trapezium and parallel sides, join identical trapezia, derive half sum times height.",
+      "qa": [
+        "The segment starts with the target visual concept before formula compression.",
+        "Dimensions/parts relevant to the shape are visibly identified.",
+        "The stated construction/decomposition is shown in order.",
+        "The formula follows the visual relationship rather than appearing first.",
+        "A deliberate pause occurs at the key insight.",
+        "Voice cues align with the visual beats.",
+        "The final relationship is mathematically verified."
+      ],
+      "pacing": {
+        "durationSeconds": 21.0,
+        "fps": 30.0
+      }
+    },
+    "japanese-multiplication-tricks-reference": {
+      "id": "japanese-multiplication-tricks-reference",
+      "branch": "arithmetic-general",
+      "sourceVideo": "/reference-styles/problem-solving/arithmetic-general/japanese-multiplication-tricks-reference.mp4",
+      "status": "local-seed-v1",
+      "watchPolicy": "Do not resend during normal lessons. Optional one-time Gemini enrichment may replace this seed.",
+      "constructionOrder": [
+        "digit grouping",
+        "place-value visualization",
+        "line counting",
+        "highlighting",
+        "progressive reveal"
+      ],
+      "concepts": [
+        "multiplication",
+        "mental multiplication",
+        "digit grouping",
+        "place value",
+        "repeated addition",
+        "visual multiplication strategy"
+      ],
+      "selectionTerms": [
+        "multiplication",
+        "multiply",
+        "multiplication trick",
+        "mental multiplication",
+        "digit grouping",
+        "place value",
+        "211 x 3",
+        "211 times 3"
+      ],
+      "visualGrammar": "Use this approved reference only as a visual grammar for simple multiplication and mental-math explanations: preserve individual digits, highlight the active digit/group, represent multiplication with clear visual grouping or counting, keep place-value roles visible, reveal intermediate quantities before the final product, and use concise annotations and deliberate pauses. Generate an original lesson-specific method and arithmetic; never copy the reference video’s exact example, narration, watermark/branding, scene or artwork.",
+      "qa": [
+        "The multiplication expression is visible before the visual method begins.",
+        "Individual digits and their place-value roles remain identifiable.",
+        "The visual grouping/counting corresponds to the stated multiplication operation.",
+        "Intermediate quantities are shown before the final product.",
+        "The final product is mathematically verified.",
+        "Highlights and annotations point to the active digit/group rather than unrelated content.",
+        "Voice cues align with the digit/group transitions and result reveal.",
+        "A brief pause occurs before the final result is revealed."
+      ],
+      "pacing": {
+        "durationSeconds": 15.882,
+        "fps": 30.0
+      }
+    },
+    "linear-equation-two-step-reference": {
+      "id": "linear-equation-two-step-reference",
+      "branch": "algebra",
+      "sourceVideo": "/reference-styles/problem-solving/algebra/linear-equation-two-step-reference.mp4",
+      "status": "local-seed-v1",
+      "watchPolicy": "Do not resend during normal lessons. Optional one-time Gemini enrichment may replace this seed.",
+      "constructionOrder": [
+        "symbol-by-symbol transformation",
+        "inverse-operation visualization",
+        "term movement",
+        "progressive reveal",
+        "verified worked example"
+      ],
+      "concepts": [
+        "linear equation",
+        "two-step equation",
+        "inverse operations",
+        "isolating the variable",
+        "equation transformation",
+        "solving for x"
+      ],
+      "selectionTerms": [
+        "linear equation",
+        "linear equations",
+        "two-step equation",
+        "2x + 5 = 20",
+        "solve for x",
+        "isolate x",
+        "inverse operations",
+        "equation transformation"
+      ],
+      "visualGrammar": "Use this approved reference only as teaching grammar for linear-equation lessons. Preserve the exact identity of mathematical terms, make each operation explicit on both sides, visually move or transform the active term, reveal intermediate equations in order, and pause before the verified final value. Generate original lesson-specific mathematics and narration; never copy the reference video’s exact example, wording, branding or artwork.",
+      "qa": [
+        "Original equation is visible before transformations begin.",
+        "Each operation is applied equivalently to both sides.",
+        "The active term or operation is clearly highlighted or moved.",
+        "Intermediate equation states appear in the correct order.",
+        "The variable is explicitly isolated before the final answer.",
+        "The final value is verified against the original equation.",
+        "Voice/caption cues align with each transformation and pause before the result."
+      ],
+      "pacing": {
+        "durationSeconds": 29.566667,
+        "fps": 30.0
+      }
+    },
+    "math-animations-text-latex-transformations-arrows": {
+      "id": "math-animations-text-latex-transformations-arrows",
+      "branch": "arithmetic-general",
+      "sourceVideo": "/reference-styles/problem-solving/arithmetic-general/math-animations-text-latex-transformations-arrows.mp4",
+      "status": "local-seed-v1",
+      "watchPolicy": "Do not resend during normal lessons. Optional one-time Gemini enrichment may replace this seed.",
+      "constructionOrder": [
+        "before/after equation states",
+        "LaTeX token transformation",
+        "arrow-guided transition",
+        "progressive reveal",
+        "write-erase-highlight"
+      ],
+      "concepts": [
+        "text transformation",
+        "LaTeX transformation",
+        "equation transformation",
+        "arrows",
+        "step-by-step algebra",
+        "mathematical notation",
+        "visual transformation"
+      ],
+      "selectionTerms": [
+        "math animation",
+        "latex transformation",
+        "text transformation",
+        "equation transformation",
+        "arrows",
+        "symbol movement",
+        "term movement",
+        "step by step algebra",
+        "mathematical notation"
+      ],
+      "visualGrammar": "Use the reference only as visual grammar: explicit before/after states, arrows, token/term emphasis, write/erase/reveal and clear equation transformations. Never copy its content.",
+      "qa": [
+        "Show the original mathematical state before transformation.",
+        "Make the active operation visually explicit.",
+        "Use arrows or equivalent transition evidence between states.",
+        "Preserve mathematical equivalence and token identity.",
+        "Synchronize captions/voice with the transformation.",
+        "Pause before the verified result."
+      ],
+      "pacing": {
+        "durationSeconds": 42.0,
+        "fps": 60.0
+      }
+    },
+    "derivative-formulas-through-geometry": {
+      "id": "derivative-formulas-through-geometry",
+      "branch": "calculus",
+      "sourceVideo": "/reference-styles/problem-solving/calculus/derivative-formulas-through-geometry.mp4",
+      "status": "local-seed-v1",
+      "watchPolicy": "Do not resend during normal lessons. Optional one-time Gemini enrichment may replace this seed.",
+      "constructionOrder": [
+        "geometry-first derivative intuition",
+        "slope and tangent visualization",
+        "progressive geometric construction",
+        "geometry-to-symbolic derivation",
+        "verified formula reveal"
+      ],
+      "concepts": [
+        "derivative",
+        "derivative formulas",
+        "geometry",
+        "slope",
+        "tangent",
+        "rate of change",
+        "geometric interpretation of derivative"
+      ],
+      "selectionTerms": [
+        "derivative",
+        "derivative formula",
+        "derivative formulas",
+        "geometry derivative",
+        "slope",
+        "tangent",
+        "rate of change",
+        "geometric derivative",
+        "calculus derivative"
+      ],
+      "visualGrammar": "Use the reference as a conceptual geometry-to-derivative visual grammar. Keep exact formulas, transformations and verification under AI Guru's deterministic math pipeline.",
+      "qa": [
+        "Establish the geometric object or curve before formula reasoning.",
+        "Make slope/tangent relationships visually explicit.",
+        "Transition from geometric intuition to symbolic derivative form.",
+        "Verify every mathematical transformation.",
+        "Synchronize visual cues with English/Malayalam captions and audio.",
+        "Pause before the final verified formula."
+      ],
+      "pacing": {
+        "durationSeconds": 1053.419033,
+        "fps": 29.97003
+      }
+    }
+  },
+  "runtimeRole": "material-studio-problems-formulae-only"
+}

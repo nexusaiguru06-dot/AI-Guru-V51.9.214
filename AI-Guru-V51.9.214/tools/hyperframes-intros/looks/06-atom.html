@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=1920, height=1080"/>
+<link rel="stylesheet" href="common.css"/>
+<style>
+#root{background:radial-gradient(900px 700px at 72% 50%,#1b2a6b 0%,#070a1c 75%)}
+#h{position:absolute;left:130px;top:400px;color:#fff}
+#s{position:absolute;left:136px;color:#86efac;font-size:46px;font-weight:700;opacity:0}
+#k{position:absolute;left:136px;top:340px;color:#f9a8d4;font-size:32px;letter-spacing:.3em;opacity:0}
+.nosub #s{display:none}
+</style></head><body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="5" data-width="1920" data-height="1080">
+<svg width="1920" height="1080" style="position:absolute;left:0;top:0"><g transform="translate(1440 540)"><g id="orbs" fill="none" stroke="#7dd3fc" stroke-width="4" opacity="0"><ellipse rx="340" ry="120"/><ellipse rx="340" ry="120" transform="rotate(60)"/><ellipse rx="340" ry="120" transform="rotate(120)"/></g><g id="els"></g><circle id="nuc" r="46" fill="#f472b6"/><circle r="46" fill="none" stroke="#fff" stroke-opacity=".6" stroke-width="4"/></g></svg>
+<div id="k"></div><div id="h" class="t"></div><div id="s" class="t"></div>
+</div>
+<script src="gsap.min.js"></script><script src="data.js"></script><script src="common.js"></script>
+<script>
+const tl = gsap.timeline({ paused: true });
+
+document.getElementById('k').textContent = D.kicker || ''; document.getElementById('s').textContent = D.sub || '';
+const h = document.getElementById('h'); const us = splitUnits(h, D.heading); const fs = fitText(h, 960, 160);
+document.getElementById('s').style.top = (400 + fs * 1.15) + 'px';
+const els = document.getElementById('els'); const E = [0, 60, 120].map((deg, i) => { const c = document.createElementNS('http://www.w3.org/2000/svg', 'circle'); c.setAttribute('r', 15); c.setAttribute('fill', ['#fbbf24', '#34d399', '#60a5fa'][i]); els.appendChild(c); return { c, rot: deg * Math.PI / 180, ph: i * 2.1 }; });
+const o = { a: 0 }; const upd = () => E.forEach((e) => { const a = o.a + e.ph; const x = 340 * Math.cos(a), y = 120 * Math.sin(a); e.c.setAttribute('cx', x * Math.cos(e.rot) - y * Math.sin(e.rot)); e.c.setAttribute('cy', x * Math.sin(e.rot) + y * Math.cos(e.rot)); });
+tl.to(o, { a: Math.PI * 4, duration: 4.5, ease: 'none', onUpdate: upd }, 0);
+tl.fromTo('#nuc', { scale: 0 }, { scale: 1, duration: .6, ease: 'back.out(2)', transformOrigin: '0px 0px' }, 0.1);
+tl.to('#orbs', { opacity: .8, duration: .8 }, 0.3);
+tl.to('#k', { opacity: 1, duration: .5 }, 0.5);
+tl.fromTo(us, { opacity: 0, y: 60 }, { opacity: 1, y: 0, duration: .5, ease: 'power3.out', stagger: ML ? .2 : .045 }, 0.7);
+tl.to('#s', { opacity: 1, duration: .6 }, 1.8);
+tl.to('#root', { opacity: 0, duration: 0.4 }, 4.6);
+window.__timelines['main'] = tl; tl.seek(0);
+</script></body></html>

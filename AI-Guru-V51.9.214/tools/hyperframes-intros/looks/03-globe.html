@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=1920, height=1080"/>
+<link rel="stylesheet" href="common.css"/>
+<style>
+#root{background:radial-gradient(900px 600px at 75% 50%,#0e3a66 0%,#050b1a 75%)}
+#st{position:absolute;inset:0}
+#h{position:absolute;left:130px;top:390px;color:#fff}
+#s{position:absolute;left:136px;color:#a5f3fc;font-size:46px;font-weight:700;opacity:0}
+#k{position:absolute;left:136px;top:330px;color:#fbbf24;font-size:32px;letter-spacing:.3em;opacity:0}
+.nosub #s{display:none}
+</style></head><body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="5" data-width="1920" data-height="1080">
+<svg id="st" width="1920" height="1080"></svg>
+<svg width="1920" height="1080" style="position:absolute;left:0;top:0"><defs><radialGradient id="g" cx="35%" cy="35%"><stop offset="0" stop-color="#5eead4"/><stop offset=".55" stop-color="#2563eb"/><stop offset="1" stop-color="#0b1b4d"/></radialGradient></defs>
+<g id="gl" transform="translate(1430 540)"><circle r="330" fill="url(#g)"/><g id="mer" fill="none" stroke="#e0f2fe" stroke-opacity=".5" stroke-width="3"></g>
+<g fill="none" stroke="#e0f2fe" stroke-opacity=".4" stroke-width="3"><path d="M-330 0H330"/><path d="M-300 -140H300"/><path d="M-300 140H300"/><path d="M-210 -250H210"/><path d="M-210 250H210"/></g>
+<circle r="330" fill="none" stroke="#7dd3fc" stroke-width="4" opacity=".7"/></g>
+<ellipse id="orb" cx="1430" cy="540" rx="470" ry="150" fill="none" stroke="#fbbf24" stroke-width="3" stroke-dasharray="14 12" transform="rotate(-18 1430 540)" opacity="0"/><circle id="sat" r="16" fill="#fbbf24" opacity="0"/></svg>
+<div id="k"></div><div id="h" class="t"></div><div id="s" class="t"></div>
+</div>
+<script src="gsap.min.js"></script><script src="data.js"></script><script src="common.js"></script>
+<script>
+const tl = gsap.timeline({ paused: true });
+
+document.getElementById('k').textContent = D.kicker || ''; document.getElementById('s').textContent = D.sub || '';
+const st = document.getElementById('st'); for (let i = 0; i < 70; i++) { const c = document.createElementNS('http://www.w3.org/2000/svg', 'circle'); c.setAttribute('cx', R() * 1920); c.setAttribute('cy', R() * 1080); c.setAttribute('r', 1 + R() * 2.2); c.setAttribute('fill', '#fff'); c.setAttribute('opacity', .3 + R() * .6); st.appendChild(c); }
+const mer = document.getElementById('mer'); const ells = [];
+for (let i = 0; i < 6; i++) { const e = document.createElementNS('http://www.w3.org/2000/svg', 'ellipse'); e.setAttribute('ry', 330); e.setAttribute('rx', 10); mer.appendChild(e); ells.push(e); }
+const h = document.getElementById('h'); const us = splitUnits(h, D.heading); const fs = fitText(h, 960, 160);
+document.getElementById('s').style.top = (390 + fs * 1.15) + 'px';
+const spin = { a: 0 }; const upd = () => { ells.forEach((e, i) => { const ph = spin.a + i * Math.PI / 6; e.setAttribute('rx', Math.abs(Math.cos(ph)) * 330 + 1); }); };
+tl.to(spin, { a: Math.PI * 1.2, duration: 4.4, ease: 'none', onUpdate: upd }, 0);
+tl.fromTo('#gl', { scale: .4, opacity: 0, transformOrigin: '1430px 540px' }, { scale: 1, opacity: 1, duration: 1.2, ease: 'power3.out' }, 0);
+tl.to('#orb', { opacity: .8, duration: .6 }, 0.8);
+const ob = { a: 0 }; tl.to(ob, { a: Math.PI * 2, duration: 4, ease: 'none', onUpdate: () => { const t = -18 * Math.PI / 180, x = 470 * Math.cos(ob.a), y = 150 * Math.sin(ob.a); const sat = document.getElementById('sat'); sat.setAttribute('cx', 1430 + x * Math.cos(t) - y * Math.sin(t)); sat.setAttribute('cy', 540 + x * Math.sin(t) + y * Math.cos(t)); sat.setAttribute('opacity', 1); } }, 0.6);
+tl.to('#k', { opacity: 1, duration: .5 }, 0.5);
+tl.fromTo(us, { opacity: 0, x: -80 }, { opacity: 1, x: 0, duration: .6, ease: 'power3.out', stagger: ML ? .2 : .05 }, 0.7);
+tl.to('#s', { opacity: 1, duration: .6 }, 1.8);
+tl.to('#root', { opacity: 0, duration: 0.4 }, 4.6);
+window.__timelines['main'] = tl; tl.seek(0);
+</script></body></html>

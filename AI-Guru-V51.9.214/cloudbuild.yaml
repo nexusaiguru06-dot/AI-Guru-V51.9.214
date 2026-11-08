@@ -1,0 +1,50 @@
+# V51.9.173 — Google Cloud Build: build the AI Guru image and put it live on Cloud Run.
+# Runs on every push to main once the GitHub trigger is set up (docs/DEPLOY-GOOGLE-CLOUD.md, step 9),
+# or by hand:  gcloud builds submit --config cloudbuild.yaml
+substitutions:
+  _REGION: asia-south1
+  _SERVICE: ai-guru
+  _REPO: ai-guru
+  _SQL_INSTANCE: ai-guru-db
+  _BUCKET: ''            # set in the trigger, e.g. ai-guru-files-<project id>
+  # V51.9.177: database connections = _MAX_INSTANCES × _PG_POOL must stay below the database's limit
+  # (db-f1-micro ≈ 25, db-g1-small ≈ 50). 5 × 3 = 15 leaves room for the Cloud SQL proxy and the copy script.
+  _MAX_INSTANCES: '5'
+  _PG_POOL: '3'
+options:
+  # the default build machine is inside Cloud Build's free monthly minutes; E2_HIGHCPU_8 builds faster but is paid
+  logging: CLOUD_LOGGING_ONLY
+timeout: 3600s
+steps:
+  - id: build
+    name: gcr.io/cloud-builders/docker
+    args: ['build', '-t', '${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/ai-guru:$BUILD_ID', '-t', '${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/ai-guru:latest', '.']
+  - id: push
+    name: gcr.io/cloud-builders/docker
+    args: ['push', '--all-tags', '${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/ai-guru']
+  - id: deploy
+    name: gcr.io/google.com/cloudsdktool/cloud-sdk:slim
+    entrypoint: gcloud
+    args:
+      - run
+      - deploy
+      - ${_SERVICE}
+      - --image=${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/ai-guru:$BUILD_ID
+      - --region=${_REGION}
+      - --service-account=ai-guru-run@$PROJECT_ID.iam.gserviceaccount.com
+      - --add-cloudsql-instances=$PROJECT_ID:${_REGION}:${_SQL_INSTANCE}
+      # --update-* keeps any other keys you add later (e.g. GEMINI_API_KEY, SARVAM_API_KEY) on every deploy
+      - --update-env-vars=AI_GURU_STORE=postgres,AI_GURU_BUCKET=${_BUCKET},NODE_ENV=production,AI_GURU_PG_POOL=${_PG_POOL}
+      - --update-secrets=DATABASE_URL=ai-guru-database-url:latest,ADMIN_USERNAME=ai-guru-admin-username:latest,ADMIN_PASSWORD=ai-guru-admin-password:latest,ADMIN_SESSION_SECRET=ai-guru-session-secret:latest
+      - --memory=2Gi
+      - --cpu=2
+      - --timeout=900
+      - --concurrency=40
+      - --min-instances=0
+      - --max-instances=${_MAX_INSTANCES}
+      # keep the CPU on after a reply, so study materials keep being made in the background (V51.9.177)
+      - --no-cpu-throttling
+      - --allow-unauthenticated
+images:
+  - ${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/ai-guru:$BUILD_ID
+  - ${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/ai-guru:latest

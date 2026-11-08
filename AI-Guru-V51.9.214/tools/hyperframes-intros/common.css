@@ -1,0 +1,10 @@
+@font-face{font-family:'NotoML';font-weight:700;src:url('fonts/noto-sans-malayalam-malayalam-700-normal.woff2') format('woff2')}
+@font-face{font-family:'NotoML';font-weight:800;src:url('fonts/noto-sans-malayalam-malayalam-800-normal.woff2') format('woff2')}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1920px;height:1080px;overflow:hidden;background:#000}
+#root{position:relative;width:1920px;height:1080px;overflow:hidden;font-family:Inter,'NotoML',system-ui,sans-serif;font-weight:800}
+.ml #root,.ml .t{font-family:'NotoML',Inter,system-ui,sans-serif}
+.u{display:inline-block}
+.t{white-space:nowrap}
+.ml *{letter-spacing:0 !important}
+#k{text-transform:uppercase}

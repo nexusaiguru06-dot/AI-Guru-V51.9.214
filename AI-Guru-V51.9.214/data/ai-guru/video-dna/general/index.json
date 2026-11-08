@@ -1,0 +1,3754 @@
+{
+"schemaVersion": 1,
+"count": 231,
+"entries": [
+{
+"id": "2021-holomorphic-dynamics",
+"path": "_2021/holomorphic_dynamics.py",
+"year": 2021,
+"domain": "topology-fractals",
+"branch": "geometry",
+"archetype": "live-parameter-exploration",
+"tier": "S",
+"portable": true,
+"richness": 91.0,
+"playCalls": 216,
+"cameraMode": [
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2021-newton-fractal",
+"path": "_2021/newton_fractal.py",
+"year": 2021,
+"domain": "topology-fractals",
+"branch": "geometry",
+"archetype": "solid-and-surface-3d-orbit",
+"tier": "S",
+"portable": true,
+"richness": 91.0,
+"playCalls": 289,
+"cameraMode": [
+"3d-orbit",
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2022-puzzles-subsets",
+"path": "_2022/puzzles/subsets.py",
+"year": 2022,
+"domain": "number-theory",
+"branch": "arithmetic-general",
+"archetype": "staggered-reveal-explainer",
+"tier": "S",
+"portable": true,
+"richness": 91.0,
+"playCalls": 400,
+"cameraMode": [
+"3d-orbit",
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2024-transformers-embedding",
+"path": "_2024/transformers/embedding.py",
+"year": 2024,
+"domain": "computer-science-ml",
+"branch": "computing",
+"archetype": "plane-and-matrix-transformation",
+"tier": "S",
+"portable": true,
+"richness": 91.0,
+"playCalls": 155,
+"cameraMode": [
+"3d-orbit",
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2025-laplace-main-equations",
+"path": "_2025/laplace/main_equations.py",
+"year": 2025,
+"domain": "differential-equations",
+"branch": "calculus",
+"archetype": "staggered-reveal-explainer",
+"tier": "S",
+"portable": true,
+"richness": 91.0,
+"playCalls": 209,
+"cameraMode": [
+"3d-orbit",
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2022-borwein-main",
+"path": "_2022/borwein/main.py",
+"year": 2022,
+"domain": "calculus",
+"branch": "calculus",
+"archetype": "live-parameter-exploration",
+"tier": "S",
+"portable": true,
+"richness": 88.2,
+"playCalls": 109,
+"cameraMode": [
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2023-convolutions2-continuous",
+"path": "_2023/convolutions2/continuous.py",
+"year": 2023,
+"domain": "probability-statistics",
+"branch": "arithmetic-general",
+"archetype": "live-parameter-exploration",
+"tier": "S",
+"portable": true,
+"richness": 86.0,
+"playCalls": 123,
+"cameraMode": [
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2023-gauss-int-herschel",
+"path": "_2023/gauss_int/herschel.py",
+"year": 2023,
+"domain": "probability-statistics",
+"branch": "arithmetic-general",
+"archetype": "equation-morphing",
+"tier": "S",
+"portable": true,
+"richness": 86.0,
+"playCalls": 140,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2024-holograms-diffraction",
+"path": "_2024/holograms/diffraction.py",
+"year": 2024,
+"domain": "complex-analysis",
+"branch": "trigonometry",
+"archetype": "solid-and-surface-3d-orbit",
+"tier": "S",
+"portable": true,
+"richness": 86.0,
+"playCalls": 322,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2024-puzzles-added-dimension",
+"path": "_2024/puzzles/added_dimension.py",
+"year": 2024,
+"domain": "geometry",
+"branch": "geometry",
+"archetype": "solid-and-surface-3d-orbit",
+"tier": "S",
+"portable": true,
+"richness": 86.0,
+"playCalls": 250,
+"cameraMode": [
+"3d-orbit",
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2025-grover-state-vectors",
+"path": "_2025/grover/state_vectors.py",
+"year": 2025,
+"domain": "computer-science-ml",
+"branch": "computing",
+"archetype": "plane-and-matrix-transformation",
+"tier": "S",
+"portable": true,
+"richness": 86.0,
+"playCalls": 254,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2025-laplace-exponentials",
+"path": "_2025/laplace/exponentials.py",
+"year": 2025,
+"domain": "differential-equations",
+"branch": "calculus",
+"archetype": "live-parameter-exploration",
+"tier": "S",
+"portable": true,
+"richness": 86.0,
+"playCalls": 126,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2023-optics-puzzles-e-field",
+"path": "_2023/optics_puzzles/e_field.py",
+"year": 2023,
+"domain": "differential-equations",
+"branch": "calculus",
+"archetype": "solid-and-surface-3d-orbit",
+"tier": "S",
+"portable": true,
+"richness": 85.8,
+"playCalls": 119,
+"cameraMode": [
+"3d-orbit",
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2018-windingnumber-g",
+"path": "_2018/WindingNumber_G.py",
+"year": 2018,
+"domain": "algebra-basics",
+"branch": "algebra",
+"archetype": "staggered-reveal-explainer",
+"tier": "S",
+"portable": true,
+"richness": 85.0,
+"playCalls": 195,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2018-div-curl",
+"path": "_2018/div_curl.py",
+"year": 2018,
+"domain": "differential-equations",
+"branch": "calculus",
+"archetype": "plane-and-matrix-transformation",
+"tier": "S",
+"portable": true,
+"richness": 85.0,
+"playCalls": 205,
+"cameraMode": [
+"3d-orbit",
+"moving-camera",
+"graph-scene"
+],
+"duplicateOf": null
+},
+{
+"id": "2018-fourier",
+"path": "_2018/fourier.py",
+"year": 2018,
+"domain": "fourier-signals",
+"branch": "trigonometry",
+"archetype": "live-parameter-exploration",
+"tier": "S",
+"portable": true,
+"richness": 85.0,
+"playCalls": 251,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2023-clt-main",
+"path": "_2023/clt/main.py",
+"year": 2023,
+"domain": "probability-statistics",
+"branch": "arithmetic-general",
+"archetype": "staggered-reveal-explainer",
+"tier": "S",
+"portable": true,
+"richness": 85.0,
+"playCalls": 254,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2023-optics-puzzles-annotations",
+"path": "_2023/optics_puzzles/annotations.py",
+"year": 2023,
+"domain": "physics",
+"branch": "physics",
+"archetype": "live-parameter-exploration",
+"tier": "S",
+"portable": true,
+"richness": 84.5,
+"playCalls": 94,
+"cameraMode": [
+"3d-orbit",
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2025-laplace-shm",
+"path": "_2025/laplace/shm.py",
+"year": 2025,
+"domain": "differential-equations",
+"branch": "calculus",
+"archetype": "live-parameter-exploration",
+"tier": "S",
+"portable": true,
+"richness": 84.2,
+"playCalls": 113,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2019-diffyq-part1-staging",
+"path": "_2019/diffyq/part1/staging.py",
+"year": 2019,
+"domain": "differential-equations",
+"branch": "calculus",
+"archetype": "staggered-reveal-explainer",
+"tier": "S",
+"portable": true,
+"richness": 83.0,
+"playCalls": 124,
+"cameraMode": [
+"3d-orbit",
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2019-hyperdarts",
+"path": "_2019/hyperdarts.py",
+"year": 2019,
+"domain": "probability-statistics",
+"branch": "arithmetic-general",
+"archetype": "staggered-reveal-explainer",
+"tier": "S",
+"portable": true,
+"richness": 83.0,
+"playCalls": 126,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2021-matrix-exp",
+"path": "_2021/matrix_exp.py",
+"year": 2021,
+"domain": "linear-algebra",
+"branch": "algebra",
+"archetype": "plane-and-matrix-transformation",
+"tier": "S",
+"portable": true,
+"richness": 83.0,
+"playCalls": 480,
+"cameraMode": [
+"3d-orbit",
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2021-quick-eigen",
+"path": "_2021/quick_eigen.py",
+"year": 2021,
+"domain": "algebra-basics",
+"branch": "algebra",
+"archetype": "plane-and-matrix-transformation",
+"tier": "S",
+"portable": true,
+"richness": 83.0,
+"playCalls": 230,
+"cameraMode": [
+"3d-orbit",
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2022-wordle-scenes",
+"path": "_2022/wordle/scenes.py",
+"year": 2022,
+"domain": "computer-science-ml",
+"branch": "computing",
+"archetype": "numeric-array-visualisation",
+"tier": "S",
+"portable": true,
+"richness": 83.0,
+"playCalls": 190,
+"cameraMode": [
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2025-colliding-blocks-v2-supplements",
+"path": "_2025/colliding_blocks_v2/supplements.py",
+"year": 2025,
+"domain": "computer-science-ml",
+"branch": "computing",
+"archetype": "equation-morphing",
+"tier": "S",
+"portable": true,
+"richness": 83.0,
+"playCalls": 133,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2025-laplace-supplements",
+"path": "_2025/laplace/supplements.py",
+"year": 2025,
+"domain": "differential-equations",
+"branch": "calculus",
+"archetype": "staggered-reveal-explainer",
+"tier": "S",
+"portable": true,
+"richness": 83.0,
+"playCalls": 124,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2025-laplace-prequel-equations",
+"path": "_2025/laplace/prequel_equations.py",
+"year": 2025,
+"domain": "differential-equations",
+"branch": "calculus",
+"archetype": "equation-morphing",
+"tier": "S",
+"portable": true,
+"richness": 82.8,
+"playCalls": 119,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2024-inscribed-rect-loops",
+"path": "_2024/inscribed_rect/loops.py",
+"year": 2024,
+"domain": "geometry",
+"branch": "geometry",
+"archetype": "solid-and-surface-3d-orbit",
+"tier": "S",
+"portable": true,
+"richness": 82.0,
+"playCalls": 259,
+"cameraMode": [
+"3d-orbit",
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2025-cosmic-distance-part2",
+"path": "_2025/cosmic_distance/part2.py",
+"year": 2025,
+"domain": "geometry",
+"branch": "geometry",
+"archetype": "solid-and-surface-3d-orbit",
+"tier": "S",
+"portable": true,
+"richness": 81.5,
+"playCalls": 102,
+"cameraMode": [
+"3d-orbit",
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2018-uncertainty",
+"path": "_2018/uncertainty.py",
+"year": 2018,
+"domain": "fourier-signals",
+"branch": "trigonometry",
+"archetype": "live-parameter-exploration",
+"tier": "S",
+"portable": true,
+"richness": 80.0,
+"playCalls": 256,
+"cameraMode": [
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2025-cosmic-distance-supplements2",
+"path": "_2025/cosmic_distance/supplements2.py",
+"year": 2025,
+"domain": "geometry",
+"branch": "geometry",
+"archetype": "solid-and-surface-3d-orbit",
+"tier": "S",
+"portable": true,
+"richness": 79.8,
+"playCalls": 95,
+"cameraMode": [
+"3d-orbit",
+"moving-camera"
+],
+"duplicateOf": "2025-cosmic-distance-part2"
+},
+{
+"id": "2025-cosmic-distance-supplements",
+"path": "_2025/cosmic_distance/supplements.py",
+"year": 2025,
+"domain": "geometry",
+"branch": "geometry",
+"archetype": "staggered-reveal-explainer",
+"tier": "S",
+"portable": true,
+"richness": 79.2,
+"playCalls": 105,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2021-shadows",
+"path": "_2021/shadows.py",
+"year": 2021,
+"domain": "geometry",
+"branch": "geometry",
+"archetype": "plane-and-matrix-transformation",
+"tier": "S",
+"portable": true,
+"richness": 78.0,
+"playCalls": 441,
+"cameraMode": [
+"3d-orbit",
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2022-convolutions-discrete",
+"path": "_2022/convolutions/discrete.py",
+"year": 2022,
+"domain": "probability-statistics",
+"branch": "arithmetic-general",
+"archetype": "general-2d-explainer",
+"tier": "S",
+"portable": true,
+"richness": 78.0,
+"playCalls": 140,
+"cameraMode": [
+"3d-orbit",
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2022-visual-proofs-lies",
+"path": "_2022/visual_proofs/lies.py",
+"year": 2022,
+"domain": "geometry",
+"branch": "geometry",
+"archetype": "solid-and-surface-3d-orbit",
+"tier": "S",
+"portable": true,
+"richness": 78.0,
+"playCalls": 216,
+"cameraMode": [
+"3d-orbit",
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2024-transformers-attention",
+"path": "_2024/transformers/attention.py",
+"year": 2024,
+"domain": "computer-science-ml",
+"branch": "computing",
+"archetype": "plane-and-matrix-transformation",
+"tier": "S",
+"portable": true,
+"richness": 78.0,
+"playCalls": 237,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2024-transformers-mlp",
+"path": "_2024/transformers/mlp.py",
+"year": 2024,
+"domain": "computer-science-ml",
+"branch": "computing",
+"archetype": "plane-and-matrix-transformation",
+"tier": "S",
+"portable": true,
+"richness": 78.0,
+"playCalls": 197,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2025-colliding-blocks-v2-blocks",
+"path": "_2025/colliding_blocks_v2/blocks.py",
+"year": 2025,
+"domain": "geometry",
+"branch": "geometry",
+"archetype": "general-2d-explainer",
+"tier": "S",
+"portable": true,
+"richness": 78.0,
+"playCalls": 164,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2025-cosmic-distance-planets",
+"path": "_2025/cosmic_distance/planets.py",
+"year": 2025,
+"domain": "physics",
+"branch": "physics",
+"archetype": "solid-and-surface-3d-orbit",
+"tier": "S",
+"portable": true,
+"richness": 78.0,
+"playCalls": 224,
+"cameraMode": [
+"3d-orbit",
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2025-laplace-integration",
+"path": "_2025/laplace/integration.py",
+"year": 2025,
+"domain": "differential-equations",
+"branch": "calculus",
+"archetype": "staggered-reveal-explainer",
+"tier": "S",
+"portable": true,
+"richness": 78.0,
+"playCalls": 141,
+"cameraMode": [
+"3d-orbit",
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2018-borsuk-addition",
+"path": "_2018/borsuk_addition.py",
+"year": 2018,
+"domain": "topology-fractals",
+"branch": "geometry",
+"archetype": "solid-and-surface-3d-orbit",
+"tier": "A",
+"portable": true,
+"richness": 77.5,
+"playCalls": 90,
+"cameraMode": [
+"3d-orbit",
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2018-lost-lecture",
+"path": "_2018/lost_lecture.py",
+"year": 2018,
+"domain": "geometry",
+"branch": "geometry",
+"archetype": "camera-pan-zoom-storytelling",
+"tier": "A",
+"portable": true,
+"richness": 77.0,
+"playCalls": 255,
+"cameraMode": [
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2018-quaternions",
+"path": "_2018/quaternions.py",
+"year": 2018,
+"domain": "complex-analysis",
+"branch": "trigonometry",
+"archetype": "plane-and-matrix-transformation",
+"tier": "A",
+"portable": true,
+"richness": 77.0,
+"playCalls": 359,
+"cameraMode": [
+"3d-orbit",
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2019-clacks-solution1",
+"path": "_2019/clacks/solution1.py",
+"year": 2019,
+"domain": "geometry",
+"branch": "geometry",
+"archetype": "function-graph-build-up",
+"tier": "A",
+"portable": true,
+"richness": 77.0,
+"playCalls": 175,
+"cameraMode": [
+"moving-camera",
+"graph-scene"
+],
+"duplicateOf": null
+},
+{
+"id": "2019-diffyq-part2-heat-equation",
+"path": "_2019/diffyq/part2/heat_equation.py",
+"year": 2019,
+"domain": "differential-equations",
+"branch": "calculus",
+"archetype": "staggered-reveal-explainer",
+"tier": "A",
+"portable": true,
+"richness": 77.0,
+"playCalls": 149,
+"cameraMode": [
+"3d-orbit",
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2019-spirals",
+"path": "_2019/spirals.py",
+"year": 2019,
+"domain": "number-theory",
+"branch": "arithmetic-general",
+"archetype": "camera-pan-zoom-storytelling",
+"tier": "A",
+"portable": true,
+"richness": 77.0,
+"playCalls": 254,
+"cameraMode": [
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2019-windmill",
+"path": "_2019/windmill.py",
+"year": 2019,
+"domain": "probability-statistics",
+"branch": "arithmetic-general",
+"archetype": "staggered-reveal-explainer",
+"tier": "A",
+"portable": true,
+"richness": 77.0,
+"playCalls": 210,
+"cameraMode": [
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2020-beta-beta3",
+"path": "_2020/beta/beta3.py",
+"year": 2020,
+"domain": "probability-statistics",
+"branch": "arithmetic-general",
+"archetype": "staggered-reveal-explainer",
+"tier": "A",
+"portable": true,
+"richness": 77.0,
+"playCalls": 161,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2020-hamming",
+"path": "_2020/hamming.py",
+"year": 2020,
+"domain": "computer-science-ml",
+"branch": "computing",
+"archetype": "camera-pan-zoom-storytelling",
+"tier": "A",
+"portable": true,
+"richness": 77.0,
+"playCalls": 561,
+"cameraMode": [
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2020-monster",
+"path": "_2020/monster.py",
+"year": 2020,
+"domain": "combinatorics-puzzles",
+"branch": "geometry",
+"archetype": "solid-and-surface-3d-orbit",
+"tier": "A",
+"portable": true,
+"richness": 77.0,
+"playCalls": 308,
+"cameraMode": [
+"3d-orbit",
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2023-optics-puzzles-ior-annotations",
+"path": "_2023/optics_puzzles/ior_annotations.py",
+"year": 2023,
+"domain": "physics",
+"branch": "physics",
+"archetype": "equation-morphing",
+"tier": "A",
+"portable": true,
+"richness": 77.0,
+"playCalls": 132,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2018-turbulence",
+"path": "_2018/turbulence.py",
+"year": 2018,
+"domain": "physics",
+"branch": "physics",
+"archetype": "staggered-reveal-explainer",
+"tier": "A",
+"portable": true,
+"richness": 76.5,
+"playCalls": 102,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2019-diffyq-part1-phase-space",
+"path": "_2019/diffyq/part1/phase_space.py",
+"year": 2019,
+"domain": "differential-equations",
+"branch": "calculus",
+"archetype": "numeric-array-visualisation",
+"tier": "A",
+"portable": true,
+"richness": 76.2,
+"playCalls": 93,
+"cameraMode": [
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2023-optics-puzzles-driven-harmonic-oscillator",
+"path": "_2023/optics_puzzles/driven_harmonic_oscillator.py",
+"year": 2023,
+"domain": "physics",
+"branch": "physics",
+"archetype": "general-2d-explainer",
+"tier": "A",
+"portable": true,
+"richness": 76.2,
+"playCalls": 81,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2024-transformers-chm",
+"path": "_2024/transformers/chm.py",
+"year": 2024,
+"domain": "computer-science-ml",
+"branch": "computing",
+"archetype": "solid-and-surface-3d-orbit",
+"tier": "A",
+"portable": true,
+"richness": 76.2,
+"playCalls": 101,
+"cameraMode": [
+"3d-orbit",
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2019-diffyq-part1-pendulum",
+"path": "_2019/diffyq/part1/pendulum.py",
+"year": 2019,
+"domain": "physics",
+"branch": "physics",
+"archetype": "camera-pan-zoom-storytelling",
+"tier": "A",
+"portable": true,
+"richness": 75.5,
+"playCalls": 114,
+"cameraMode": [
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2023-gauss-int-integral",
+"path": "_2023/gauss_int/integral.py",
+"year": 2023,
+"domain": "calculus",
+"branch": "calculus",
+"archetype": "staggered-reveal-explainer",
+"tier": "A",
+"portable": true,
+"richness": 75.5,
+"playCalls": 110,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2018-eop-independence",
+"path": "_2018/eop/independence.py",
+"year": 2018,
+"domain": "probability-statistics",
+"branch": "arithmetic-general",
+"archetype": "staggered-reveal-explainer",
+"tier": "A",
+"portable": true,
+"richness": 75.0,
+"playCalls": 240,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2024-holograms-supplements",
+"path": "_2024/holograms/supplements.py",
+"year": 2024,
+"domain": "algebra-basics",
+"branch": "algebra",
+"archetype": "staggered-reveal-explainer",
+"tier": "A",
+"portable": true,
+"richness": 75.0,
+"playCalls": 170,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2018-cramer",
+"path": "_2018/cramer.py",
+"year": 2018,
+"domain": "linear-algebra",
+"branch": "algebra",
+"archetype": "plane-and-matrix-transformation",
+"tier": "A",
+"portable": true,
+"richness": 74.8,
+"playCalls": 107,
+"cameraMode": [
+"3d-orbit",
+"moving-camera",
+"linear-transformation-scene"
+],
+"duplicateOf": null
+},
+{
+"id": "2017-bell",
+"path": "_2017/bell.py",
+"year": 2017,
+"domain": "probability-statistics",
+"branch": "arithmetic-general",
+"archetype": "general-2d-explainer",
+"tier": "A",
+"portable": true,
+"richness": 73.8,
+"playCalls": 163,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2019-clacks-solution2-position-phase-space",
+"path": "_2019/clacks/solution2/position_phase_space.py",
+"year": 2019,
+"domain": "physics",
+"branch": "physics",
+"archetype": "camera-pan-zoom-storytelling",
+"tier": "A",
+"portable": true,
+"richness": 73.0,
+"playCalls": 128,
+"cameraMode": [
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2019-diffyq-part4-staging",
+"path": "_2019/diffyq/part4/staging.py",
+"year": 2019,
+"domain": "fourier-signals",
+"branch": "trigonometry",
+"archetype": "staggered-reveal-explainer",
+"tier": "A",
+"portable": true,
+"richness": 73.0,
+"playCalls": 116,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2016-eola-chapter1",
+"path": "_2016/eola/chapter1.py",
+"year": 2016,
+"domain": "linear-algebra",
+"branch": "algebra",
+"archetype": "plane-and-matrix-transformation",
+"tier": "A",
+"portable": true,
+"richness": 72.8,
+"playCalls": 128,
+"cameraMode": [
+"linear-transformation-scene"
+],
+"duplicateOf": null
+},
+{
+"id": "2017-waves",
+"path": "_2017/waves.py",
+"year": 2017,
+"domain": "differential-equations",
+"branch": "calculus",
+"archetype": "staggered-reveal-explainer",
+"tier": "A",
+"portable": true,
+"richness": 72.0,
+"playCalls": 215,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2018-basel-basel2",
+"path": "_2018/basel/basel2.py",
+"year": 2018,
+"domain": "sequences-series",
+"branch": "calculus",
+"archetype": "geometric-construction-proof",
+"tier": "A",
+"portable": true,
+"richness": 72.0,
+"playCalls": 287,
+"cameraMode": [
+"3d-orbit",
+"zoomed-inset"
+],
+"duplicateOf": null
+},
+{
+"id": "2018-sphere-area",
+"path": "_2018/sphere_area.py",
+"year": 2018,
+"domain": "geometry",
+"branch": "geometry",
+"archetype": "solid-and-surface-3d-orbit",
+"tier": "A",
+"portable": true,
+"richness": 72.0,
+"playCalls": 193,
+"cameraMode": [
+"3d-orbit",
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2020-chess",
+"path": "_2020/chess.py",
+"year": 2020,
+"domain": "combinatorics-puzzles",
+"branch": "geometry",
+"archetype": "staggered-reveal-explainer",
+"tier": "A",
+"portable": true,
+"richness": 72.0,
+"playCalls": 336,
+"cameraMode": [
+"3d-orbit",
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2020-covid",
+"path": "_2020/covid.py",
+"year": 2020,
+"domain": "algebra-basics",
+"branch": "algebra",
+"archetype": "staggered-reveal-explainer",
+"tier": "A",
+"portable": true,
+"richness": 72.0,
+"playCalls": 127,
+"cameraMode": [
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2024-transformers-ml-basics",
+"path": "_2024/transformers/ml_basics.py",
+"year": 2024,
+"domain": "computer-science-ml",
+"branch": "computing",
+"archetype": "plane-and-matrix-transformation",
+"tier": "A",
+"portable": true,
+"richness": 72.0,
+"playCalls": 157,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2020-sir",
+"path": "_2020/sir.py",
+"year": 2020,
+"domain": "general",
+"branch": "arithmetic-general",
+"archetype": "staggered-reveal-explainer",
+"tier": "A",
+"portable": true,
+"richness": 71.8,
+"playCalls": 119,
+"cameraMode": [
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2023-clt-proof-main",
+"path": "_2023/clt_proof/main.py",
+"year": 2023,
+"domain": "probability-statistics",
+"branch": "arithmetic-general",
+"archetype": "equation-morphing",
+"tier": "A",
+"portable": true,
+"richness": 71.8,
+"playCalls": 119,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2018-wallis",
+"path": "_2018/wallis.py",
+"year": 2018,
+"domain": "trigonometry",
+"branch": "trigonometry",
+"archetype": "staggered-reveal-explainer",
+"tier": "A",
+"portable": true,
+"richness": 71.0,
+"playCalls": 353,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2019-bayes-part1",
+"path": "_2019/bayes/part1.py",
+"year": 2019,
+"domain": "probability-statistics",
+"branch": "arithmetic-general",
+"archetype": "function-graph-build-up",
+"tier": "A",
+"portable": true,
+"richness": 71.0,
+"playCalls": 359,
+"cameraMode": [
+"graph-scene"
+],
+"duplicateOf": null
+},
+{
+"id": "2020-beta-beta2",
+"path": "_2020/beta/beta2.py",
+"year": 2020,
+"domain": "probability-statistics",
+"branch": "arithmetic-general",
+"archetype": "staggered-reveal-explainer",
+"tier": "A",
+"portable": true,
+"richness": 71.0,
+"playCalls": 174,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2020-med-test",
+"path": "_2020/med_test.py",
+"year": 2020,
+"domain": "probability-statistics",
+"branch": "arithmetic-general",
+"archetype": "staggered-reveal-explainer",
+"tier": "A",
+"portable": true,
+"richness": 71.0,
+"playCalls": 529,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2023-moser-reboot-main",
+"path": "_2023/moser_reboot/main.py",
+"year": 2023,
+"domain": "combinatorics-puzzles",
+"branch": "geometry",
+"archetype": "staggered-reveal-explainer",
+"tier": "A",
+"portable": true,
+"richness": 70.8,
+"playCalls": 95,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2023-optics-puzzles-adding-waves",
+"path": "_2023/optics_puzzles/adding_waves.py",
+"year": 2023,
+"domain": "physics",
+"branch": "physics",
+"archetype": "live-parameter-exploration",
+"tier": "A",
+"portable": true,
+"richness": 70.5,
+"playCalls": 58,
+"cameraMode": [
+"3d-orbit",
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2023-convolutions2-diagonal-slices",
+"path": "_2023/convolutions2/diagonal_slices.py",
+"year": 2023,
+"domain": "probability-statistics",
+"branch": "arithmetic-general",
+"archetype": "solid-and-surface-3d-orbit",
+"tier": "A",
+"portable": true,
+"richness": 70.2,
+"playCalls": 57,
+"cameraMode": [
+"3d-orbit",
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2024-puzzles-max-rand",
+"path": "_2024/puzzles/max_rand.py",
+"year": 2024,
+"domain": "geometry",
+"branch": "geometry",
+"archetype": "general-2d-explainer",
+"tier": "A",
+"portable": true,
+"richness": 70.2,
+"playCalls": 42,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2017-highd",
+"path": "_2017/highD.py",
+"year": 2017,
+"domain": "topology-fractals",
+"branch": "geometry",
+"archetype": "solid-and-surface-3d-orbit",
+"tier": "A",
+"portable": true,
+"richness": 70.0,
+"playCalls": 252,
+"cameraMode": [
+"3d-orbit",
+"graph-scene"
+],
+"duplicateOf": null
+},
+{
+"id": "2023-optics-puzzles-cylinder",
+"path": "_2023/optics_puzzles/cylinder.py",
+"year": 2023,
+"domain": "physics",
+"branch": "physics",
+"archetype": "numeric-array-visualisation",
+"tier": "A",
+"portable": true,
+"richness": 70.0,
+"playCalls": 76,
+"cameraMode": [
+"3d-orbit",
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2019-diffyq-part4-fourier-series-scenes",
+"path": "_2019/diffyq/part4/fourier_series_scenes.py",
+"year": 2019,
+"domain": "fourier-signals",
+"branch": "trigonometry",
+"archetype": "general-2d-explainer",
+"tier": "A",
+"portable": true,
+"richness": 69.8,
+"playCalls": 91,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2019-diffyq-part2-staging",
+"path": "_2019/diffyq/part2/staging.py",
+"year": 2019,
+"domain": "differential-equations",
+"branch": "calculus",
+"archetype": "live-parameter-exploration",
+"tier": "A",
+"portable": true,
+"richness": 69.2,
+"playCalls": 33,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2022-some2-winners",
+"path": "_2022/some2/winners.py",
+"year": 2022,
+"domain": "computer-science-ml",
+"branch": "computing",
+"archetype": "staggered-reveal-explainer",
+"tier": "A",
+"portable": true,
+"richness": 69.2,
+"playCalls": 89,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2017-leibniz",
+"path": "_2017/leibniz.py",
+"year": 2017,
+"domain": "number-theory",
+"branch": "arithmetic-general",
+"archetype": "staggered-reveal-explainer",
+"tier": "A",
+"portable": true,
+"richness": 69.0,
+"playCalls": 340,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2017-nn-part1",
+"path": "_2017/nn/part1.py",
+"year": 2017,
+"domain": "computer-science-ml",
+"branch": "computing",
+"archetype": "function-graph-build-up",
+"tier": "A",
+"portable": true,
+"richness": 69.0,
+"playCalls": 313,
+"cameraMode": [
+"graph-scene"
+],
+"duplicateOf": null
+},
+{
+"id": "2017-nn-part3",
+"path": "_2017/nn/part3.py",
+"year": 2017,
+"domain": "computer-science-ml",
+"branch": "computing",
+"archetype": "general-2d-explainer",
+"tier": "A",
+"portable": true,
+"richness": 69.0,
+"playCalls": 368,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2017-triples",
+"path": "_2017/triples.py",
+"year": 2017,
+"domain": "geometry",
+"branch": "geometry",
+"archetype": "general-2d-explainer",
+"tier": "A",
+"portable": true,
+"richness": 69.0,
+"playCalls": 215,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2023-convolutions2-dice",
+"path": "_2023/convolutions2/dice.py",
+"year": 2023,
+"domain": "probability-statistics",
+"branch": "arithmetic-general",
+"archetype": "camera-pan-zoom-storytelling",
+"tier": "A",
+"portable": true,
+"richness": 69.0,
+"playCalls": 96,
+"cameraMode": [
+"3d-orbit",
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2016-eola-chapter6",
+"path": "_2016/eola/chapter6.py",
+"year": 2016,
+"domain": "linear-algebra",
+"branch": "algebra",
+"archetype": "plane-and-matrix-transformation",
+"tier": "A",
+"portable": true,
+"richness": 67.2,
+"playCalls": 162,
+"cameraMode": [
+"linear-transformation-scene"
+],
+"duplicateOf": null
+},
+{
+"id": "2022-quintic-polynomial-baisics",
+"path": "_2022/quintic/polynomial_baisics.py",
+"year": 2022,
+"domain": "algebra-basics",
+"branch": "algebra",
+"archetype": "staggered-reveal-explainer",
+"tier": "A",
+"portable": true,
+"richness": 67.2,
+"playCalls": 101,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2025-grover-clarification",
+"path": "_2025/grover/clarification.py",
+"year": 2025,
+"domain": "computer-science-ml",
+"branch": "computing",
+"archetype": "plane-and-matrix-transformation",
+"tier": "A",
+"portable": true,
+"richness": 67.2,
+"playCalls": 109,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2022-piano-fourier-animations",
+"path": "_2022/piano/fourier_animations.py",
+"year": 2022,
+"domain": "fourier-signals",
+"branch": "trigonometry",
+"archetype": "live-parameter-exploration",
+"tier": "A",
+"portable": true,
+"richness": 67.0,
+"playCalls": 44,
+"cameraMode": [
+"3d-orbit",
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2023-optics-puzzles-bending-waves",
+"path": "_2023/optics_puzzles/bending_waves.py",
+"year": 2023,
+"domain": "physics",
+"branch": "physics",
+"archetype": "geometric-construction-proof",
+"tier": "A",
+"portable": true,
+"richness": 67.0,
+"playCalls": 44,
+"cameraMode": [
+"3d-orbit",
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2020-ldm",
+"path": "_2020/ldm.py",
+"year": 2020,
+"domain": "complex-analysis",
+"branch": "trigonometry",
+"archetype": "live-parameter-exploration",
+"tier": "B",
+"portable": true,
+"richness": 66.8,
+"playCalls": 39,
+"cameraMode": [
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2017-nn-part2",
+"path": "_2017/nn/part2.py",
+"year": 2017,
+"domain": "computer-science-ml",
+"branch": "computing",
+"archetype": "function-graph-build-up",
+"tier": "B",
+"portable": true,
+"richness": 66.0,
+"playCalls": 210,
+"cameraMode": [
+"graph-scene"
+],
+"duplicateOf": null
+},
+{
+"id": "2020-beta-beta1",
+"path": "_2020/beta/beta1.py",
+"year": 2020,
+"domain": "probability-statistics",
+"branch": "arithmetic-general",
+"archetype": "general-2d-explainer",
+"tier": "B",
+"portable": true,
+"richness": 66.0,
+"playCalls": 214,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2023-optics-puzzles-slowing-waves",
+"path": "_2023/optics_puzzles/slowing_waves.py",
+"year": 2023,
+"domain": "physics",
+"branch": "physics",
+"archetype": "live-parameter-exploration",
+"tier": "B",
+"portable": true,
+"richness": 65.8,
+"playCalls": 43,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2023-optics-puzzles-slowing-waves-insert-embed",
+"path": "_2023/optics_puzzles/slowing_waves_insert_embed.py",
+"year": 2023,
+"domain": "physics",
+"branch": "physics",
+"archetype": "live-parameter-exploration",
+"tier": "B",
+"portable": true,
+"richness": 65.8,
+"playCalls": 43,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": "2023-optics-puzzles-slowing-waves"
+},
+{
+"id": "2017-efvgt",
+"path": "_2017/efvgt.py",
+"year": 2017,
+"domain": "complex-analysis",
+"branch": "trigonometry",
+"archetype": "general-2d-explainer",
+"tier": "B",
+"portable": true,
+"richness": 65.0,
+"playCalls": 270,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2017-eoc-chapter10",
+"path": "_2017/eoc/chapter10.py",
+"year": 2017,
+"domain": "calculus",
+"branch": "calculus",
+"archetype": "function-graph-build-up",
+"tier": "B",
+"portable": true,
+"richness": 65.0,
+"playCalls": 274,
+"cameraMode": [
+"graph-scene"
+],
+"duplicateOf": null
+},
+{
+"id": "2017-eoc-chapter2",
+"path": "_2017/eoc/chapter2.py",
+"year": 2017,
+"domain": "calculus",
+"branch": "calculus",
+"archetype": "function-graph-build-up",
+"tier": "B",
+"portable": true,
+"richness": 65.0,
+"playCalls": 253,
+"cameraMode": [
+"zoomed-inset",
+"graph-scene"
+],
+"duplicateOf": null
+},
+{
+"id": "2017-eoc-chapter6",
+"path": "_2017/eoc/chapter6.py",
+"year": 2017,
+"domain": "calculus",
+"branch": "calculus",
+"archetype": "general-2d-explainer",
+"tier": "B",
+"portable": true,
+"richness": 65.0,
+"playCalls": 284,
+"cameraMode": [
+"3d-orbit",
+"zoomed-inset"
+],
+"duplicateOf": null
+},
+{
+"id": "2017-eoc-chapter8",
+"path": "_2017/eoc/chapter8.py",
+"year": 2017,
+"domain": "calculus",
+"branch": "calculus",
+"archetype": "function-graph-build-up",
+"tier": "B",
+"portable": true,
+"richness": 65.0,
+"playCalls": 272,
+"cameraMode": [
+"graph-scene"
+],
+"duplicateOf": null
+},
+{
+"id": "2019-diffyq-part3-temperature-graphs",
+"path": "_2019/diffyq/part3/temperature_graphs.py",
+"year": 2019,
+"domain": "trigonometry",
+"branch": "trigonometry",
+"archetype": "solid-and-surface-3d-orbit",
+"tier": "B",
+"portable": true,
+"richness": 65.0,
+"playCalls": 92,
+"cameraMode": [
+"3d-orbit",
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2023-convolutions2-supplements",
+"path": "_2023/convolutions2/supplements.py",
+"year": 2023,
+"domain": "probability-statistics",
+"branch": "arithmetic-general",
+"archetype": "staggered-reveal-explainer",
+"tier": "B",
+"portable": true,
+"richness": 64.0,
+"playCalls": 92,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2025-grover-runtime",
+"path": "_2025/grover/runtime.py",
+"year": 2025,
+"domain": "computer-science-ml",
+"branch": "computing",
+"archetype": "numeric-array-visualisation",
+"tier": "B",
+"portable": true,
+"richness": 63.8,
+"playCalls": 87,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2016-eola-chapter3",
+"path": "_2016/eola/chapter3.py",
+"year": 2016,
+"domain": "linear-algebra",
+"branch": "algebra",
+"archetype": "plane-and-matrix-transformation",
+"tier": "B",
+"portable": true,
+"richness": 63.5,
+"playCalls": 124,
+"cameraMode": [
+"linear-transformation-scene"
+],
+"duplicateOf": null
+},
+{
+"id": "2019-diffyq-part5-staging",
+"path": "_2019/diffyq/part5/staging.py",
+"year": 2019,
+"domain": "differential-equations",
+"branch": "calculus",
+"archetype": "staggered-reveal-explainer",
+"tier": "B",
+"portable": true,
+"richness": 63.0,
+"playCalls": 84,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2024-antp-main",
+"path": "_2024/antp/main.py",
+"year": 2024,
+"domain": "number-theory",
+"branch": "arithmetic-general",
+"archetype": "live-parameter-exploration",
+"tier": "B",
+"portable": true,
+"richness": 62.8,
+"playCalls": 27,
+"cameraMode": [
+"3d-orbit",
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2016-eola-chapter10",
+"path": "_2016/eola/chapter10.py",
+"year": 2016,
+"domain": "linear-algebra",
+"branch": "algebra",
+"archetype": "plane-and-matrix-transformation",
+"tier": "B",
+"portable": true,
+"richness": 62.5,
+"playCalls": 172,
+"cameraMode": [
+"linear-transformation-scene"
+],
+"duplicateOf": null
+},
+{
+"id": "2024-transformers-network-flow",
+"path": "_2024/transformers/network_flow.py",
+"year": 2024,
+"domain": "computer-science-ml",
+"branch": "computing",
+"archetype": "camera-pan-zoom-storytelling",
+"tier": "B",
+"portable": true,
+"richness": 62.5,
+"playCalls": 78,
+"cameraMode": [
+"3d-orbit",
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2025-cosmic-distance-paralax",
+"path": "_2025/cosmic_distance/paralax.py",
+"year": 2025,
+"domain": "geometry",
+"branch": "geometry",
+"archetype": "general-2d-explainer",
+"tier": "B",
+"portable": true,
+"richness": 62.5,
+"playCalls": 74,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2016-eola-chapter7",
+"path": "_2016/eola/chapter7.py",
+"year": 2016,
+"domain": "linear-algebra",
+"branch": "algebra",
+"archetype": "plane-and-matrix-transformation",
+"tier": "B",
+"portable": true,
+"richness": 62.2,
+"playCalls": 193,
+"cameraMode": [
+"linear-transformation-scene"
+],
+"duplicateOf": null
+},
+{
+"id": "2018-quat3d",
+"path": "_2018/quat3d.py",
+"year": 2018,
+"domain": "complex-analysis",
+"branch": "trigonometry",
+"archetype": "staggered-reveal-explainer",
+"tier": "B",
+"portable": true,
+"richness": 62.2,
+"playCalls": 81,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2023-convolutions2-gauss-example-supplements",
+"path": "_2023/convolutions2/gauss_example_supplements.py",
+"year": 2023,
+"domain": "probability-statistics",
+"branch": "arithmetic-general",
+"archetype": "equation-morphing",
+"tier": "B",
+"portable": true,
+"richness": 62.0,
+"playCalls": 80,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2019-diffyq-part3-wordy-scenes",
+"path": "_2019/diffyq/part3/wordy_scenes.py",
+"year": 2019,
+"domain": "differential-equations",
+"branch": "calculus",
+"archetype": "equation-morphing",
+"tier": "B",
+"portable": true,
+"richness": 60.5,
+"playCalls": 62,
+"cameraMode": [
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2019-diffyq-part2-fourier-series",
+"path": "_2019/diffyq/part2/fourier_series.py",
+"year": 2019,
+"domain": "fourier-signals",
+"branch": "trigonometry",
+"archetype": "general-2d-explainer",
+"tier": "B",
+"portable": true,
+"richness": 60.2,
+"playCalls": 21,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2017-eoc-chapter4",
+"path": "_2017/eoc/chapter4.py",
+"year": 2017,
+"domain": "calculus",
+"branch": "calculus",
+"archetype": "function-graph-build-up",
+"tier": "B",
+"portable": true,
+"richness": 59.0,
+"playCalls": 190,
+"cameraMode": [
+"graph-scene"
+],
+"duplicateOf": null
+},
+{
+"id": "2017-eoc-chapter9",
+"path": "_2017/eoc/chapter9.py",
+"year": 2017,
+"domain": "calculus",
+"branch": "calculus",
+"archetype": "function-graph-build-up",
+"tier": "B",
+"portable": true,
+"richness": 59.0,
+"playCalls": 161,
+"cameraMode": [
+"graph-scene"
+],
+"duplicateOf": null
+},
+{
+"id": "2019-bayes-footnote",
+"path": "_2019/bayes/footnote.py",
+"year": 2019,
+"domain": "probability-statistics",
+"branch": "arithmetic-general",
+"archetype": "staggered-reveal-explainer",
+"tier": "B",
+"portable": true,
+"richness": 59.0,
+"playCalls": 68,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2021-some1",
+"path": "_2021/some1.py",
+"year": 2021,
+"domain": "calculus",
+"branch": "calculus",
+"archetype": "plane-and-matrix-transformation",
+"tier": "B",
+"portable": true,
+"richness": 59.0,
+"playCalls": 60,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2015-inventing-math",
+"path": "_2015/inventing_math.py",
+"year": 2015,
+"domain": "sequences-series",
+"branch": "calculus",
+"archetype": "equation-morphing",
+"tier": "B",
+"portable": true,
+"richness": 58.5,
+"playCalls": 113,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2018-eop-combinations",
+"path": "_2018/eop/combinations.py",
+"year": 2018,
+"domain": "probability-statistics",
+"branch": "arithmetic-general",
+"archetype": "staggered-reveal-explainer",
+"tier": "B",
+"portable": true,
+"richness": 58.0,
+"playCalls": 244,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2017-putnam",
+"path": "_2017/putnam.py",
+"year": 2017,
+"domain": "probability-statistics",
+"branch": "arithmetic-general",
+"archetype": "general-2d-explainer",
+"tier": "B",
+"portable": true,
+"richness": 57.8,
+"playCalls": 119,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2016-eola-chapter8",
+"path": "_2016/eola/chapter8.py",
+"year": 2016,
+"domain": "linear-algebra",
+"branch": "algebra",
+"archetype": "plane-and-matrix-transformation",
+"tier": "B",
+"portable": true,
+"richness": 57.5,
+"playCalls": 143,
+"cameraMode": [
+"linear-transformation-scene"
+],
+"duplicateOf": null
+},
+{
+"id": "2016-eola-chapter4",
+"path": "_2016/eola/chapter4.py",
+"year": 2016,
+"domain": "linear-algebra",
+"branch": "algebra",
+"archetype": "plane-and-matrix-transformation",
+"tier": "B",
+"portable": true,
+"richness": 56.0,
+"playCalls": 75,
+"cameraMode": [
+"linear-transformation-scene"
+],
+"duplicateOf": null
+},
+{
+"id": "2018-windingnumber",
+"path": "_2018/WindingNumber.py",
+"year": 2018,
+"domain": "complex-analysis",
+"branch": "trigonometry",
+"archetype": "function-graph-build-up",
+"tier": "B",
+"portable": true,
+"richness": 55.8,
+"playCalls": 81,
+"cameraMode": [
+"zoomed-inset",
+"graph-scene"
+],
+"duplicateOf": null
+},
+{
+"id": "2016-eola-footnote2",
+"path": "_2016/eola/footnote2.py",
+"year": 2016,
+"domain": "linear-algebra",
+"branch": "algebra",
+"archetype": "plane-and-matrix-transformation",
+"tier": "B",
+"portable": true,
+"richness": 55.5,
+"playCalls": 65,
+"cameraMode": [
+"linear-transformation-scene"
+],
+"duplicateOf": null
+},
+{
+"id": "2019-moduli",
+"path": "_2019/moduli.py",
+"year": 2019,
+"domain": "geometry",
+"branch": "geometry",
+"archetype": "staggered-reveal-explainer",
+"tier": "B",
+"portable": true,
+"richness": 55.2,
+"playCalls": 73,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2019-diffyq-part3-staging",
+"path": "_2019/diffyq/part3/staging.py",
+"year": 2019,
+"domain": "differential-equations",
+"branch": "calculus",
+"archetype": "general-2d-explainer",
+"tier": "B",
+"portable": true,
+"richness": 53.2,
+"playCalls": 45,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2021-bertrands-paradox",
+"path": "_2021/bertrands_paradox.py",
+"year": 2021,
+"domain": "probability-statistics",
+"branch": "arithmetic-general",
+"archetype": "solid-and-surface-3d-orbit",
+"tier": "B",
+"portable": true,
+"richness": 53.0,
+"playCalls": 52,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2019-diffyq-part2-wordy-scenes",
+"path": "_2019/diffyq/part2/wordy_scenes.py",
+"year": 2019,
+"domain": "differential-equations",
+"branch": "calculus",
+"archetype": "general-2d-explainer",
+"tier": "B",
+"portable": true,
+"richness": 52.5,
+"playCalls": 46,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2019-diffyq-part1-wordy-scenes",
+"path": "_2019/diffyq/part1/wordy_scenes.py",
+"year": 2019,
+"domain": "differential-equations",
+"branch": "calculus",
+"archetype": "general-2d-explainer",
+"tier": "B",
+"portable": true,
+"richness": 52.2,
+"playCalls": 45,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2019-diffyq-part4-complex-functions",
+"path": "_2019/diffyq/part4/complex_functions.py",
+"year": 2019,
+"domain": "differential-equations",
+"branch": "calculus",
+"archetype": "live-parameter-exploration",
+"tier": "B",
+"portable": true,
+"richness": 51.2,
+"playCalls": 30,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2025-grover-polarization",
+"path": "_2025/grover/polarization.py",
+"year": 2025,
+"domain": "computer-science-ml",
+"branch": "computing",
+"archetype": "solid-and-surface-3d-orbit",
+"tier": "B",
+"portable": true,
+"richness": 51.0,
+"playCalls": 25,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2018-eop-chapter1-brick-row-scene",
+"path": "_2018/eop/chapter1/brick_row_scene.py",
+"year": 2018,
+"domain": "general",
+"branch": "arithmetic-general",
+"archetype": "general-2d-explainer",
+"tier": "B",
+"portable": true,
+"richness": 48.5,
+"playCalls": 108,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "outside-videos-name-animation",
+"path": "outside_videos/name_animation.py",
+"year": null,
+"domain": "number-theory",
+"branch": "arithmetic-general",
+"archetype": "numeric-array-visualisation",
+"tier": "B",
+"portable": true,
+"richness": 48.5,
+"playCalls": 18,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2019-clacks-solution2-simple-scenes",
+"path": "_2019/clacks/solution2/simple_scenes.py",
+"year": 2019,
+"domain": "physics",
+"branch": "physics",
+"archetype": "general-2d-explainer",
+"tier": "B",
+"portable": true,
+"richness": 48.2,
+"playCalls": 29,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2016-eola-chapter5",
+"path": "_2016/eola/chapter5.py",
+"year": 2016,
+"domain": "linear-algebra",
+"branch": "algebra",
+"archetype": "plane-and-matrix-transformation",
+"tier": "B",
+"portable": true,
+"richness": 48.0,
+"playCalls": 60,
+"cameraMode": [
+"linear-transformation-scene"
+],
+"duplicateOf": null
+},
+{
+"id": "2016-hilbert-section2",
+"path": "_2016/hilbert/section2.py",
+"year": 2016,
+"domain": "topology-fractals",
+"branch": "geometry",
+"archetype": "general-2d-explainer",
+"tier": "B",
+"portable": true,
+"richness": 47.2,
+"playCalls": 89,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2019-clacks-solution2-mirror-scenes",
+"path": "_2019/clacks/solution2/mirror_scenes.py",
+"year": 2019,
+"domain": "physics",
+"branch": "physics",
+"archetype": "geometric-construction-proof",
+"tier": "B",
+"portable": true,
+"richness": 47.2,
+"playCalls": 35,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2016-eola-chapter0",
+"path": "_2016/eola/chapter0.py",
+"year": 2016,
+"domain": "linear-algebra",
+"branch": "algebra",
+"archetype": "plane-and-matrix-transformation",
+"tier": "B",
+"portable": true,
+"richness": 47.0,
+"playCalls": 79,
+"cameraMode": [
+"linear-transformation-scene"
+],
+"duplicateOf": null
+},
+{
+"id": "2016-hilbert-section1",
+"path": "_2016/hilbert/section1.py",
+"year": 2016,
+"domain": "topology-fractals",
+"branch": "geometry",
+"archetype": "general-2d-explainer",
+"tier": "B",
+"portable": true,
+"richness": 47.0,
+"playCalls": 88,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2021-some1-winners",
+"path": "_2021/some1_winners.py",
+"year": 2021,
+"domain": "general",
+"branch": "arithmetic-general",
+"archetype": "staggered-reveal-explainer",
+"tier": "B",
+"portable": true,
+"richness": 46.5,
+"playCalls": 42,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2016-brachistochrone-light",
+"path": "_2016/brachistochrone/light.py",
+"year": 2016,
+"domain": "physics",
+"branch": "physics",
+"archetype": "geometric-construction-proof",
+"tier": "B",
+"portable": true,
+"richness": 45.5,
+"playCalls": 68,
+"cameraMode": [
+"zoomed-inset"
+],
+"duplicateOf": null
+},
+{
+"id": "2024-transformers-generation",
+"path": "_2024/transformers/generation.py",
+"year": 2024,
+"domain": "computer-science-ml",
+"branch": "computing",
+"archetype": "general-2d-explainer",
+"tier": "B",
+"portable": true,
+"richness": 45.0,
+"playCalls": 20,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2016-eola-chapter2",
+"path": "_2016/eola/chapter2.py",
+"year": 2016,
+"domain": "linear-algebra",
+"branch": "algebra",
+"archetype": "plane-and-matrix-transformation",
+"tier": "B",
+"portable": true,
+"richness": 44.8,
+"playCalls": 66,
+"cameraMode": [
+"linear-transformation-scene"
+],
+"duplicateOf": null
+},
+{
+"id": "2023-some3-main",
+"path": "_2023/SoME3/main.py",
+"year": 2023,
+"domain": "linear-algebra",
+"branch": "algebra",
+"archetype": "solid-and-surface-3d-orbit",
+"tier": "B",
+"portable": true,
+"richness": 43.2,
+"playCalls": 18,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2019-diffyq-part4-three-d-graphs",
+"path": "_2019/diffyq/part4/three_d_graphs.py",
+"year": 2019,
+"domain": "differential-equations",
+"branch": "calculus",
+"archetype": "numeric-array-visualisation",
+"tier": "B",
+"portable": true,
+"richness": 43.0,
+"playCalls": 19,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2016-brachistochrone-misc",
+"path": "_2016/brachistochrone/misc.py",
+"year": 2016,
+"domain": "calculus",
+"branch": "calculus",
+"archetype": "function-graph-build-up",
+"tier": "B",
+"portable": true,
+"richness": 42.5,
+"playCalls": 43,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2018-for-flammy",
+"path": "_2018/for_flammy.py",
+"year": 2018,
+"domain": "calculus",
+"branch": "calculus",
+"archetype": "general-2d-explainer",
+"tier": "B",
+"portable": true,
+"richness": 42.5,
+"playCalls": 29,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2023-standup-maths-pool",
+"path": "_2023/standup_maths/pool.py",
+"year": 2023,
+"domain": "general",
+"branch": "arithmetic-general",
+"archetype": "general-2d-explainer",
+"tier": "B",
+"portable": true,
+"richness": 42.2,
+"playCalls": 29,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2024-transformers-auto-regression",
+"path": "_2024/transformers/auto_regression.py",
+"year": 2024,
+"domain": "computer-science-ml",
+"branch": "computing",
+"archetype": "general-2d-explainer",
+"tier": "B",
+"portable": true,
+"richness": 41.2,
+"playCalls": 25,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2024-transformers-old-auto-regression",
+"path": "_2024/transformers/old_auto_regression.py",
+"year": 2024,
+"domain": "computer-science-ml",
+"branch": "computing",
+"archetype": "general-2d-explainer",
+"tier": "B",
+"portable": true,
+"richness": 41.2,
+"playCalls": 25,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": "2024-transformers-auto-regression"
+},
+{
+"id": "2015-music-and-measure",
+"path": "_2015/music_and_measure.py",
+"year": 2015,
+"domain": "fourier-signals",
+"branch": "trigonometry",
+"archetype": "equation-morphing",
+"tier": "B",
+"portable": true,
+"richness": 41.0,
+"playCalls": 90,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2016-brachistochrone-curves",
+"path": "_2016/brachistochrone/curves.py",
+"year": 2016,
+"domain": "calculus",
+"branch": "calculus",
+"archetype": "general-2d-explainer",
+"tier": "B",
+"portable": true,
+"richness": 40.8,
+"playCalls": 41,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2017-eoc-footnote",
+"path": "_2017/eoc/footnote.py",
+"year": 2017,
+"domain": "calculus",
+"branch": "calculus",
+"archetype": "function-graph-build-up",
+"tier": "B",
+"portable": true,
+"richness": 40.2,
+"playCalls": 70,
+"cameraMode": [
+"graph-scene"
+],
+"duplicateOf": null
+},
+{
+"id": "2017-256",
+"path": "_2017/256.py",
+"year": 2017,
+"domain": "computer-science-ml",
+"branch": "computing",
+"archetype": "staggered-reveal-explainer",
+"tier": "B",
+"portable": true,
+"richness": 40.0,
+"playCalls": 58,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2017-gradient",
+"path": "_2017/gradient.py",
+"year": 2017,
+"domain": "computer-science-ml",
+"branch": "computing",
+"archetype": "numeric-array-visualisation",
+"tier": "B",
+"portable": true,
+"richness": 40.0,
+"playCalls": 31,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2015-tau-poem",
+"path": "_2015/tau_poem.py",
+"year": 2015,
+"domain": "geometry",
+"branch": "geometry",
+"archetype": "general-2d-explainer",
+"tier": "B",
+"portable": true,
+"richness": 37.5,
+"playCalls": 39,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2020-telestration-contribution",
+"path": "_2020/telestration_contribution.py",
+"year": 2020,
+"domain": "general",
+"branch": "arithmetic-general",
+"archetype": "general-2d-explainer",
+"tier": "B",
+"portable": true,
+"richness": 37.2,
+"playCalls": 29,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2023-clt-galton-board",
+"path": "_2023/clt/galton_board.py",
+"year": 2023,
+"domain": "probability-statistics",
+"branch": "arithmetic-general",
+"archetype": "general-2d-explainer",
+"tier": "B",
+"portable": true,
+"richness": 36.0,
+"playCalls": 36,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2025-guest-videos-burnside",
+"path": "_2025/guest_videos/burnside.py",
+"year": 2025,
+"domain": "geometry",
+"branch": "geometry",
+"archetype": "general-2d-explainer",
+"tier": "B",
+"portable": true,
+"richness": 35.0,
+"playCalls": 29,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2016-brachistochrone-wordplay",
+"path": "_2016/brachistochrone/wordplay.py",
+"year": 2016,
+"domain": "calculus",
+"branch": "calculus",
+"archetype": "equation-morphing",
+"tier": "B",
+"portable": true,
+"richness": 34.8,
+"playCalls": 44,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2019-clacks-solution2-wordy-scenes",
+"path": "_2019/clacks/solution2/wordy_scenes.py",
+"year": 2019,
+"domain": "physics",
+"branch": "physics",
+"archetype": "general-2d-explainer",
+"tier": "B",
+"portable": true,
+"richness": 33.8,
+"playCalls": 13,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2020-18s191-dft",
+"path": "_2020/18S191/dft.py",
+"year": 2020,
+"domain": "general",
+"branch": "arithmetic-general",
+"archetype": "function-graph-build-up",
+"tier": "B",
+"portable": true,
+"richness": 33.5,
+"playCalls": 26,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2016-triangle-of-power-triangle",
+"path": "_2016/triangle_of_power/triangle.py",
+"year": 2016,
+"domain": "geometry",
+"branch": "geometry",
+"archetype": "equation-morphing",
+"tier": "B",
+"portable": true,
+"richness": 32.8,
+"playCalls": 47,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2016-brachistochrone-cycloid",
+"path": "_2016/brachistochrone/cycloid.py",
+"year": 2016,
+"domain": "calculus",
+"branch": "calculus",
+"archetype": "geometric-construction-proof",
+"tier": "B",
+"portable": true,
+"richness": 32.0,
+"playCalls": 38,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2017-dominos-domino-play",
+"path": "_2017/dominos/domino_play.py",
+"year": 2017,
+"domain": "combinatorics-puzzles",
+"branch": "geometry",
+"archetype": "function-graph-build-up",
+"tier": "B",
+"portable": true,
+"richness": 31.5,
+"playCalls": 25,
+"cameraMode": [
+"graph-scene"
+],
+"duplicateOf": null
+},
+{
+"id": "2023-standup-maths-basketball",
+"path": "_2023/standup_maths/basketball.py",
+"year": 2023,
+"domain": "general",
+"branch": "arithmetic-general",
+"archetype": "camera-pan-zoom-storytelling",
+"tier": "B",
+"portable": true,
+"richness": 31.5,
+"playCalls": 13,
+"cameraMode": [
+"3d-orbit",
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2016-triangle-of-power-intro",
+"path": "_2016/triangle_of_power/intro.py",
+"year": 2016,
+"domain": "geometry",
+"branch": "geometry",
+"archetype": "geometric-construction-proof",
+"tier": "B",
+"portable": true,
+"richness": 31.0,
+"playCalls": 40,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2016-brachistochrone-multilayered",
+"path": "_2016/brachistochrone/multilayered.py",
+"year": 2016,
+"domain": "calculus",
+"branch": "calculus",
+"archetype": "general-2d-explainer",
+"tier": "B",
+"portable": true,
+"richness": 30.2,
+"playCalls": 26,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2019-diffyq-part4-temperature-scenes",
+"path": "_2019/diffyq/part4/temperature_scenes.py",
+"year": 2019,
+"domain": "differential-equations",
+"branch": "calculus",
+"archetype": "numeric-array-visualisation",
+"tier": "B",
+"portable": true,
+"richness": 29.5,
+"playCalls": 20,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2015-ka-playgrounds-transform-article",
+"path": "_2015/ka_playgrounds/transform_article.py",
+"year": 2015,
+"domain": "general",
+"branch": "arithmetic-general",
+"archetype": "general-2d-explainer",
+"tier": "B",
+"portable": true,
+"richness": 28.8,
+"playCalls": 14,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2018-determinant-puzzle",
+"path": "_2018/determinant_puzzle.py",
+"year": 2018,
+"domain": "linear-algebra",
+"branch": "algebra",
+"archetype": "plane-and-matrix-transformation",
+"tier": "B",
+"portable": true,
+"richness": 28.2,
+"playCalls": 17,
+"cameraMode": [
+"linear-transformation-scene"
+],
+"duplicateOf": null
+},
+{
+"id": "2016-hilbert-section3",
+"path": "_2016/hilbert/section3.py",
+"year": 2016,
+"domain": "topology-fractals",
+"branch": "geometry",
+"archetype": "equation-morphing",
+"tier": "B",
+"portable": true,
+"richness": 25.8,
+"playCalls": 23,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "once-useful-constructs-homeless",
+"path": "once_useful_constructs/homeless.py",
+"year": null,
+"domain": "geometry",
+"branch": "geometry",
+"archetype": "geometric-construction-proof",
+"tier": "B",
+"portable": true,
+"richness": 25.8,
+"playCalls": 18,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2018-eop-chapter1-area-model-bayes",
+"path": "_2018/eop/chapter1/area_model_bayes.py",
+"year": 2018,
+"domain": "geometry",
+"branch": "geometry",
+"archetype": "geometric-construction-proof",
+"tier": "B",
+"portable": true,
+"richness": 22.8,
+"playCalls": 24,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2015-matrix-as-transform-2d",
+"path": "_2015/matrix_as_transform_2d.py",
+"year": 2015,
+"domain": "linear-algebra",
+"branch": "algebra",
+"archetype": "general-2d-explainer",
+"tier": "B",
+"portable": true,
+"richness": 22.0,
+"playCalls": 12,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2016-eola-footnote",
+"path": "_2016/eola/footnote.py",
+"year": 2016,
+"domain": "linear-algebra",
+"branch": "algebra",
+"archetype": "numeric-array-visualisation",
+"tier": "B",
+"portable": true,
+"richness": 21.2,
+"playCalls": 24,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2016-hilbert-fractal-porn",
+"path": "_2016/hilbert/fractal_porn.py",
+"year": 2016,
+"domain": "topology-fractals",
+"branch": "geometry",
+"archetype": "equation-morphing",
+"tier": "B",
+"portable": true,
+"richness": 19.2,
+"playCalls": 18,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2016-brachistochrone-drawing-images",
+"path": "_2016/brachistochrone/drawing_images.py",
+"year": 2016,
+"domain": "calculus",
+"branch": "calculus",
+"archetype": "general-2d-explainer",
+"tier": "B",
+"portable": true,
+"richness": 18.0,
+"playCalls": 18,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2018-eop-chapter1-morph-brick-row-into-histogram",
+"path": "_2018/eop/chapter1/morph_brick_row_into_histogram.py",
+"year": 2018,
+"domain": "general",
+"branch": "arithmetic-general",
+"archetype": "numeric-array-visualisation",
+"tier": "B",
+"portable": true,
+"richness": 12.2,
+"playCalls": 13,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2018-gauss",
+"path": "_2018/gauss.py",
+"year": 2018,
+"domain": "general",
+"branch": "arithmetic-general",
+"archetype": "equation-morphing",
+"tier": "B",
+"portable": true,
+"richness": 9.2,
+"playCalls": 12,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2025-laplace-main-supplements",
+"path": "_2025/laplace/main_supplements.py",
+"year": 2025,
+"domain": "differential-equations",
+"branch": "calculus",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 73.0,
+"playCalls": 96,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2024-transformers-supplements",
+"path": "_2024/transformers/supplements.py",
+"year": 2024,
+"domain": "computer-science-ml",
+"branch": "computing",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 65.0,
+"playCalls": 216,
+"cameraMode": [
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2025-grover-qc-supplements",
+"path": "_2025/grover/qc_supplements.py",
+"year": 2025,
+"domain": "computer-science-ml",
+"branch": "computing",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 65.0,
+"playCalls": 138,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2023-clt-wordy-scenes",
+"path": "_2023/clt/wordy_scenes.py",
+"year": 2023,
+"domain": "probability-statistics",
+"branch": "arithmetic-general",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 62.5,
+"playCalls": 102,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2018-basel-basel",
+"path": "_2018/basel/basel.py",
+"year": 2018,
+"domain": "sequences-series",
+"branch": "calculus",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 62.0,
+"playCalls": 271,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2018-mvcr",
+"path": "_2018/mvcr.py",
+"year": 2018,
+"domain": "calculus",
+"branch": "calculus",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 61.8,
+"playCalls": 88,
+"cameraMode": [
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2018-alt-calc",
+"path": "_2018/alt_calc.py",
+"year": 2018,
+"domain": "combinatorics-puzzles",
+"branch": "geometry",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 60.0,
+"playCalls": 144,
+"cameraMode": [
+"moving-camera",
+"zoomed-inset",
+"linear-transformation-scene",
+"graph-scene"
+],
+"duplicateOf": null
+},
+{
+"id": "2016-eola-chapter9",
+"path": "_2016/eola/chapter9.py",
+"year": 2016,
+"domain": "linear-algebra",
+"branch": "algebra",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 59.0,
+"playCalls": 148,
+"cameraMode": [
+"linear-transformation-scene"
+],
+"duplicateOf": null
+},
+{
+"id": "2017-borsuk",
+"path": "_2017/borsuk.py",
+"year": 2017,
+"domain": "topology-fractals",
+"branch": "geometry",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 59.0,
+"playCalls": 180,
+"cameraMode": [
+"3d-orbit",
+"graph-scene"
+],
+"duplicateOf": null
+},
+{
+"id": "2017-eoc-chapter7",
+"path": "_2017/eoc/chapter7.py",
+"year": 2017,
+"domain": "calculus",
+"branch": "calculus",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 59.0,
+"playCalls": 269,
+"cameraMode": [
+"zoomed-inset",
+"graph-scene"
+],
+"duplicateOf": null
+},
+{
+"id": "2017-eoc-old-chapter1",
+"path": "_2017/eoc/old_chapter1.py",
+"year": 2017,
+"domain": "calculus",
+"branch": "calculus",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 59.0,
+"playCalls": 216,
+"cameraMode": [
+"zoomed-inset",
+"graph-scene"
+],
+"duplicateOf": null
+},
+{
+"id": "2017-crypto",
+"path": "_2017/crypto.py",
+"year": 2017,
+"domain": "computer-science-ml",
+"branch": "computing",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 57.0,
+"playCalls": 365,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2016-eola-chapter11",
+"path": "_2016/eola/chapter11.py",
+"year": 2016,
+"domain": "linear-algebra",
+"branch": "algebra",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 56.5,
+"playCalls": 181,
+"cameraMode": [
+"linear-transformation-scene"
+],
+"duplicateOf": null
+},
+{
+"id": "2023-gauss-int-supplements",
+"path": "_2023/gauss_int/supplements.py",
+"year": 2023,
+"domain": "calculus",
+"branch": "calculus",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 55.5,
+"playCalls": 82,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2016-wcat",
+"path": "_2016/wcat.py",
+"year": 2016,
+"domain": "topology-fractals",
+"branch": "geometry",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 54.5,
+"playCalls": 184,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2017-eoc-chapter3",
+"path": "_2017/eoc/chapter3.py",
+"year": 2017,
+"domain": "calculus",
+"branch": "calculus",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 54.0,
+"playCalls": 191,
+"cameraMode": [
+"zoomed-inset",
+"graph-scene"
+],
+"duplicateOf": null
+},
+{
+"id": "2017-eoc-chapter1",
+"path": "_2017/eoc/chapter1.py",
+"year": 2017,
+"domain": "calculus",
+"branch": "calculus",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 53.0,
+"playCalls": 203,
+"cameraMode": [
+"graph-scene"
+],
+"duplicateOf": null
+},
+{
+"id": "2017-eoc-chapter5",
+"path": "_2017/eoc/chapter5.py",
+"year": 2017,
+"domain": "calculus",
+"branch": "calculus",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 53.0,
+"playCalls": 154,
+"cameraMode": [
+"graph-scene"
+],
+"duplicateOf": null
+},
+{
+"id": "2018-dandelin",
+"path": "_2018/dandelin.py",
+"year": 2018,
+"domain": "geometry",
+"branch": "geometry",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 51.2,
+"playCalls": 89,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2018-eop-bayes",
+"path": "_2018/eop/bayes.py",
+"year": 2018,
+"domain": "probability-statistics",
+"branch": "arithmetic-general",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 51.0,
+"playCalls": 252,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2017-fractal-dimension",
+"path": "_2017/fractal_dimension.py",
+"year": 2017,
+"domain": "topology-fractals",
+"branch": "geometry",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 50.5,
+"playCalls": 236,
+"cameraMode": [
+"graph-scene"
+],
+"duplicateOf": null
+},
+{
+"id": "2024-inscribed-rect-supplements",
+"path": "_2024/inscribed_rect/supplements.py",
+"year": 2024,
+"domain": "combinatorics-puzzles",
+"branch": "geometry",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 50.0,
+"playCalls": 97,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2022-convolutions-supplements",
+"path": "_2022/convolutions/supplements.py",
+"year": 2022,
+"domain": "probability-statistics",
+"branch": "arithmetic-general",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 49.8,
+"playCalls": 78,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2019-clacks-question",
+"path": "_2019/clacks/question.py",
+"year": 2019,
+"domain": "physics",
+"branch": "physics",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 48.5,
+"playCalls": 54,
+"cameraMode": [
+"moving-camera"
+],
+"duplicateOf": null
+},
+{
+"id": "2017-mug",
+"path": "_2017/mug.py",
+"year": 2017,
+"domain": "combinatorics-puzzles",
+"branch": "geometry",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 47.0,
+"playCalls": 134,
+"cameraMode": [
+"3d-orbit"
+],
+"duplicateOf": null
+},
+{
+"id": "2016-hanoi",
+"path": "_2016/hanoi.py",
+"year": 2016,
+"domain": "combinatorics-puzzles",
+"branch": "geometry",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 44.5,
+"playCalls": 262,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2016-zeta",
+"path": "_2016/zeta.py",
+"year": 2016,
+"domain": "number-theory",
+"branch": "arithmetic-general",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 44.5,
+"playCalls": 280,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2018-eop-bayes-footnote",
+"path": "_2018/eop/bayes_footnote.py",
+"year": 2018,
+"domain": "probability-statistics",
+"branch": "arithmetic-general",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 43.5,
+"playCalls": 129,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2024-puzzles-supplements",
+"path": "_2024/puzzles/supplements.py",
+"year": 2024,
+"domain": "geometry",
+"branch": "geometry",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 42.0,
+"playCalls": 84,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2018-pi-day",
+"path": "_2018/pi_day.py",
+"year": 2018,
+"domain": "complex-analysis",
+"branch": "trigonometry",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 40.5,
+"playCalls": 66,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2022-borwein-supplements",
+"path": "_2022/borwein/supplements.py",
+"year": 2022,
+"domain": "calculus",
+"branch": "calculus",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 39.8,
+"playCalls": 75,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2016-eola-chapter8p2",
+"path": "_2016/eola/chapter8p2.py",
+"year": 2016,
+"domain": "linear-algebra",
+"branch": "algebra",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 38.8,
+"playCalls": 73,
+"cameraMode": [
+"linear-transformation-scene"
+],
+"duplicateOf": null
+},
+{
+"id": "2017-tattoo",
+"path": "_2017/tattoo.py",
+"year": 2017,
+"domain": "trigonometry",
+"branch": "trigonometry",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 35.0,
+"playCalls": 82,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2020-ctracing",
+"path": "_2020/ctracing.py",
+"year": 2020,
+"domain": "linear-algebra",
+"branch": "algebra",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 34.5,
+"playCalls": 42,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2022-wordle-footnote",
+"path": "_2022/wordle/footnote.py",
+"year": 2022,
+"domain": "computer-science-ml",
+"branch": "computing",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 34.0,
+"playCalls": 52,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2016-patreon",
+"path": "_2016/patreon.py",
+"year": 2016,
+"domain": "topology-fractals",
+"branch": "geometry",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 33.2,
+"playCalls": 80,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2019-diffyq-part1-pi-scenes",
+"path": "_2019/diffyq/part1/pi_scenes.py",
+"year": 2019,
+"domain": "differential-equations",
+"branch": "calculus",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 28.2,
+"playCalls": 22,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2022-some2-announcement",
+"path": "_2022/some2/announcement.py",
+"year": 2022,
+"domain": "computer-science-ml",
+"branch": "computing",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 20.8,
+"playCalls": 24,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2015-eulers-characteristic-formula",
+"path": "_2015/eulers_characteristic_formula.py",
+"year": 2015,
+"domain": "combinatorics-puzzles",
+"branch": "geometry",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 18.5,
+"playCalls": 58,
+"cameraMode": [
+"graph-scene"
+],
+"duplicateOf": null
+},
+{
+"id": "2016-triangle-of-power-end",
+"path": "_2016/triangle_of_power/end.py",
+"year": 2016,
+"domain": "geometry",
+"branch": "geometry",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 15.8,
+"playCalls": 31,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2017-qa-round-two",
+"path": "_2017/qa_round_two.py",
+"year": 2017,
+"domain": "general",
+"branch": "arithmetic-general",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 12.5,
+"playCalls": 12,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2018-eop-chapter1-show-uncertainty-disease",
+"path": "_2018/eop/chapter1/show_uncertainty_disease.py",
+"year": 2018,
+"domain": "general",
+"branch": "arithmetic-general",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 11.5,
+"playCalls": 14,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2018-fc1",
+"path": "_2018/fc1.py",
+"year": 2018,
+"domain": "general",
+"branch": "arithmetic-general",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 10.8,
+"playCalls": 15,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2018-eop-chapter1-prob-dist-visuals",
+"path": "_2018/eop/chapter1/prob_dist_visuals.py",
+"year": 2018,
+"domain": "probability-statistics",
+"branch": "arithmetic-general",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 7.8,
+"playCalls": 17,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+},
+{
+"id": "2018-eop-chapter1-quiz-result",
+"path": "_2018/eop/chapter1/quiz_result.py",
+"year": 2018,
+"domain": "general",
+"branch": "arithmetic-general",
+"archetype": "narrated-dialogue-scene",
+"tier": "style-only",
+"portable": false,
+"richness": 3.0,
+"playCalls": 27,
+"cameraMode": [
+"2d-static"
+],
+"duplicateOf": null
+}
+]
+}
